@@ -23233,8 +23233,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-02-15T11:00:00+01:00",
-      "date_end": "2021-02-18T23:59:00+01:00"
+      "date_start": "2022-02-18T11:00:00+01:00",
+      "date_end": "2022-02-21T23:59:00+01:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -23257,8 +23257,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-02-15T11:00:00+01:00",
-      "date_end": "2021-02-18T23:59:00+01:00"
+      "date_start": "2022-02-18T11:00:00+01:00",
+      "date_end": "2022-02-21T23:59:00+01:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 3 },
     "overlay_index": null,
@@ -23281,8 +23281,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-02-15T11:00:00+01:00",
-      "date_end": "2021-02-18T23:59:00+01:00"
+      "date_start": "2022-02-18T11:00:00+01:00",
+      "date_end": "2022-02-21T23:59:00+01:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
@@ -23305,8 +23305,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-02-15T11:00:00+01:00",
-      "date_end": "2021-02-18T23:59:00+01:00"
+      "date_start": "2022-02-18T11:00:00+01:00",
+      "date_end": "2022-02-21T23:59:00+01:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 6 },
     "overlay_index": null,
@@ -23329,8 +23329,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-02-15T11:00:00+01:00",
-      "date_end": "2021-02-18T23:59:00+01:00"
+      "date_start": "2022-02-18T11:00:00+01:00",
+      "date_end": "2022-02-21T23:59:00+01:00"
     },
     "prerequisites": { "main_building": 5, "police_stations": 1 },
     "overlay_index": null,
@@ -23353,8 +23353,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-02-15T11:00:00+01:00",
-      "date_end": "2021-02-18T23:59:00+01:00"
+      "date_start": "2022-02-18T11:00:00+01:00",
+      "date_end": "2022-02-21T23:59:00+01:00"
     },
     "prerequisites": { "main_building": 5, "police_stations": 2 },
     "overlay_index": null,
@@ -23378,8 +23378,8 @@
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2021-02-15T11:00:00+01:00",
-      "date_end": "2021-02-18T23:59:00+01:00"
+      "date_start": "2022-02-18T11:00:00+01:00",
+      "date_end": "2022-02-21T23:59:00+01:00"
     },
     "prerequisites": { "main_building": 5, "police_stations": 3 },
     "overlay_index": null,
@@ -23403,8 +23403,8 @@
     "additional": {
       "max_possible_prisoners": 3,
       "filter_id": "police_station_missions",
-      "date_start": "2021-02-15T11:00:00+01:00",
-      "date_end": "2021-02-18T23:59:00+01:00"
+      "date_start": "2022-02-18T11:00:00+01:00",
+      "date_end": "2022-02-21T23:59:00+01:00"
     },
     "prerequisites": { "main_building": 5, "police_stations": 6 },
     "overlay_index": null,
@@ -23428,8 +23428,8 @@
     "additional": {
       "max_possible_prisoners": 4,
       "filter_id": "police_station_missions",
-      "date_start": "2021-02-15T11:00:00+01:00",
-      "date_end": "2021-02-18T23:59:00+01:00"
+      "date_start": "2022-02-18T11:00:00+01:00",
+      "date_end": "2022-02-21T23:59:00+01:00"
     },
     "prerequisites": { "main_building": 5, "police_stations": 6 },
     "overlay_index": null,
@@ -23454,8 +23454,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-02-15T11:00:00+01:00",
-      "date_end": "2021-02-18T23:59:00+01:00",
+      "date_start": "2022-02-18T11:00:00+01:00",
+      "date_end": "2022-02-21T23:59:00+01:00",
       "patient_specializations": "Interne Geneeskunde"
     },
     "prerequisites": { "main_building": 3, "rescue_stations": 1 },
@@ -23481,8 +23481,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-02-15T11:00:00+01:00",
-      "date_end": "2021-02-18T23:59:00+01:00",
+      "date_start": "2022-02-18T11:00:00+01:00",
+      "date_end": "2022-02-21T23:59:00+01:00",
       "patient_specializations": "Interne Geneeskunde"
     },
     "prerequisites": { "main_building": 3, "rescue_stations": 1 },
@@ -23508,8 +23508,8 @@
       "possible_patient": 5,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-02-15T11:00:00+01:00",
-      "date_end": "2021-02-18T23:59:00+01:00",
+      "date_start": "2022-02-18T11:00:00+01:00",
+      "date_end": "2022-02-21T23:59:00+01:00",
       "patient_specializations": "Traumatologie"
     },
     "prerequisites": { "main_building": 3, "rescue_stations": 7 },
@@ -23535,8 +23535,8 @@
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-02-15T11:00:00+01:00",
-      "date_end": "2021-02-18T23:59:00+01:00",
+      "date_start": "2022-02-18T11:00:00+01:00",
+      "date_end": "2022-02-21T23:59:00+01:00",
       "patient_specializations": "Traumatologie"
     },
     "prerequisites": { "main_building": 3, "rescue_stations": 3 },
@@ -23562,8 +23562,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-02-15T11:00:00+01:00",
-      "date_end": "2021-02-18T23:59:00+01:00",
+      "date_start": "2022-02-18T11:00:00+01:00",
+      "date_end": "2022-02-21T23:59:00+01:00",
       "patient_specializations": "Cardiochirurgie"
     },
     "prerequisites": { "main_building": 3, "rescue_stations": 3 },
@@ -23597,8 +23597,8 @@
       "duration": 1200,
       "guard_mission": true,
       "filter_id": "police_station_missions",
-      "date_start": "2021-02-15T11:00:00+01:00",
-      "date_end": "2021-02-18T23:59:00+01:00"
+      "date_start": "2022-02-18T11:00:00+01:00",
+      "date_end": "2022-02-21T23:59:00+01:00"
     },
     "prerequisites": {
       "main_building": 5,
@@ -23634,8 +23634,8 @@
       "duration": 600,
       "guard_mission": true,
       "filter_id": "police_station_missions",
-      "date_start": "2021-02-15T11:00:00+01:00",
-      "date_end": "2021-02-18T23:59:00+01:00"
+      "date_start": "2022-02-18T11:00:00+01:00",
+      "date_end": "2022-02-21T23:59:00+01:00"
     },
     "prerequisites": {
       "main_building": 5,
@@ -23665,8 +23665,8 @@
       "possible_patient": 18,
       "possible_patient_min": 2,
       "filter_id": "police_station_missions",
-      "date_start": "2021-02-15T11:00:00+01:00",
-      "date_end": "2021-02-18T23:59:00+01:00",
+      "date_start": "2022-02-18T11:00:00+01:00",
+      "date_end": "2022-02-21T23:59:00+01:00",
       "patient_specializations": "Algemene Heelkunde"
     },
     "prerequisites": {
@@ -29178,6 +29178,29 @@
     },
     "overlay_index": null,
     "base_mission_id": 899,
+    "additive_overlays": ""
+  },
+  {
+    "id": "900",
+    "name": "Geen ID tonen op eerste vordering",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "Politie, Opkomstbureau",
+    "icons": [
+      "/images/theft_gruen.png",
+      "/images/theft_gelb.png",
+      "/images/theft_rot.png"
+    ],
+    "requirements": { "police_cars": 1 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 1,
+      "filter_id": "police_station_missions"
+    },
+    "prerequisites": { "main_building": 5, "police_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 900,
     "additive_overlays": ""
   },
   {
