@@ -2292,8 +2292,8 @@
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+09:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+09:00"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -2317,8 +2317,8 @@
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+09:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+09:00"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -2346,8 +2346,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+09:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+09:00"
     },
     "prerequisites": { "main_building": 0, "police_stations": 2 },
     "overlay_index": null,
@@ -2372,8 +2372,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+09:00",
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+09:00",
       "patient_specializations": "災害外科"
     },
     "prerequisites": {
@@ -2401,8 +2401,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+09:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+09:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -2432,8 +2432,8 @@
     "additional": {
       "allow_rw_instead_of_lf": true,
       "filter_id": "firehouse_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+09:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+09:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -2460,8 +2460,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+09:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+09:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -2491,8 +2491,8 @@
       "duration": 7200,
       "guard_mission": true,
       "filter_id": "police_station_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+09:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+09:00"
     },
     "prerequisites": {
       "main_building": 6,
@@ -2526,8 +2526,8 @@
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "firehouse_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+09:00",
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+09:00",
       "patient_specializations": "災害外科"
     },
     "prerequisites": {
@@ -2555,8 +2555,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+09:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+09:00"
     },
     "prerequisites": { "main_building": 6, "police_stations": 3 },
     "overlay_index": null,
@@ -2584,8 +2584,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+09:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+09:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -7006,11 +7006,7 @@
       "/images/caraccident_rot.png"
     ],
     "requirements": {},
-    "chances": {
-      "patient_transport": 100,
-      "helicopter": 5,
-      "patient_critical_care": 25
-    },
+    "chances": { "patient_transport": 100, "patient_critical_care": 25 },
     "additional": {
       "possible_patient": 3,
       "possible_patient_min": 1,
@@ -7361,11 +7357,7 @@
       "hazmat_vehicles": 2,
       "police_cars": 10
     },
-    "chances": {
-      "patient_transport": 20,
-      "helicopter": 10,
-      "patient_critical_care": 75
-    },
+    "chances": { "patient_transport": 20, "patient_critical_care": 75 },
     "additional": {
       "possible_patient": 30,
       "possible_patient_min": 4,
@@ -7834,11 +7826,7 @@
       "heavy_rescue_vehicles": 1,
       "police_cars": 1
     },
-    "chances": {
-      "patient_transport": 60,
-      "helicopter": 60,
-      "patient_critical_care": 80
-    },
+    "chances": { "patient_transport": 60, "patient_critical_care": 80 },
     "additional": {
       "possible_patient": 1,
       "possible_patient_min": 1,
@@ -7874,7 +7862,7 @@
       "hazmat_vehicles": 1,
       "police_cars": 4
     },
-    "chances": { "patient_transport": 40, "helicopter": 20 },
+    "chances": { "patient_transport": 40 },
     "additional": {
       "possible_patient": 6,
       "possible_patient_min": 1,
@@ -9052,6 +9040,1141 @@
     },
     "overlay_index": null,
     "base_mission_id": 299,
+    "additive_overlays": ""
+  },
+  {
+    "id": "300",
+    "name": "オートバイ同士の衝突",
+    "place": "",
+    "place_array": [],
+    "average_credits": 3500,
+    "generated_by": "消防局",
+    "icons": [
+      "/images/caraccident_gruen.png",
+      "/images/caraccident_gelb.png",
+      "/images/caraccident_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 2,
+      "heavy_rescue_vehicles": 2,
+      "police_cars": 3
+    },
+    "chances": { "patient_transport": 50, "patient_critical_care": 50 },
+    "additional": {
+      "possible_patient": 4,
+      "filter_id": "firehouse_missions",
+      "patient_specializations": "災害外科"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 2,
+      "police_stations": 2,
+      "fire_stations": 6
+    },
+    "overlay_index": null,
+    "base_mission_id": 300,
+    "additive_overlays": ""
+  },
+  {
+    "id": "301",
+    "name": "アニバーサリーケーキ焼き事故",
+    "place": "",
+    "place_array": [],
+    "average_credits": 800,
+    "generated_by": "消防局",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-02-25T11:00:00+09:00",
+      "date_end": "2022-02-28T23:59:00+09:00"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 301,
+    "additive_overlays": ""
+  },
+  {
+    "id": "302",
+    "name": "ゲストのアニバーサリーバルーンが木に引っかかる",
+    "place": "",
+    "place_array": [],
+    "average_credits": 600,
+    "generated_by": "消防局",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 1, "platform_trucks": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-02-25T11:00:00+09:00",
+      "date_end": "2022-02-28T23:59:00+09:00"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 3 },
+    "overlay_index": null,
+    "base_mission_id": 302,
+    "additive_overlays": ""
+  },
+  {
+    "id": "303",
+    "name": "アニバーサリーパーティ電気系統による火災（ボヤ）",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1850,
+    "generated_by": "消防局",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-02-25T11:00:00+09:00",
+      "date_end": "2022-02-28T23:59:00+09:00"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 303,
+    "additive_overlays": ""
+  },
+  {
+    "id": "304",
+    "name": "アニバーサリーパーティ電気系統による火災（大規模）",
+    "place": "",
+    "place_array": [],
+    "average_credits": 3000,
+    "generated_by": "消防局",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 4, "battalion_chief_vehicles": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-02-25T11:00:00+09:00",
+      "date_end": "2022-02-28T23:59:00+09:00"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 6 },
+    "overlay_index": null,
+    "base_mission_id": 304,
+    "additive_overlays": ""
+  },
+  {
+    "id": "305",
+    "name": "アニバーサリープレゼント盗難",
+    "place": "",
+    "place_array": [],
+    "average_credits": 400,
+    "generated_by": "警察署",
+    "icons": [
+      "/images/theft_gruen.png",
+      "/images/theft_gelb.png",
+      "/images/theft_rot.png"
+    ],
+    "requirements": { "police_cars": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "police_station_missions",
+      "date_start": "2022-02-25T11:00:00+09:00",
+      "date_end": "2022-02-28T23:59:00+09:00"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 305,
+    "additive_overlays": ""
+  },
+  {
+    "id": "306",
+    "name": "アニバーサリージュークボックス破壊",
+    "place": "",
+    "place_array": [],
+    "average_credits": 800,
+    "generated_by": "警察署",
+    "icons": [
+      "/images/dancinghall_gruen.png",
+      "/images/dancinghall_gelb.png",
+      "/images/dancinghall_rot.png"
+    ],
+    "requirements": { "police_cars": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "police_station_missions",
+      "date_start": "2022-02-25T11:00:00+09:00",
+      "date_end": "2022-02-28T23:59:00+09:00"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 306,
+    "additive_overlays": ""
+  },
+  {
+    "id": "307",
+    "name": "アニバーサリーゲスト行方不明",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1200,
+    "generated_by": "警察署",
+    "icons": [
+      "/images/dancinghall_gruen.png",
+      "/images/dancinghall_gelb.png",
+      "/images/dancinghall_rot.png"
+    ],
+    "requirements": { "police_cars": 3 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 1,
+      "filter_id": "police_station_missions",
+      "date_start": "2022-02-25T11:00:00+09:00",
+      "date_end": "2022-02-28T23:59:00+09:00"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 3 },
+    "overlay_index": null,
+    "base_mission_id": 307,
+    "additive_overlays": ""
+  },
+  {
+    "id": "308",
+    "name": "アニバーサリーゲストによるデコレーション盗難",
+    "place": "",
+    "place_array": [],
+    "average_credits": 3000,
+    "generated_by": "警察署",
+    "icons": [
+      "/images/theft_gruen.png",
+      "/images/theft_gelb.png",
+      "/images/theft_rot.png"
+    ],
+    "requirements": { "police_cars": 4 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 3,
+      "filter_id": "police_station_missions",
+      "date_start": "2022-02-25T11:00:00+09:00",
+      "date_end": "2022-02-28T23:59:00+09:00"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 6 },
+    "overlay_index": null,
+    "base_mission_id": 308,
+    "additive_overlays": ""
+  },
+  {
+    "id": "309",
+    "name": "アニバーサリーゲストによるケーキ盗難",
+    "place": "",
+    "place_array": [],
+    "average_credits": 5000,
+    "generated_by": "警察署",
+    "icons": [
+      "/images/theft_gruen.png",
+      "/images/theft_gelb.png",
+      "/images/theft_rot.png"
+    ],
+    "requirements": { "police_cars": 5 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 4,
+      "filter_id": "police_station_missions",
+      "date_start": "2022-02-25T11:00:00+09:00",
+      "date_end": "2022-02-28T23:59:00+09:00"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 6 },
+    "overlay_index": null,
+    "base_mission_id": 309,
+    "additive_overlays": ""
+  },
+  {
+    "id": "310",
+    "name": "ゲストがアニバーサリーケーキ食べすぎ",
+    "place": "",
+    "place_array": [],
+    "average_credits": null,
+    "generated_by": "救急車ステーション",
+    "icons": [
+      "/images/medicalstore_gruen.png",
+      "/images/medicalstore_gelb.png",
+      "/images/medicalstore_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 50 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "date_start": "2022-02-25T11:00:00+09:00",
+      "date_end": "2022-02-28T23:59:00+09:00",
+      "patient_specializations": "一般内科"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 310,
+    "additive_overlays": ""
+  },
+  {
+    "id": "311",
+    "name": "アニバーサリープレゼントを開けたときの切り傷",
+    "place": "",
+    "place_array": [],
+    "average_credits": null,
+    "generated_by": "救急車ステーション",
+    "icons": [
+      "/images/medicalstore_gruen.png",
+      "/images/medicalstore_gelb.png",
+      "/images/medicalstore_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 30 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "date_start": "2022-02-25T11:00:00+09:00",
+      "date_end": "2022-02-28T23:59:00+09:00",
+      "patient_specializations": "一般内科"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 311,
+    "additive_overlays": ""
+  },
+  {
+    "id": "312",
+    "name": "アニバーサリーパーティゲストのダンス後の関節痛",
+    "place": "",
+    "place_array": [],
+    "average_credits": null,
+    "generated_by": "救急車ステーション",
+    "icons": [
+      "/images/medicalstore_gruen.png",
+      "/images/medicalstore_gelb.png",
+      "/images/medicalstore_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 100 },
+    "additional": {
+      "possible_patient": 5,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "date_start": "2022-02-25T11:00:00+09:00",
+      "date_end": "2022-02-28T23:59:00+09:00",
+      "patient_specializations": "災害外科"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 7 },
+    "overlay_index": null,
+    "base_mission_id": 312,
+    "additive_overlays": ""
+  },
+  {
+    "id": "313",
+    "name": "アニバーサリーパーティゲストにコルク直撃",
+    "place": "",
+    "place_array": [],
+    "average_credits": null,
+    "generated_by": "救急車ステーション",
+    "icons": [
+      "/images/medicalstore_gruen.png",
+      "/images/medicalstore_gelb.png",
+      "/images/medicalstore_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 100 },
+    "additional": {
+      "possible_patient": 2,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "date_start": "2022-02-25T11:00:00+09:00",
+      "date_end": "2022-02-28T23:59:00+09:00",
+      "patient_specializations": "災害外科"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 3 },
+    "overlay_index": null,
+    "base_mission_id": 313,
+    "additive_overlays": ""
+  },
+  {
+    "id": "314",
+    "name": "アニバーサリーパーティゲストが気絶",
+    "place": "",
+    "place_array": [],
+    "average_credits": null,
+    "generated_by": "救急車ステーション",
+    "icons": [
+      "/images/medicalstore_gruen.png",
+      "/images/medicalstore_gelb.png",
+      "/images/medicalstore_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 100 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "date_start": "2022-02-25T11:00:00+09:00",
+      "date_end": "2022-02-28T23:59:00+09:00",
+      "patient_specializations": "火傷手術"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 3 },
+    "overlay_index": null,
+    "base_mission_id": 314,
+    "additive_overlays": ""
+  },
+  {
+    "id": "315",
+    "name": "ダンスフロアで行方不明",
+    "place": "",
+    "place_array": [],
+    "average_credits": 7500,
+    "generated_by": "警察署",
+    "icons": [
+      "/images/clock_gruen.png",
+      "/images/clock_gelb.png",
+      "/images/clock_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 1,
+      "ambulances": 1,
+      "battalion_chief_vehicles": 1,
+      "platform_trucks": 1,
+      "heavy_rescue_vehicles": 1,
+      "police_cars": 1
+    },
+    "chances": {},
+    "additional": {
+      "duration_text": "20分",
+      "duration": 1200,
+      "guard_mission": true,
+      "filter_id": "police_station_missions",
+      "date_start": "2022-02-25T11:00:00+09:00",
+      "date_end": "2022-02-28T23:59:00+09:00"
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "rescue_stations": 1,
+      "police_stations": 1,
+      "fire_stations": 6
+    },
+    "overlay_index": null,
+    "base_mission_id": 315,
+    "additive_overlays": ""
+  },
+  {
+    "id": "316",
+    "name": "アニバーサリーパーティの風船膨らまし",
+    "place": "",
+    "place_array": [],
+    "average_credits": 15000,
+    "generated_by": "警察署",
+    "icons": [
+      "/images/clock_gruen.png",
+      "/images/clock_gelb.png",
+      "/images/clock_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 3,
+      "ambulances": 2,
+      "platform_trucks": 2,
+      "heavy_rescue_vehicles": 2
+    },
+    "chances": {},
+    "additional": {
+      "duration_text": "10分",
+      "duration": 600,
+      "guard_mission": true,
+      "filter_id": "police_station_missions",
+      "date_start": "2022-02-25T11:00:00+09:00",
+      "date_end": "2022-02-28T23:59:00+09:00"
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "rescue_stations": 1,
+      "police_stations": 3,
+      "fire_stations": 5
+    },
+    "overlay_index": null,
+    "base_mission_id": 316,
+    "additive_overlays": ""
+  },
+  {
+    "id": "317",
+    "name": "アニバーサリーパーティでゲストが毒入りドリンク誤飲",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1200,
+    "generated_by": "警察署",
+    "icons": [
+      "/images/bar_coktail_gruen.png",
+      "/images/bar_coktail_gelb.png",
+      "/images/bar_coktail_rot.png"
+    ],
+    "requirements": { "battalion_chief_vehicles": 2, "police_cars": 3 },
+    "chances": { "patient_transport": 80 },
+    "additional": {
+      "possible_patient": 18,
+      "possible_patient_min": 2,
+      "filter_id": "police_station_missions",
+      "date_start": "2022-02-25T11:00:00+09:00",
+      "date_end": "2022-02-28T23:59:00+09:00",
+      "patient_specializations": "一般外科"
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "rescue_stations": 2,
+      "police_stations": 3,
+      "fire_stations": 6
+    },
+    "overlay_index": null,
+    "base_mission_id": 317,
+    "additive_overlays": ""
+  },
+  {
+    "id": "318",
+    "name": "収拾のつかない口論",
+    "place": "",
+    "place_array": [],
+    "average_credits": 900,
+    "generated_by": "警察署",
+    "icons": [
+      "/images/baseball_gruen.png",
+      "/images/baseball_gelb.png",
+      "/images/baseball_rot.png"
+    ],
+    "requirements": { "police_cars": 2 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 2,
+      "filter_id": "police_station_missions"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 318,
+    "additive_overlays": ""
+  },
+  {
+    "id": "319",
+    "name": "家具火災",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1200,
+    "generated_by": "消防局",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "water_needed": 500, "firetrucks": 1 },
+    "chances": { "patient_transport": 66 },
+    "additional": {
+      "possible_patient": 1,
+      "filter_id": "firehouse_missions",
+      "patient_at_end_of_mission": true,
+      "patient_specializations": "一般内科"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 319,
+    "additive_overlays": ""
+  },
+  {
+    "id": "320",
+    "name": "感染疑い",
+    "place": "",
+    "place_array": [],
+    "average_credits": 650,
+    "generated_by": "救急車ステーション",
+    "icons": [
+      "/images/ambulance_gruen.png",
+      "/images/ambulance_gelb.png",
+      "/images/ambulance_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 100 },
+    "additional": {
+      "possible_patient": 5,
+      "possible_patient_min": 2,
+      "filter_id": "ambulance_station_missions",
+      "patient_specializations": "一般外科"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 4 },
+    "overlay_index": null,
+    "base_mission_id": 320,
+    "additive_overlays": ""
+  },
+  {
+    "id": "321",
+    "name": "破壊行為",
+    "place": "",
+    "place_array": [],
+    "average_credits": 450,
+    "generated_by": "警察署",
+    "icons": [
+      "/images/baseball_gruen.png",
+      "/images/baseball_gelb.png",
+      "/images/baseball_rot.png"
+    ],
+    "requirements": { "police_cars": 2 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 1,
+      "filter_id": "police_station_missions"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 321,
+    "additive_overlays": ""
+  },
+  {
+    "id": "322",
+    "name": "蜂アナフィラキシーショック",
+    "place": "",
+    "place_array": [],
+    "average_credits": 550,
+    "generated_by": "救急車ステーション",
+    "icons": [
+      "/images/spring_gruen.png",
+      "/images/spring_gelb.png",
+      "/images/spring_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 50, "patient_critical_care": 10 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+09:00",
+      "patient_specializations": "循環器"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 322,
+    "additive_overlays": ""
+  },
+  {
+    "id": "323",
+    "name": "花粉症",
+    "place": "",
+    "place_array": [],
+    "average_credits": 650,
+    "generated_by": "救急車ステーション",
+    "icons": [
+      "/images/spring_gruen.png",
+      "/images/spring_gelb.png",
+      "/images/spring_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 10, "patient_critical_care": 5 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+09:00",
+      "patient_specializations": "循環器"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 323,
+    "additive_overlays": ""
+  },
+  {
+    "id": "324",
+    "name": "春掃除中のはしご転落",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "救急車ステーション",
+    "icons": [
+      "/images/spring_gruen.png",
+      "/images/spring_gelb.png",
+      "/images/spring_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 50 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+09:00",
+      "patient_specializations": "災害外科"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 324,
+    "additive_overlays": ""
+  },
+  {
+    "id": "325",
+    "name": "春ピクニック中の野生動物襲撃",
+    "place": "",
+    "place_array": [],
+    "average_credits": 600,
+    "generated_by": "警察署",
+    "icons": [
+      "/images/spring_gruen.png",
+      "/images/spring_gelb.png",
+      "/images/spring_rot.png"
+    ],
+    "requirements": { "police_cars": 1 },
+    "chances": { "patient_transport": 60, "patient_critical_care": 10 },
+    "additional": {
+      "possible_patient": 3,
+      "possible_patient_min": 1,
+      "filter_id": "police_station_missions",
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+09:00",
+      "patient_specializations": "災害外科"
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "rescue_stations": 3,
+      "police_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 325,
+    "additive_overlays": ""
+  },
+  {
+    "id": "326",
+    "name": "木の実による食中毒",
+    "place": "公園\n森",
+    "place_array": ["公園", "森"],
+    "average_credits": 800,
+    "generated_by": "救急車ステーション",
+    "icons": [
+      "/images/spring_gruen.png",
+      "/images/spring_gelb.png",
+      "/images/spring_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 30, "patient_critical_care": 15 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "patient_allow_first_responder_chance": 50,
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+09:00",
+      "patient_specializations": "一般外科"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 326,
+    "additive_overlays": ""
+  },
+  {
+    "id": "327",
+    "name": "ピクニックかご火災",
+    "place": "公園\n森",
+    "place_array": ["公園", "森"],
+    "average_credits": 800,
+    "generated_by": "消防局",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+09:00"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 327,
+    "additive_overlays": ""
+  },
+  {
+    "id": "328",
+    "name": "子牛泥棒",
+    "place": "牧場",
+    "place_array": ["牧場"],
+    "average_credits": 900,
+    "generated_by": "警察署",
+    "icons": [
+      "/images/cat_gruen.png",
+      "/images/cat_gelb.png",
+      "/images/cat_rot.png"
+    ],
+    "requirements": { "police_cars": 2 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 1,
+      "filter_id": "police_station_missions",
+      "subsequent_missions_ids": [329, 330],
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+09:00"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 328,
+    "additive_overlays": ""
+  },
+  {
+    "id": "329",
+    "name": "子牛泥棒の逃走",
+    "place": "森",
+    "place_array": ["森"],
+    "average_credits": 900,
+    "generated_by": "警察署",
+    "icons": [
+      "/images/climbing_gruen.png",
+      "/images/climbing_gelb.png",
+      "/images/climbing_rot.png"
+    ],
+    "requirements": { "police_cars": 5, "k9": 2 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 1,
+      "filter_id": "police_station_missions",
+      "subsequent_mission_only": true,
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+09:00"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 10 },
+    "overlay_index": null,
+    "base_mission_id": 329,
+    "additive_overlays": ""
+  },
+  {
+    "id": "330",
+    "name": "子牛に逆襲された泥棒",
+    "place": "牧場",
+    "place_array": ["牧場"],
+    "average_credits": 860,
+    "generated_by": "救急車ステーション",
+    "icons": [
+      "/images/ambulance_gruen.png",
+      "/images/ambulance_gelb.png",
+      "/images/ambulance_rot.png"
+    ],
+    "requirements": { "ambulances": 1 },
+    "chances": { "patient_transport": 35 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "patient_allow_first_responder_chance": 60,
+      "subsequent_mission_only": true,
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+09:00",
+      "patient_specializations": "一般内科"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 330,
+    "additive_overlays": ""
+  },
+  {
+    "id": "331",
+    "name": "アパート火災",
+    "place": "",
+    "place_array": [],
+    "average_credits": 5000,
+    "generated_by": "消防局",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 6,
+      "battalion_chief_vehicles": 1,
+      "platform_trucks": 3,
+      "mobile_air_vehicles": 1,
+      "police_cars": 4
+    },
+    "chances": { "patient_transport": 50, "patient_critical_care": 10 },
+    "additional": {
+      "possible_patient": 25,
+      "filter_id": "firehouse_missions",
+      "patient_specializations": "一般内科"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 3,
+      "police_stations": 2,
+      "fire_stations": 9
+    },
+    "overlay_index": null,
+    "base_mission_id": 331,
+    "additive_overlays": ""
+  },
+  {
+    "id": "332",
+    "name": "多重自動車事故",
+    "place": "",
+    "place_array": [],
+    "average_credits": 7000,
+    "generated_by": "消防局",
+    "icons": [
+      "/images/caraccident_gruen.png",
+      "/images/caraccident_gelb.png",
+      "/images/caraccident_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 7,
+      "battalion_chief_vehicles": 1,
+      "heavy_rescue_vehicles": 4,
+      "police_cars": 4
+    },
+    "chances": { "patient_transport": 50, "patient_critical_care": 10 },
+    "additional": {
+      "possible_patient": 15,
+      "filter_id": "firehouse_missions",
+      "patient_specializations": "一般内科"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 4,
+      "police_stations": 2,
+      "fire_stations": 14
+    },
+    "overlay_index": null,
+    "base_mission_id": 332,
+    "additive_overlays": ""
+  },
+  {
+    "id": "333",
+    "name": "違法公道レース",
+    "place": "",
+    "place_array": [],
+    "average_credits": 2450,
+    "generated_by": "警察署",
+    "icons": [
+      "/images/theft_gruen.png",
+      "/images/theft_gelb.png",
+      "/images/theft_rot.png"
+    ],
+    "requirements": { "police_cars": 6 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 2,
+      "filter_id": "police_station_missions"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 8 },
+    "overlay_index": null,
+    "base_mission_id": 333,
+    "additive_overlays": ""
+  },
+  {
+    "id": "334",
+    "name": "自動車の用水路転落",
+    "place": "",
+    "place_array": [],
+    "average_credits": 5500,
+    "generated_by": "消防局",
+    "icons": [
+      "/images/fallingrocks_gruen.png",
+      "/images/fallingrocks_gelb.png",
+      "/images/fallingrocks_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 7,
+      "battalion_chief_vehicles": 2,
+      "heavy_rescue_vehicles": 2,
+      "police_cars": 2
+    },
+    "chances": { "patient_transport": 75, "patient_critical_care": 10 },
+    "additional": {
+      "possible_patient": 2,
+      "filter_id": "firehouse_missions",
+      "patient_specializations": "一般内科"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 4,
+      "police_stations": 3,
+      "fire_stations": 14
+    },
+    "overlay_index": null,
+    "base_mission_id": 334,
+    "additive_overlays": ""
+  },
+  {
+    "id": "335",
+    "name": "溶けたチョコレートバニー",
+    "place": "",
+    "place_array": [],
+    "average_credits": 100,
+    "generated_by": "消防局",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-04-11T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+09:00"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 335,
+    "additive_overlays": ""
+  },
+  {
+    "id": "336",
+    "name": "ウサギの巣穴に落雷",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1600,
+    "generated_by": "消防局",
+    "icons": [
+      "/images/blast_gruen.png",
+      "/images/blast_gelb.png",
+      "/images/blast_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 2,
+      "battalion_chief_vehicles": 1,
+      "platform_trucks": 1,
+      "heavy_rescue_vehicles": 1,
+      "police_cars": 2
+    },
+    "chances": { "platform_trucks": 70, "patient_transport": 60 },
+    "additional": {
+      "possible_patient": 1,
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-04-11T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+09:00",
+      "patient_specializations": "一般内科"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 3,
+      "fire_stations": 4
+    },
+    "overlay_index": null,
+    "base_mission_id": 336,
+    "additive_overlays": ""
+  },
+  {
+    "id": "337",
+    "name": "車に閉じ込められたチョコレートバニー",
+    "place": "",
+    "place_array": [],
+    "average_credits": 250,
+    "generated_by": "消防局",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 1, "police_cars": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-04-11T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+09:00"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 1,
+      "fire_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 337,
+    "additive_overlays": ""
+  },
+  {
+    "id": "338",
+    "name": "水中エッグハント",
+    "place": "湖",
+    "place_array": ["湖"],
+    "average_credits": 500,
+    "generated_by": "消防局",
+    "icons": [
+      "/images/waterpark_gruen.png",
+      "/images/waterpark_gelb.png",
+      "/images/waterpark_rot.png"
+    ],
+    "requirements": { "firetrucks": 1, "police_cars": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-04-11T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+09:00"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 1,
+      "fire_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 338,
+    "additive_overlays": ""
+  },
+  {
+    "id": "339",
+    "name": "食堂火災",
+    "place": "学校",
+    "place_array": ["学校"],
+    "average_credits": 1300,
+    "generated_by": "消防局",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 3,
+      "battalion_chief_vehicles": 1,
+      "police_cars": 1
+    },
+    "chances": { "patient_transport": 50 },
+    "additional": {
+      "possible_patient": 2,
+      "filter_id": "firehouse_missions",
+      "fire_alarm_system_possible": true,
+      "patient_specializations": "一般内科"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 2,
+      "police_stations": 1,
+      "fire_stations": 6
+    },
+    "overlay_index": null,
+    "base_mission_id": 339,
+    "additive_overlays": ""
+  },
+  {
+    "id": "340",
+    "name": "家探し",
+    "place": "",
+    "place_array": [],
+    "average_credits": 750,
+    "generated_by": "警察署",
+    "icons": [
+      "/images/zoom_gruen.png",
+      "/images/zoom_gelb.png",
+      "/images/zoom_rot.png"
+    ],
+    "requirements": { "police_cars": 4 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 3,
+      "filter_id": "police_station_missions"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 4 },
+    "overlay_index": null,
+    "base_mission_id": 340,
     "additive_overlays": ""
   }
 ]
