@@ -4096,8 +4096,8 @@
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+02:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -4121,8 +4121,8 @@
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+02:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -4150,8 +4150,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+02:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 0, "police_stations": 2 },
     "overlay_index": null,
@@ -4222,8 +4222,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+02:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -4253,8 +4253,8 @@
     "additional": {
       "allow_rw_instead_of_lf": true,
       "filter_id": "firehouse_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+02:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -4281,8 +4281,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+02:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -4312,8 +4312,8 @@
       "duration": 7200,
       "guard_mission": true,
       "filter_id": "police_station_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+02:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 6,
@@ -4356,8 +4356,8 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+02:00",
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00",
       "patient_specializations": "Traumatologia"
     },
     "prerequisites": {
@@ -4385,8 +4385,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+02:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 6, "police_stations": 3 },
     "overlay_index": null,
@@ -4414,8 +4414,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+02:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -4729,7 +4729,7 @@
       "patient_at_end_of_mission": true,
       "patient_specializations": "Chirurgia generale"
     },
-    "prerequisites": { "main_building": 6, "police_stations": 6 },
+    "prerequisites": { "main_building": 6, "police_stations": 8 },
     "overlay_index": null,
     "base_mission_id": 154,
     "additive_overlays": ""
@@ -4786,7 +4786,7 @@
     "prerequisites": {
       "main_building": 6,
       "rescue_stations": 2,
-      "police_stations": 6
+      "police_stations": 8
     },
     "overlay_index": null,
     "base_mission_id": 156,
@@ -6279,7 +6279,7 @@
   },
   {
     "id": "198",
-    "name": "Ipoglicemia ",
+    "name": "Ipoglicemia",
     "place": "",
     "place_array": [],
     "average_credits": null,
@@ -11069,7 +11069,7 @@
     "requirements": { "police_cars": 3, "k9": 1 },
     "chances": {},
     "additional": { "filter_id": "police_station_missions" },
-    "prerequisites": { "main_building": 6, "police_stations": 3 },
+    "prerequisites": { "main_building": 6, "police_stations": 6 },
     "overlay_index": null,
     "base_mission_id": 343,
     "additive_overlays": ""
@@ -11236,8 +11236,8 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+02:00",
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00",
       "patient_specializations": "Traumatologia"
     },
     "prerequisites": {
@@ -11755,8 +11755,8 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "date_start": "2021-05-07T09:00:00Z",
-      "date_end": "2021-05-09T21:59:00Z",
+      "date_start": "2022-05-06T09:00:00Z",
+      "date_end": "2022-05-08T21:59:00Z",
       "patient_specializations": "Medicina interna generale"
     },
     "prerequisites": { "main_building": 2, "rescue_stations": 1 },
@@ -11780,8 +11780,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-05-07T09:00:00Z",
-      "date_end": "2021-05-09T21:59:00Z"
+      "date_start": "2022-05-06T09:00:00Z",
+      "date_end": "2022-05-08T21:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -11812,8 +11812,8 @@
         "Medicina interna generale",
         "Medicina interna generale"
       ],
-      "date_start": "2021-05-07T09:00:00Z",
-      "date_end": "2021-05-09T21:59:00Z",
+      "date_start": "2022-05-06T09:00:00Z",
+      "date_end": "2022-05-08T21:59:00Z",
       "patient_specializations": "Medicina interna generale"
     },
     "prerequisites": {
@@ -11842,8 +11842,8 @@
     "additional": {
       "expansion_missions_ids": [367],
       "filter_id": "firehouse_missions",
-      "date_start": "2021-05-07T09:00:00Z",
-      "date_end": "2021-05-09T21:59:00Z"
+      "date_start": "2022-05-06T09:00:00Z",
+      "date_end": "2022-05-08T21:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -11874,8 +11874,8 @@
         "Medicina interna generale",
         "Medicina interna generale"
       ],
-      "date_start": "2021-05-07T09:00:00Z",
-      "date_end": "2021-05-09T21:59:00Z",
+      "date_start": "2022-05-06T09:00:00Z",
+      "date_end": "2022-05-08T21:59:00Z",
       "patient_specializations": "Medicina interna generale"
     },
     "prerequisites": {
@@ -11903,8 +11903,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-05-07T09:00:00Z",
-      "date_end": "2021-05-09T21:59:00Z"
+      "date_start": "2022-05-06T09:00:00Z",
+      "date_end": "2022-05-08T21:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 2 },
     "overlay_index": null,
@@ -13216,7 +13216,7 @@
       "/images/medicalstore_rot.png"
     ],
     "requirements": { "police_cars": 1 },
-    "chances": { "patient_transport": 20, "patient_critical_care": 10 },
+    "chances": { "patient_transport": 20 },
     "additional": {
       "possible_patient": 4,
       "possible_patient_min": 1,
@@ -13694,7 +13694,7 @@
       "/images/ambulance_rot.png"
     ],
     "requirements": {},
-    "chances": { "patient_transport": 100, "helicopter": 40 },
+    "chances": { "patient_transport": 100, "helicopter": 15 },
     "additional": {
       "possible_patient": 1,
       "possible_patient_min": 1,
@@ -13781,7 +13781,7 @@
       "heavy_rescue_vehicles": 1,
       "police_cars": 1
     },
-    "chances": { "patient_transport": 60, "helicopter": 60 },
+    "chances": { "patient_transport": 60, "helicopter": 20 },
     "additional": {
       "possible_patient": 1,
       "possible_patient_min": 1,
@@ -15109,6 +15109,75 @@
     "additive_overlays": ""
   },
   {
+    "id": "468",
+    "name": "Tempesta di fulmini",
+    "place": "Bosco\nParco\nCollina\nBrughiera\nGariga\nCampo",
+    "place_array": [
+      "Bosco",
+      "Parco",
+      "Collina",
+      "Brughiera",
+      "Gariga",
+      "Campo"
+    ],
+    "average_credits": 10000,
+    "generated_by": "Caserma dei vigili del fuoco",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "foam_needed": 9000,
+      "water_needed": 45000,
+      "firetrucks": 4,
+      "brush_truck": 6,
+      "fire_aviation": 1,
+      "battalion_chief_vehicles": 1,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "heavy_rescue_vehicles": 4,
+      "water_tankers": 1,
+      "police_cars": 2,
+      "water_rescue": 2
+    },
+    "chances": {
+      "battalion_chief_vehicles": 80,
+      "mobile_command_vehicles": 50,
+      "water_tankers": 80,
+      "patient_transport": 10
+    },
+    "additional": {
+      "possible_patient": 20,
+      "possible_patient_min": 2,
+      "followup_missions_ids": [391, 396, 399, 400],
+      "patient_it_code_possible": ["ZC01R", "ZC01G", "ZC01V"],
+      "filter_id": "firehouse_missions",
+      "possible_patient_specializations": [
+        "Medicina interna generale",
+        "Traumatologia",
+        "Medicina interna generale",
+        "Traumatologia",
+        "Medicina interna generale",
+        "Traumatologia"
+      ],
+      "allow_ktw_instead_of_rtw": true,
+      "patient_specializations": "Traumatologia"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "wasserrettung": 2,
+      "rescue_stations": 8,
+      "police_stations": 3,
+      "brush_extension": 2,
+      "fire_aviation_count": 1,
+      "fire_stations": 8
+    },
+    "overlay_index": null,
+    "base_mission_id": 468,
+    "additive_overlays": ""
+  },
+  {
     "id": "469",
     "name": "Sensibilizzare i ragazzi delle scuole sull'utilizzo del 112",
     "place": "Scuola",
@@ -15260,6 +15329,1123 @@
     },
     "overlay_index": null,
     "base_mission_id": 473,
+    "additive_overlays": ""
+  },
+  {
+    "id": "474",
+    "name": "Incendio sul galleggiante",
+    "place": "",
+    "place_array": [],
+    "average_credits": 2500,
+    "generated_by": "Caserma dei vigili del fuoco",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 3,
+      "battalion_chief_vehicles": 1,
+      "water_tankers": 1,
+      "police_cars": 1
+    },
+    "chances": { "patient_transport": 25 },
+    "additional": {
+      "possible_patient": 2,
+      "patient_it_code_possible": ["ZC01R", "ZC01G", "ZC01V"],
+      "filter_id": "firehouse_missions",
+      "possible_patient_specializations": [
+        "Medicina interna generale",
+        "Traumatologia",
+        "Medicina interna generale",
+        "Traumatologia",
+        "Medicina interna generale",
+        "Traumatologia"
+      ],
+      "date_start": "2022-02-25T10:00:00Z",
+      "date_end": "2022-03-01T23:59:00Z",
+      "patient_specializations": "Medicina interna generale"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 1,
+      "police_stations": 2,
+      "fire_stations": 6
+    },
+    "overlay_index": null,
+    "base_mission_id": 474,
+    "additive_overlays": ""
+  },
+  {
+    "id": "475",
+    "name": "Inconvenienti nel corteo di carnevale",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1500,
+    "generated_by": "Stazione di polizia",
+    "icons": [
+      "/images/baseball_gruen.png",
+      "/images/baseball_gelb.png",
+      "/images/baseball_rot.png"
+    ],
+    "requirements": { "police_cars": 4 },
+    "chances": { "patient_transport": 50 },
+    "additional": {
+      "possible_patient": 6,
+      "max_possible_prisoners": 2,
+      "patient_it_code_possible": ["ZC01R", "ZC01G", "ZC01V"],
+      "filter_id": "police_station_missions",
+      "possible_patient_specializations": [
+        "Medicina interna generale",
+        "Traumatologia",
+        "Medicina interna generale",
+        "Traumatologia",
+        "Medicina interna generale",
+        "Traumatologia"
+      ],
+      "date_start": "2022-02-25T10:00:00Z",
+      "date_end": "2022-03-01T23:59:00Z",
+      "patient_specializations": "Medicina interna generale"
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "rescue_stations": 4,
+      "police_stations": 4
+    },
+    "overlay_index": null,
+    "base_mission_id": 475,
+    "additive_overlays": ""
+  },
+  {
+    "id": "476",
+    "name": "Maschera rubata",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1000,
+    "generated_by": "Stazione di polizia",
+    "icons": [
+      "/images/theft_gruen.png",
+      "/images/theft_gelb.png",
+      "/images/theft_rot.png"
+    ],
+    "requirements": { "police_cars": 2 },
+    "chances": { "patient_transport": 50 },
+    "additional": {
+      "possible_patient": 1,
+      "max_possible_prisoners": 1,
+      "patient_it_code_possible": ["ZC01R", "ZC01G", "ZC01V"],
+      "filter_id": "police_station_missions",
+      "possible_patient_specializations": [
+        "Medicina interna generale",
+        "Traumatologia",
+        "Medicina interna generale",
+        "Traumatologia",
+        "Medicina interna generale",
+        "Traumatologia"
+      ],
+      "date_start": "2022-02-25T10:00:00Z",
+      "date_end": "2022-03-01T23:59:00Z",
+      "patient_specializations": "Medicina interna generale"
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "rescue_stations": 1,
+      "police_stations": 4
+    },
+    "overlay_index": null,
+    "base_mission_id": 476,
+    "additive_overlays": ""
+  },
+  {
+    "id": "477",
+    "name": "Furto trofeo del ballo in maschera",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1750,
+    "generated_by": "Stazione di polizia",
+    "icons": [
+      "/images/theft_gruen.png",
+      "/images/theft_gelb.png",
+      "/images/theft_rot.png"
+    ],
+    "requirements": { "police_cars": 5 },
+    "chances": { "patient_transport": 50 },
+    "additional": {
+      "possible_patient": 2,
+      "max_possible_prisoners": 3,
+      "patient_it_code_possible": ["ZC01R", "ZC01G", "ZC01V"],
+      "filter_id": "police_station_missions",
+      "possible_patient_specializations": [
+        "Medicina interna generale",
+        "Traumatologia",
+        "Medicina interna generale",
+        "Traumatologia",
+        "Medicina interna generale",
+        "Traumatologia"
+      ],
+      "date_start": "2022-02-25T10:00:00Z",
+      "date_end": "2022-03-01T23:59:00Z",
+      "patient_specializations": "Medicina interna generale"
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "rescue_stations": 2,
+      "police_stations": 5
+    },
+    "overlay_index": null,
+    "base_mission_id": 477,
+    "additive_overlays": ""
+  },
+  {
+    "id": "478",
+    "name": "Incendio al ballo di carnevale",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "Caserma dei vigili del fuoco",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-02-25T10:00:00Z",
+      "date_end": "2022-03-01T23:59:00Z"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 478,
+    "additive_overlays": ""
+  },
+  {
+    "id": "479",
+    "name": "Incidente durante il ballo di carnevale",
+    "place": "",
+    "place_array": [],
+    "average_credits": null,
+    "generated_by": "Stazione ambulanze",
+    "icons": [
+      "/images/ambulance_gruen.png",
+      "/images/ambulance_gelb.png",
+      "/images/ambulance_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 100 },
+    "additional": {
+      "possible_patient": 3,
+      "possible_patient_min": 1,
+      "patient_it_code_possible": ["ZC01R", "ZC01G", "ZC01V"],
+      "filter_id": "ambulance_station_missions",
+      "possible_patient_specializations": [
+        "Medicina interna generale",
+        "Traumatologia",
+        "Medicina interna generale",
+        "Traumatologia",
+        "Medicina interna generale",
+        "Traumatologia"
+      ],
+      "date_start": "2022-02-25T10:00:00Z",
+      "date_end": "2022-03-01T23:59:00Z",
+      "patient_specializations": "Medicina interna generale"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 479,
+    "additive_overlays": ""
+  },
+  {
+    "id": "480",
+    "name": "Sicurezza di Carnevale",
+    "place": "",
+    "place_array": [],
+    "average_credits": 4000,
+    "generated_by": "Caserma dei vigili del fuoco",
+    "icons": [
+      "/images/clock_gruen.png",
+      "/images/clock_gelb.png",
+      "/images/clock_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 4,
+      "battalion_chief_vehicles": 1,
+      "police_cars": 2
+    },
+    "chances": {},
+    "additional": {
+      "duration_text": "1 ora",
+      "duration": 3600,
+      "guard_mission": true,
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-02-25T10:00:00Z",
+      "date_end": "2022-03-01T23:59:00Z"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 1,
+      "fire_stations": 6
+    },
+    "overlay_index": null,
+    "base_mission_id": 480,
+    "additive_overlays": ""
+  },
+  {
+    "id": "481",
+    "name": "Ricercato nascosto al ballo",
+    "place": "",
+    "place_array": [],
+    "average_credits": 200,
+    "generated_by": "Stazione di polizia",
+    "icons": [
+      "/images/zoom_gruen.png",
+      "/images/zoom_gelb.png",
+      "/images/zoom_rot.png"
+    ],
+    "requirements": { "police_cars": 2 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 1,
+      "filter_id": "police_station_missions",
+      "date_start": "2022-02-25T10:00:00Z",
+      "date_end": "2022-03-01T23:59:00Z"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 481,
+    "additive_overlays": ""
+  },
+  {
+    "id": "482",
+    "name": "Vestito di carnevale in fiamme",
+    "place": "",
+    "place_array": [],
+    "average_credits": 400,
+    "generated_by": "Caserma dei vigili del fuoco",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-02-25T10:00:00Z",
+      "date_end": "2022-03-01T23:59:00Z"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 482,
+    "additive_overlays": ""
+  },
+  {
+    "id": "483",
+    "name": "Rapina in costume da ballo",
+    "place": "",
+    "place_array": [],
+    "average_credits": 200,
+    "generated_by": "Stazione di polizia",
+    "icons": [
+      "/images/theft_gruen.png",
+      "/images/theft_gelb.png",
+      "/images/theft_rot.png"
+    ],
+    "requirements": { "police_cars": 1 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 1,
+      "filter_id": "police_station_missions",
+      "date_start": "2022-02-25T10:00:00Z",
+      "date_end": "2022-03-01T23:59:00Z"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 483,
+    "additive_overlays": ""
+  },
+  {
+    "id": "484",
+    "name": "Canale fognario in piena",
+    "place": "",
+    "place_array": [],
+    "average_credits": 2000,
+    "generated_by": "Caserma dei vigili del fuoco",
+    "icons": [
+      "/images/river_gruen.png",
+      "/images/river_gelb.png",
+      "/images/river_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 2,
+      "heavy_rescue_vehicles": 2,
+      "police_cars": 2,
+      "water_rescue": 2
+    },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [290, 296],
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "wasserrettung": 1,
+      "police_stations": 2,
+      "fire_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 484,
+    "additive_overlays": ""
+  },
+  {
+    "id": "485",
+    "name": "Bus contro pensilina",
+    "place": "Fermata dell'autobus",
+    "place_array": ["Fermata dell'autobus"],
+    "average_credits": 5000,
+    "generated_by": "Caserma dei vigili del fuoco",
+    "icons": [
+      "/images/caraccident_gruen.png",
+      "/images/caraccident_gelb.png",
+      "/images/caraccident_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 2,
+      "heavy_rescue_vehicles": 1,
+      "police_cars": 1
+    },
+    "chances": { "patient_transport": 30 },
+    "additional": {
+      "possible_patient": 6,
+      "possible_patient_min": 2,
+      "patient_it_code_possible": ["SC01R", "SC01G", "SC01V"],
+      "filter_id": "firehouse_missions",
+      "possible_patient_specializations": [
+        "Medicina interna generale",
+        "Traumatologia",
+        "Medicina interna generale",
+        "Traumatologia",
+        "Medicina interna generale",
+        "Traumatologia"
+      ],
+      "patient_specializations": "Traumatologia"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 2,
+      "police_stations": 1,
+      "fire_stations": 4
+    },
+    "overlay_index": null,
+    "base_mission_id": 485,
+    "additive_overlays": ""
+  },
+  {
+    "id": "486",
+    "name": "Persona incosciente in auto",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1000,
+    "generated_by": "Caserma dei vigili del fuoco",
+    "icons": [
+      "/images/ambulance_gruen.png",
+      "/images/ambulance_gelb.png",
+      "/images/ambulance_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 1,
+      "heavy_rescue_vehicles": 1,
+      "police_cars": 1
+    },
+    "chances": { "patient_transport": 60 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "patient_it_code_possible": ["SC20R", "SC20G", "SC20V"],
+      "filter_id": "firehouse_missions",
+      "possible_patient_specializations": [
+        "Medicina interna generale",
+        "Medicina interna generale",
+        "Medicina interna generale"
+      ],
+      "patient_specializations": "Medicina interna generale"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 1,
+      "police_stations": 1,
+      "fire_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 486,
+    "additive_overlays": ""
+  },
+  {
+    "id": "487",
+    "name": "Reazione allergica alla puntura d'ape",
+    "place": "",
+    "place_array": [],
+    "average_credits": null,
+    "generated_by": "Stazione ambulanze",
+    "icons": [
+      "/images/spring_gruen.png",
+      "/images/spring_gelb.png",
+      "/images/spring_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "nef": 10, "patient_transport": 50 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "patient_it_code_possible": ["ZC07R", "ZC07G"],
+      "filter_id": "ambulance_station_missions",
+      "possible_patient_specializations": [
+        "Medicina interna generale",
+        "Medicina interna generale"
+      ],
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+02:00",
+      "patient_specializations": "Cardiologia"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 487,
+    "additive_overlays": ""
+  },
+  {
+    "id": "488",
+    "name": "Reazione allergica al polline",
+    "place": "",
+    "place_array": [],
+    "average_credits": null,
+    "generated_by": "Stazione ambulanze",
+    "icons": [
+      "/images/spring_gruen.png",
+      "/images/spring_gelb.png",
+      "/images/spring_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "nef": 5, "patient_transport": 10 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "patient_it_code_possible": ["ZC07G"],
+      "filter_id": "ambulance_station_missions",
+      "possible_patient_specializations": ["Medicina interna generale"],
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+02:00",
+      "patient_specializations": "Cardiologia"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 488,
+    "additive_overlays": ""
+  },
+  {
+    "id": "489",
+    "name": "Caduta dalla scala durante le pulizie di primavera",
+    "place": "",
+    "place_array": [],
+    "average_credits": null,
+    "generated_by": "Stazione ambulanze",
+    "icons": [
+      "/images/spring_gruen.png",
+      "/images/spring_gelb.png",
+      "/images/spring_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 50 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "patient_it_code_possible": ["KC01R", "KC01G"],
+      "filter_id": "ambulance_station_missions",
+      "possible_patient_specializations": [
+        "Medicina interna generale",
+        "Traumatologia",
+        "Medicina interna generale",
+        "Traumatologia"
+      ],
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+02:00",
+      "patient_specializations": "Traumatologia"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 489,
+    "additive_overlays": ""
+  },
+  {
+    "id": "490",
+    "name": "Attacco di animali selvatici durante il picnic primaverile",
+    "place": "",
+    "place_array": [],
+    "average_credits": 600,
+    "generated_by": "Stazione di polizia",
+    "icons": [
+      "/images/spring_gruen.png",
+      "/images/spring_gelb.png",
+      "/images/spring_rot.png"
+    ],
+    "requirements": { "police_cars": 1 },
+    "chances": { "nef": 10, "patient_transport": 60 },
+    "additional": {
+      "possible_patient": 3,
+      "possible_patient_min": 1,
+      "patient_it_code_possible": ["ZC07R", "ZC07G", "ZC01V"],
+      "filter_id": "police_station_missions",
+      "possible_patient_specializations": [
+        "Medicina interna generale",
+        "Medicina interna generale",
+        "Medicina interna generale",
+        "Traumatologia"
+      ],
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+02:00",
+      "patient_specializations": "Traumatologia"
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "rescue_stations": 3,
+      "police_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 490,
+    "additive_overlays": ""
+  },
+  {
+    "id": "491",
+    "name": "Intossicazione alimentare da frutti di bosco",
+    "place": "Parco\nBosco",
+    "place_array": ["Parco", "Bosco"],
+    "average_credits": null,
+    "generated_by": "Stazione ambulanze",
+    "icons": [
+      "/images/spring_gruen.png",
+      "/images/spring_gelb.png",
+      "/images/spring_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "nef": 15, "patient_transport": 30 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "patient_it_code_possible": ["ZC07G", "ZC07V"],
+      "filter_id": "ambulance_station_missions",
+      "possible_patient_specializations": [
+        "Medicina interna generale",
+        "Medicina interna generale"
+      ],
+      "patient_allow_first_responder_chance": 50,
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+02:00",
+      "patient_specializations": "Chirurgia generale"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 491,
+    "additive_overlays": ""
+  },
+  {
+    "id": "492",
+    "name": "Cestino da picnic in fiamme",
+    "place": "Parco\nBosco",
+    "place_array": ["Parco", "Bosco"],
+    "average_credits": 800,
+    "generated_by": "Caserma dei vigili del fuoco",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+02:00"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 492,
+    "additive_overlays": ""
+  },
+  {
+    "id": "493",
+    "name": "Una persona sta rubando dei vitellini",
+    "place": "Azienda agricola",
+    "place_array": ["Azienda agricola"],
+    "average_credits": 900,
+    "generated_by": "Stazione di polizia",
+    "icons": [
+      "/images/cat_gruen.png",
+      "/images/cat_gelb.png",
+      "/images/cat_rot.png"
+    ],
+    "requirements": { "police_cars": 2 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 1,
+      "filter_id": "police_station_missions",
+      "subsequent_missions_ids": [494, 495],
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+02:00"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 493,
+    "additive_overlays": ""
+  },
+  {
+    "id": "494",
+    "name": "Ladro di bovini in fuga",
+    "place": "Bosco",
+    "place_array": ["Bosco"],
+    "average_credits": 900,
+    "generated_by": "Stazione di polizia",
+    "icons": [
+      "/images/climbing_gruen.png",
+      "/images/climbing_gelb.png",
+      "/images/climbing_rot.png"
+    ],
+    "requirements": { "police_helicopters": 1, "police_cars": 5, "k9": 2 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 1,
+      "filter_id": "police_station_missions",
+      "subsequent_mission_only": true,
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+02:00"
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "police_stations": 10,
+      "police_helicopter_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 494,
+    "additive_overlays": ""
+  },
+  {
+    "id": "495",
+    "name": "Ladro attaccato da un bovino",
+    "place": "Azienda agricola",
+    "place_array": ["Azienda agricola"],
+    "average_credits": 860,
+    "generated_by": "Stazione ambulanze",
+    "icons": [
+      "/images/ambulance_gruen.png",
+      "/images/ambulance_gelb.png",
+      "/images/ambulance_rot.png"
+    ],
+    "requirements": { "ambulances": 1 },
+    "chances": { "patient_transport": 35 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "patient_it_code_possible": ["ZC01R", "ZC01G"],
+      "filter_id": "ambulance_station_missions",
+      "possible_patient_specializations": [
+        "Medicina interna generale",
+        "Traumatologia",
+        "Medicina interna generale",
+        "Traumatologia"
+      ],
+      "patient_allow_first_responder_chance": 60,
+      "subsequent_mission_only": true,
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+02:00",
+      "patient_specializations": "Medicina interna generale"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 495,
+    "additive_overlays": ""
+  },
+  {
+    "id": "496",
+    "name": "Incidente con Ambulanza",
+    "place": "",
+    "place_array": [],
+    "average_credits": 6000,
+    "generated_by": "Caserma dei vigili del fuoco",
+    "icons": [
+      "/images/caraccident_gruen.png",
+      "/images/caraccident_gelb.png",
+      "/images/caraccident_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 2,
+      "heavy_rescue_vehicles": 1,
+      "police_cars": 2
+    },
+    "chances": { "patient_transport": 30 },
+    "additional": {
+      "possible_patient": 8,
+      "possible_patient_min": 4,
+      "patient_it_code_possible": ["SC01R", "SC01G", "SC01V"],
+      "filter_id": "firehouse_missions",
+      "possible_patient_specializations": [
+        "Medicina interna generale",
+        "Traumatologia",
+        "Medicina interna generale",
+        "Traumatologia",
+        "Medicina interna generale",
+        "Traumatologia"
+      ],
+      "patient_specializations": "Traumatologia"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 6,
+      "police_stations": 2,
+      "fire_stations": 4
+    },
+    "overlay_index": null,
+    "base_mission_id": 496,
+    "additive_overlays": ""
+  },
+  {
+    "id": "497",
+    "name": "Atterraggio Ultraleggero in Autostrada",
+    "place": "",
+    "place_array": [],
+    "average_credits": 6600,
+    "generated_by": "Caserma dei vigili del fuoco",
+    "icons": [
+      "/images/planecrash_gruen.png",
+      "/images/planecrash_gelb.png",
+      "/images/planecrash_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 2,
+      "fwk": 1,
+      "battalion_chief_vehicles": 1,
+      "heavy_rescue_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "police_cars": 4
+    },
+    "chances": { "patient_transport": 30 },
+    "additional": {
+      "possible_patient": 2,
+      "possible_patient_min": 1,
+      "patient_it_code_possible": ["SC01R", "SC01G", "SC01V"],
+      "filter_id": "firehouse_missions",
+      "possible_patient_specializations": [
+        "Medicina interna generale",
+        "Traumatologia",
+        "Medicina interna generale",
+        "Traumatologia",
+        "Medicina interna generale",
+        "Traumatologia"
+      ],
+      "patient_specializations": "Traumatologia"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 4,
+      "police_stations": 2,
+      "fire_stations": 11
+    },
+    "overlay_index": null,
+    "base_mission_id": 497,
+    "additive_overlays": ""
+  },
+  {
+    "id": "498",
+    "name": "Assalto al Portavalori",
+    "place": "",
+    "place_array": [],
+    "average_credits": 8000,
+    "generated_by": "Stazione di polizia",
+    "icons": [
+      "/images/shooting_gruen.png",
+      "/images/shooting_gelb.png",
+      "/images/shooting_rot.png"
+    ],
+    "requirements": {
+      "swat_suv": 2,
+      "police_helicopters": 1,
+      "police_cars": 8,
+      "commerce_police": 2
+    },
+    "chances": { "patient_transport": 30 },
+    "additional": {
+      "possible_patient": 4,
+      "possible_patient_min": 1,
+      "patient_it_code_possible": ["SC01R", "SC01G", "SC01V"],
+      "filter_id": "police_station_missions",
+      "possible_patient_specializations": [
+        "Medicina interna generale",
+        "Traumatologia",
+        "Medicina interna generale",
+        "Traumatologia",
+        "Medicina interna generale",
+        "Traumatologia"
+      ],
+      "patient_specializations": "Traumatologia"
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "rescue_stations": 6,
+      "police_stations": 10,
+      "police_helicopter_stations": 1,
+      "commerce_police_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 498,
+    "additive_overlays": ""
+  },
+  {
+    "id": "499",
+    "name": "Controllo Soggetto ai Domiciliari",
+    "place": "",
+    "place_array": [],
+    "average_credits": 800,
+    "generated_by": "Stazione di polizia",
+    "icons": [
+      "/images/zoom_gruen.png",
+      "/images/zoom_gelb.png",
+      "/images/zoom_rot.png"
+    ],
+    "requirements": { "police_cars": 1 },
+    "chances": {},
+    "additional": { "filter_id": "police_station_missions" },
+    "prerequisites": { "main_building": 6, "police_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 499,
+    "additive_overlays": ""
+  },
+  {
+    "id": "500",
+    "name": "Animale in Autostrada",
+    "place": "Uscita autostradale",
+    "place_array": ["Uscita autostradale"],
+    "average_credits": 1200,
+    "generated_by": "Stazione di polizia",
+    "icons": [
+      "/images/cat_gruen.png",
+      "/images/cat_gelb.png",
+      "/images/cat_rot.png"
+    ],
+    "requirements": { "police_cars": 2 },
+    "chances": {},
+    "additional": { "filter_id": "police_station_missions" },
+    "prerequisites": { "main_building": 6, "police_stations": 4 },
+    "overlay_index": null,
+    "base_mission_id": 500,
+    "additive_overlays": ""
+  },
+  {
+    "id": "501",
+    "name": "Coniglietto di Cioccolata Sciolto",
+    "place": "",
+    "place_array": [],
+    "average_credits": 100,
+    "generated_by": "Caserma dei vigili del fuoco",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-04-11T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 501,
+    "additive_overlays": ""
+  },
+  {
+    "id": "502",
+    "name": "Fulmine sulla Tana del Coniglio",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1600,
+    "generated_by": "Caserma dei vigili del fuoco",
+    "icons": [
+      "/images/blast_gruen.png",
+      "/images/blast_gelb.png",
+      "/images/blast_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 2,
+      "battalion_chief_vehicles": 1,
+      "platform_trucks": 1,
+      "heavy_rescue_vehicles": 1,
+      "police_cars": 2
+    },
+    "chances": { "platform_trucks": 70, "patient_transport": 60 },
+    "additional": {
+      "possible_patient": 1,
+      "patient_it_code_possible": ["SC01G", "SC01V"],
+      "filter_id": "firehouse_missions",
+      "possible_patient_specializations": [
+        "Medicina interna generale",
+        "Traumatologia",
+        "Medicina interna generale",
+        "Traumatologia"
+      ],
+      "date_start": "2022-04-11T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00",
+      "patient_specializations": "Medicina interna generale"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 3,
+      "fire_stations": 4
+    },
+    "overlay_index": null,
+    "base_mission_id": 502,
+    "additive_overlays": ""
+  },
+  {
+    "id": "503",
+    "name": "Coniglio di Cioccolata chiuso in auto",
+    "place": "",
+    "place_array": [],
+    "average_credits": 250,
+    "generated_by": "Caserma dei vigili del fuoco",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 1, "police_cars": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-04-11T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 1,
+      "fire_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 503,
+    "additive_overlays": ""
+  },
+  {
+    "id": "504",
+    "name": "Caccia all'Uovo sott'acqua",
+    "place": "Lago",
+    "place_array": ["Lago"],
+    "average_credits": 1670,
+    "generated_by": "Caserma soccorso acquatico VVF",
+    "icons": [
+      "/images/waterpark_gruen.png",
+      "/images/waterpark_gelb.png",
+      "/images/waterpark_rot.png"
+    ],
+    "requirements": { "firetrucks": 1, "police_cars": 1, "water_rescue": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "water_watch_missions",
+      "date_start": "2022-04-11T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00"
+    },
+    "prerequisites": {
+      "main_building": 15,
+      "wasserrettung": 2,
+      "police_stations": 1,
+      "fire_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 504,
+    "additive_overlays": ""
+  },
+  {
+    "id": "505",
+    "name": "Surriscaldamento Freni Tir",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1000,
+    "generated_by": "Caserma dei vigili del fuoco",
+    "icons": [
+      "/images/blast_gruen.png",
+      "/images/blast_gelb.png",
+      "/images/blast_rot.png"
+    ],
+    "requirements": {
+      "foam_needed": 100,
+      "water_needed": 2500,
+      "firetrucks": 1,
+      "heavy_rescue_vehicles": 1
+    },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [13],
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 505,
+    "additive_overlays": ""
+  },
+  {
+    "id": "506",
+    "name": "Sequestro Veicolo",
+    "place": "",
+    "place_array": [],
+    "average_credits": 800,
+    "generated_by": "Stazione di polizia",
+    "icons": [
+      "/images/zoom_gruen.png",
+      "/images/zoom_gelb.png",
+      "/images/zoom_rot.png"
+    ],
+    "requirements": { "police_cars": 1 },
+    "chances": {},
+    "additional": { "filter_id": "police_station_missions" },
+    "prerequisites": { "main_building": 6, "police_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 506,
+    "additive_overlays": ""
+  },
+  {
+    "id": "507",
+    "name": "Persona Trafitta Dopo Caduta",
+    "place": "",
+    "place_array": [],
+    "average_credits": 2600,
+    "generated_by": "Stazione ambulanze",
+    "icons": [
+      "/images/ambulance_gruen.png",
+      "/images/ambulance_gelb.png",
+      "/images/ambulance_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 1,
+      "heavy_rescue_vehicles": 1,
+      "police_cars": 1
+    },
+    "chances": { "patient_transport": 60 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "patient_it_code_possible": ["SC01R"],
+      "filter_id": "ambulance_station_missions",
+      "possible_patient_specializations": [
+        "Medicina interna generale",
+        "Traumatologia"
+      ],
+      "patient_specializations": "Medicina interna generale"
+    },
+    "prerequisites": {
+      "main_building": 2,
+      "rescue_stations": 1,
+      "police_stations": 1,
+      "fire_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 507,
     "additive_overlays": ""
   }
 ]
