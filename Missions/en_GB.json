@@ -4975,8 +4975,8 @@
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+01:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -4985,7 +4985,7 @@
   },
   {
     "id": "158",
-    "name": "Chocolate Egg heist ",
+    "name": "Chocolate Egg heist",
     "place": "School",
     "place_array": ["School"],
     "average_credits": 150,
@@ -5000,8 +5000,8 @@
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+01:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -5029,8 +5029,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+01:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 0, "police_stations": 2 },
     "overlay_index": null,
@@ -5056,8 +5056,8 @@
       "possible_patient_min": 1,
       "patient_uk_code_possible": ["C-2", "C-3"],
       "filter_id": "police_station_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+01:00",
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+01:00",
       "patient_specializations": "Traumatology"
     },
     "prerequisites": {
@@ -5085,8 +5085,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+01:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -5116,8 +5116,8 @@
     "additional": {
       "allow_rw_instead_of_lf": true,
       "filter_id": "firehouse_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+01:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+01:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -5144,8 +5144,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+01:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+01:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -5175,8 +5175,8 @@
       "duration": 7200,
       "guard_mission": true,
       "filter_id": "police_station_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+01:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+01:00"
     },
     "prerequisites": {
       "main_building": 6,
@@ -5211,8 +5211,8 @@
       "possible_patient_min": 1,
       "patient_uk_code_possible": ["C-3", "C-4"],
       "filter_id": "firehouse_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+01:00",
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+01:00",
       "patient_specializations": "Traumatology"
     },
     "prerequisites": {
@@ -5240,8 +5240,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+01:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 6, "police_stations": 3 },
     "overlay_index": null,
@@ -5269,8 +5269,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+01:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+01:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -6330,7 +6330,6 @@
       "main_building": 0,
       "rescue_stations": 15,
       "police_stations": 6,
-      "rescue_helicopter_stations": 1,
       "fire_stations": 20
     },
     "overlay_index": null,
@@ -6377,7 +6376,6 @@
       "main_building": 0,
       "rescue_stations": 15,
       "police_stations": 6,
-      "rescue_helicopter_stations": 1,
       "mass_casualty_count": 1,
       "hazard_response_ems": 1,
       "fire_stations": 20
@@ -6424,7 +6422,6 @@
       "main_building": 0,
       "rescue_stations": 15,
       "police_stations": 6,
-      "rescue_helicopter_stations": 1,
       "hazard_response_ems": 1,
       "fire_stations": 20
     },
@@ -6469,7 +6466,6 @@
       "main_building": 0,
       "rescue_stations": 15,
       "police_stations": 6,
-      "rescue_helicopter_stations": 1,
       "mass_casualty_count": 1,
       "fire_stations": 20
     },
@@ -6681,6 +6677,47 @@
     "overlay_index": null,
     "base_mission_id": 198,
     "additive_overlays": ""
+  },
+  {
+    "id": "198/a",
+    "name": "Large public disturbance",
+    "place": "",
+    "place_array": [],
+    "average_credits": 8200,
+    "generated_by": "Police Station",
+    "icons": [
+      "/images/baseball_gruen.png",
+      "/images/baseball_gelb.png",
+      "/images/baseball_rot.png"
+    ],
+    "requirements": {
+      "police_cars": 12,
+      "k9": 2,
+      "personnel_educations": {
+        "level_2_public_order": 18,
+        "police_sergeant": 1
+      }
+    },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 8,
+      "filter_id": "police_station_missions",
+      "personnel_educations": {
+        "Level 2 Public Order Officer": 18,
+        "Police Sergeant": 1
+      }
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "police_stations": 12,
+      "personnel_educations": {
+        "level_2_public_order": 40,
+        "police_sergeant": 5
+      }
+    },
+    "overlay_index": null,
+    "base_mission_id": 198,
+    "additive_overlays": "a"
   },
   {
     "id": "199",
@@ -7800,7 +7837,6 @@
     "prerequisites": {
       "main_building": 0,
       "rescue_stations": 5,
-      "rescue_helicopter_stations": 1,
       "fire_stations": 6
     },
     "overlay_index": null,
@@ -11024,8 +11060,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-03-17T10:00:00+00:00",
-      "date_end": "2021-03-18T10:00:00+00:00"
+      "date_start": "2022-03-17T10:00:00+00:00",
+      "date_end": "2022-03-18T10:00:00+00:00"
     },
     "prerequisites": { "main_building": 6, "police_stations": 2 },
     "overlay_index": null,
@@ -11050,8 +11086,8 @@
       "possible_patient": 1,
       "patient_uk_code_possible": ["C-2"],
       "filter_id": "police_station_missions",
-      "date_start": "2021-03-17T10:00:00+00:00",
-      "date_end": "2021-03-18T10:00:00+00:00",
+      "date_start": "2022-03-17T10:00:00+00:00",
+      "date_end": "2022-03-18T10:00:00+00:00",
       "patient_specializations": "General Internal"
     },
     "prerequisites": { "main_building": 6, "police_stations": 2 },
@@ -11075,8 +11111,8 @@
     "chances": { "platform_trucks": 10 },
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-03-17T10:00:00+00:00",
-      "date_end": "2021-03-18T10:00:00+00:00"
+      "date_start": "2022-03-17T10:00:00+00:00",
+      "date_end": "2022-03-18T10:00:00+00:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 3 },
     "overlay_index": null,
@@ -11103,8 +11139,8 @@
       "average_min_police_personnel": 12,
       "guard_mission": true,
       "filter_id": "police_station_missions",
-      "date_start": "2021-03-17T10:00:00+00:00",
-      "date_end": "2021-03-18T10:00:00+00:00"
+      "date_start": "2022-03-17T10:00:00+00:00",
+      "date_end": "2022-03-18T10:00:00+00:00"
     },
     "prerequisites": { "main_building": 6, "police_stations": 6 },
     "overlay_index": null,
@@ -11137,8 +11173,8 @@
       "duration": 3600,
       "guard_mission": true,
       "filter_id": "police_station_missions",
-      "date_start": "2021-03-17T10:00:00+00:00",
-      "date_end": "2021-03-18T10:00:00+00:00"
+      "date_start": "2022-03-17T10:00:00+00:00",
+      "date_end": "2022-03-18T10:00:00+00:00"
     },
     "prerequisites": {
       "main_building": 6,
@@ -11169,8 +11205,8 @@
       "possible_patient_min": 3,
       "patient_uk_code_possible": ["C-3"],
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-03-17T10:00:00+00:00",
-      "date_end": "2021-03-18T10:00:00+00:00",
+      "date_start": "2022-03-17T10:00:00+00:00",
+      "date_end": "2022-03-18T10:00:00+00:00",
       "patient_specializations": "General Internal"
     },
     "prerequisites": { "main_building": 2, "rescue_stations": 1 },
@@ -15721,7 +15757,7 @@
       "possible_patient_min": 1,
       "max_possible_prisoners": 1,
       "swat_personnel": 6,
-      "patient_uk_code_possible": ["C1", "C2"],
+      "patient_uk_code_possible": ["C-1", "C-2"],
       "filter_id": "police_station_missions",
       "patient_specializations": "Traumatology"
     },
@@ -15925,7 +15961,7 @@
     "chances": { "patient_transport": 30, "kdow_orgl": 10 },
     "additional": {
       "possible_patient": 14,
-      "patient_uk_code_possible": ["C-2,", "C-3"],
+      "patient_uk_code_possible": ["C-2", "C-3"],
       "filter_id": "firehouse_missions",
       "patient_specializations": "General Internal"
     },
@@ -15961,7 +15997,7 @@
     "chances": { "patient_transport": 30, "kdow_orgl": 10 },
     "additional": {
       "possible_patient": 14,
-      "patient_uk_code_possible": ["C-2,", "C-3"],
+      "patient_uk_code_possible": ["C-2", "C-3"],
       "filter_id": "firehouse_missions",
       "patient_specializations": "General Internal"
     },
@@ -17054,7 +17090,11 @@
       "patient_at_end_of_mission": true,
       "patient_specializations": "General Internal"
     },
-    "prerequisites": { "main_building": 6 },
+    "prerequisites": {
+      "main_building": 6,
+      "rescue_stations": 1,
+      "police_stations": 3
+    },
     "overlay_index": null,
     "base_mission_id": 412,
     "additive_overlays": ""
@@ -17211,6 +17251,1503 @@
     },
     "overlay_index": null,
     "base_mission_id": 417,
+    "additive_overlays": ""
+  },
+  {
+    "id": "418",
+    "name": "Drunk and disorderly person",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "Police Station",
+    "icons": [
+      "/images/baseball_gruen.png",
+      "/images/baseball_gelb.png",
+      "/images/baseball_rot.png"
+    ],
+    "requirements": { "police_cars": 1 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 1,
+      "filter_id": "police_station_missions",
+      "allow_swat_instead_of_police": true
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 418,
+    "additive_overlays": ""
+  },
+  {
+    "id": "419",
+    "name": "Scrapyard Fire",
+    "place": "Scrap yard",
+    "place_array": ["Scrap yard"],
+    "average_credits": 15000,
+    "generated_by": "Fire Station",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 14,
+      "battalion_chief_vehicles": 6,
+      "mobile_command_vehicles": 1,
+      "platform_trucks": 1,
+      "water_tankers": 2,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "police_cars": 4
+    },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [420],
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 3,
+      "fire_stations": 16
+    },
+    "overlay_index": null,
+    "base_mission_id": 419,
+    "additive_overlays": ""
+  },
+  {
+    "id": "420",
+    "name": "Scrapyard Fire Large",
+    "place": "Scrap yard",
+    "place_array": ["Scrap yard"],
+    "average_credits": 20000,
+    "generated_by": "Fire Station",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 20,
+      "battalion_chief_vehicles": 6,
+      "mobile_command_vehicles": 1,
+      "platform_trucks": 2,
+      "water_tankers": 2,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "police_cars": 4,
+      "hazard_response_secondary": 1
+    },
+    "chances": {},
+    "additional": { "filter_id": "firehouse_missions" },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 3,
+      "fire_stations": 20
+    },
+    "overlay_index": null,
+    "base_mission_id": 420,
+    "additive_overlays": ""
+  },
+  {
+    "id": "420/a",
+    "name": "Scrapyard Fire Large",
+    "place": "Scrap yard",
+    "place_array": ["Scrap yard"],
+    "average_credits": 21000,
+    "generated_by": "Fire Station",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 20,
+      "battalion_chief_vehicles": 6,
+      "mobile_command_vehicles": 1,
+      "platform_trucks": 2,
+      "water_tankers": 2,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "police_cars": 4,
+      "hazard_response_primary": 1,
+      "hazard_response_secondary": 1,
+      "emergency_welfare": 1
+    },
+    "chances": {},
+    "additional": { "filter_id": "firehouse_missions" },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 3,
+      "hazard_response_ems": 1,
+      "fire_stations": 20
+    },
+    "overlay_index": null,
+    "base_mission_id": 420,
+    "additive_overlays": "a"
+  },
+  {
+    "id": "420/b",
+    "name": "Scrapyard Fire Large",
+    "place": "Scrap yard",
+    "place_array": ["Scrap yard"],
+    "average_credits": 20400,
+    "generated_by": "Fire Station",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 20,
+      "battalion_chief_vehicles": 6,
+      "mobile_command_vehicles": 1,
+      "platform_trucks": 2,
+      "water_tankers": 2,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "police_cars": 4,
+      "hazard_response_secondary": 1,
+      "foam": 1
+    },
+    "chances": {},
+    "additional": { "filter_id": "firehouse_missions" },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 3,
+      "fire_support_count": 1,
+      "fire_stations": 20
+    },
+    "overlay_index": null,
+    "base_mission_id": 420,
+    "additive_overlays": "b"
+  },
+  {
+    "id": "420/ab",
+    "name": "Scrapyard Fire Large",
+    "place": "Scrap yard",
+    "place_array": ["Scrap yard"],
+    "average_credits": 21400,
+    "generated_by": "Fire Station",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 20,
+      "battalion_chief_vehicles": 6,
+      "mobile_command_vehicles": 1,
+      "platform_trucks": 2,
+      "water_tankers": 2,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "police_cars": 4,
+      "hazard_response_primary": 1,
+      "hazard_response_secondary": 1,
+      "emergency_welfare": 1,
+      "foam": 1
+    },
+    "chances": {},
+    "additional": { "filter_id": "firehouse_missions" },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 3,
+      "fire_support_count": 1,
+      "hazard_response_ems": 1,
+      "fire_stations": 20
+    },
+    "overlay_index": null,
+    "base_mission_id": 420,
+    "additive_overlays": "ab"
+  },
+  {
+    "id": "421",
+    "name": "Late fire call",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "Fire Station",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": { "filter_id": "firehouse_missions" },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 421,
+    "additive_overlays": ""
+  },
+  {
+    "id": "422",
+    "name": "Assisting the ambulance service",
+    "place": "",
+    "place_array": [],
+    "average_credits": 700,
+    "generated_by": "Fire Station",
+    "icons": [
+      "/images/ambulance_gruen.png",
+      "/images/ambulance_gelb.png",
+      "/images/ambulance_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": { "patient_transport": 80, "patient_critical_care": 20 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "expansion_missions_ids": [423],
+      "allow_rw_instead_of_lf": true,
+      "patient_uk_code_possible": ["C-1", "C-2", "C-3"],
+      "filter_id": "firehouse_missions",
+      "patient_at_end_of_mission": true,
+      "patient_specializations": "General Internal"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 1,
+      "fire_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 422,
+    "additive_overlays": ""
+  },
+  {
+    "id": "423",
+    "name": "Assisting the ambulance service [Bariatric]",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1000,
+    "generated_by": "Fire Station",
+    "icons": [
+      "/images/ambulance_gruen.png",
+      "/images/ambulance_gelb.png",
+      "/images/ambulance_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 2,
+      "battalion_chief_vehicles": 1,
+      "platform_trucks": 1
+    },
+    "chances": {
+      "platform_trucks": 30,
+      "patient_transport": 80,
+      "patient_critical_care": 20
+    },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "allow_rw_instead_of_lf": true,
+      "patient_uk_code_possible": ["C-1", "C-2", "C-3"],
+      "filter_id": "firehouse_missions",
+      "patient_at_end_of_mission": true,
+      "patient_specializations": "General Internal"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 1,
+      "fire_stations": 4
+    },
+    "overlay_index": null,
+    "base_mission_id": 423,
+    "additive_overlays": ""
+  },
+  {
+    "id": "423/a",
+    "name": "Assisting the ambulance service [Bariatric]",
+    "place": "",
+    "place_array": [],
+    "average_credits": 2000,
+    "generated_by": "Fire Station",
+    "icons": [
+      "/images/ambulance_gruen.png",
+      "/images/ambulance_gelb.png",
+      "/images/ambulance_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 2,
+      "battalion_chief_vehicles": 1,
+      "platform_trucks": 1,
+      "hazard_response_primary": 1,
+      "emergency_welfare": 1
+    },
+    "chances": {
+      "platform_trucks": 30,
+      "patient_transport": 80,
+      "patient_critical_care": 20
+    },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "allow_rw_instead_of_lf": true,
+      "patient_uk_code_possible": ["C-1", "C-2", "C-3"],
+      "filter_id": "firehouse_missions",
+      "patient_at_end_of_mission": true,
+      "patient_specializations": "General Internal"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 1,
+      "hazard_response_ems": 1,
+      "fire_stations": 4
+    },
+    "overlay_index": null,
+    "base_mission_id": 423,
+    "additive_overlays": "a"
+  },
+  {
+    "id": "424",
+    "name": "Car jacking",
+    "place": "",
+    "place_array": [],
+    "average_credits": 5000,
+    "generated_by": "Police Station",
+    "icons": [
+      "/images/theft_gruen.png",
+      "/images/theft_gelb.png",
+      "/images/theft_rot.png"
+    ],
+    "requirements": { "police_cars": 3, "k9": 1, "traffic_car": 4 },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [425],
+      "max_possible_prisoners": 4,
+      "filter_id": "police_station_missions"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 10 },
+    "overlay_index": null,
+    "base_mission_id": 424,
+    "additive_overlays": ""
+  },
+  {
+    "id": "425",
+    "name": "Car jacking [Firearm pulled]",
+    "place": "",
+    "place_array": [],
+    "average_credits": 7000,
+    "generated_by": "Police Station",
+    "icons": [
+      "/images/theft_gruen.png",
+      "/images/theft_gelb.png",
+      "/images/theft_rot.png"
+    ],
+    "requirements": { "police_cars": 3, "k9": 1, "traffic_car": 4 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 4,
+      "swat_personnel": 6,
+      "filter_id": "police_station_missions",
+      "allow_swat_instead_of_police": true
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 10 },
+    "overlay_index": null,
+    "base_mission_id": 425,
+    "additive_overlays": ""
+  },
+  {
+    "id": "426",
+    "name": "Allergic reaction to bee sting",
+    "place": "",
+    "place_array": [],
+    "average_credits": 550,
+    "generated_by": "Ambulance Station",
+    "icons": [
+      "/images/spring_gruen.png",
+      "/images/spring_gelb.png",
+      "/images/spring_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 50, "patient_critical_care": 10 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "patient_uk_code_possible": ["C-2"],
+      "filter_id": "ambulance_station_missions",
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+01:00",
+      "patient_specializations": "Cardiology"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 426,
+    "additive_overlays": ""
+  },
+  {
+    "id": "427",
+    "name": "Allergic reaction to pollen",
+    "place": "",
+    "place_array": [],
+    "average_credits": 650,
+    "generated_by": "Ambulance Station",
+    "icons": [
+      "/images/spring_gruen.png",
+      "/images/spring_gelb.png",
+      "/images/spring_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 10, "patient_critical_care": 5 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "patient_uk_code_possible": ["C-2"],
+      "filter_id": "ambulance_station_missions",
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+01:00",
+      "patient_specializations": "Cardiology"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 427,
+    "additive_overlays": ""
+  },
+  {
+    "id": "428",
+    "name": "Fall from ladder during spring cleaning",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "Ambulance Station",
+    "icons": [
+      "/images/spring_gruen.png",
+      "/images/spring_gelb.png",
+      "/images/spring_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 50 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "patient_uk_code_possible": ["C-3"],
+      "filter_id": "ambulance_station_missions",
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+01:00",
+      "patient_specializations": "Traumatology"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 428,
+    "additive_overlays": ""
+  },
+  {
+    "id": "429",
+    "name": "Wild animal attack during spring picnic",
+    "place": "",
+    "place_array": [],
+    "average_credits": 600,
+    "generated_by": "Police Station",
+    "icons": [
+      "/images/spring_gruen.png",
+      "/images/spring_gelb.png",
+      "/images/spring_rot.png"
+    ],
+    "requirements": { "police_cars": 1 },
+    "chances": { "patient_transport": 60, "patient_critical_care": 10 },
+    "additional": {
+      "possible_patient": 3,
+      "possible_patient_min": 1,
+      "patient_uk_code_possible": ["C-2", "C-3"],
+      "filter_id": "police_station_missions",
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+01:00",
+      "patient_specializations": "Traumatology"
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "rescue_stations": 3,
+      "police_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 429,
+    "additive_overlays": ""
+  },
+  {
+    "id": "430",
+    "name": "Food poisoning from wild berries",
+    "place": "Park\nForest",
+    "place_array": ["Park", "Forest"],
+    "average_credits": 800,
+    "generated_by": "Ambulance Station",
+    "icons": [
+      "/images/spring_gruen.png",
+      "/images/spring_gelb.png",
+      "/images/spring_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 30, "patient_critical_care": 15 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "patient_uk_code_possible": ["C-3"],
+      "filter_id": "ambulance_station_missions",
+      "patient_allow_first_responder_chance": 50,
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+01:00",
+      "patient_specializations": "General Surgeon"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 430,
+    "additive_overlays": ""
+  },
+  {
+    "id": "431",
+    "name": "Picnic basket on fire",
+    "place": "Park\nForest",
+    "place_array": ["Park", "Forest"],
+    "average_credits": 800,
+    "generated_by": "Fire Station",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+01:00"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 431,
+    "additive_overlays": ""
+  },
+  {
+    "id": "432",
+    "name": "Person is stealing baby cows",
+    "place": "Farm",
+    "place_array": ["Farm"],
+    "average_credits": 900,
+    "generated_by": "Police Station",
+    "icons": [
+      "/images/cat_gruen.png",
+      "/images/cat_gelb.png",
+      "/images/cat_rot.png"
+    ],
+    "requirements": { "police_cars": 2 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 1,
+      "filter_id": "police_station_missions",
+      "subsequent_missions_ids": [433, 434],
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+01:00"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 432,
+    "additive_overlays": ""
+  },
+  {
+    "id": "433",
+    "name": "Cow Thief on the run",
+    "place": "Forest",
+    "place_array": ["Forest"],
+    "average_credits": 900,
+    "generated_by": "Police Station",
+    "icons": [
+      "/images/climbing_gruen.png",
+      "/images/climbing_gelb.png",
+      "/images/climbing_rot.png"
+    ],
+    "requirements": { "police_helicopters": 1, "police_cars": 5, "k9": 2 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 1,
+      "filter_id": "police_station_missions",
+      "subsequent_mission_only": true,
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+01:00"
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "police_stations": 10,
+      "police_helicopter_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 433,
+    "additive_overlays": ""
+  },
+  {
+    "id": "434",
+    "name": "Thief attacked by a cow",
+    "place": "Farm",
+    "place_array": ["Farm"],
+    "average_credits": 860,
+    "generated_by": "Ambulance Station",
+    "icons": [
+      "/images/ambulance_gruen.png",
+      "/images/ambulance_gelb.png",
+      "/images/ambulance_rot.png"
+    ],
+    "requirements": { "ambulances": 1 },
+    "chances": { "patient_transport": 35 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "patient_uk_code_possible": ["C-3"],
+      "filter_id": "ambulance_station_missions",
+      "patient_allow_first_responder_chance": 60,
+      "subsequent_mission_only": true,
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+01:00",
+      "patient_specializations": "General Internal"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 434,
+    "additive_overlays": ""
+  },
+  {
+    "id": "435",
+    "name": "Person Locked Out of House",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "Fire Station",
+    "icons": [
+      "/images/ambulance_gruen.png",
+      "/images/ambulance_gelb.png",
+      "/images/ambulance_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": { "filter_id": "firehouse_missions" },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 435,
+    "additive_overlays": ""
+  },
+  {
+    "id": "436",
+    "name": "Melted Chocolate Bunny",
+    "place": "",
+    "place_array": [],
+    "average_credits": 100,
+    "generated_by": "Fire Station",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-04-11T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+01:00"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 436,
+    "additive_overlays": ""
+  },
+  {
+    "id": "437",
+    "name": "Lightning strike in rabbit hole",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1600,
+    "generated_by": "Fire Station",
+    "icons": [
+      "/images/blast_gruen.png",
+      "/images/blast_gelb.png",
+      "/images/blast_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 2,
+      "battalion_chief_vehicles": 1,
+      "platform_trucks": 1,
+      "heavy_rescue_vehicles": 1,
+      "police_cars": 2
+    },
+    "chances": { "platform_trucks": 70, "patient_transport": 60 },
+    "additional": {
+      "possible_patient": 1,
+      "patient_uk_code_possible": ["C-2"],
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-04-11T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+01:00",
+      "patient_specializations": "General Internal"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 3,
+      "fire_stations": 4
+    },
+    "overlay_index": null,
+    "base_mission_id": 437,
+    "additive_overlays": ""
+  },
+  {
+    "id": "438",
+    "name": "Chocolate bunny locked in car",
+    "place": "",
+    "place_array": [],
+    "average_credits": 250,
+    "generated_by": "Fire Station",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 1, "police_cars": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-04-11T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+01:00"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 1,
+      "fire_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 438,
+    "additive_overlays": ""
+  },
+  {
+    "id": "439",
+    "name": "Egg hunt under water",
+    "place": "Lake",
+    "place_array": ["Lake"],
+    "average_credits": 250,
+    "generated_by": "Fire Station",
+    "icons": [
+      "/images/waterpark_gruen.png",
+      "/images/waterpark_gelb.png",
+      "/images/waterpark_rot.png"
+    ],
+    "requirements": { "firetrucks": 1, "police_cars": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-04-11T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+01:00"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 1,
+      "fire_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 439,
+    "additive_overlays": ""
+  },
+  {
+    "id": "440",
+    "name": "Sinkhole opened up in road",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1000,
+    "generated_by": "Fire Station",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 1, "police_cars": 2 },
+    "chances": {},
+    "additional": { "filter_id": "firehouse_missions" },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 2,
+      "fire_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 440,
+    "additive_overlays": ""
+  },
+  {
+    "id": "441",
+    "name": "LPG Fuelled vehicle fire",
+    "place": "",
+    "place_array": [],
+    "average_credits": 2000,
+    "generated_by": "Fire Station",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 3, "police_cars": 1 },
+    "chances": {},
+    "additional": { "filter_id": "firehouse_missions" },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 2,
+      "fire_stations": 3
+    },
+    "overlay_index": null,
+    "base_mission_id": 441,
+    "additive_overlays": ""
+  },
+  {
+    "id": "442",
+    "name": "LPG Fuelled vehicle fire (Persons Reported)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 3500,
+    "generated_by": "Fire Station",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 3,
+      "battalion_chief_vehicles": 1,
+      "police_cars": 1,
+      "traffic_car": 1
+    },
+    "chances": { "patient_transport": 0, "patient_critical_care": 30 },
+    "additional": {
+      "possible_patient": 1,
+      "patient_uk_code_possible": ["C-1", "C-2"],
+      "filter_id": "firehouse_missions",
+      "need_traffic_car_only_if_present": true,
+      "patient_specializations": "General Internal"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 2,
+      "fire_stations": 3
+    },
+    "overlay_index": null,
+    "base_mission_id": 442,
+    "additive_overlays": ""
+  },
+  {
+    "id": "443",
+    "name": "LPG Fuelled vehicle fire (fast road) (Persons Reported)",
+    "place": "Major Road Standby Point",
+    "place_array": ["Major Road Standby Point"],
+    "average_credits": 3700,
+    "generated_by": "Fire Station",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 4,
+      "battalion_chief_vehicles": 1,
+      "police_cars": 1,
+      "traffic_car": 2
+    },
+    "chances": { "patient_transport": 0, "patient_critical_care": 30 },
+    "additional": {
+      "possible_patient": 1,
+      "patient_uk_code_possible": ["C-1", "C-2"],
+      "filter_id": "firehouse_missions",
+      "need_traffic_car_only_if_present": true,
+      "patient_specializations": "General Internal"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 2,
+      "fire_stations": 3
+    },
+    "overlay_index": null,
+    "base_mission_id": 443,
+    "additive_overlays": ""
+  },
+  {
+    "id": "444",
+    "name": "LPG Fuelled vehicle fire (fast road)",
+    "place": "Major Road Standby Point",
+    "place_array": ["Major Road Standby Point"],
+    "average_credits": 3500,
+    "generated_by": "Fire Station",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 4, "police_cars": 1, "traffic_car": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "need_traffic_car_only_if_present": true
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 2,
+      "fire_stations": 3
+    },
+    "overlay_index": null,
+    "base_mission_id": 444,
+    "additive_overlays": ""
+  },
+  {
+    "id": "445",
+    "name": "Bar Fight",
+    "place": "Bar",
+    "place_array": ["Bar"],
+    "average_credits": 3400,
+    "generated_by": "Police Station",
+    "icons": [
+      "/images/bar_coktail_gruen.png",
+      "/images/bar_coktail_gelb.png",
+      "/images/bar_coktail_rot.png"
+    ],
+    "requirements": {
+      "police_cars": 6,
+      "personnel_educations": { "police_sergeant": 1 }
+    },
+    "chances": { "patient_transport": 30, "patient_critical_care": 30 },
+    "additional": {
+      "possible_patient": 8,
+      "max_possible_prisoners": 6,
+      "patient_uk_code_possible": ["C-1", "C-2", "C-3"],
+      "filter_id": "police_station_missions",
+      "patient_specializations": "General Surgeon",
+      "personnel_educations": { "Police Sergeant": 1 }
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "police_stations": 8,
+      "personnel_educations": { "police_sergeant": 5 }
+    },
+    "overlay_index": null,
+    "base_mission_id": 445,
+    "additive_overlays": ""
+  },
+  {
+    "id": "445/a",
+    "name": "Bar Fight",
+    "place": "Bar",
+    "place_array": ["Bar"],
+    "average_credits": 4600,
+    "generated_by": "Police Station",
+    "icons": [
+      "/images/bar_coktail_gruen.png",
+      "/images/bar_coktail_gelb.png",
+      "/images/bar_coktail_rot.png"
+    ],
+    "requirements": {
+      "police_cars": 6,
+      "personnel_educations": {
+        "police_sergeant": 1,
+        "level_2_public_order": 9,
+        "police_medic": 1
+      }
+    },
+    "chances": { "patient_transport": 30, "patient_critical_care": 30 },
+    "additional": {
+      "possible_patient": 8,
+      "max_possible_prisoners": 6,
+      "patient_uk_code_possible": ["C-1", "C-2", "C-3"],
+      "filter_id": "police_station_missions",
+      "patient_specializations": "General Surgeon",
+      "personnel_educations": {
+        "Police Sergeant": 1,
+        "Level 2 Public Order Officer": 9,
+        "Police Medic": 1
+      }
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "police_stations": 8,
+      "personnel_educations": {
+        "police_sergeant": 5,
+        "level_1_public_order": 20,
+        "police_medic": 5
+      }
+    },
+    "overlay_index": null,
+    "base_mission_id": 445,
+    "additive_overlays": "a"
+  },
+  {
+    "id": "446",
+    "name": "Unlicensed Music Event",
+    "place": "",
+    "place_array": [],
+    "average_credits": 6700,
+    "generated_by": "Police Station",
+    "icons": [
+      "/images/dancinghall_gruen.png",
+      "/images/dancinghall_gelb.png",
+      "/images/dancinghall_rot.png"
+    ],
+    "requirements": {
+      "police_cars": 9,
+      "personnel_educations": { "level_2_public_order": 22 }
+    },
+    "chances": { "patient_transport": 30 },
+    "additional": {
+      "possible_patient": 12,
+      "max_possible_prisoners": 8,
+      "patient_uk_code_possible": ["C-1", "C-2", "C-3"],
+      "filter_id": "police_station_missions",
+      "patient_specializations": "General Surgeon",
+      "personnel_educations": { "Level 2 Public Order Officer": 22 }
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "police_stations": 10,
+      "personnel_educations": { "level_2_public_order": 50 }
+    },
+    "overlay_index": null,
+    "base_mission_id": 446,
+    "additive_overlays": ""
+  },
+  {
+    "id": "446/a",
+    "name": "Unlicensed Music Event",
+    "place": "",
+    "place_array": [],
+    "average_credits": 7600,
+    "generated_by": "Police Station",
+    "icons": [
+      "/images/dancinghall_gruen.png",
+      "/images/dancinghall_gelb.png",
+      "/images/dancinghall_rot.png"
+    ],
+    "requirements": {
+      "police_cars": 9,
+      "personnel_educations": {
+        "level_2_public_order": 22,
+        "level_1_public_order": 9
+      }
+    },
+    "chances": { "patient_transport": 30 },
+    "additional": {
+      "possible_patient": 12,
+      "max_possible_prisoners": 8,
+      "patient_uk_code_possible": ["C-1", "C-2", "C-3"],
+      "filter_id": "police_station_missions",
+      "patient_specializations": "General Surgeon",
+      "personnel_educations": {
+        "Level 2 Public Order Officer": 22,
+        "Level 1 Public Order Officer": 9
+      }
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "police_stations": 10,
+      "personnel_educations": {
+        "level_2_public_order": 50,
+        "level_1_public_order": 20
+      }
+    },
+    "overlay_index": null,
+    "base_mission_id": 446,
+    "additive_overlays": "a"
+  },
+  {
+    "id": "447",
+    "name": "Protest (Small)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 4800,
+    "generated_by": "Police Station",
+    "icons": [
+      "/images/dancinghall_gruen.png",
+      "/images/dancinghall_gelb.png",
+      "/images/dancinghall_rot.png"
+    ],
+    "requirements": {
+      "police_cars": 6,
+      "personnel_educations": { "level_2_public_order": 18 }
+    },
+    "chances": { "patient_transport": 30 },
+    "additional": {
+      "possible_patient": 2,
+      "max_possible_prisoners": 3,
+      "patient_uk_code_possible": ["C-1", "C-2", "C-3"],
+      "filter_id": "police_station_missions",
+      "patient_specializations": "General Surgeon",
+      "personnel_educations": { "Level 2 Public Order Officer": 18 }
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "police_stations": 8,
+      "personnel_educations": { "level_2_public_order": 40 }
+    },
+    "overlay_index": null,
+    "base_mission_id": 447,
+    "additive_overlays": ""
+  },
+  {
+    "id": "448",
+    "name": "Protest (Medium)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 9960,
+    "generated_by": "Police Station",
+    "icons": [
+      "/images/dancinghall_gruen.png",
+      "/images/dancinghall_gelb.png",
+      "/images/dancinghall_rot.png"
+    ],
+    "requirements": {
+      "police_cars": 6,
+      "personnel_educations": {
+        "level_2_public_order": 22,
+        "police_medic": 4,
+        "police_sergeant": 5,
+        "police_inspector": 2
+      },
+      "police_horse": 1
+    },
+    "chances": { "patient_transport": 30 },
+    "additional": {
+      "possible_patient": 4,
+      "max_possible_prisoners": 5,
+      "patient_uk_code_possible": ["C-1", "C-2", "C-3"],
+      "filter_id": "police_station_missions",
+      "patient_specializations": "General Surgeon",
+      "personnel_educations": {
+        "Level 2 Public Order Officer": 22,
+        "Police Medic": 4,
+        "Police Sergeant": 5,
+        "Police Inspector": 2
+      }
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "police_stations": 10,
+      "riot_police": 1,
+      "personnel_educations": {
+        "level_2_public_order": 50,
+        "police_medic": 10,
+        "police_sergeant": 10,
+        "police_inspector": 5
+      }
+    },
+    "overlay_index": null,
+    "base_mission_id": 448,
+    "additive_overlays": ""
+  },
+  {
+    "id": "448/a",
+    "name": "Protest (Medium)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 11760,
+    "generated_by": "Police Station",
+    "icons": [
+      "/images/dancinghall_gruen.png",
+      "/images/dancinghall_gelb.png",
+      "/images/dancinghall_rot.png"
+    ],
+    "requirements": {
+      "police_cars": 6,
+      "personnel_educations": {
+        "level_2_public_order": 22,
+        "police_medic": 4,
+        "police_sergeant": 5,
+        "police_inspector": 2,
+        "level_1_public_order": 18
+      },
+      "police_horse": 1
+    },
+    "chances": { "patient_transport": 30 },
+    "additional": {
+      "possible_patient": 4,
+      "max_possible_prisoners": 5,
+      "patient_uk_code_possible": ["C-1", "C-2", "C-3"],
+      "filter_id": "police_station_missions",
+      "patient_specializations": "General Surgeon",
+      "personnel_educations": {
+        "Level 2 Public Order Officer": 22,
+        "Police Medic": 4,
+        "Police Sergeant": 5,
+        "Police Inspector": 2,
+        "Level 1 Public Order Officer": 18
+      }
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "police_stations": 10,
+      "riot_police": 1,
+      "personnel_educations": {
+        "level_2_public_order": 50,
+        "police_medic": 10,
+        "police_sergeant": 10,
+        "police_inspector": 5,
+        "level_1_public_order": 40
+      }
+    },
+    "overlay_index": null,
+    "base_mission_id": 448,
+    "additive_overlays": "a"
+  },
+  {
+    "id": "449",
+    "name": "Protest (Large)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 13800,
+    "generated_by": "Police Station",
+    "icons": [
+      "/images/dancinghall_gruen.png",
+      "/images/dancinghall_gelb.png",
+      "/images/dancinghall_rot.png"
+    ],
+    "requirements": {
+      "police_cars": 6,
+      "personnel_educations": {
+        "level_2_public_order": 27,
+        "police_medic": 6,
+        "police_sergeant": 6,
+        "police_inspector": 3
+      },
+      "police_horse": 2
+    },
+    "chances": { "patient_transport": 30 },
+    "additional": {
+      "possible_patient": 4,
+      "max_possible_prisoners": 5,
+      "patient_uk_code_possible": ["C-1", "C-2", "C-3"],
+      "filter_id": "police_station_missions",
+      "patient_specializations": "General Surgeon",
+      "personnel_educations": {
+        "Level 2 Public Order Officer": 27,
+        "Police Medic": 6,
+        "Police Sergeant": 6,
+        "Police Inspector": 3
+      }
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "police_stations": 12,
+      "riot_police": 2,
+      "personnel_educations": {
+        "level_2_public_order": 60,
+        "police_medic": 15,
+        "police_sergeant": 15,
+        "police_inspector": 7
+      }
+    },
+    "overlay_index": null,
+    "base_mission_id": 449,
+    "additive_overlays": ""
+  },
+  {
+    "id": "449/a",
+    "name": "Protest (Large)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 16000,
+    "generated_by": "Police Station",
+    "icons": [
+      "/images/dancinghall_gruen.png",
+      "/images/dancinghall_gelb.png",
+      "/images/dancinghall_rot.png"
+    ],
+    "requirements": {
+      "police_cars": 6,
+      "personnel_educations": {
+        "level_2_public_order": 27,
+        "police_medic": 6,
+        "police_sergeant": 6,
+        "police_inspector": 3,
+        "level_1_public_order": 22
+      },
+      "police_horse": 2
+    },
+    "chances": { "patient_transport": 30 },
+    "additional": {
+      "possible_patient": 4,
+      "max_possible_prisoners": 5,
+      "patient_uk_code_possible": ["C-1", "C-2", "C-3"],
+      "filter_id": "police_station_missions",
+      "patient_specializations": "General Surgeon",
+      "personnel_educations": {
+        "Level 2 Public Order Officer": 27,
+        "Police Medic": 6,
+        "Police Sergeant": 6,
+        "Police Inspector": 3,
+        "Level 1 Public Order Officer": 22
+      }
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "police_stations": 12,
+      "riot_police": 2,
+      "personnel_educations": {
+        "level_2_public_order": 60,
+        "police_medic": 15,
+        "police_sergeant": 15,
+        "police_inspector": 7,
+        "level_1_public_order": 50
+      }
+    },
+    "overlay_index": null,
+    "base_mission_id": 449,
+    "additive_overlays": "a"
+  },
+  {
+    "id": "450",
+    "name": "Fire in multi-storey car park (Major Incident)",
+    "place": "Multi-Storey Car Park",
+    "place_array": ["Multi-Storey Car Park"],
+    "average_credits": 25000,
+    "generated_by": "Fire Station",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 15,
+      "battalion_chief_vehicles": 8,
+      "mobile_command_vehicles": 1,
+      "platform_trucks": 2,
+      "heavy_rescue_vehicles": 2,
+      "water_tankers": 3,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "police_cars": 6
+    },
+    "chances": { "patient_transport": 10 },
+    "additional": {
+      "possible_patient": 12,
+      "average_min_fire_personnel": 90,
+      "patient_uk_code_possible": ["C-2", "C-3"],
+      "filter_id": "firehouse_missions",
+      "patient_specializations": "General Internal"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 5,
+      "police_stations": 10,
+      "fire_stations": 30
+    },
+    "overlay_index": null,
+    "base_mission_id": 450,
+    "additive_overlays": ""
+  },
+  {
+    "id": "451",
+    "name": "Bridge Strike (Double Decker Bus) (Persons reported)",
+    "place": "Low Bridge",
+    "place_array": ["Low Bridge"],
+    "average_credits": 8000,
+    "generated_by": "Fire Station",
+    "icons": [
+      "/images/caraccident_gruen.png",
+      "/images/caraccident_gelb.png",
+      "/images/caraccident_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 4,
+      "battalion_chief_vehicles": 4,
+      "heavy_rescue_vehicles": 1,
+      "police_cars": 6,
+      "traffic_car": 2
+    },
+    "chances": { "patient_transport": 50 },
+    "additional": {
+      "possible_patient": 40,
+      "possible_patient_min": 1,
+      "patient_uk_code_possible": ["C-1", "C-2", "C-3"],
+      "filter_id": "firehouse_missions",
+      "need_traffic_car_only_if_present": true,
+      "patient_specializations": "Traumatology"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 16,
+      "police_stations": 8,
+      "fire_stations": 12
+    },
+    "overlay_index": null,
+    "base_mission_id": 451,
+    "additive_overlays": ""
+  },
+  {
+    "id": "452",
+    "name": "Medical emergency whilst driving",
+    "place": "",
+    "place_array": [],
+    "average_credits": 800,
+    "generated_by": "Police Station",
+    "icons": [
+      "/images/ambulance_gruen.png",
+      "/images/ambulance_gelb.png",
+      "/images/ambulance_rot.png"
+    ],
+    "requirements": { "police_cars": 2 },
+    "chances": { "patient_transport": 1, "patient_critical_care": 20 },
+    "additional": {
+      "possible_patient": 1,
+      "patient_uk_code_possible": ["C-1", "C-2", "C-3"],
+      "filter_id": "police_station_missions",
+      "allow_swat_instead_of_police": true,
+      "patient_specializations": "General Internal"
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "rescue_stations": 2,
+      "police_stations": 4
+    },
+    "overlay_index": null,
+    "base_mission_id": 452,
+    "additive_overlays": ""
+  },
+  {
+    "id": "453",
+    "name": "Medical emergency whilst driving (fast road)",
+    "place": "Major Road Standby Point",
+    "place_array": ["Major Road Standby Point"],
+    "average_credits": 800,
+    "generated_by": "Police Station",
+    "icons": [
+      "/images/ambulance_gruen.png",
+      "/images/ambulance_gelb.png",
+      "/images/ambulance_rot.png"
+    ],
+    "requirements": { "police_cars": 2, "traffic_car": 1 },
+    "chances": { "patient_transport": 1, "patient_critical_care": 20 },
+    "additional": {
+      "possible_patient": 1,
+      "patient_uk_code_possible": ["C-1", "C-2", "C-3"],
+      "filter_id": "police_station_missions",
+      "allow_swat_instead_of_police": true,
+      "need_traffic_car_only_if_present": true,
+      "patient_specializations": "General Internal"
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "rescue_stations": 2,
+      "police_stations": 4
+    },
+    "overlay_index": null,
+    "base_mission_id": 453,
+    "additive_overlays": ""
+  },
+  {
+    "id": "454",
+    "name": "Vehicle driving towards traffic (fast road)",
+    "place": "Major Road Standby Point",
+    "place_array": ["Major Road Standby Point"],
+    "average_credits": 1300,
+    "generated_by": "Police Station",
+    "icons": [
+      "/images/icy_road_gruen.png",
+      "/images/icy_road_gelb.png",
+      "/images/icy_road_rot.png"
+    ],
+    "requirements": { "police_cars": 6, "traffic_car": 2 },
+    "chances": { "patient_transport": 20 },
+    "additional": {
+      "possible_patient": 1,
+      "max_possible_prisoners": 1,
+      "patient_uk_code_possible": ["C-2", "C-3"],
+      "filter_id": "police_station_missions",
+      "allow_swat_instead_of_police": true,
+      "need_traffic_car_only_if_present": true,
+      "patient_specializations": "General Internal"
+    },
+    "prerequisites": { "main_building": 6 },
+    "overlay_index": null,
+    "base_mission_id": 454,
     "additive_overlays": ""
   }
 ]
