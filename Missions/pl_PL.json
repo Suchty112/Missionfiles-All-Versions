@@ -4293,8 +4293,8 @@
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+02:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -4318,8 +4318,8 @@
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+02:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -4328,7 +4328,7 @@
   },
   {
     "id": "159",
-    "name": "Tąpnięcie zajęczej nory ",
+    "name": "Tąpnięcie zajęczej nory",
     "place": "",
     "place_array": [],
     "average_credits": 1500,
@@ -4347,8 +4347,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+02:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 0, "police_stations": 2 },
     "overlay_index": null,
@@ -4373,8 +4373,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+02:00",
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00",
       "patient_specializations": "Traumatologia"
     },
     "prerequisites": {
@@ -4402,8 +4402,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+02:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
@@ -4433,8 +4433,8 @@
     "additional": {
       "allow_rw_instead_of_lf": true,
       "filter_id": "firehouse_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+02:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -4447,7 +4447,7 @@
   },
   {
     "id": "163",
-    "name": "Pożar podgrzewacza do Jaj ",
+    "name": "Pożar podgrzewacza do Jaj",
     "place": "",
     "place_array": [],
     "average_credits": 800,
@@ -4461,8 +4461,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+02:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -4492,8 +4492,8 @@
       "duration": 7200,
       "guard_mission": true,
       "filter_id": "police_station_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+02:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 6,
@@ -4527,8 +4527,8 @@
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "firehouse_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+02:00",
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00",
       "patient_specializations": "Traumatologia"
     },
     "prerequisites": {
@@ -4556,8 +4556,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+02:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 6, "police_stations": 3 },
     "overlay_index": null,
@@ -4585,8 +4585,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+02:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -14740,6 +14740,1300 @@
     },
     "overlay_index": null,
     "base_mission_id": 499,
+    "additive_overlays": ""
+  },
+  {
+    "id": "500",
+    "name": "Drzewo powalone na dom",
+    "place": "",
+    "place_array": [],
+    "average_credits": 950,
+    "generated_by": "Jednostka Ratowniczo-Gaśnicza",
+    "icons": [
+      "/images/sawmill_gruen.png",
+      "/images/sawmill_gelb.png",
+      "/images/sawmill_rot.png"
+    ],
+    "requirements": { "firetrucks": 1, "platform_trucks": 1 },
+    "chances": { "platform_trucks": 10 },
+    "additional": { "filter_id": "firehouse_missions" },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 500,
+    "additive_overlays": ""
+  },
+  {
+    "id": "501",
+    "name": "Pożar wystawy karnawałowej",
+    "place": "",
+    "place_array": [],
+    "average_credits": 2500,
+    "generated_by": "Jednostka Ratowniczo-Gaśnicza",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 3,
+      "battalion_chief_vehicles": 1,
+      "water_tankers": 1,
+      "police_cars": 1
+    },
+    "chances": { "patient_transport": 25 },
+    "additional": {
+      "possible_patient": 2,
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-02-25T10:00:00Z",
+      "date_end": "2022-03-01T23:59:00Z",
+      "patient_specializations": "Interna"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 1,
+      "police_stations": 2,
+      "fire_stations": 6
+    },
+    "overlay_index": null,
+    "base_mission_id": 501,
+    "additive_overlays": ""
+  },
+  {
+    "id": "502",
+    "name": "Wypadek podczas karnawałowej defilady",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1500,
+    "generated_by": "Komenda Policji",
+    "icons": [
+      "/images/baseball_gruen.png",
+      "/images/baseball_gelb.png",
+      "/images/baseball_rot.png"
+    ],
+    "requirements": { "police_cars": 4 },
+    "chances": { "patient_transport": 50, "patient_critical_care": 25 },
+    "additional": {
+      "possible_patient": 6,
+      "max_possible_prisoners": 2,
+      "filter_id": "police_station_missions",
+      "date_start": "2022-02-25T10:00:00Z",
+      "date_end": "2022-03-01T23:59:00Z",
+      "patient_specializations": "Interna"
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "rescue_stations": 4,
+      "police_stations": 4
+    },
+    "overlay_index": null,
+    "base_mission_id": 502,
+    "additive_overlays": ""
+  },
+  {
+    "id": "503",
+    "name": "Kradzież maski",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1000,
+    "generated_by": "Komenda Policji",
+    "icons": [
+      "/images/theft_gruen.png",
+      "/images/theft_gelb.png",
+      "/images/theft_rot.png"
+    ],
+    "requirements": { "police_cars": 2 },
+    "chances": { "patient_transport": 50, "patient_critical_care": 25 },
+    "additional": {
+      "possible_patient": 1,
+      "max_possible_prisoners": 1,
+      "filter_id": "police_station_missions",
+      "date_start": "2022-02-25T10:00:00Z",
+      "date_end": "2022-03-01T23:59:00Z",
+      "patient_specializations": "Interna"
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "rescue_stations": 1,
+      "police_stations": 4
+    },
+    "overlay_index": null,
+    "base_mission_id": 503,
+    "additive_overlays": ""
+  },
+  {
+    "id": "504",
+    "name": "Kradzież karnawałowego pucharu",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1750,
+    "generated_by": "Komenda Policji",
+    "icons": [
+      "/images/theft_gruen.png",
+      "/images/theft_gelb.png",
+      "/images/theft_rot.png"
+    ],
+    "requirements": { "police_cars": 5 },
+    "chances": { "patient_transport": 50, "patient_critical_care": 25 },
+    "additional": {
+      "possible_patient": 2,
+      "max_possible_prisoners": 3,
+      "filter_id": "police_station_missions",
+      "date_start": "2022-02-25T10:00:00Z",
+      "date_end": "2022-03-01T23:59:00Z",
+      "patient_specializations": "Interna"
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "rescue_stations": 2,
+      "police_stations": 5
+    },
+    "overlay_index": null,
+    "base_mission_id": 504,
+    "additive_overlays": ""
+  },
+  {
+    "id": "505",
+    "name": "Pożar na balu karnawałowym",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "Jednostka Ratowniczo-Gaśnicza",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-02-25T10:00:00Z",
+      "date_end": "2022-03-01T23:59:00Z"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 505,
+    "additive_overlays": ""
+  },
+  {
+    "id": "506",
+    "name": "Wypadek podczas balu karnawałowego",
+    "place": "",
+    "place_array": [],
+    "average_credits": null,
+    "generated_by": "Stacja Pogotowia Ratunkowego",
+    "icons": [
+      "/images/ambulance_gruen.png",
+      "/images/ambulance_gelb.png",
+      "/images/ambulance_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 100 },
+    "additional": {
+      "possible_patient": 3,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "date_start": "2022-02-25T10:00:00Z",
+      "date_end": "2022-03-01T23:59:00Z",
+      "patient_specializations": "Interna"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 506,
+    "additive_overlays": ""
+  },
+  {
+    "id": "507",
+    "name": "Zabezpieczenie karnawału",
+    "place": "",
+    "place_array": [],
+    "average_credits": 4000,
+    "generated_by": "Jednostka Ratowniczo-Gaśnicza",
+    "icons": [
+      "/images/clock_gruen.png",
+      "/images/clock_gelb.png",
+      "/images/clock_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 4,
+      "battalion_chief_vehicles": 1,
+      "police_cars": 2
+    },
+    "chances": {},
+    "additional": {
+      "duration_text": "1 godzina",
+      "duration": 3600,
+      "guard_mission": true,
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-02-25T10:00:00Z",
+      "date_end": "2022-03-01T23:59:00Z"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 1,
+      "fire_stations": 6
+    },
+    "overlay_index": null,
+    "base_mission_id": 507,
+    "additive_overlays": ""
+  },
+  {
+    "id": "508",
+    "name": "Przestępca ukrył się na balu",
+    "place": "",
+    "place_array": [],
+    "average_credits": 200,
+    "generated_by": "Komenda Policji",
+    "icons": [
+      "/images/zoom_gruen.png",
+      "/images/zoom_gelb.png",
+      "/images/zoom_rot.png"
+    ],
+    "requirements": { "police_cars": 2 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 1,
+      "filter_id": "police_station_missions",
+      "date_start": "2022-02-25T10:00:00Z",
+      "date_end": "2022-03-01T23:59:00Z"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 508,
+    "additive_overlays": ""
+  },
+  {
+    "id": "509",
+    "name": "Płonące przebranie karnawałowe",
+    "place": "",
+    "place_array": [],
+    "average_credits": 400,
+    "generated_by": "Jednostka Ratowniczo-Gaśnicza",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-02-25T10:00:00Z",
+      "date_end": "2022-03-01T23:59:00Z"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 509,
+    "additive_overlays": ""
+  },
+  {
+    "id": "510",
+    "name": "Kradzież kostiumów balowych",
+    "place": "",
+    "place_array": [],
+    "average_credits": 200,
+    "generated_by": "Komenda Policji",
+    "icons": [
+      "/images/theft_gruen.png",
+      "/images/theft_gelb.png",
+      "/images/theft_rot.png"
+    ],
+    "requirements": { "police_cars": 1 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 1,
+      "filter_id": "police_station_missions",
+      "date_start": "2022-02-25T10:00:00Z",
+      "date_end": "2022-03-01T23:59:00Z"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 510,
+    "additive_overlays": ""
+  },
+  {
+    "id": "511",
+    "name": "Drzewo powalone na chodnik",
+    "place": "",
+    "place_array": [],
+    "average_credits": 700,
+    "generated_by": "Jednostka Ratowniczo-Gaśnicza",
+    "icons": [
+      "/images/sawmill_gruen.png",
+      "/images/sawmill_gelb.png",
+      "/images/sawmill_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": { "filter_id": "firehouse_missions" },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 511,
+    "additive_overlays": ""
+  },
+  {
+    "id": "512",
+    "name": "Drzewo powalone na linie energetyczną",
+    "place": "",
+    "place_array": [],
+    "average_credits": 800,
+    "generated_by": "Jednostka Ratowniczo-Gaśnicza",
+    "icons": [
+      "/images/sawmill_gruen.png",
+      "/images/sawmill_gelb.png",
+      "/images/sawmill_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": { "filter_id": "firehouse_missions" },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 512,
+    "additive_overlays": ""
+  },
+  {
+    "id": "513",
+    "name": "Ognisko bez nadzoru",
+    "place": "",
+    "place_array": [],
+    "average_credits": 700,
+    "generated_by": "Jednostka Ratowniczo-Gaśnicza",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [7, 4],
+      "filter_id": "firehouse_missions",
+      "fire_alarm_system_possible": true
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 513,
+    "additive_overlays": ""
+  },
+  {
+    "id": "514",
+    "name": "Wypalanie gałęzi pod nadzorem",
+    "place": "",
+    "place_array": [],
+    "average_credits": 650,
+    "generated_by": "Jednostka Ratowniczo-Gaśnicza",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [4, 7],
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 514,
+    "additive_overlays": ""
+  },
+  {
+    "id": "515",
+    "name": "Ukąszenie jadowitego pająka",
+    "place": "",
+    "place_array": [],
+    "average_credits": 800,
+    "generated_by": "Stacja Pogotowia Ratunkowego",
+    "icons": [
+      "/images/medicalstore_gruen.png",
+      "/images/medicalstore_gelb.png",
+      "/images/medicalstore_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 80, "patient_critical_care": 10 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "patient_specializations": "Traumatologia"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 4 },
+    "overlay_index": null,
+    "base_mission_id": 515,
+    "additive_overlays": ""
+  },
+  {
+    "id": "516",
+    "name": "Ukąszenie jadowitego węża",
+    "place": "",
+    "place_array": [],
+    "average_credits": 800,
+    "generated_by": "Stacja Pogotowia Ratunkowego",
+    "icons": [
+      "/images/medicalstore_gruen.png",
+      "/images/medicalstore_gelb.png",
+      "/images/medicalstore_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": { "patient_transport": 80, "patient_critical_care": 10 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "patient_specializations": "Traumatologia"
+    },
+    "prerequisites": {
+      "main_building": 2,
+      "rescue_stations": 4,
+      "fire_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 516,
+    "additive_overlays": ""
+  },
+  {
+    "id": "517",
+    "name": "Pożar katedry",
+    "place": "",
+    "place_array": [],
+    "average_credits": 6500,
+    "generated_by": "Jednostka Ratowniczo-Gaśnicza",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 7,
+      "battalion_chief_vehicles": 2,
+      "platform_trucks": 2,
+      "height_rescue_units": 1
+    },
+    "chances": { "height_rescue_units": 80 },
+    "additional": { "filter_id": "firehouse_missions" },
+    "prerequisites": { "main_building": 0, "fire_stations": 14 },
+    "overlay_index": null,
+    "base_mission_id": 517,
+    "additive_overlays": ""
+  },
+  {
+    "id": "518",
+    "name": "Pożar w składowisku złomu",
+    "place": "Składowisko złomu",
+    "place_array": ["Składowisko złomu"],
+    "average_credits": 2100,
+    "generated_by": "Jednostka Ratowniczo-Gaśnicza",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 3, "battalion_chief_vehicles": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "fire_alarm_system_possible": true
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 5 },
+    "overlay_index": null,
+    "base_mission_id": 518,
+    "additive_overlays": ""
+  },
+  {
+    "id": "519",
+    "name": "Uszkodzona rura wodociągowa",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1200,
+    "generated_by": "Jednostka Ratowniczo-Gaśnicza",
+    "icons": [
+      "/images/diving_gruen.png",
+      "/images/diving_gelb.png",
+      "/images/diving_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 1,
+      "battalion_chief_vehicles": 1,
+      "heavy_rescue_vehicles": 1
+    },
+    "chances": { "battalion_chief_vehicles": 30 },
+    "additional": {
+      "allow_rw_instead_of_lf": true,
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [412, 413]
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 6 },
+    "overlay_index": null,
+    "base_mission_id": 519,
+    "additive_overlays": ""
+  },
+  {
+    "id": "520",
+    "name": "Uszkodzony hydrant",
+    "place": "",
+    "place_array": [],
+    "average_credits": 900,
+    "generated_by": "Jednostka Ratowniczo-Gaśnicza",
+    "icons": [
+      "/images/diving_gruen.png",
+      "/images/diving_gelb.png",
+      "/images/diving_rot.png"
+    ],
+    "requirements": { "firetrucks": 1, "heavy_rescue_vehicles": 1 },
+    "chances": { "heavy_rescue_vehicles": 40 },
+    "additional": {
+      "allow_rw_instead_of_lf": true,
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [412, 413]
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 4 },
+    "overlay_index": null,
+    "base_mission_id": 520,
+    "additive_overlays": ""
+  },
+  {
+    "id": "521",
+    "name": "Reakcja alergiczna po użądleniu",
+    "place": "",
+    "place_array": [],
+    "average_credits": 550,
+    "generated_by": "Stacja Pogotowia Ratunkowego",
+    "icons": [
+      "/images/spring_gruen.png",
+      "/images/spring_gelb.png",
+      "/images/spring_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 50, "patient_critical_care": 10 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+02:00",
+      "patient_specializations": "Kardiologia"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 521,
+    "additive_overlays": ""
+  },
+  {
+    "id": "522",
+    "name": "Reakcja alergiczna - pyłki",
+    "place": "",
+    "place_array": [],
+    "average_credits": 650,
+    "generated_by": "Stacja Pogotowia Ratunkowego",
+    "icons": [
+      "/images/spring_gruen.png",
+      "/images/spring_gelb.png",
+      "/images/spring_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 10, "patient_critical_care": 5 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+02:00",
+      "patient_specializations": "Kardiologia"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 522,
+    "additive_overlays": ""
+  },
+  {
+    "id": "523",
+    "name": "Upadek z drabiny podczas wiosennych porządków",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "Stacja Pogotowia Ratunkowego",
+    "icons": [
+      "/images/spring_gruen.png",
+      "/images/spring_gelb.png",
+      "/images/spring_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 50 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+02:00",
+      "patient_specializations": "Traumatologia"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 523,
+    "additive_overlays": ""
+  },
+  {
+    "id": "524",
+    "name": "Atak dzikiego zwierzęcia podczas pikniku",
+    "place": "",
+    "place_array": [],
+    "average_credits": 600,
+    "generated_by": "Komenda Policji",
+    "icons": [
+      "/images/spring_gruen.png",
+      "/images/spring_gelb.png",
+      "/images/spring_rot.png"
+    ],
+    "requirements": { "police_cars": 1 },
+    "chances": { "patient_transport": 60, "patient_critical_care": 10 },
+    "additional": {
+      "possible_patient": 3,
+      "possible_patient_min": 1,
+      "filter_id": "police_station_missions",
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+02:00",
+      "patient_specializations": "Traumatologia"
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "rescue_stations": 3,
+      "police_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 524,
+    "additive_overlays": ""
+  },
+  {
+    "id": "525",
+    "name": "Zatrucie pokarmowe po spożyciu dzikich jagód",
+    "place": "Park\nLas",
+    "place_array": ["Park", "Las"],
+    "average_credits": 800,
+    "generated_by": "Stacja Pogotowia Ratunkowego",
+    "icons": [
+      "/images/spring_gruen.png",
+      "/images/spring_gelb.png",
+      "/images/spring_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 30, "patient_critical_care": 15 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "patient_allow_first_responder_chance": 50,
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+02:00",
+      "patient_specializations": "Chirurg ogólny"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 525,
+    "additive_overlays": ""
+  },
+  {
+    "id": "526",
+    "name": "Kosz piknikowy w ogniu",
+    "place": "Park\nLas",
+    "place_array": ["Park", "Las"],
+    "average_credits": 800,
+    "generated_by": "Jednostka Ratowniczo-Gaśnicza",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+02:00"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 526,
+    "additive_overlays": ""
+  },
+  {
+    "id": "527",
+    "name": "Złodziej kradnie cielaki",
+    "place": "Gospodarstwo rolne",
+    "place_array": ["Gospodarstwo rolne"],
+    "average_credits": 900,
+    "generated_by": "Komenda Policji",
+    "icons": [
+      "/images/cat_gruen.png",
+      "/images/cat_gelb.png",
+      "/images/cat_rot.png"
+    ],
+    "requirements": { "police_cars": 2 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 1,
+      "filter_id": "police_station_missions",
+      "subsequent_missions_ids": [528, 529],
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+02:00"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 527,
+    "additive_overlays": ""
+  },
+  {
+    "id": "528",
+    "name": "Złodziej krów ucieka",
+    "place": "Las",
+    "place_array": ["Las"],
+    "average_credits": 900,
+    "generated_by": "Komenda Policji",
+    "icons": [
+      "/images/climbing_gruen.png",
+      "/images/climbing_gelb.png",
+      "/images/climbing_rot.png"
+    ],
+    "requirements": { "police_helicopters": 1, "police_cars": 5, "k9": 2 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 1,
+      "filter_id": "police_station_missions",
+      "subsequent_mission_only": true,
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+02:00"
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "police_stations": 10,
+      "police_helicopter_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 528,
+    "additive_overlays": ""
+  },
+  {
+    "id": "529",
+    "name": "Złodziej został zaatakowany przez krowę",
+    "place": "Gospodarstwo rolne",
+    "place_array": ["Gospodarstwo rolne"],
+    "average_credits": 860,
+    "generated_by": "Stacja Pogotowia Ratunkowego",
+    "icons": [
+      "/images/ambulance_gruen.png",
+      "/images/ambulance_gelb.png",
+      "/images/ambulance_rot.png"
+    ],
+    "requirements": { "ambulances": 1 },
+    "chances": { "patient_transport": 35 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "patient_allow_first_responder_chance": 60,
+      "subsequent_mission_only": true,
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+02:00",
+      "patient_specializations": "Interna"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 529,
+    "additive_overlays": ""
+  },
+  {
+    "id": "530",
+    "name": "Styrta się pali",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1000,
+    "generated_by": "Jednostka Ratowniczo-Gaśnicza",
+    "icons": [
+      "/images/glasses_gruen.png",
+      "/images/glasses_gelb.png",
+      "/images/glasses_rot.png"
+    ],
+    "requirements": { "firetrucks": 2, "police_cars": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-04-01T11:00:00+02:00",
+      "date_end": "2022-04-01T23:59:00+02:00"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 1,
+      "fire_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 530,
+    "additive_overlays": ""
+  },
+  {
+    "id": "531",
+    "name": "Pożar w serwerowni OperatoraRatunkowego",
+    "place": "",
+    "place_array": [],
+    "average_credits": 3000,
+    "generated_by": "Jednostka Ratowniczo-Gaśnicza",
+    "icons": [
+      "/images/glasses_gruen.png",
+      "/images/glasses_gelb.png",
+      "/images/glasses_rot.png"
+    ],
+    "requirements": {
+      "foam_needed": 800,
+      "water_needed": 9500,
+      "firetrucks": 4,
+      "battalion_chief_vehicles": 1,
+      "platform_trucks": 1,
+      "police_cars": 1
+    },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-04-01T11:00:00+02:00",
+      "date_end": "2022-04-01T23:59:00+02:00"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 1,
+      "fire_stations": 8
+    },
+    "overlay_index": null,
+    "base_mission_id": 531,
+    "additive_overlays": ""
+  },
+  {
+    "id": "532",
+    "name": "Rozległy pożar traw",
+    "place": "",
+    "place_array": [],
+    "average_credits": 5600,
+    "generated_by": "Jednostka Ratowniczo-Gaśnicza",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "water_needed": 30000,
+      "firetrucks": 9,
+      "battalion_chief_vehicles": 2,
+      "water_tankers": 1
+    },
+    "chances": { "water_tankers": 10 },
+    "additional": {
+      "followup_missions_ids": [15, 14],
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 10 },
+    "overlay_index": null,
+    "base_mission_id": 532,
+    "additive_overlays": ""
+  },
+  {
+    "id": "533",
+    "name": "Podpalacz",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1700,
+    "generated_by": "Komenda Policji",
+    "icons": [
+      "/images/zoom_gruen.png",
+      "/images/zoom_gelb.png",
+      "/images/zoom_rot.png"
+    ],
+    "requirements": { "police_cars": 3 },
+    "chances": {},
+    "additional": {
+      "followup_missions_ids": [0, 1, 2, 3, 4, 6, 7, 8, 14, 15, 24, 213],
+      "max_possible_prisoners": 1,
+      "filter_id": "police_station_missions"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 5 },
+    "overlay_index": null,
+    "base_mission_id": 533,
+    "additive_overlays": ""
+  },
+  {
+    "id": "534",
+    "name": "Pożar łąki",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1100,
+    "generated_by": "Jednostka Ratowniczo-Gaśnicza",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "water_needed": 4800, "firetrucks": 1 },
+    "chances": {},
+    "additional": { "filter_id": "firehouse_missions" },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 534,
+    "additive_overlays": ""
+  },
+  {
+    "id": "535",
+    "name": "Pożar trzciny",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1400,
+    "generated_by": "Jednostka Ratowniczo-Gaśnicza",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "water_needed": 6800, "firetrucks": 1 },
+    "chances": {},
+    "additional": { "filter_id": "firehouse_missions" },
+    "prerequisites": { "main_building": 0, "fire_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 535,
+    "additive_overlays": ""
+  },
+  {
+    "id": "536",
+    "name": "Katastrofa helikoptera",
+    "place": "",
+    "place_array": [],
+    "average_credits": 8950,
+    "generated_by": "Jednostka Ratowniczo-Gaśnicza",
+    "icons": [
+      "/images/planecrash_gruen.png",
+      "/images/planecrash_gelb.png",
+      "/images/planecrash_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 5,
+      "fwk": 1,
+      "battalion_chief_vehicles": 3,
+      "heavy_rescue_vehicles": 3,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1
+    },
+    "chances": {
+      "fwk": 50,
+      "mobile_air_vehicles": 30,
+      "hazmat_vehicles": 30,
+      "patient_transport": 60,
+      "helicopter": 5,
+      "patient_critical_care": 20
+    },
+    "additional": {
+      "possible_patient": 5,
+      "possible_patient_min": 1,
+      "filter_id": "firehouse_missions",
+      "patient_specializations": "Traumatologia"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 4,
+      "fire_stations": 15
+    },
+    "overlay_index": null,
+    "base_mission_id": 536,
+    "additive_overlays": ""
+  },
+  {
+    "id": "537",
+    "name": "Wodowanie helikoptera",
+    "place": "Jezioro\nRzeka",
+    "place_array": ["Jezioro", "Rzeka"],
+    "average_credits": 6300,
+    "generated_by": "Jednostka Ratowniczo-Gaśnicza",
+    "icons": [
+      "/images/waterpark_gruen.png",
+      "/images/waterpark_gelb.png",
+      "/images/waterpark_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 4,
+      "battalion_chief_vehicles": 2,
+      "boats": 3
+    },
+    "chances": {},
+    "additional": { "filter_id": "firehouse_missions" },
+    "prerequisites": {
+      "main_building": 0,
+      "wasserrettung": 2,
+      "fire_stations": 7
+    },
+    "overlay_index": null,
+    "base_mission_id": 537,
+    "additive_overlays": ""
+  },
+  {
+    "id": "538",
+    "name": "Pożar instalacji fotowoltaicznej",
+    "place": "",
+    "place_array": [],
+    "average_credits": 3300,
+    "generated_by": "Jednostka Ratowniczo-Gaśnicza",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "foam_needed": 100,
+      "water_needed": 9500,
+      "firetrucks": 4,
+      "battalion_chief_vehicles": 1,
+      "platform_trucks": 1
+    },
+    "chances": {},
+    "additional": { "filter_id": "firehouse_missions" },
+    "prerequisites": { "main_building": 0, "fire_stations": 7 },
+    "overlay_index": null,
+    "base_mission_id": 538,
+    "additive_overlays": ""
+  },
+  {
+    "id": "539",
+    "name": "Pożar farmy fotowoltaicznej",
+    "place": "",
+    "place_array": [],
+    "average_credits": 8050,
+    "generated_by": "Jednostka Ratowniczo-Gaśnicza",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "water_needed": 25000,
+      "firetrucks": 9,
+      "battalion_chief_vehicles": 3,
+      "mobile_command_vehicles": 1,
+      "water_tankers": 1
+    },
+    "chances": { "mobile_command_vehicles": 20, "water_tankers": 40 },
+    "additional": { "filter_id": "firehouse_missions" },
+    "prerequisites": { "main_building": 0, "fire_stations": 18 },
+    "overlay_index": null,
+    "base_mission_id": 539,
+    "additive_overlays": ""
+  },
+  {
+    "id": "540",
+    "name": "Roztopiony królik czekoladowy",
+    "place": "",
+    "place_array": [],
+    "average_credits": 100,
+    "generated_by": "Jednostka Ratowniczo-Gaśnicza",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-04-11T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 540,
+    "additive_overlays": ""
+  },
+  {
+    "id": "541",
+    "name": "Uderzenie pioruna w króliczej dziurze",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1600,
+    "generated_by": "Jednostka Ratowniczo-Gaśnicza",
+    "icons": [
+      "/images/blast_gruen.png",
+      "/images/blast_gelb.png",
+      "/images/blast_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 2,
+      "battalion_chief_vehicles": 1,
+      "platform_trucks": 1,
+      "heavy_rescue_vehicles": 1,
+      "police_cars": 2
+    },
+    "chances": { "platform_trucks": 70, "patient_transport": 60 },
+    "additional": {
+      "possible_patient": 1,
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-04-11T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00",
+      "patient_specializations": "Interna"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 3,
+      "fire_stations": 4
+    },
+    "overlay_index": null,
+    "base_mission_id": 541,
+    "additive_overlays": ""
+  },
+  {
+    "id": "542",
+    "name": "Czekoladowy króliczek zamknięty w aucie",
+    "place": "",
+    "place_array": [],
+    "average_credits": 250,
+    "generated_by": "Jednostka Ratowniczo-Gaśnicza",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 1, "police_cars": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-04-11T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 1,
+      "fire_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 542,
+    "additive_overlays": ""
+  },
+  {
+    "id": "543",
+    "name": "Polowanie na jajka w pobliżu wody",
+    "place": "Jezioro",
+    "place_array": ["Jezioro"],
+    "average_credits": 1670,
+    "generated_by": "Stacja WOPR",
+    "icons": [
+      "/images/waterpark_gruen.png",
+      "/images/waterpark_gelb.png",
+      "/images/waterpark_rot.png"
+    ],
+    "requirements": { "firetrucks": 1, "police_cars": 1, "diver_units": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "water_watch_missions",
+      "date_start": "2022-04-11T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00"
+    },
+    "prerequisites": {
+      "main_building": 15,
+      "wasserrettung": 2,
+      "police_stations": 1,
+      "fire_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 543,
+    "additive_overlays": ""
+  },
+  {
+    "id": "544",
+    "name": "Alarm przeciwpożarowy na dworcu kolejowym",
+    "place": "Dworzec kolejowy (ruch podmiejski)\nDworzec kolejowy (ruch podmiejski i dalekobieżny)",
+    "place_array": [
+      "Dworzec kolejowy (ruch podmiejski)",
+      "Dworzec kolejowy (ruch podmiejski i dalekobieżny)"
+    ],
+    "average_credits": 2300,
+    "generated_by": "Jednostka Ratowniczo-Gaśnicza",
+    "icons": [
+      "/images/zoom_gruen.png",
+      "/images/zoom_gelb.png",
+      "/images/zoom_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 3,
+      "battalion_chief_vehicles": 1,
+      "platform_trucks": 1
+    },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [492],
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 6 },
+    "overlay_index": null,
+    "base_mission_id": 544,
+    "additive_overlays": ""
+  },
+  {
+    "id": "545",
+    "name": "Alarm przeciwpożarowy w hotelu",
+    "place": "Hotel",
+    "place_array": ["Hotel"],
+    "average_credits": 2500,
+    "generated_by": "Jednostka Ratowniczo-Gaśnicza",
+    "icons": [
+      "/images/zoom_gruen.png",
+      "/images/zoom_gelb.png",
+      "/images/zoom_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 4,
+      "battalion_chief_vehicles": 1,
+      "platform_trucks": 1
+    },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [474],
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 7 },
+    "overlay_index": null,
+    "base_mission_id": 545,
+    "additive_overlays": ""
+  },
+  {
+    "id": "546",
+    "name": "Potrącenie na drodze leśnej",
+    "place": "Las",
+    "place_array": ["Las"],
+    "average_credits": 3100,
+    "generated_by": "Jednostka Ratowniczo-Gaśnicza",
+    "icons": [
+      "/images/caraccident_gruen.png",
+      "/images/caraccident_gelb.png",
+      "/images/caraccident_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 2,
+      "battalion_chief_vehicles": 1,
+      "heavy_rescue_vehicles": 1,
+      "traffic_car": 1
+    },
+    "chances": {
+      "battalion_chief_vehicles": 30,
+      "heavy_rescue_vehicles": 70,
+      "patient_transport": 40,
+      "helicopter": 10,
+      "patient_critical_care": 20
+    },
+    "additional": {
+      "possible_patient": 2,
+      "possible_patient_min": 1,
+      "max_possible_prisoners": 1,
+      "filter_id": "firehouse_missions",
+      "need_traffic_car_only_if_present": true,
+      "patient_specializations": "Traumatologia"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 2,
+      "police_stations": 2,
+      "fire_stations": 6
+    },
+    "overlay_index": null,
+    "base_mission_id": 546,
     "additive_overlays": ""
   }
 ]
