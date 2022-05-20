@@ -3359,8 +3359,8 @@
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+02:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -3384,8 +3384,8 @@
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+02:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -3413,8 +3413,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+02:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 0, "police_stations": 2 },
     "overlay_index": null,
@@ -3439,8 +3439,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+02:00",
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00",
       "patient_specializations": "Traumatologi"
     },
     "prerequisites": {
@@ -3468,8 +3468,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+02:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -3499,8 +3499,8 @@
     "additional": {
       "allow_rw_instead_of_lf": true,
       "filter_id": "firehouse_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+02:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -3527,8 +3527,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+02:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -3558,8 +3558,8 @@
       "duration": 7200,
       "guard_mission": true,
       "filter_id": "police_station_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+02:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 6,
@@ -3593,8 +3593,8 @@
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "firehouse_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+02:00",
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00",
       "patient_specializations": "Traumatologi"
     },
     "prerequisites": {
@@ -3622,8 +3622,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+02:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 6, "police_stations": 3 },
     "overlay_index": null,
@@ -3651,8 +3651,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+02:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -3746,7 +3746,7 @@
     "prerequisites": {
       "main_building": 6,
       "rescue_stations": 1,
-      "police_stations": 4,
+      "police_stations": 7,
       "police_helicopter_stations": 1,
       "fire_stations": 6
     },
@@ -4651,7 +4651,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "allow_ktw_instead_of_rtw": true
+      "allow_ktw_instead_of_rtw": true,
+      "patient_specializations": "Allmänkirurg"
     },
     "prerequisites": { "main_building": 2 },
     "overlay_index": null,
@@ -5914,7 +5915,7 @@
     "requirements": { "police_cars": 2, "k9": 1 },
     "chances": {},
     "additional": { "filter_id": "police_station_missions" },
-    "prerequisites": { "main_building": 6, "police_stations": 4 },
+    "prerequisites": { "main_building": 6, "police_stations": 6 },
     "overlay_index": null,
     "base_mission_id": 217,
     "additive_overlays": ""
@@ -7212,7 +7213,7 @@
   },
   {
     "id": "265",
-    "name": "Vegetationsbrand, liten ",
+    "name": "Vegetationsbrand, liten",
     "place": "Skog",
     "place_array": ["Skog"],
     "average_credits": 3400,
@@ -10218,7 +10219,7 @@
       "max_possible_prisoners": 4,
       "filter_id": "police_station_missions"
     },
-    "prerequisites": { "main_building": 6, "police_stations": 5 },
+    "prerequisites": { "main_building": 6, "police_stations": 6 },
     "overlay_index": null,
     "base_mission_id": 362,
     "additive_overlays": ""
@@ -10777,6 +10778,29 @@
     "additive_overlays": ""
   },
   {
+    "id": "376",
+    "name": "Brott mot griftefrid, gravplats",
+    "place": "Kyrka",
+    "place_array": ["Kyrka"],
+    "average_credits": 450,
+    "generated_by": "Polisstation",
+    "icons": [
+      "/images/baseball_gruen.png",
+      "/images/baseball_gelb.png",
+      "/images/baseball_rot.png"
+    ],
+    "requirements": { "police_cars": 1, "k9": 1 },
+    "chances": { "k9": 25 },
+    "additional": {
+      "max_possible_prisoners": 1,
+      "filter_id": "police_station_missions"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 6 },
+    "overlay_index": null,
+    "base_mission_id": 376,
+    "additive_overlays": ""
+  },
+  {
     "id": "377",
     "name": "Öka medvetenheten kring 112 för skolbarn",
     "place": "Skola",
@@ -10928,6 +10952,690 @@
     },
     "overlay_index": null,
     "base_mission_id": 381,
+    "additive_overlays": ""
+  },
+  {
+    "id": "382",
+    "name": "Olycka - nedfallen flaggstång",
+    "place": "",
+    "place_array": [],
+    "average_credits": 350,
+    "generated_by": "Brandstation",
+    "icons": [
+      "/images/constructioncrane_gruen.png",
+      "/images/constructioncrane_gelb.png",
+      "/images/constructioncrane_rot.png"
+    ],
+    "requirements": { "firetrucks": 1, "platform_trucks": 1 },
+    "chances": {},
+    "additional": { "filter_id": "firehouse_missions" },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 382,
+    "additive_overlays": ""
+  },
+  {
+    "id": "383",
+    "name": "Brand i byggnad - servicevhus",
+    "place": "Höghus",
+    "place_array": ["Höghus"],
+    "average_credits": 670,
+    "generated_by": "Brandstation",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 2,
+      "battalion_chief_vehicles": 1,
+      "platform_trucks": 1,
+      "water_tankers": 1
+    },
+    "chances": { "patient_transport": 75, "patient_critical_care": 50 },
+    "additional": {
+      "possible_patient": 10,
+      "possible_patient_min": 3,
+      "filter_id": "firehouse_missions",
+      "patient_allow_first_responder_chance": 1,
+      "patient_specializations": "Hjärtkirurgi"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 2,
+      "fire_stations": 4
+    },
+    "overlay_index": null,
+    "base_mission_id": 383,
+    "additive_overlays": ""
+  },
+  {
+    "id": "384",
+    "name": "Arbetsplatsolycka - fall från höghöjd",
+    "place": "",
+    "place_array": [],
+    "average_credits": 540,
+    "generated_by": "Ambulansstation",
+    "icons": [
+      "/images/constructioncrane_gruen.png",
+      "/images/constructioncrane_gelb.png",
+      "/images/constructioncrane_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 2,
+      "ambulances": 2,
+      "battalion_chief_vehicles": 1,
+      "platform_trucks": 2,
+      "police_cars": 2,
+      "kdow_orgl": 1
+    },
+    "chances": {
+      "patient_transport": 100,
+      "helicopter": 70,
+      "patient_critical_care": 100
+    },
+    "additional": {
+      "possible_patient": 2,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "patient_specializations": "Traumatologi"
+    },
+    "prerequisites": {
+      "main_building": 2,
+      "rescue_stations": 5,
+      "police_stations": 1,
+      "fire_stations": 3,
+      "main_building_extensions": [0]
+    },
+    "overlay_index": null,
+    "base_mission_id": 384,
+    "additive_overlays": ""
+  },
+  {
+    "id": "385",
+    "name": "Allergisk reaktion av bistick",
+    "place": "",
+    "place_array": [],
+    "average_credits": null,
+    "generated_by": "Ambulansstation",
+    "icons": [
+      "/images/spring_gruen.png",
+      "/images/spring_gelb.png",
+      "/images/spring_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 50, "patient_critical_care": 10 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+02:00",
+      "patient_specializations": "Kardiologi"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 385,
+    "additive_overlays": ""
+  },
+  {
+    "id": "386",
+    "name": "Allergisk reaktion av pollen",
+    "place": "",
+    "place_array": [],
+    "average_credits": null,
+    "generated_by": "Ambulansstation",
+    "icons": [
+      "/images/spring_gruen.png",
+      "/images/spring_gelb.png",
+      "/images/spring_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 10, "patient_critical_care": 5 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+02:00",
+      "patient_specializations": "Kardiologi"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 386,
+    "additive_overlays": ""
+  },
+  {
+    "id": "387",
+    "name": "Olycka - ramlat från stege under vårstädning",
+    "place": "",
+    "place_array": [],
+    "average_credits": null,
+    "generated_by": "Ambulansstation",
+    "icons": [
+      "/images/spring_gruen.png",
+      "/images/spring_gelb.png",
+      "/images/spring_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 50 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+02:00",
+      "patient_specializations": "Traumatologi"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 387,
+    "additive_overlays": ""
+  },
+  {
+    "id": "388",
+    "name": "Attack av vilddjur under picknick",
+    "place": "",
+    "place_array": [],
+    "average_credits": 600,
+    "generated_by": "Polisstation",
+    "icons": [
+      "/images/spring_gruen.png",
+      "/images/spring_gelb.png",
+      "/images/spring_rot.png"
+    ],
+    "requirements": { "police_cars": 1 },
+    "chances": { "patient_transport": 60, "patient_critical_care": 10 },
+    "additional": {
+      "possible_patient": 3,
+      "possible_patient_min": 1,
+      "filter_id": "police_station_missions",
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+02:00",
+      "patient_specializations": "Traumatologi"
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "rescue_stations": 3,
+      "police_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 388,
+    "additive_overlays": ""
+  },
+  {
+    "id": "389",
+    "name": "Matförgiftning orsakad av vilda bär",
+    "place": "Park\nSkog",
+    "place_array": ["Park", "Skog"],
+    "average_credits": null,
+    "generated_by": "Ambulansstation",
+    "icons": [
+      "/images/spring_gruen.png",
+      "/images/spring_gelb.png",
+      "/images/spring_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 30, "patient_critical_care": 15 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "patient_allow_first_responder_chance": 50,
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+02:00",
+      "patient_specializations": "Allmänkirurg"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 389,
+    "additive_overlays": ""
+  },
+  {
+    "id": "390",
+    "name": "Brinnande picknick-korg",
+    "place": "Park\nSkog",
+    "place_array": ["Park", "Skog"],
+    "average_credits": 800,
+    "generated_by": "Brandstation",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+02:00"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 390,
+    "additive_overlays": ""
+  },
+  {
+    "id": "391",
+    "name": "Person stjäl kalvar",
+    "place": "Bondgård",
+    "place_array": ["Bondgård"],
+    "average_credits": 900,
+    "generated_by": "Polisstation",
+    "icons": [
+      "/images/cat_gruen.png",
+      "/images/cat_gelb.png",
+      "/images/cat_rot.png"
+    ],
+    "requirements": { "police_cars": 2 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 1,
+      "filter_id": "police_station_missions",
+      "subsequent_missions_ids": [392, 393],
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+02:00"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 391,
+    "additive_overlays": ""
+  },
+  {
+    "id": "392",
+    "name": "Kotjuven är på flykt",
+    "place": "Skog",
+    "place_array": ["Skog"],
+    "average_credits": 900,
+    "generated_by": "Polisstation",
+    "icons": [
+      "/images/climbing_gruen.png",
+      "/images/climbing_gelb.png",
+      "/images/climbing_rot.png"
+    ],
+    "requirements": { "police_helicopters": 1, "police_cars": 5, "k9": 2 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 1,
+      "filter_id": "police_station_missions",
+      "subsequent_mission_only": true,
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+02:00"
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "police_stations": 10,
+      "police_helicopter_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 392,
+    "additive_overlays": ""
+  },
+  {
+    "id": "393",
+    "name": "Tjuv attackerad av ko",
+    "place": "Bondgård",
+    "place_array": ["Bondgård"],
+    "average_credits": 860,
+    "generated_by": "Ambulansstation",
+    "icons": [
+      "/images/ambulance_gruen.png",
+      "/images/ambulance_gelb.png",
+      "/images/ambulance_rot.png"
+    ],
+    "requirements": { "ambulances": 1 },
+    "chances": { "patient_transport": 35 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "patient_allow_first_responder_chance": 60,
+      "subsequent_mission_only": true,
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+02:00",
+      "patient_specializations": "Invärtesmedicinare"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 393,
+    "additive_overlays": ""
+  },
+  {
+    "id": "394",
+    "name": "Brand i byggnad - möblemang",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1200,
+    "generated_by": "Brandstation",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "water_needed": 500, "firetrucks": 1 },
+    "chances": { "patient_transport": 66 },
+    "additional": {
+      "possible_patient": 1,
+      "filter_id": "firehouse_missions",
+      "patient_at_end_of_mission": true,
+      "patient_specializations": "Invärtesmedicinare"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 394,
+    "additive_overlays": ""
+  },
+  {
+    "id": "395",
+    "name": "Trafikolycka - singel, ravin",
+    "place": "",
+    "place_array": [],
+    "average_credits": 5500,
+    "generated_by": "Brandstation",
+    "icons": [
+      "/images/fallingrocks_gruen.png",
+      "/images/fallingrocks_gelb.png",
+      "/images/fallingrocks_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 7,
+      "battalion_chief_vehicles": 2,
+      "heavy_rescue_vehicles": 2,
+      "police_cars": 2
+    },
+    "chances": { "patient_transport": 75, "patient_critical_care": 10 },
+    "additional": {
+      "possible_patient": 2,
+      "filter_id": "firehouse_missions",
+      "patient_specializations": "Invärtesmedicinare"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 4,
+      "police_stations": 3,
+      "fire_stations": 14
+    },
+    "overlay_index": null,
+    "base_mission_id": 395,
+    "additive_overlays": ""
+  },
+  {
+    "id": "396",
+    "name": "Olagligt streetrace",
+    "place": "",
+    "place_array": [],
+    "average_credits": 2450,
+    "generated_by": "Polisstation",
+    "icons": [
+      "/images/theft_gruen.png",
+      "/images/theft_gelb.png",
+      "/images/theft_rot.png"
+    ],
+    "requirements": { "police_cars": 6 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 2,
+      "filter_id": "police_station_missions"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 8 },
+    "overlay_index": null,
+    "base_mission_id": 396,
+    "additive_overlays": ""
+  },
+  {
+    "id": "397",
+    "name": "Smält chokladkanin",
+    "place": "",
+    "place_array": [],
+    "average_credits": 100,
+    "generated_by": "Brandstation",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-04-11T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 397,
+    "additive_overlays": ""
+  },
+  {
+    "id": "398",
+    "name": "Blixtnedslag i kaninhål",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1600,
+    "generated_by": "Brandstation",
+    "icons": [
+      "/images/blast_gruen.png",
+      "/images/blast_gelb.png",
+      "/images/blast_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 2,
+      "battalion_chief_vehicles": 1,
+      "platform_trucks": 1,
+      "heavy_rescue_vehicles": 1,
+      "police_cars": 2
+    },
+    "chances": { "platform_trucks": 70, "patient_transport": 60 },
+    "additional": {
+      "possible_patient": 1,
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-04-11T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00",
+      "patient_specializations": "Invärtesmedicinare"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 10,
+      "police_stations": 3,
+      "fire_stations": 4
+    },
+    "overlay_index": null,
+    "base_mission_id": 398,
+    "additive_overlays": ""
+  },
+  {
+    "id": "399",
+    "name": "Chokladkanin inlåst i bil",
+    "place": "",
+    "place_array": [],
+    "average_credits": 250,
+    "generated_by": "Brandstation",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 1, "police_cars": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-04-11T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 1,
+      "fire_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 399,
+    "additive_overlays": ""
+  },
+  {
+    "id": "400",
+    "name": "Äggjakt under vatten",
+    "place": "Sjö",
+    "place_array": ["Sjö"],
+    "average_credits": 1670,
+    "generated_by": "Sjöräddning",
+    "icons": [
+      "/images/waterpark_gruen.png",
+      "/images/waterpark_gelb.png",
+      "/images/waterpark_rot.png"
+    ],
+    "requirements": { "firetrucks": 1, "police_cars": 1, "diver_units": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "water_watch_missions",
+      "date_start": "2022-04-11T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00"
+    },
+    "prerequisites": {
+      "main_building": 15,
+      "wasserrettung": 2,
+      "police_stations": 1,
+      "fire_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 400,
+    "additive_overlays": ""
+  },
+  {
+    "id": "401",
+    "name": "Brand ute - badstrand",
+    "place": "Strand",
+    "place_array": ["Strand"],
+    "average_credits": 760,
+    "generated_by": "Brandstation",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 1, "heavy_rescue_vehicles": 1 },
+    "chances": {},
+    "additional": { "filter_id": "firehouse_missions" },
+    "prerequisites": { "main_building": 0, "fire_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 401,
+    "additive_overlays": ""
+  },
+  {
+    "id": "402",
+    "name": "Poliskommendering - datorfestival",
+    "place": "Arena",
+    "place_array": ["Arena"],
+    "average_credits": 5400,
+    "generated_by": "Polisstation",
+    "icons": [
+      "/images/clock_gruen.png",
+      "/images/clock_gelb.png",
+      "/images/clock_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 1,
+      "ambulances": 2,
+      "battalion_chief_vehicles": 1,
+      "police_helicopters": 1,
+      "police_cars": 6,
+      "k9": 2,
+      "police_horse": 2
+    },
+    "chances": { "patient_transport": 40, "patient_critical_care": 25 },
+    "additional": {
+      "duration_text": "4 timmar",
+      "duration": 14400,
+      "possible_patient": 25,
+      "possible_patient_min": 5,
+      "expansion_missions_ids": [35, 44, 49],
+      "followup_missions_ids": [55],
+      "max_possible_prisoners": 10,
+      "guard_mission": true,
+      "filter_id": "police_station_missions",
+      "patient_allow_first_responder_chance": 1,
+      "need_police_horse_only_if_present": true,
+      "patient_specializations": "Traumatologi"
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "rescue_stations": 1,
+      "police_stations": 7,
+      "police_helicopter_stations": 1,
+      "fire_stations": 2
+    },
+    "overlay_index": null,
+    "base_mission_id": 402,
+    "additive_overlays": ""
+  },
+  {
+    "id": "403",
+    "name": "Brand i byggnad - hotell",
+    "place": "Hotell",
+    "place_array": ["Hotell"],
+    "average_credits": 870,
+    "generated_by": "Brandstation",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 4,
+      "ambulances": 4,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "platform_trucks": 2,
+      "heavy_rescue_vehicles": 1,
+      "water_tankers": 1,
+      "mobile_air_vehicles": 1,
+      "police_cars": 2,
+      "kdow_orgl": 1
+    },
+    "chances": {
+      "mobile_command_vehicles": 75,
+      "patient_transport": 75,
+      "helicopter": 30,
+      "patient_critical_care": 70
+    },
+    "additional": {
+      "possible_patient": 45,
+      "possible_patient_min": 5,
+      "filter_id": "firehouse_missions",
+      "allow_ktw_instead_of_rtw": true,
+      "patient_allow_first_responder_chance": 1,
+      "patient_specializations": "Traumatologi"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 2,
+      "police_stations": 2,
+      "fire_stations": 8
+    },
+    "overlay_index": null,
+    "base_mission_id": 403,
+    "additive_overlays": ""
+  },
+  {
+    "id": "404",
+    "name": "Hussökning",
+    "place": "",
+    "place_array": [],
+    "average_credits": 750,
+    "generated_by": "Polisstation",
+    "icons": [
+      "/images/zoom_gruen.png",
+      "/images/zoom_gelb.png",
+      "/images/zoom_rot.png"
+    ],
+    "requirements": { "police_cars": 4 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 3,
+      "filter_id": "police_station_missions"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 4 },
+    "overlay_index": null,
+    "base_mission_id": 404,
     "additive_overlays": ""
   }
 ]
