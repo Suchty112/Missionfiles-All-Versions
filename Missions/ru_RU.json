@@ -3715,8 +3715,8 @@
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+03:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+03:00"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -3740,8 +3740,8 @@
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+03:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+03:00"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -3769,8 +3769,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+03:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+03:00"
     },
     "prerequisites": { "main_building": 0, "police_stations": 2 },
     "overlay_index": null,
@@ -3795,8 +3795,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+03:00",
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+03:00",
       "patient_specializations": "Травматология"
     },
     "prerequisites": {
@@ -3824,8 +3824,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+03:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+03:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -3855,8 +3855,8 @@
     "additional": {
       "allow_rw_instead_of_lf": true,
       "filter_id": "firehouse_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+03:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+03:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -3883,8 +3883,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+03:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+03:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -3914,8 +3914,8 @@
       "duration": 7200,
       "guard_mission": true,
       "filter_id": "police_station_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+03:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+03:00"
     },
     "prerequisites": {
       "main_building": 6,
@@ -3949,8 +3949,8 @@
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "firehouse_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+03:00",
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+03:00",
       "patient_specializations": "Травматология"
     },
     "prerequisites": {
@@ -3978,8 +3978,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+03:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+03:00"
     },
     "prerequisites": { "main_building": 6, "police_stations": 3 },
     "overlay_index": null,
@@ -4007,8 +4007,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-03-26T10:00:00Z",
-      "date_end": "2021-04-05T23:59:00+03:00"
+      "date_start": "2022-04-08T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+03:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -10726,6 +10726,684 @@
     },
     "overlay_index": null,
     "base_mission_id": 360,
+    "additive_overlays": ""
+  },
+  {
+    "id": "361",
+    "name": "Столкновение мотоциклов",
+    "place": "",
+    "place_array": [],
+    "average_credits": 3500,
+    "generated_by": "Пожарная станция",
+    "icons": [
+      "/images/caraccident_gruen.png",
+      "/images/caraccident_gelb.png",
+      "/images/caraccident_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 2,
+      "heavy_rescue_vehicles": 2,
+      "police_cars": 3
+    },
+    "chances": { "patient_transport": 50, "patient_critical_care": 50 },
+    "additional": {
+      "possible_patient": 4,
+      "filter_id": "firehouse_missions",
+      "patient_specializations": "Травматология"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 2,
+      "police_stations": 2,
+      "fire_stations": 6
+    },
+    "overlay_index": null,
+    "base_mission_id": 361,
+    "additive_overlays": ""
+  },
+  {
+    "id": "362",
+    "name": "Ожесточенная ссора",
+    "place": "",
+    "place_array": [],
+    "average_credits": 900,
+    "generated_by": "Полицейский участок",
+    "icons": [
+      "/images/baseball_gruen.png",
+      "/images/baseball_gelb.png",
+      "/images/baseball_rot.png"
+    ],
+    "requirements": { "police_cars": 2 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 2,
+      "filter_id": "police_station_missions"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 362,
+    "additive_overlays": ""
+  },
+  {
+    "id": "363",
+    "name": "Горящая мебель",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1200,
+    "generated_by": "Пожарная станция",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "water_needed": 500, "firetrucks": 1 },
+    "chances": { "patient_transport": 66 },
+    "additional": {
+      "possible_patient": 1,
+      "filter_id": "firehouse_missions",
+      "patient_at_end_of_mission": true,
+      "patient_specializations": "Терапевт общего профиля"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 363,
+    "additive_overlays": ""
+  },
+  {
+    "id": "364",
+    "name": "Возможная инфекция",
+    "place": "",
+    "place_array": [],
+    "average_credits": 650,
+    "generated_by": "Станция скорой помощи",
+    "icons": [
+      "/images/ambulance_gruen.png",
+      "/images/ambulance_gelb.png",
+      "/images/ambulance_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 100 },
+    "additional": {
+      "possible_patient": 5,
+      "possible_patient_min": 2,
+      "filter_id": "ambulance_station_missions",
+      "patient_specializations": "Хирург общего профиля"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 4 },
+    "overlay_index": null,
+    "base_mission_id": 364,
+    "additive_overlays": ""
+  },
+  {
+    "id": "365",
+    "name": "Вандализм",
+    "place": "",
+    "place_array": [],
+    "average_credits": 450,
+    "generated_by": "Полицейский участок",
+    "icons": [
+      "/images/baseball_gruen.png",
+      "/images/baseball_gelb.png",
+      "/images/baseball_rot.png"
+    ],
+    "requirements": { "police_cars": 2 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 1,
+      "filter_id": "police_station_missions"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 365,
+    "additive_overlays": ""
+  },
+  {
+    "id": "366",
+    "name": "Аллергия на пчелиные укусы",
+    "place": "",
+    "place_array": [],
+    "average_credits": 550,
+    "generated_by": "Станция скорой помощи",
+    "icons": [
+      "/images/spring_gruen.png",
+      "/images/spring_gelb.png",
+      "/images/spring_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 50, "patient_critical_care": 10 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+03:00",
+      "patient_specializations": "Кардиология"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 366,
+    "additive_overlays": ""
+  },
+  {
+    "id": "367",
+    "name": "Аллергия на пыльцу",
+    "place": "",
+    "place_array": [],
+    "average_credits": 650,
+    "generated_by": "Станция скорой помощи",
+    "icons": [
+      "/images/spring_gruen.png",
+      "/images/spring_gelb.png",
+      "/images/spring_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 10, "patient_critical_care": 5 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+03:00",
+      "patient_specializations": "Кардиология"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 367,
+    "additive_overlays": ""
+  },
+  {
+    "id": "368",
+    "name": "Падение с лестницы во время весенней уборки",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "Станция скорой помощи",
+    "icons": [
+      "/images/spring_gruen.png",
+      "/images/spring_gelb.png",
+      "/images/spring_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 50 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+03:00",
+      "patient_specializations": "Травматология"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 368,
+    "additive_overlays": ""
+  },
+  {
+    "id": "369",
+    "name": "Атака дикого животного на весеннем пикнике",
+    "place": "",
+    "place_array": [],
+    "average_credits": 600,
+    "generated_by": "Полицейский участок",
+    "icons": [
+      "/images/spring_gruen.png",
+      "/images/spring_gelb.png",
+      "/images/spring_rot.png"
+    ],
+    "requirements": { "police_cars": 1 },
+    "chances": { "patient_transport": 60, "patient_critical_care": 10 },
+    "additional": {
+      "possible_patient": 3,
+      "possible_patient_min": 1,
+      "filter_id": "police_station_missions",
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+03:00",
+      "patient_specializations": "Травматология"
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "rescue_stations": 3,
+      "police_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 369,
+    "additive_overlays": ""
+  },
+  {
+    "id": "370",
+    "name": "Отравление дикими ягодами",
+    "place": "Парк\nЛес",
+    "place_array": ["Парк", "Лес"],
+    "average_credits": 800,
+    "generated_by": "Станция скорой помощи",
+    "icons": [
+      "/images/spring_gruen.png",
+      "/images/spring_gelb.png",
+      "/images/spring_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 30, "patient_critical_care": 15 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "patient_allow_first_responder_chance": 50,
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+03:00",
+      "patient_specializations": "Хирург общего профиля"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 370,
+    "additive_overlays": ""
+  },
+  {
+    "id": "371",
+    "name": "Горящая корзина для пикника",
+    "place": "Парк\nЛес",
+    "place_array": ["Парк", "Лес"],
+    "average_credits": 800,
+    "generated_by": "Пожарная станция",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+03:00"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 371,
+    "additive_overlays": ""
+  },
+  {
+    "id": "372",
+    "name": "Преступник ворует телят",
+    "place": "Ферма",
+    "place_array": ["Ферма"],
+    "average_credits": 900,
+    "generated_by": "Полицейский участок",
+    "icons": [
+      "/images/cat_gruen.png",
+      "/images/cat_gelb.png",
+      "/images/cat_rot.png"
+    ],
+    "requirements": { "police_cars": 2 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 1,
+      "filter_id": "police_station_missions",
+      "subsequent_missions_ids": [373, 374],
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+03:00"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 372,
+    "additive_overlays": ""
+  },
+  {
+    "id": "373",
+    "name": "Вор убегает",
+    "place": "Лес",
+    "place_array": ["Лес"],
+    "average_credits": 900,
+    "generated_by": "Полицейский участок",
+    "icons": [
+      "/images/climbing_gruen.png",
+      "/images/climbing_gelb.png",
+      "/images/climbing_rot.png"
+    ],
+    "requirements": { "police_helicopters": 1, "police_cars": 5, "k9": 2 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 1,
+      "filter_id": "police_station_missions",
+      "subsequent_mission_only": true,
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+03:00"
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "police_stations": 10,
+      "police_helicopter_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 373,
+    "additive_overlays": ""
+  },
+  {
+    "id": "374",
+    "name": "Корова атаковала вора",
+    "place": "Ферма",
+    "place_array": ["Ферма"],
+    "average_credits": 860,
+    "generated_by": "Станция скорой помощи",
+    "icons": [
+      "/images/ambulance_gruen.png",
+      "/images/ambulance_gelb.png",
+      "/images/ambulance_rot.png"
+    ],
+    "requirements": { "ambulances": 1 },
+    "chances": { "patient_transport": 35 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "patient_allow_first_responder_chance": 60,
+      "subsequent_mission_only": true,
+      "date_start": "2022-03-18T10:00:00Z",
+      "date_end": "2022-03-28T23:59:59+03:00",
+      "patient_specializations": "Терапевт общего профиля"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 374,
+    "additive_overlays": ""
+  },
+  {
+    "id": "375",
+    "name": "Пожар в жилом доме",
+    "place": "",
+    "place_array": [],
+    "average_credits": 5000,
+    "generated_by": "Пожарная станция",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 6,
+      "battalion_chief_vehicles": 1,
+      "platform_trucks": 3,
+      "mobile_air_vehicles": 1,
+      "police_cars": 4
+    },
+    "chances": { "patient_transport": 50, "patient_critical_care": 10 },
+    "additional": {
+      "possible_patient": 25,
+      "filter_id": "firehouse_missions",
+      "patient_specializations": "Терапевт общего профиля"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 3,
+      "police_stations": 2,
+      "fire_stations": 9
+    },
+    "overlay_index": null,
+    "base_mission_id": 375,
+    "additive_overlays": ""
+  },
+  {
+    "id": "376",
+    "name": "Авария с несколькими автомобилями",
+    "place": "",
+    "place_array": [],
+    "average_credits": 7000,
+    "generated_by": "Пожарная станция",
+    "icons": [
+      "/images/caraccident_gruen.png",
+      "/images/caraccident_gelb.png",
+      "/images/caraccident_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 7,
+      "battalion_chief_vehicles": 1,
+      "heavy_rescue_vehicles": 4,
+      "police_cars": 4
+    },
+    "chances": { "patient_transport": 50, "patient_critical_care": 10 },
+    "additional": {
+      "possible_patient": 15,
+      "filter_id": "firehouse_missions",
+      "patient_specializations": "Терапевт общего профиля"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 4,
+      "police_stations": 2,
+      "fire_stations": 14
+    },
+    "overlay_index": null,
+    "base_mission_id": 376,
+    "additive_overlays": ""
+  },
+  {
+    "id": "377",
+    "name": "Незаконная уличная гонка",
+    "place": "",
+    "place_array": [],
+    "average_credits": 2450,
+    "generated_by": "Полицейский участок",
+    "icons": [
+      "/images/theft_gruen.png",
+      "/images/theft_gelb.png",
+      "/images/theft_rot.png"
+    ],
+    "requirements": { "police_cars": 6 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 2,
+      "filter_id": "police_station_missions"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 8 },
+    "overlay_index": null,
+    "base_mission_id": 377,
+    "additive_overlays": ""
+  },
+  {
+    "id": "378",
+    "name": "Автомобиль в канаве",
+    "place": "",
+    "place_array": [],
+    "average_credits": 5500,
+    "generated_by": "Пожарная станция",
+    "icons": [
+      "/images/fallingrocks_gruen.png",
+      "/images/fallingrocks_gelb.png",
+      "/images/fallingrocks_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 7,
+      "battalion_chief_vehicles": 2,
+      "heavy_rescue_vehicles": 2,
+      "police_cars": 2
+    },
+    "chances": { "patient_transport": 75, "patient_critical_care": 10 },
+    "additional": {
+      "possible_patient": 2,
+      "filter_id": "firehouse_missions",
+      "patient_specializations": "Терапевт общего профиля"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 4,
+      "police_stations": 3,
+      "fire_stations": 14
+    },
+    "overlay_index": null,
+    "base_mission_id": 378,
+    "additive_overlays": ""
+  },
+  {
+    "id": "379",
+    "name": "Растаявший шоколадный заяц",
+    "place": "",
+    "place_array": [],
+    "average_credits": 100,
+    "generated_by": "Пожарная станция",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-04-11T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+03:00"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 379,
+    "additive_overlays": ""
+  },
+  {
+    "id": "380",
+    "name": "Удар молнии в заячью нору",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1600,
+    "generated_by": "Пожарная станция",
+    "icons": [
+      "/images/blast_gruen.png",
+      "/images/blast_gelb.png",
+      "/images/blast_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 2,
+      "battalion_chief_vehicles": 1,
+      "platform_trucks": 1,
+      "heavy_rescue_vehicles": 1,
+      "police_cars": 2
+    },
+    "chances": { "platform_trucks": 70, "patient_transport": 60 },
+    "additional": {
+      "possible_patient": 1,
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-04-11T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+03:00",
+      "patient_specializations": "Терапевт общего профиля"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 3,
+      "fire_stations": 4
+    },
+    "overlay_index": null,
+    "base_mission_id": 380,
+    "additive_overlays": ""
+  },
+  {
+    "id": "381",
+    "name": "Запертый в машине шоколадный заяц",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "Пожарная станция",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 1, "police_cars": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-04-11T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+03:00"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 1,
+      "fire_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 381,
+    "additive_overlays": ""
+  },
+  {
+    "id": "382",
+    "name": "Подводная охота за яйцами",
+    "place": "Озеро",
+    "place_array": ["Озеро"],
+    "average_credits": 1670,
+    "generated_by": "Водная спасательная станция",
+    "icons": [
+      "/images/waterpark_gruen.png",
+      "/images/waterpark_gelb.png",
+      "/images/waterpark_rot.png"
+    ],
+    "requirements": { "firetrucks": 1, "police_cars": 1, "diver_units": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "water_watch_missions",
+      "date_start": "2022-04-11T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+03:00"
+    },
+    "prerequisites": {
+      "main_building": 15,
+      "wasserrettung": 2,
+      "police_stations": 1,
+      "fire_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 382,
+    "additive_overlays": ""
+  },
+  {
+    "id": "383",
+    "name": "Пожар в столовой",
+    "place": "Школа",
+    "place_array": ["Школа"],
+    "average_credits": 1300,
+    "generated_by": "Пожарная станция",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 3,
+      "battalion_chief_vehicles": 1,
+      "police_cars": 1
+    },
+    "chances": { "patient_transport": 50 },
+    "additional": {
+      "possible_patient": 2,
+      "filter_id": "firehouse_missions",
+      "fire_alarm_system_possible": true,
+      "patient_specializations": "Терапевт общего профиля"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 2,
+      "police_stations": 1,
+      "fire_stations": 6
+    },
+    "overlay_index": null,
+    "base_mission_id": 383,
+    "additive_overlays": ""
+  },
+  {
+    "id": "384",
+    "name": "Обыск дома",
+    "place": "",
+    "place_array": [],
+    "average_credits": 750,
+    "generated_by": "Полицейский участок",
+    "icons": [
+      "/images/zoom_gruen.png",
+      "/images/zoom_gelb.png",
+      "/images/zoom_rot.png"
+    ],
+    "requirements": { "police_cars": 4 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 3,
+      "filter_id": "police_station_missions"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 4 },
+    "overlay_index": null,
+    "base_mission_id": 384,
     "additive_overlays": ""
   }
 ]
