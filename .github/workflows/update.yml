@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     continue-on-error: true
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         persist-credentials: false
         fetch-depth: 0
@@ -33,7 +33,7 @@ jobs:
     continue-on-error: true
     needs: en_AU
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         persist-credentials: false
         fetch-depth: 0
@@ -57,7 +57,7 @@ jobs:
     continue-on-error: true
     needs: pt_BR
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         persist-credentials: false
         fetch-depth: 0
@@ -80,7 +80,7 @@ jobs:
     continue-on-error: true
     needs: cs_CZ
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         persist-credentials: false
         fetch-depth: 0
@@ -104,7 +104,7 @@ jobs:
     continue-on-error: true
     needs: de_DE
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         persist-credentials: false
         fetch-depth: 0
@@ -128,7 +128,7 @@ jobs:
     continue-on-error: true
     needs: da_DK
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         persist-credentials: false
         fetch-depth: 0
@@ -152,7 +152,7 @@ jobs:
     continue-on-error: true
     needs: es_ES
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         persist-credentials: false
         fetch-depth: 0
@@ -176,7 +176,7 @@ jobs:
     continue-on-error: true
     needs: fi_FI
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         persist-credentials: false
         fetch-depth: 0
@@ -200,7 +200,7 @@ jobs:
     continue-on-error: true
     needs: fr_FR
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         persist-credentials: false
         fetch-depth: 0
@@ -224,7 +224,7 @@ jobs:
     continue-on-error: true
     needs: it_IT
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         persist-credentials: false
         fetch-depth: 0
@@ -248,7 +248,7 @@ jobs:
     continue-on-error: true
     needs: ja_JP
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         persist-credentials: false
         fetch-depth: 0
@@ -272,7 +272,7 @@ jobs:
     continue-on-error: true
     needs: ko_KR
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         persist-credentials: false
         fetch-depth: 0
@@ -296,7 +296,7 @@ jobs:
     continue-on-error: true
     needs: es_MX
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         persist-credentials: false
         fetch-depth: 0
@@ -320,7 +320,7 @@ jobs:
     continue-on-error: true
     needs: nl_NL
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         persist-credentials: false
         fetch-depth: 0
@@ -344,7 +344,7 @@ jobs:
     continue-on-error: true
     needs: nb_NO
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         persist-credentials: false
         fetch-depth: 0
@@ -368,7 +368,7 @@ jobs:
     continue-on-error: true
     needs: pl_PL
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         persist-credentials: false
         fetch-depth: 0
@@ -392,7 +392,7 @@ jobs:
     continue-on-error: true
     needs: pt_PT
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         persist-credentials: false
         fetch-depth: 0
@@ -416,7 +416,7 @@ jobs:
     continue-on-error: true
     needs: ro_RO
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         persist-credentials: false
         fetch-depth: 0
@@ -440,7 +440,7 @@ jobs:
     continue-on-error: true
     needs: ru_RU
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         persist-credentials: false
         fetch-depth: 0
@@ -464,7 +464,7 @@ jobs:
     continue-on-error: true
     needs: sv_SE
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         persist-credentials: false
         fetch-depth: 0
@@ -488,7 +488,7 @@ jobs:
     continue-on-error: true
     needs: tr_TR
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         persist-credentials: false
         fetch-depth: 0
@@ -512,7 +512,7 @@ jobs:
     continue-on-error: true
     needs: uk_UA
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         persist-credentials: false
         fetch-depth: 0
@@ -536,7 +536,7 @@ jobs:
     continue-on-error: true
     needs: en_GB
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         persist-credentials: false
         fetch-depth: 0
@@ -560,7 +560,7 @@ jobs:
     continue-on-error: true
     needs: en_US
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         persist-credentials: false
         fetch-depth: 0
