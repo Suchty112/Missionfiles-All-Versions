@@ -2214,16 +2214,16 @@
     "average_credits": 300,
     "generated_by": "",
     "icons": [
-      "/images/theft_gruen.png",
-      "/images/theft_gelb.png",
-      "/images/theft_rot.png"
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
     ],
     "requirements": { "police_cars": 1 },
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00"
+      "date_start": "2022-12-01T10:00:00Z",
+      "date_end": "2022-12-25T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 2 },
     "overlay_index": null,
@@ -2239,9 +2239,9 @@
     "average_credits": 610,
     "generated_by": "",
     "icons": [
-      "/images/fire_gruen.png",
-      "/images/fire_gelb.png",
-      "/images/fire_rot.png"
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
     ],
     "requirements": { "firetrucks": 1 },
     "chances": { "patient_transport": 30 },
@@ -2255,8 +2255,8 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00",
+      "date_start": "2022-12-01T10:00:00Z",
+      "date_end": "2022-12-25T22:59:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Medicina interna generale"],
       "patient_specializations": "Medicina interna generale"
@@ -2275,9 +2275,9 @@
     "average_credits": 310,
     "generated_by": "",
     "icons": [
-      "/images/fire_gruen.png",
-      "/images/fire_gelb.png",
-      "/images/fire_rot.png"
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
     ],
     "requirements": { "firetrucks": 1 },
     "chances": { "patient_transport": 30 },
@@ -2291,8 +2291,8 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00",
+      "date_start": "2022-12-01T10:00:00Z",
+      "date_end": "2022-12-25T22:59:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Medicina interna generale"],
       "patient_specializations": "Medicina interna generale"
@@ -2327,8 +2327,8 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00",
+      "date_start": "2023-01-06T10:00:00Z",
+      "date_end": "2023-03-20T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
       "patient_specializations": "Traumatologia"
@@ -2347,16 +2347,16 @@
     "average_credits": 870,
     "generated_by": "",
     "icons": [
-      "/images/fire_gruen.png",
-      "/images/fire_gelb.png",
-      "/images/fire_rot.png"
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
     ],
     "requirements": { "firetrucks": 1 },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00"
+      "date_start": "2022-12-01T10:00:00Z",
+      "date_end": "2022-12-25T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 6 },
     "overlay_index": null,
@@ -2372,16 +2372,16 @@
     "average_credits": 800,
     "generated_by": "",
     "icons": [
-      "/images/fire_gruen.png",
-      "/images/fire_gelb.png",
-      "/images/fire_rot.png"
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
     ],
     "requirements": { "firetrucks": 1 },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00"
+      "date_start": "2022-12-01T10:00:00Z",
+      "date_end": "2022-12-25T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 5 },
     "overlay_index": null,
@@ -2397,9 +2397,9 @@
     "average_credits": 600,
     "generated_by": "",
     "icons": [
-      "/images/baseball_gruen.png",
-      "/images/baseball_gelb.png",
-      "/images/baseball_rot.png"
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
     ],
     "requirements": { "police_cars": 2 },
     "chances": { "patient_transport": 30 },
@@ -2413,8 +2413,8 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00",
+      "date_start": "2022-12-01T10:00:00Z",
+      "date_end": "2022-12-25T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
       "patient_specializations": "Traumatologia"
@@ -2534,8 +2534,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -2559,8 +2559,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -2584,8 +2584,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
@@ -2621,8 +2621,8 @@
         "Traumatologia"
       ],
       "subsequent_missions_ids": [460],
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 3 },
     "overlay_index": null,
@@ -2646,8 +2646,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 3 },
     "overlay_index": null,
@@ -2671,8 +2671,8 @@
     "chances": { "platform_trucks": 30 },
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
@@ -2696,8 +2696,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -2721,8 +2721,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -2746,8 +2746,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -2787,8 +2787,8 @@
         "Traumatologia"
       ],
       "subsequent_missions_ids": [460],
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": {
       "main_building": 0,
@@ -2817,8 +2817,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -2842,8 +2842,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -2878,8 +2878,8 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 2, "rescue_stations": 3 },
     "overlay_index": null,
@@ -3292,7 +3292,7 @@
     "overlay_index": null,
     "base_mission_id": 108,
     "additive_overlays": "",
-    "mission_categories": ["fire", "water_rescue_specialization"]
+    "mission_categories": ["water_rescue"]
   },
   {
     "id": "109",
@@ -3389,7 +3389,7 @@
     "overlay_index": null,
     "base_mission_id": 110,
     "additive_overlays": "",
-    "mission_categories": ["fire", "water_rescue_specialization"]
+    "mission_categories": ["water_rescue"]
   },
   {
     "id": "111",
@@ -3515,7 +3515,7 @@
     "overlay_index": null,
     "base_mission_id": 113,
     "additive_overlays": "",
-    "mission_categories": ["ambulance", "water_rescue_specialization"]
+    "mission_categories": ["water_rescue"]
   },
   {
     "id": "114",
@@ -3700,7 +3700,7 @@
     "overlay_index": null,
     "base_mission_id": 117,
     "additive_overlays": "",
-    "mission_categories": ["fire", "water_rescue_specialization"]
+    "mission_categories": ["water_rescue"]
   },
   {
     "id": "118",
@@ -3761,6 +3761,7 @@
     "additional": {
       "possible_patient": 1,
       "possible_patient_min": 1,
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "patient_it_code_possible": ["KC01G", "KC01V"],
       "filter_id": "police_station_missions",
@@ -4012,7 +4013,7 @@
     "overlay_index": null,
     "base_mission_id": 124,
     "additive_overlays": "",
-    "mission_categories": ["fire", "water_rescue_specialization"]
+    "mission_categories": ["water_rescue"]
   },
   {
     "id": "125",
@@ -4130,7 +4131,7 @@
     "overlay_index": null,
     "base_mission_id": 127,
     "additive_overlays": "",
-    "mission_categories": ["fire", "traffic_police_specialization"]
+    "mission_categories": ["police", "traffic_police_specialization"]
   },
   {
     "id": "128",
@@ -4233,7 +4234,7 @@
     "overlay_index": null,
     "base_mission_id": 130,
     "additive_overlays": "",
-    "mission_categories": ["ambulance", "water_rescue_specialization"]
+    "mission_categories": ["water_rescue"]
   },
   {
     "id": "131",
@@ -4283,7 +4284,7 @@
     "overlay_index": null,
     "base_mission_id": 131,
     "additive_overlays": "",
-    "mission_categories": ["fire", "water_rescue_specialization"]
+    "mission_categories": ["water_rescue"]
   },
   {
     "id": "132",
@@ -5359,6 +5360,7 @@
     "additional": {
       "possible_patient": 1,
       "possible_patient_min": 1,
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "patient_it_code_possible": ["KC20R", "ZC20R"],
       "filter_id": "police_station_missions",
@@ -5630,7 +5632,7 @@
     "overlay_index": null,
     "base_mission_id": 168,
     "additive_overlays": "",
-    "mission_categories": ["fire", "water_rescue_specialization"]
+    "mission_categories": ["water_rescue"]
   },
   {
     "id": "169",
@@ -5945,7 +5947,7 @@
     "overlay_index": null,
     "base_mission_id": 176,
     "additive_overlays": "",
-    "mission_categories": ["fire", "water_rescue_specialization"]
+    "mission_categories": ["water_rescue"]
   },
   {
     "id": "177",
@@ -5996,7 +5998,7 @@
     "overlay_index": null,
     "base_mission_id": 177,
     "additive_overlays": "",
-    "mission_categories": ["fire", "water_rescue_specialization"]
+    "mission_categories": ["water_rescue"]
   },
   {
     "id": "178",
@@ -6048,7 +6050,7 @@
     "overlay_index": null,
     "base_mission_id": 178,
     "additive_overlays": "",
-    "mission_categories": ["fire", "water_rescue_specialization"]
+    "mission_categories": ["water_rescue"]
   },
   {
     "id": "179",
@@ -7391,7 +7393,7 @@
     "overlay_index": null,
     "base_mission_id": 215,
     "additive_overlays": "",
-    "mission_categories": ["fire", "water_rescue_specialization"]
+    "mission_categories": ["water_rescue"]
   },
   {
     "id": "216",
@@ -9445,8 +9447,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-11-26T11:00:00+01:00",
-      "date_end": "2021-11-29T23:59:00+01:00"
+      "date_start": "2022-11-24T10:00:00Z",
+      "date_end": "2022-11-27T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -9470,8 +9472,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-11-26T11:00:00+01:00",
-      "date_end": "2021-11-29T23:59:00+01:00"
+      "date_start": "2022-11-24T10:00:00Z",
+      "date_end": "2022-11-27T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 3 },
     "overlay_index": null,
@@ -9495,8 +9497,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-11-26T11:00:00+01:00",
-      "date_end": "2021-11-29T23:59:00+01:00"
+      "date_start": "2022-11-24T10:00:00Z",
+      "date_end": "2022-11-27T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
@@ -9520,8 +9522,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-11-26T11:00:00+01:00",
-      "date_end": "2021-11-29T23:59:00+01:00"
+      "date_start": "2022-11-24T10:00:00Z",
+      "date_end": "2022-11-27T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 6 },
     "overlay_index": null,
@@ -9545,8 +9547,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-11-26T11:00:00+01:00",
-      "date_end": "2021-11-29T23:59:00+01:00"
+      "date_start": "2022-11-24T10:00:00Z",
+      "date_end": "2022-11-27T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -9570,8 +9572,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-11-26T11:00:00+01:00",
-      "date_end": "2021-11-29T23:59:00+01:00"
+      "date_start": "2022-11-24T10:00:00Z",
+      "date_end": "2022-11-27T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 2 },
     "overlay_index": null,
@@ -9596,8 +9598,8 @@
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2021-11-26T11:00:00+01:00",
-      "date_end": "2021-11-29T23:59:00+01:00"
+      "date_start": "2022-11-24T10:00:00Z",
+      "date_end": "2022-11-27T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 3 },
     "overlay_index": null,
@@ -9620,10 +9622,11 @@
     "requirements": { "police_cars": 4 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 3,
       "filter_id": "police_station_missions",
-      "date_start": "2021-11-26T11:00:00+01:00",
-      "date_end": "2021-11-29T23:59:00+01:00"
+      "date_start": "2022-11-24T10:00:00Z",
+      "date_end": "2022-11-27T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 6 },
     "overlay_index": null,
@@ -9646,10 +9649,11 @@
     "requirements": { "police_cars": 5 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 2,
       "max_possible_prisoners": 4,
       "filter_id": "police_station_missions",
-      "date_start": "2021-11-26T11:00:00+01:00",
-      "date_end": "2021-11-29T23:59:00+01:00"
+      "date_start": "2022-11-24T10:00:00Z",
+      "date_end": "2022-11-27T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 6 },
     "overlay_index": null,
@@ -9684,8 +9688,8 @@
         "Chirurgia generale",
         "Gastroenterologia"
       ],
-      "date_start": "2021-11-26T11:00:00+01:00",
-      "date_end": "2021-11-29T23:59:00+01:00"
+      "date_start": "2022-11-24T10:00:00Z",
+      "date_end": "2022-11-27T22:59:00Z"
     },
     "prerequisites": { "main_building": 2, "rescue_stations": 1 },
     "overlay_index": null,
@@ -9716,8 +9720,8 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "date_start": "2021-11-26T11:00:00+01:00",
-      "date_end": "2021-11-29T23:59:00+01:00"
+      "date_start": "2022-11-24T10:00:00Z",
+      "date_end": "2022-11-27T22:59:00Z"
     },
     "prerequisites": { "main_building": 2, "rescue_stations": 1 },
     "overlay_index": null,
@@ -9750,8 +9754,8 @@
         "Neurologia",
         "Neurochirurgia"
       ],
-      "date_start": "2021-11-26T11:00:00+01:00",
-      "date_end": "2021-11-29T23:59:00+01:00"
+      "date_start": "2022-11-24T10:00:00Z",
+      "date_end": "2022-11-27T22:59:00Z"
     },
     "prerequisites": { "main_building": 2, "rescue_stations": 2 },
     "overlay_index": null,
@@ -9784,8 +9788,8 @@
         "Neurologia",
         "Neurochirurgia"
       ],
-      "date_start": "2021-11-26T11:00:00+01:00",
-      "date_end": "2021-11-29T23:59:00+01:00"
+      "date_start": "2022-11-24T10:00:00Z",
+      "date_end": "2022-11-27T22:59:00Z"
     },
     "prerequisites": { "main_building": 2, "rescue_stations": 3 },
     "overlay_index": null,
@@ -9818,8 +9822,8 @@
         "Neurologia",
         "Neurochirurgia"
       ],
-      "date_start": "2021-11-26T11:00:00+01:00",
-      "date_end": "2021-11-29T23:59:00+01:00"
+      "date_start": "2022-11-24T10:00:00Z",
+      "date_end": "2022-11-27T22:59:00Z"
     },
     "prerequisites": { "main_building": 2, "rescue_stations": 3 },
     "overlay_index": null,
@@ -9853,8 +9857,8 @@
       "duration": 1200,
       "guard_mission": true,
       "filter_id": "police_station_missions",
-      "date_start": "2021-11-26T11:00:00+01:00",
-      "date_end": "2021-11-29T23:59:00+01:00"
+      "date_start": "2022-11-24T10:00:00Z",
+      "date_end": "2022-11-27T22:59:00Z"
     },
     "prerequisites": {
       "main_building": 6,
@@ -9891,8 +9895,8 @@
       "duration": 600,
       "guard_mission": true,
       "filter_id": "police_station_missions",
-      "date_start": "2021-11-26T11:00:00+01:00",
-      "date_end": "2021-11-29T23:59:00+01:00"
+      "date_start": "2022-11-24T10:00:00Z",
+      "date_end": "2022-11-27T22:59:00Z"
     },
     "prerequisites": {
       "main_building": 6,
@@ -9929,8 +9933,8 @@
         "Medicina interna generale",
         "Medicina interna generale"
       ],
-      "date_start": "2021-11-26T11:00:00+01:00",
-      "date_end": "2021-11-29T23:59:00+01:00"
+      "date_start": "2022-11-24T10:00:00Z",
+      "date_end": "2022-11-27T22:59:00Z"
     },
     "prerequisites": {
       "main_building": 6,
@@ -10337,8 +10341,8 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 2, "rescue_stations": 1 },
     "overlay_index": null,
@@ -10373,8 +10377,8 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 2, "rescue_stations": 2 },
     "overlay_index": null,
@@ -10409,8 +10413,8 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 2, "rescue_stations": 3 },
     "overlay_index": null,
@@ -10445,8 +10449,8 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 2, "rescue_stations": 1 },
     "overlay_index": null,
@@ -10481,8 +10485,8 @@
         "Neurologia",
         "Neurochirurgia"
       ],
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 2, "rescue_stations": 1 },
     "overlay_index": null,
@@ -10509,8 +10513,8 @@
       "duration": 5400,
       "guard_mission": true,
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": {
       "main_building": 6,
@@ -10550,8 +10554,8 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": {
       "main_building": 6,
@@ -10581,8 +10585,8 @@
       "expansion_missions_ids": [307],
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -10618,8 +10622,8 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": {
       "main_building": 6,
@@ -10648,8 +10652,8 @@
     "additional": {
       "max_possible_prisoners": 4,
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": {
       "main_building": 6,
@@ -12105,7 +12109,7 @@
     "overlay_index": null,
     "base_mission_id": 352,
     "additive_overlays": "",
-    "mission_categories": ["fire", "water_rescue_specialization"]
+    "mission_categories": ["water_rescue"]
   },
   {
     "id": "353",
@@ -12169,6 +12173,7 @@
     "additional": {
       "possible_patient": 6,
       "possible_patient_min": 1,
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 2,
       "average_min_fire_personnel": 35,
       "patient_it_code_possible": ["LC15R", "LC15G", "LC15V"],
@@ -12422,7 +12427,7 @@
     "overlay_index": null,
     "base_mission_id": 360,
     "additive_overlays": "",
-    "mission_categories": ["fire", "water_rescue_specialization"]
+    "mission_categories": ["water_rescue"]
   },
   {
     "id": "361",
@@ -12763,6 +12768,7 @@
     "additional": {
       "possible_patient": 6,
       "possible_patient_min": 1,
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 4,
       "patient_it_code_possible": ["KC01R", "KC01G", "KC01V"],
       "filter_id": "police_station_missions",
@@ -12893,6 +12899,7 @@
     "requirements": { "police_cars": 3 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 3,
       "filter_id": "police_station_missions"
     },
@@ -12996,7 +13003,7 @@
     "overlay_index": null,
     "base_mission_id": 377,
     "additive_overlays": "",
-    "mission_categories": ["fire", "water_rescue_specialization"]
+    "mission_categories": ["water_rescue"]
   },
   {
     "id": "378",
@@ -13386,7 +13393,7 @@
     "overlay_index": null,
     "base_mission_id": 390,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "fire", "forestry_specialization"]
+    "mission_categories": ["forestry", "fire"]
   },
   {
     "id": "391",
@@ -13425,7 +13432,7 @@
     "overlay_index": null,
     "base_mission_id": 391,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "fire", "forestry_specialization"]
+    "mission_categories": ["forestry", "fire"]
   },
   {
     "id": "392",
@@ -13464,7 +13471,7 @@
     "overlay_index": null,
     "base_mission_id": 392,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "393",
@@ -13501,7 +13508,7 @@
     "overlay_index": null,
     "base_mission_id": 393,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "394",
@@ -13530,7 +13537,7 @@
     "overlay_index": null,
     "base_mission_id": 394,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization", "fire"]
+    "mission_categories": ["forestry", "fire"]
   },
   {
     "id": "395",
@@ -13560,7 +13567,7 @@
     "overlay_index": null,
     "base_mission_id": 395,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "396",
@@ -13596,7 +13603,7 @@
     "overlay_index": null,
     "base_mission_id": 396,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "397",
@@ -13635,7 +13642,7 @@
     "overlay_index": null,
     "base_mission_id": 397,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "398",
@@ -13663,7 +13670,7 @@
     "overlay_index": null,
     "base_mission_id": 398,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization", "fire"]
+    "mission_categories": ["forestry", "fire"]
   },
   {
     "id": "399",
@@ -13705,7 +13712,7 @@
     "overlay_index": null,
     "base_mission_id": 399,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "400",
@@ -13747,7 +13754,7 @@
     "overlay_index": null,
     "base_mission_id": 400,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "401",
@@ -13771,7 +13778,7 @@
     "overlay_index": null,
     "base_mission_id": 401,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "402",
@@ -13799,7 +13806,7 @@
     "overlay_index": null,
     "base_mission_id": 402,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "403",
@@ -13827,7 +13834,7 @@
     "overlay_index": null,
     "base_mission_id": 403,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "404",
@@ -13860,7 +13867,7 @@
     "overlay_index": null,
     "base_mission_id": 404,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "405",
@@ -14202,7 +14209,7 @@
     "overlay_index": null,
     "base_mission_id": 414,
     "additive_overlays": "",
-    "mission_categories": ["fire", "water_rescue_specialization"]
+    "mission_categories": ["water_rescue"]
   },
   {
     "id": "415",
@@ -14345,7 +14352,7 @@
     "overlay_index": null,
     "base_mission_id": 417,
     "additive_overlays": "",
-    "mission_categories": ["fire", "water_rescue_specialization"]
+    "mission_categories": ["water_rescue"]
   },
   {
     "id": "418",
@@ -14836,7 +14843,7 @@
     "overlay_index": null,
     "base_mission_id": 431,
     "additive_overlays": "",
-    "mission_categories": ["fire", "water_rescue_specialization"]
+    "mission_categories": ["water_rescue"]
   },
   {
     "id": "432",
@@ -15040,6 +15047,7 @@
     "requirements": { "police_cars": 1 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 0,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
       "max_municipal_police_replacing_police_cars": 1
@@ -15471,6 +15479,7 @@
     "requirements": { "police_cars": 1 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 0,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions"
     },
@@ -15597,6 +15606,7 @@
     "requirements": { "police_cars": 1 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 0,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions"
     },
@@ -15735,7 +15745,7 @@
     "overlay_index": null,
     "base_mission_id": 457,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "458",
@@ -15768,7 +15778,7 @@
     "overlay_index": null,
     "base_mission_id": 458,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "459",
@@ -15875,6 +15885,7 @@
     },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 5,
       "filter_id": "police_station_missions"
     },
@@ -16100,11 +16111,7 @@
     "overlay_index": null,
     "base_mission_id": 468,
     "additive_overlays": "",
-    "mission_categories": [
-      "forestry",
-      "forestry_specialization",
-      "water_rescue"
-    ]
+    "mission_categories": ["forestry", "water_rescue"]
   },
   {
     "id": "469",
@@ -16608,6 +16615,7 @@
     "requirements": { "police_cars": 1 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
       "date_start": "2022-02-25T10:00:00Z",
@@ -17760,6 +17768,7 @@
     "additional": {
       "possible_patient": 40,
       "possible_patient_min": 10,
+      "min_possible_prisoners": 4,
       "max_possible_prisoners": 20,
       "patient_it_code_possible": ["SC01R", "SC01G", "SC01V"],
       "filter_id": "police_station_missions",
@@ -17809,6 +17818,7 @@
     "additional": {
       "possible_patient": 20,
       "possible_patient_min": 6,
+      "min_possible_prisoners": 4,
       "max_possible_prisoners": 10,
       "patient_it_code_possible": ["SC01R", "SC01G", "SC01V"],
       "filter_id": "police_station_missions",
@@ -18054,7 +18064,7 @@
     "overlay_index": null,
     "base_mission_id": 526,
     "additive_overlays": "",
-    "mission_categories": ["fire", "water_rescue_specialization"]
+    "mission_categories": ["water_rescue"]
   },
   {
     "id": "527",
@@ -18082,7 +18092,7 @@
     "overlay_index": null,
     "base_mission_id": 527,
     "additive_overlays": "",
-    "mission_categories": ["fire", "water_rescue_specialization"]
+    "mission_categories": ["water_rescue"]
   },
   {
     "id": "528",
@@ -18187,7 +18197,7 @@
     "overlay_index": null,
     "base_mission_id": 530,
     "additive_overlays": "",
-    "mission_categories": ["fire", "traffic_police_specialization"]
+    "mission_categories": ["police", "traffic_police_specialization"]
   },
   {
     "id": "531",
@@ -18618,6 +18628,7 @@
     },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 4,
       "max_possible_prisoners": 8,
       "filter_id": "police_station_missions"
     },
@@ -18629,6 +18640,41 @@
     },
     "overlay_index": null,
     "base_mission_id": 544,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "545",
+    "name": "Arresto Contrabbandiere",
+    "place": "Stazione ferroviaria (traffico regionale)\nStazione ferroviaria (traffico regionale e viaggi a lunga distanza)\nTerminal aeroporto\nPorto mercantile\nMolo navi da crociera\nPorticciolo",
+    "place_array": [
+      "Stazione ferroviaria (traffico regionale)",
+      "Stazione ferroviaria (traffico regionale e viaggi a lunga distanza)",
+      "Terminal aeroporto",
+      "Porto mercantile",
+      "Molo navi da crociera",
+      "Porticciolo"
+    ],
+    "average_credits": 1800,
+    "generated_by": "",
+    "icons": [
+      "/images/zoom_gruen.png",
+      "/images/zoom_gelb.png",
+      "/images/zoom_rot.png"
+    ],
+    "requirements": { "police_cars": 2, "k9": 1, "commerce_police": 2 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 1,
+      "filter_id": "police_station_missions"
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "police_stations": 6,
+      "commerce_police_stations": 2
+    },
+    "overlay_index": null,
+    "base_mission_id": 545,
     "additive_overlays": "",
     "mission_categories": ["police"]
   },
@@ -19177,5 +19223,525 @@
     "base_mission_id": 560,
     "additive_overlays": "",
     "mission_categories": ["coastal_rescue"]
+  },
+  {
+    "id": "561",
+    "name": "Pulizia dei binari",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1000,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 1,
+      "heavy_rescue_vehicles": 1,
+      "police_cars": 1
+    },
+    "chances": {},
+    "additional": { "filter_id": "firehouse_missions" },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 1,
+      "fire_stations": 4
+    },
+    "overlay_index": null,
+    "base_mission_id": 561,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "562",
+    "name": "Sincope recuperata",
+    "place": "",
+    "place_array": [],
+    "average_credits": 750,
+    "generated_by": "",
+    "icons": [
+      "/images/medicalstore_gruen.png",
+      "/images/medicalstore_gelb.png",
+      "/images/medicalstore_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 50 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "patient_it_code_possible": ["YC01R", "YC01G", "YC01V"],
+      "filter_id": "ambulance_station_missions",
+      "possible_patient_specializations": [
+        "Medicina interna generale",
+        "Traumatologia",
+        "Medicina interna generale",
+        "Traumatologia",
+        "Medicina interna generale",
+        "Traumatologia"
+      ],
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Medicina interna generale"],
+      "patient_specializations": "Medicina interna generale"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 562,
+    "additive_overlays": "",
+    "mission_categories": ["ambulance"]
+  },
+  {
+    "id": "563",
+    "name": "Sequestro Reti da Pesca Illegali",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1200,
+    "generated_by": "",
+    "icons": [
+      "/images/zoom_gruen.png",
+      "/images/zoom_gelb.png",
+      "/images/zoom_rot.png"
+    ],
+    "requirements": {
+      "personnel_educations": { "law_enforcement_marine": 2 },
+      "coastal_boat": 1
+    },
+    "chances": {},
+    "additional": {
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true,
+      "personnel_educations": { "Ufficiale di Polizia Marittima": 2 }
+    },
+    "prerequisites": {
+      "main_building": 26,
+      "police_stations": 4,
+      "personnel_educations": { "law_enforcement_marine": 6 },
+      "coastal_rescue_count": 2
+    },
+    "overlay_index": null,
+    "base_mission_id": 563,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "564",
+    "name": "Delfino Spiaggiato",
+    "place": "Scogliera",
+    "place_array": ["Scogliera"],
+    "average_credits": 1200,
+    "generated_by": "",
+    "icons": [
+      "/images/zoom_gruen.png",
+      "/images/zoom_gelb.png",
+      "/images/zoom_rot.png"
+    ],
+    "requirements": { "coastal_command": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions", "default"]
+    },
+    "prerequisites": { "main_building": 26, "coastal_rescue_small_count": 1 },
+    "overlay_index": null,
+    "base_mission_id": 564,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue"]
+  },
+  {
+    "id": "565",
+    "name": "Motoscafo Fuori Controllo",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1200,
+    "generated_by": "",
+    "icons": [
+      "/images/zoom_gruen.png",
+      "/images/zoom_gelb.png",
+      "/images/zoom_rot.png"
+    ],
+    "requirements": {
+      "personnel_educations": { "law_enforcement_marine": 2 },
+      "coastal_boat": 1
+    },
+    "chances": {},
+    "additional": {
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true,
+      "personnel_educations": { "Ufficiale di Polizia Marittima": 2 }
+    },
+    "prerequisites": {
+      "main_building": 26,
+      "personnel_educations": { "law_enforcement_marine": 6 },
+      "coastal_rescue_count": 2
+    },
+    "overlay_index": null,
+    "base_mission_id": 565,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "566",
+    "name": "Imbarcazione alla Fonda in Area Protetta",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1200,
+    "generated_by": "",
+    "icons": [
+      "/images/zoom_gruen.png",
+      "/images/zoom_gelb.png",
+      "/images/zoom_rot.png"
+    ],
+    "requirements": {
+      "personnel_educations": { "law_enforcement_marine": 2 },
+      "coastal_boat": 1
+    },
+    "chances": {},
+    "additional": {
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true,
+      "personnel_educations": { "Ufficiale di Polizia Marittima": 2 }
+    },
+    "prerequisites": {
+      "main_building": 26,
+      "personnel_educations": { "law_enforcement_marine": 6 },
+      "coastal_rescue_count": 2
+    },
+    "overlay_index": null,
+    "base_mission_id": 566,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "567",
+    "name": "Veicolo sulla Spiaggia",
+    "place": "Spiaggia",
+    "place_array": ["Spiaggia"],
+    "average_credits": 1000,
+    "generated_by": "",
+    "icons": [
+      "/images/zoom_gruen.png",
+      "/images/zoom_gelb.png",
+      "/images/zoom_rot.png"
+    ],
+    "requirements": { "coastal_command": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions", "default"]
+    },
+    "prerequisites": { "main_building": 26, "coastal_rescue_small_count": 1 },
+    "overlay_index": null,
+    "base_mission_id": 567,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue"]
+  },
+  {
+    "id": "568",
+    "name": "Decorazione natalizia andata a fuoco",
+    "place": "",
+    "place_array": [],
+    "average_credits": 300,
+    "generated_by": "",
+    "icons": [
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
+    ],
+    "requirements": { "firetrucks": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "date_start": "2022-12-12T09:00:00Z",
+      "date_end": "2022-12-24T22:59:00Z"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 568,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "569",
+    "name": "La slitta di Babbo Natale blocca la strada",
+    "place": "",
+    "place_array": [],
+    "average_credits": 300,
+    "generated_by": "",
+    "icons": [
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
+    ],
+    "requirements": { "police_cars": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "police_station_missions",
+      "optional_event_mission": true,
+      "date_start": "2022-12-12T09:00:00Z",
+      "date_end": "2022-12-24T22:59:00Z"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 569,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "570",
+    "name": "Albero di Natale rubato",
+    "place": "",
+    "place_array": [],
+    "average_credits": 300,
+    "generated_by": "",
+    "icons": [
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
+    ],
+    "requirements": { "police_cars": 3 },
+    "chances": {},
+    "additional": {
+      "filter_id": "police_station_missions",
+      "optional_event_mission": true,
+      "date_start": "2022-12-12T09:00:00Z",
+      "date_end": "2022-12-24T22:59:00Z"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 570,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "571",
+    "name": "Regali di Natale rubati in un centro commerciale",
+    "place": "",
+    "place_array": [],
+    "average_credits": 300,
+    "generated_by": "",
+    "icons": [
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
+    ],
+    "requirements": { "police_cars": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "police_station_missions",
+      "optional_event_mission": true,
+      "date_start": "2022-12-12T09:00:00Z",
+      "date_end": "2022-12-24T22:59:00Z"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 571,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "572",
+    "name": "Tentativo di incendio doloso",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1250,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 2,
+      "battalion_chief_vehicles": 1,
+      "water_tankers": 1,
+      "police_cars": 3
+    },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 2,
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 4,
+      "fire_stations": 7
+    },
+    "overlay_index": null,
+    "base_mission_id": 572,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "573",
+    "name": "Un falò incendia la legnaia",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "",
+    "icons": [
+      "/images/snowy_gruen.png",
+      "/images/snowy_gelb.png",
+      "/images/snowy_rot.png"
+    ],
+    "requirements": { "firetrucks": 2 },
+    "chances": { "patient_transport": 30 },
+    "additional": {
+      "possible_patient": 1,
+      "patient_it_code_possible": ["ZC01R", "ZC01G", "ZC01V"],
+      "filter_id": "firehouse_missions",
+      "possible_patient_specializations": [
+        "Medicina interna generale",
+        "Traumatologia",
+        "Medicina interna generale",
+        "Traumatologia",
+        "Medicina interna generale",
+        "Traumatologia"
+      ],
+      "date_start": "2023-01-06T10:00:00Z",
+      "date_end": "2023-03-20T22:59:00Z",
+      "patient_specialization_ids": [1],
+      "patient_specialization_captions": ["Chirurgia generale"],
+      "patient_specializations": "Chirurgia generale"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 573,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "574",
+    "name": "Rissa sul lago ghiacciato",
+    "place": "",
+    "place_array": [],
+    "average_credits": 650,
+    "generated_by": "",
+    "icons": [
+      "/images/snowy_gruen.png",
+      "/images/snowy_gelb.png",
+      "/images/snowy_rot.png"
+    ],
+    "requirements": { "police_cars": 1 },
+    "chances": { "patient_transport": 30 },
+    "additional": {
+      "possible_patient": 2,
+      "patient_it_code_possible": ["ZC01R", "ZC01G", "ZC01V"],
+      "filter_id": "police_station_missions",
+      "possible_patient_specializations": [
+        "Medicina interna generale",
+        "Traumatologia",
+        "Medicina interna generale",
+        "Traumatologia",
+        "Medicina interna generale",
+        "Traumatologia"
+      ],
+      "date_start": "2023-01-06T10:00:00Z",
+      "date_end": "2023-03-20T22:59:00Z",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Medicina interna generale"],
+      "patient_specializations": "Medicina interna generale"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 574,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "575",
+    "name": "Iceskater scivolato",
+    "place": "",
+    "place_array": [],
+    "average_credits": null,
+    "generated_by": "",
+    "icons": [
+      "/images/snowy_gruen.png",
+      "/images/snowy_gelb.png",
+      "/images/snowy_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 60 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "patient_it_code_possible": ["KC01R", "KC01G"],
+      "filter_id": "ambulance_station_missions",
+      "possible_patient_specializations": [
+        "Medicina interna generale",
+        "Traumatologia",
+        "Medicina interna generale",
+        "Traumatologia"
+      ],
+      "date_start": "2023-01-06T10:00:00Z",
+      "date_end": "2023-03-20T22:59:00Z",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Medicina interna generale"],
+      "patient_specializations": "Medicina interna generale"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 575,
+    "additive_overlays": "",
+    "mission_categories": ["ambulance"]
+  },
+  {
+    "id": "576",
+    "name": "Lotta a palle di neve in corso",
+    "place": "",
+    "place_array": [],
+    "average_credits": 550,
+    "generated_by": "",
+    "icons": [
+      "/images/snowy_gruen.png",
+      "/images/snowy_gelb.png",
+      "/images/snowy_rot.png"
+    ],
+    "requirements": { "police_cars": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "police_station_missions",
+      "date_start": "2023-01-06T10:00:00Z",
+      "date_end": "2023-03-20T22:59:00Z"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 576,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "577",
+    "name": "Contrabbando via mare",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1200,
+    "generated_by": "",
+    "icons": [
+      "/images/cruiseship_gruen.png",
+      "/images/cruiseship_gelb.png",
+      "/images/cruiseship_rot.png"
+    ],
+    "requirements": { "coastal_guard_boat": 2 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 4,
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true,
+      "handoff_possible_via_building_types": [26]
+    },
+    "prerequisites": {
+      "main_building": 26,
+      "police_stations": 2,
+      "coastal_rescue_count": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 577,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
   }
 ]
