@@ -2435,16 +2435,16 @@
     "average_credits": 300,
     "generated_by": "",
     "icons": [
-      "/images/theft_gruen.png",
-      "/images/theft_gelb.png",
-      "/images/theft_rot.png"
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
     ],
     "requirements": { "police_cars": 1 },
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00"
+      "date_start": "2022-12-01T10:00:00Z",
+      "date_end": "2022-12-25T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 2 },
     "overlay_index": null,
@@ -2460,17 +2460,17 @@
     "average_credits": 610,
     "generated_by": "",
     "icons": [
-      "/images/fire_gruen.png",
-      "/images/fire_gelb.png",
-      "/images/fire_rot.png"
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
     ],
     "requirements": { "firetrucks": 1 },
     "chances": { "patient_transport": 30, "patient_critical_care": 5 },
     "additional": {
       "possible_patient": 1,
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00",
+      "date_start": "2022-12-01T10:00:00Z",
+      "date_end": "2022-12-25T22:59:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Medicina interna general"],
       "patient_specializations": "Medicina interna general"
@@ -2489,17 +2489,17 @@
     "average_credits": 310,
     "generated_by": "",
     "icons": [
-      "/images/fire_gruen.png",
-      "/images/fire_gelb.png",
-      "/images/fire_rot.png"
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
     ],
     "requirements": { "firetrucks": 1 },
     "chances": { "patient_transport": 30, "patient_critical_care": 5 },
     "additional": {
       "possible_patient": 1,
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00",
+      "date_start": "2022-12-01T10:00:00Z",
+      "date_end": "2022-12-25T22:59:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Medicina interna general"],
       "patient_specializations": "Medicina interna general"
@@ -2527,8 +2527,8 @@
     "additional": {
       "possible_patient": 3,
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00",
+      "date_start": "2023-01-06T10:00:00Z",
+      "date_end": "2023-03-20T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatología"],
       "patient_specializations": "Traumatología"
@@ -2547,16 +2547,16 @@
     "average_credits": 870,
     "generated_by": "",
     "icons": [
-      "/images/fire_gruen.png",
-      "/images/fire_gelb.png",
-      "/images/fire_rot.png"
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
     ],
     "requirements": { "firetrucks": 1 },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00"
+      "date_start": "2022-12-01T10:00:00Z",
+      "date_end": "2022-12-25T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 6 },
     "overlay_index": null,
@@ -2572,16 +2572,16 @@
     "average_credits": 800,
     "generated_by": "",
     "icons": [
-      "/images/fire_gruen.png",
-      "/images/fire_gelb.png",
-      "/images/fire_rot.png"
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
     ],
     "requirements": { "firetrucks": 1 },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00"
+      "date_start": "2022-12-01T10:00:00Z",
+      "date_end": "2022-12-25T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 5 },
     "overlay_index": null,
@@ -2597,17 +2597,17 @@
     "average_credits": 600,
     "generated_by": "",
     "icons": [
-      "/images/baseball_gruen.png",
-      "/images/baseball_gelb.png",
-      "/images/baseball_rot.png"
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
     ],
     "requirements": { "police_cars": 2 },
     "chances": { "patient_transport": 30, "patient_critical_care": 5 },
     "additional": {
       "possible_patient": 2,
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00",
+      "date_start": "2022-12-01T10:00:00Z",
+      "date_end": "2022-12-25T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatología"],
       "patient_specializations": "Traumatología"
@@ -2810,8 +2810,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -2835,8 +2835,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -2860,8 +2860,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
@@ -2894,8 +2894,8 @@
     "additional": {
       "possible_patient": 2,
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Medicina interna general"],
       "patient_specializations": "Medicina interna general"
@@ -2922,8 +2922,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 3 },
     "overlay_index": null,
@@ -2947,8 +2947,8 @@
     "chances": { "platform_trucks": 30 },
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
@@ -2972,8 +2972,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -2997,8 +2997,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -3022,8 +3022,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -3060,8 +3060,8 @@
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Medicina interna general"],
       "patient_specializations": "Medicina interna general"
@@ -3093,8 +3093,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -3118,8 +3118,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -3145,8 +3145,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatología"],
       "patient_specializations": "Traumatología"
@@ -4572,6 +4572,7 @@
     "requirements": { "police_cars": 4 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions"
     },
@@ -6169,6 +6170,7 @@
     "requirements": { "police_cars": 4 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 3,
       "filter_id": "police_station_missions",
       "date_start": "2022-10-28T09:00:00Z",
@@ -6195,6 +6197,7 @@
     "requirements": { "police_cars": 5 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 2,
       "max_possible_prisoners": 4,
       "filter_id": "police_station_missions",
       "date_start": "2022-10-28T09:00:00Z",
@@ -6988,6 +6991,7 @@
     "additional": {
       "possible_patient": 1,
       "possible_patient_min": 1,
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
       "patient_at_end_of_mission": true,
@@ -7326,8 +7330,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatología"],
       "patient_specializations": "Traumatología"
@@ -7356,8 +7360,8 @@
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatología"],
       "patient_specializations": "Traumatología"
@@ -7386,8 +7390,8 @@
       "possible_patient": 3,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatología"],
       "patient_specializations": "Traumatología"
@@ -7416,8 +7420,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatología"],
       "patient_specializations": "Traumatología"
@@ -7446,8 +7450,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatología"],
       "patient_specializations": "Traumatología"
@@ -7477,8 +7481,8 @@
       "duration": 5400,
       "guard_mission": true,
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": {
       "main_building": 6,
@@ -7508,8 +7512,8 @@
       "possible_patient": 1,
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatología"],
       "patient_specializations": "Traumatología"
@@ -7542,8 +7546,8 @@
       "expansion_missions_ids": [241],
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -7570,8 +7574,8 @@
       "possible_patient_min": 1,
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatología"],
       "patient_specializations": "Traumatología"
@@ -7603,8 +7607,8 @@
     "additional": {
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 4 },
     "overlay_index": null,
@@ -9175,6 +9179,7 @@
     "additional": {
       "possible_patient": 30,
       "possible_patient_min": 4,
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
       "patient_specialization_ids": [0],
@@ -9209,8 +9214,9 @@
     "additional": {
       "allow_rw_instead_of_lf": true,
       "filter_id": "firehouse_missions",
-      "date_start": "2021-06-11T09:00:00Z",
-      "date_end": "2021-07-11T22:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2022-11-18T10:00:00Z",
+      "date_end": "2022-12-18T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -9234,8 +9240,9 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-06-11T09:00:00Z",
-      "date_end": "2021-07-11T22:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2022-11-18T10:00:00Z",
+      "date_end": "2022-12-18T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -9262,8 +9269,9 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "allow_ktw_instead_of_rtw": true,
-      "date_start": "2021-06-11T09:00:00Z",
-      "date_end": "2021-07-11T22:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2022-11-18T10:00:00Z",
+      "date_end": "2022-12-18T22:59:00Z",
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Cirugía general"],
       "patient_specializations": "Cirugía general"
@@ -9293,8 +9301,9 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "allow_ktw_instead_of_rtw": true,
-      "date_start": "2021-06-11T09:00:00Z",
-      "date_end": "2021-07-11T22:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2022-11-18T10:00:00Z",
+      "date_end": "2022-12-18T22:59:00Z",
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Cirugía general"],
       "patient_specializations": "Cirugía general"
@@ -9322,8 +9331,9 @@
     "additional": {
       "allow_rw_instead_of_lf": true,
       "filter_id": "firehouse_missions",
-      "date_start": "2021-06-11T09:00:00Z",
-      "date_end": "2021-07-11T22:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2022-11-18T10:00:00Z",
+      "date_end": "2022-12-18T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -9347,8 +9357,9 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-06-11T09:00:00Z",
-      "date_end": "2021-07-11T22:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2022-11-18T10:00:00Z",
+      "date_end": "2022-12-18T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 2 },
     "overlay_index": null,
@@ -9374,8 +9385,9 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-06-11T09:00:00Z",
-      "date_end": "2021-07-11T22:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2022-11-18T10:00:00Z",
+      "date_end": "2022-12-18T22:59:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Medicina interna general"],
       "patient_specializations": "Medicina interna general"
@@ -9404,8 +9416,9 @@
       "possible_patient": 3,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-06-11T09:00:00Z",
-      "date_end": "2021-07-11T22:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2022-11-18T10:00:00Z",
+      "date_end": "2022-12-18T22:59:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Medicina interna general"],
       "patient_specializations": "Medicina interna general"
@@ -9432,8 +9445,9 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-06-11T09:00:00Z",
-      "date_end": "2021-07-11T22:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2022-11-18T10:00:00Z",
+      "date_end": "2022-12-18T22:59:00Z"
     },
     "prerequisites": {
       "main_building": 6,
@@ -9461,8 +9475,9 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-06-11T09:00:00Z",
-      "date_end": "2021-07-11T22:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2022-11-18T10:00:00Z",
+      "date_end": "2022-12-18T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
@@ -11731,6 +11746,7 @@
     "requirements": { "police_cars": 2 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions"
     },
@@ -13540,5 +13556,565 @@
     "base_mission_id": 421,
     "additive_overlays": "",
     "mission_categories": ["police"]
+  },
+  {
+    "id": "422",
+    "name": "Incendio en un tren con productos inflamables",
+    "place": "",
+    "place_array": [],
+    "average_credits": 4300,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 5,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "heavy_rescue_vehicles": 2,
+      "hazmat_vehicles": 1,
+      "police_cars": 3
+    },
+    "chances": {},
+    "additional": { "filter_id": "firehouse_missions" },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 2,
+      "fire_stations": 13
+    },
+    "overlay_index": null,
+    "base_mission_id": 422,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "422/a",
+    "name": "Incendio en un tren con productos inflamables",
+    "place": "",
+    "place_array": [],
+    "average_credits": 6800,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "water_needed": 16000,
+      "firetrucks": 5,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "heavy_rescue_vehicles": 2,
+      "hazmat_vehicles": 1,
+      "police_cars": 3,
+      "pump": 2
+    },
+    "chances": {},
+    "additional": { "filter_id": "firehouse_missions" },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 2,
+      "fire_support_count": 1,
+      "fire_stations": 13
+    },
+    "overlay_index": null,
+    "base_mission_id": 422,
+    "additive_overlays": "a",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "423",
+    "name": "Limpieza de vías",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1000,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 1,
+      "heavy_rescue_vehicles": 1,
+      "police_cars": 1
+    },
+    "chances": {},
+    "additional": { "filter_id": "firehouse_missions" },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 1,
+      "fire_stations": 4
+    },
+    "overlay_index": null,
+    "base_mission_id": 423,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "424",
+    "name": "Síncope recuperado",
+    "place": "",
+    "place_array": [],
+    "average_credits": 750,
+    "generated_by": "",
+    "icons": [
+      "/images/medicalstore_gruen.png",
+      "/images/medicalstore_gelb.png",
+      "/images/medicalstore_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 50, "patient_critical_care": 25 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Medicina interna general"],
+      "patient_specializations": "Medicina interna general"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 424,
+    "additive_overlays": "",
+    "mission_categories": ["ambulance"]
+  },
+  {
+    "id": "425",
+    "name": "Explosión de una bombona de gas",
+    "place": "",
+    "place_array": [],
+    "average_credits": 9800,
+    "generated_by": "",
+    "icons": [
+      "/images/blast_gruen.png",
+      "/images/blast_gelb.png",
+      "/images/blast_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 5,
+      "battalion_chief_vehicles": 1,
+      "platform_trucks": 2,
+      "water_tankers": 2,
+      "hazmat_vehicles": 2,
+      "police_cars": 3
+    },
+    "chances": { "patient_transport": 25, "patient_critical_care": 10 },
+    "additional": {
+      "possible_patient": 25,
+      "filter_id": "firehouse_missions",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Medicina interna general"],
+      "patient_specializations": "Medicina interna general"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 6,
+      "police_stations": 5,
+      "fire_stations": 14
+    },
+    "overlay_index": null,
+    "base_mission_id": 425,
+    "additive_overlays": "",
+    "mission_categories": ["fire", "fire_support_specialization"]
+  },
+  {
+    "id": "425/a",
+    "name": "Explosión de una bombona de gas",
+    "place": "",
+    "place_array": [],
+    "average_credits": 10200,
+    "generated_by": "",
+    "icons": [
+      "/images/blast_gruen.png",
+      "/images/blast_gelb.png",
+      "/images/blast_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 5,
+      "battalion_chief_vehicles": 1,
+      "platform_trucks": 2,
+      "water_tankers": 2,
+      "hazmat_vehicles": 2,
+      "police_cars": 3,
+      "foam": 1
+    },
+    "chances": { "patient_transport": 25, "patient_critical_care": 10 },
+    "additional": {
+      "possible_patient": 25,
+      "filter_id": "firehouse_missions",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Medicina interna general"],
+      "patient_specializations": "Medicina interna general"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 6,
+      "police_stations": 5,
+      "fire_support_count": 1,
+      "fire_stations": 14
+    },
+    "overlay_index": null,
+    "base_mission_id": 425,
+    "additive_overlays": "a",
+    "mission_categories": ["fire", "fire_support_specialization"]
+  },
+  {
+    "id": "426",
+    "name": "Incendio en la centralita",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": { "filter_id": "firehouse_missions" },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 426,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "427",
+    "name": "Posesión ilegal de un arma de fuego",
+    "place": "",
+    "place_array": [],
+    "average_credits": 3750,
+    "generated_by": "",
+    "icons": [
+      "/images/shooting_gruen.png",
+      "/images/shooting_gelb.png",
+      "/images/shooting_rot.png"
+    ],
+    "requirements": { "police_cars": 4, "riot_police": 1 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 2,
+      "filter_id": "police_station_missions"
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "police_stations": 7,
+      "riot_police": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 427,
+    "additive_overlays": "",
+    "mission_categories": ["police", "riot_police_specialization"]
+  },
+  {
+    "id": "428",
+    "name": "Accidente de carretilla elevadora",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1250,
+    "generated_by": "",
+    "icons": [
+      "/images/caraccident_gruen.png",
+      "/images/caraccident_gelb.png",
+      "/images/caraccident_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 1,
+      "heavy_rescue_vehicles": 1,
+      "police_cars": 2
+    },
+    "chances": { "patient_transport": 100, "patient_critical_care": 50 },
+    "additional": {
+      "possible_patient": 1,
+      "filter_id": "firehouse_missions",
+      "patient_specialization_ids": [4],
+      "patient_specialization_captions": ["Traumatología"],
+      "patient_specializations": "Traumatología"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 2,
+      "police_stations": 2,
+      "fire_stations": 6
+    },
+    "overlay_index": null,
+    "base_mission_id": 428,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "429",
+    "name": "La decoración navideña se incendia",
+    "place": "",
+    "place_array": [],
+    "average_credits": 300,
+    "generated_by": "",
+    "icons": [
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
+    ],
+    "requirements": { "firetrucks": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "date_start": "2022-12-12T09:00:00Z",
+      "date_end": "2022-12-24T22:59:00Z"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 429,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "430",
+    "name": "El trineo de Santa Claus bloquea la carretera",
+    "place": "",
+    "place_array": [],
+    "average_credits": 300,
+    "generated_by": "",
+    "icons": [
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
+    ],
+    "requirements": { "police_cars": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "police_station_missions",
+      "optional_event_mission": true,
+      "date_start": "2022-12-12T09:00:00Z",
+      "date_end": "2022-12-24T22:59:00Z"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 430,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "431",
+    "name": "Robo del árbol de Navidad",
+    "place": "",
+    "place_array": [],
+    "average_credits": 300,
+    "generated_by": "",
+    "icons": [
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
+    ],
+    "requirements": { "police_cars": 3 },
+    "chances": {},
+    "additional": {
+      "filter_id": "police_station_missions",
+      "optional_event_mission": true,
+      "date_start": "2022-12-12T09:00:00Z",
+      "date_end": "2022-12-24T22:59:00Z"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 431,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "432",
+    "name": "Robo de regalos de Navidad en un centro comercial",
+    "place": "",
+    "place_array": [],
+    "average_credits": 300,
+    "generated_by": "",
+    "icons": [
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
+    ],
+    "requirements": { "police_cars": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "police_station_missions",
+      "optional_event_mission": true,
+      "date_start": "2022-12-12T09:00:00Z",
+      "date_end": "2022-12-24T22:59:00Z"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 432,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "433",
+    "name": "Intento de incendio",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1250,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 2,
+      "battalion_chief_vehicles": 1,
+      "water_tankers": 1,
+      "police_cars": 3
+    },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 2,
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 4,
+      "fire_stations": 7
+    },
+    "overlay_index": null,
+    "base_mission_id": 433,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "434",
+    "name": "Una hoguera prende fuego a una leñera",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "",
+    "icons": [
+      "/images/snowy_gruen.png",
+      "/images/snowy_gelb.png",
+      "/images/snowy_rot.png"
+    ],
+    "requirements": { "firetrucks": 2 },
+    "chances": { "patient_transport": 30 },
+    "additional": {
+      "possible_patient": 1,
+      "filter_id": "firehouse_missions",
+      "date_start": "2023-01-06T10:00:00Z",
+      "date_end": "2023-03-20T22:59:00Z",
+      "patient_specialization_ids": [1],
+      "patient_specialization_captions": ["Cirugía general"],
+      "patient_specializations": "Cirugía general"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 434,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "435",
+    "name": "Pelea en un lago helado",
+    "place": "",
+    "place_array": [],
+    "average_credits": 650,
+    "generated_by": "",
+    "icons": [
+      "/images/snowy_gruen.png",
+      "/images/snowy_gelb.png",
+      "/images/snowy_rot.png"
+    ],
+    "requirements": { "police_cars": 1 },
+    "chances": { "patient_transport": 30 },
+    "additional": {
+      "possible_patient": 2,
+      "filter_id": "police_station_missions",
+      "date_start": "2023-01-06T10:00:00Z",
+      "date_end": "2023-03-20T22:59:00Z",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Medicina interna general"],
+      "patient_specializations": "Medicina interna general"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 435,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "436",
+    "name": "Iceskater resbaló",
+    "place": "",
+    "place_array": [],
+    "average_credits": null,
+    "generated_by": "",
+    "icons": [
+      "/images/snowy_gruen.png",
+      "/images/snowy_gelb.png",
+      "/images/snowy_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 60 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "date_start": "2023-01-06T10:00:00Z",
+      "date_end": "2023-03-20T22:59:00Z",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Medicina interna general"],
+      "patient_specializations": "Medicina interna general"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 436,
+    "additive_overlays": "",
+    "mission_categories": ["ambulance"]
+  },
+  {
+    "id": "437",
+    "name": "Niños lanzando bolas de nieve sobre personas y casas",
+    "place": "",
+    "place_array": [],
+    "average_credits": 550,
+    "generated_by": "",
+    "icons": [
+      "/images/snowy_gruen.png",
+      "/images/snowy_gelb.png",
+      "/images/snowy_rot.png"
+    ],
+    "requirements": { "police_cars": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "police_station_missions",
+      "date_start": "2023-01-06T10:00:00Z",
+      "date_end": "2023-03-20T22:59:00Z"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 437,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "438",
+    "name": "Incendio en una fábrica de papel",
+    "place": "",
+    "place_array": [],
+    "average_credits": 780,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 4 },
+    "chances": {},
+    "additional": { "filter_id": "firehouse_missions" },
+    "prerequisites": { "main_building": 0, "fire_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 438,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
   }
 ]
