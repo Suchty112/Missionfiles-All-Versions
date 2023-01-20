@@ -556,68 +556,10 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.MISSIONBOT }}  
 
-  tr_TR:
-    runs-on: ubuntu-latest
-    continue-on-error: true
-    needs: sv_SE
-    steps:
-    - uses: actions/checkout@v3
-      with:
-        persist-credentials: false
-        fetch-depth: 0
-
-    - name: Update
-      run: |
-        git pull
-        curl -X GET https://www.112-merkez.com/einsaetze.json > Missions/tr_TR.json
-        curl -X GET https://www.112-merkez.com/alliance_event_types.json > Events/tr_TR.json
-                
-    - name: json-syntax-check
-      uses: limitusus/json-syntax-check@v2
-      with:
-        pattern: "\\.json$"
-        
-    - name: Prettify code & PUSH
-      uses: creyD/prettier_action@v4.2
-      with:
-        prettier_options: --write **/*.{js,md,json}
-        commit_message: Update tr_TR
-      env:
-        GITHUB_TOKEN: ${{ secrets.MISSIONBOT }}  
-
-  uk_UA:
-    runs-on: ubuntu-latest
-    continue-on-error: true
-    needs: tr_TR
-    steps:
-    - uses: actions/checkout@v3
-      with:
-        persist-credentials: false
-        fetch-depth: 0
-
-    - name: Update
-      run: |
-        git pull
-        curl -X GET https://www.dyspetcher101-game.com/einsaetze.json > Missions/uk_UA.json
-        curl -X GET https://www.dyspetcher101-game.com/alliance_event_types.json > Events/uk_UA.json
-                
-    - name: json-syntax-check
-      uses: limitusus/json-syntax-check@v2
-      with:
-        pattern: "\\.json$"
-        
-    - name: Prettify code & PUSH
-      uses: creyD/prettier_action@v4.2
-      with:
-        prettier_options: --write **/*.{js,md,json}
-        commit_message: Update uk_UA
-      env:
-        GITHUB_TOKEN: ${{ secrets.MISSIONBOT }}  
-
   en_GB:
     runs-on: ubuntu-latest
     continue-on-error: true
-    needs: uk_UA
+    needs: sv_SE
     steps:
     - uses: actions/checkout@v3
       with:
