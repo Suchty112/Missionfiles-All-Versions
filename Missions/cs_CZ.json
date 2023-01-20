@@ -3721,6 +3721,7 @@
     "additional": {
       "possible_patient": 1,
       "possible_patient_min": 1,
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "swat_personnel": 6,
       "filter_id": "police_station_missions",
@@ -3900,6 +3901,7 @@
     "requirements": { "police_cars": 4 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions"
     },
@@ -6192,17 +6194,17 @@
     "average_credits": 600,
     "generated_by": "",
     "icons": [
-      "/images/baseball_gruen.png",
-      "/images/baseball_gelb.png",
-      "/images/baseball_rot.png"
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
     ],
     "requirements": { "police_cars": 2 },
     "chances": { "patient_transport": 30 },
     "additional": {
       "possible_patient": 2,
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-01T00:00:00+01:00",
-      "date_end": "2021-12-27T00:00:00+01:00",
+      "date_start": "2022-12-01T10:00:00Z",
+      "date_end": "2022-12-25T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Úrazová chirurgie"],
       "patient_specializations": "Úrazová chirurgie"
@@ -6225,16 +6227,16 @@
     "average_credits": 800,
     "generated_by": "",
     "icons": [
-      "/images/fire_gruen.png",
-      "/images/fire_gelb.png",
-      "/images/fire_rot.png"
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
     ],
     "requirements": { "firetrucks": 2, "platform_trucks": 1, "police_cars": 1 },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-01T00:00:00+01:00",
-      "date_end": "2021-12-27T00:00:00+01:00"
+      "date_start": "2022-12-01T10:00:00Z",
+      "date_end": "2022-12-25T22:59:00Z"
     },
     "prerequisites": {
       "main_building": 0,
@@ -6254,9 +6256,9 @@
     "average_credits": 610,
     "generated_by": "",
     "icons": [
-      "/images/fire_gruen.png",
-      "/images/fire_gelb.png",
-      "/images/fire_rot.png"
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
     ],
     "requirements": {
       "firetrucks": 3,
@@ -6267,8 +6269,8 @@
     "additional": {
       "possible_patient": 1,
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-01T00:00:00+01:00",
-      "date_end": "2021-12-27T00:00:00+01:00",
+      "date_start": "2022-12-01T10:00:00Z",
+      "date_end": "2022-12-25T22:59:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -6292,9 +6294,9 @@
     "average_credits": 1070,
     "generated_by": "",
     "icons": [
-      "/images/fire_gruen.png",
-      "/images/fire_gelb.png",
-      "/images/fire_rot.png"
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
     ],
     "requirements": {
       "firetrucks": 3,
@@ -6306,8 +6308,8 @@
     "additional": {
       "possible_patient": 2,
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-01T00:00:00+01:00",
-      "date_end": "2021-12-27T00:00:00+01:00",
+      "date_start": "2022-12-01T10:00:00Z",
+      "date_end": "2022-12-25T22:59:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -6331,17 +6333,17 @@
     "average_credits": 600,
     "generated_by": "",
     "icons": [
-      "/images/fire_gruen.png",
-      "/images/fire_gelb.png",
-      "/images/fire_rot.png"
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
     ],
     "requirements": { "firetrucks": 2 },
     "chances": { "patient_transport": 30 },
     "additional": {
       "possible_patient": 1,
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-01T00:00:00+01:00",
-      "date_end": "2021-12-27T00:00:00+01:00",
+      "date_start": "2022-12-01T10:00:00Z",
+      "date_end": "2022-12-25T22:59:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -6364,16 +6366,16 @@
     "average_credits": 300,
     "generated_by": "",
     "icons": [
-      "/images/theft_gruen.png",
-      "/images/theft_gelb.png",
-      "/images/theft_rot.png"
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
     ],
     "requirements": { "police_cars": 1 },
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-01T00:00:00+01:00",
-      "date_end": "2021-12-27T00:00:00+01:00"
+      "date_start": "2022-12-01T10:00:00Z",
+      "date_end": "2022-12-25T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 2 },
     "overlay_index": null,
@@ -6404,8 +6406,8 @@
       "possible_patient": 5,
       "filter_id": "firehouse_missions",
       "need_traffic_car_only_if_present": true,
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00",
+      "date_start": "2023-01-06T10:00:00Z",
+      "date_end": "2023-03-20T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Úrazová chirurgie"],
       "patient_specializations": "Úrazová chirurgie"
@@ -6428,19 +6430,18 @@
     "average_credits": 250,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
     ],
     "requirements": { "police_cars": 1 },
     "chances": { "patient_transport": 30 },
     "additional": {
       "possible_patient": 1,
       "possible_patient_min": 1,
-      "expansion_missions_ids": [198],
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00",
+      "date_start": "2022-12-01T10:00:00Z",
+      "date_end": "2022-12-25T22:59:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -6463,9 +6464,9 @@
     "average_credits": null,
     "generated_by": "",
     "icons": [
-      "/images/medicalstore_gruen.png",
-      "/images/medicalstore_gelb.png",
-      "/images/medicalstore_rot.png"
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
     ],
     "requirements": {},
     "chances": { "patient_transport": 50 },
@@ -6473,8 +6474,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-01T00:00:00+01:00",
-      "date_end": "2021-12-27T00:00:00+01:00",
+      "date_start": "2022-12-01T10:00:00Z",
+      "date_end": "2022-12-25T22:59:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -6503,8 +6504,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-01T00:00:00+01:00",
-      "date_end": "2021-12-27T00:00:00+01:00",
+      "date_start": "2023-01-06T10:00:00Z",
+      "date_end": "2023-03-20T22:59:00Z",
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Všeobecný chirurg"],
       "patient_specializations": "Všeobecný chirurg"
@@ -6533,8 +6534,8 @@
       "possible_patient": 2,
       "filter_id": "firehouse_missions",
       "need_traffic_car_only_if_present": true,
-      "date_start": "2021-12-01T00:00:00+01:00",
-      "date_end": "2021-12-27T00:00:00+01:00",
+      "date_start": "2023-01-06T10:00:00Z",
+      "date_end": "2023-03-20T22:59:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -6694,8 +6695,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -6719,8 +6720,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -6744,8 +6745,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
@@ -6770,8 +6771,8 @@
     "additional": {
       "possible_patient": 2,
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -6798,8 +6799,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 3 },
     "overlay_index": null,
@@ -6823,8 +6824,8 @@
     "chances": { "platform_trucks": 30 },
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
@@ -6848,8 +6849,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -6873,8 +6874,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -6898,8 +6899,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -6931,8 +6932,8 @@
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -6964,8 +6965,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -6989,8 +6990,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -7016,8 +7017,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Úrazová chirurgie"],
       "patient_specializations": "Úrazová chirurgie"
@@ -7046,8 +7047,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Úrazová chirurgie"],
       "patient_specializations": "Úrazová chirurgie"
@@ -7076,8 +7077,8 @@
       "possible_patient": 3,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Úrazová chirurgie"],
       "patient_specializations": "Úrazová chirurgie"
@@ -7106,8 +7107,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Úrazová chirurgie"],
       "patient_specializations": "Úrazová chirurgie"
@@ -7136,8 +7137,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Úrazová chirurgie"],
       "patient_specializations": "Úrazová chirurgie"
@@ -7167,8 +7168,8 @@
       "duration": 5400,
       "guard_mission": true,
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": {
       "main_building": 6,
@@ -7198,8 +7199,8 @@
       "possible_patient": 1,
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Úrazová chirurgie"],
       "patient_specializations": "Úrazová chirurgie"
@@ -7232,8 +7233,8 @@
       "expansion_missions_ids": [233],
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -7260,8 +7261,8 @@
       "possible_patient_min": 1,
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Úrazová chirurgie"],
       "patient_specializations": "Úrazová chirurgie"
@@ -7293,8 +7294,8 @@
     "additional": {
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 4 },
     "overlay_index": null,
@@ -7346,8 +7347,9 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2022-01-14T11:00:00+01:00",
-      "date_end": "2022-01-17T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-01-19T10:00:00Z",
+      "date_end": "2023-01-23T23:00:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -7371,8 +7373,9 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2022-01-14T11:00:00+01:00",
-      "date_end": "2022-01-17T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-01-19T10:00:00Z",
+      "date_end": "2023-01-23T23:00:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 3 },
     "overlay_index": null,
@@ -7396,8 +7399,9 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2022-01-14T11:00:00+01:00",
-      "date_end": "2022-01-17T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-01-19T10:00:00Z",
+      "date_end": "2023-01-23T23:00:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
@@ -7421,8 +7425,9 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2022-01-14T11:00:00+01:00",
-      "date_end": "2022-01-17T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-01-19T10:00:00Z",
+      "date_end": "2023-01-23T23:00:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 6 },
     "overlay_index": null,
@@ -7446,8 +7451,9 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2022-01-14T11:00:00+01:00",
-      "date_end": "2022-01-17T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-01-19T10:00:00Z",
+      "date_end": "2023-01-23T23:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -7471,8 +7477,9 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2022-01-14T11:00:00+01:00",
-      "date_end": "2022-01-17T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-01-19T10:00:00Z",
+      "date_end": "2023-01-23T23:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 2 },
     "overlay_index": null,
@@ -7497,8 +7504,9 @@
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2022-01-14T11:00:00+01:00",
-      "date_end": "2022-01-17T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-01-19T10:00:00Z",
+      "date_end": "2023-01-23T23:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 3 },
     "overlay_index": null,
@@ -7521,10 +7529,12 @@
     "requirements": { "police_cars": 4 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 3,
       "filter_id": "police_station_missions",
-      "date_start": "2022-01-14T11:00:00+01:00",
-      "date_end": "2022-01-17T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-01-19T10:00:00Z",
+      "date_end": "2023-01-23T23:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 6 },
     "overlay_index": null,
@@ -7547,10 +7557,12 @@
     "requirements": { "police_cars": 5 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 2,
       "max_possible_prisoners": 4,
       "filter_id": "police_station_missions",
-      "date_start": "2022-01-14T11:00:00+01:00",
-      "date_end": "2022-01-17T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-01-19T10:00:00Z",
+      "date_end": "2023-01-23T23:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 6 },
     "overlay_index": null,
@@ -7576,8 +7588,9 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-01-14T11:00:00+01:00",
-      "date_end": "2022-01-17T23:59:00+01:00",
+      "optional_event_mission": true,
+      "date_start": "2023-01-19T10:00:00Z",
+      "date_end": "2023-01-23T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -7606,8 +7619,9 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-01-14T11:00:00+01:00",
-      "date_end": "2022-01-17T23:59:00+01:00",
+      "optional_event_mission": true,
+      "date_start": "2023-01-19T10:00:00Z",
+      "date_end": "2023-01-23T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -7636,8 +7650,9 @@
       "possible_patient": 5,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-01-14T11:00:00+01:00",
-      "date_end": "2022-01-17T23:59:00+01:00",
+      "optional_event_mission": true,
+      "date_start": "2023-01-19T10:00:00Z",
+      "date_end": "2023-01-23T23:00:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Úrazová chirurgie"],
       "patient_specializations": "Úrazová chirurgie"
@@ -7666,8 +7681,9 @@
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-01-14T11:00:00+01:00",
-      "date_end": "2022-01-17T23:59:00+01:00",
+      "optional_event_mission": true,
+      "date_start": "2023-01-19T10:00:00Z",
+      "date_end": "2023-01-23T23:00:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Úrazová chirurgie"],
       "patient_specializations": "Úrazová chirurgie"
@@ -7696,8 +7712,9 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-01-14T11:00:00+01:00",
-      "date_end": "2022-01-17T23:59:00+01:00",
+      "optional_event_mission": true,
+      "date_start": "2023-01-19T10:00:00Z",
+      "date_end": "2023-01-23T23:00:00Z",
       "patient_specialization_ids": [8],
       "patient_specialization_captions": ["Kardiochirurgie"],
       "patient_specializations": "Kardiochirurgie"
@@ -7734,8 +7751,9 @@
       "duration": 1200,
       "guard_mission": true,
       "filter_id": "police_station_missions",
-      "date_start": "2022-01-14T11:00:00+01:00",
-      "date_end": "2022-01-17T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-01-19T10:00:00Z",
+      "date_end": "2023-01-23T23:00:00Z"
     },
     "prerequisites": {
       "main_building": 6,
@@ -7772,8 +7790,9 @@
       "duration": 600,
       "guard_mission": true,
       "filter_id": "police_station_missions",
-      "date_start": "2022-01-14T11:00:00+01:00",
-      "date_end": "2022-01-17T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-01-19T10:00:00Z",
+      "date_end": "2023-01-23T23:00:00Z"
     },
     "prerequisites": {
       "main_building": 6,
@@ -7804,8 +7823,9 @@
       "possible_patient": 18,
       "possible_patient_min": 2,
       "filter_id": "police_station_missions",
-      "date_start": "2022-01-14T11:00:00+01:00",
-      "date_end": "2022-01-17T23:59:00+01:00",
+      "optional_event_mission": true,
+      "date_start": "2023-01-19T10:00:00Z",
+      "date_end": "2023-01-23T23:00:00Z",
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Všeobecný chirurg"],
       "patient_specializations": "Všeobecný chirurg"
@@ -7973,7 +7993,7 @@
     "overlay_index": null,
     "base_mission_id": 257,
     "additive_overlays": "",
-    "mission_categories": ["water_rescue", "divers_specialization"]
+    "mission_categories": ["fire", "divers_specialization"]
   },
   {
     "id": "258",
@@ -8006,7 +8026,7 @@
     "overlay_index": null,
     "base_mission_id": 258,
     "additive_overlays": "",
-    "mission_categories": ["water_rescue", "divers_specialization"]
+    "mission_categories": ["fire", "divers_specialization"]
   },
   {
     "id": "259",
@@ -8047,11 +8067,7 @@
     "overlay_index": null,
     "base_mission_id": 259,
     "additive_overlays": "",
-    "mission_categories": [
-      "fire",
-      "disaster_response_specialization",
-      "divers_specialization"
-    ]
+    "mission_categories": ["fire", "divers_specialization"]
   },
   {
     "id": "259-0",
@@ -8094,11 +8110,7 @@
     "overlay_index": 0,
     "base_mission_id": 259,
     "additive_overlays": "",
-    "mission_categories": [
-      "fire",
-      "disaster_response_specialization",
-      "divers_specialization"
-    ]
+    "mission_categories": ["fire", "divers_specialization"]
   },
   {
     "id": "260",
@@ -8139,11 +8151,7 @@
     "overlay_index": null,
     "base_mission_id": 260,
     "additive_overlays": "",
-    "mission_categories": [
-      "water_rescue",
-      "disaster_response_specialization",
-      "divers_specialization"
-    ]
+    "mission_categories": ["fire", "divers_specialization"]
   },
   {
     "id": "260-0",
@@ -8186,11 +8194,7 @@
     "overlay_index": 0,
     "base_mission_id": 260,
     "additive_overlays": "",
-    "mission_categories": [
-      "water_rescue",
-      "disaster_response_specialization",
-      "divers_specialization"
-    ]
+    "mission_categories": ["fire", "divers_specialization"]
   },
   {
     "id": "261",
@@ -8231,11 +8235,7 @@
     "overlay_index": null,
     "base_mission_id": 261,
     "additive_overlays": "",
-    "mission_categories": [
-      "fire",
-      "disaster_response_specialization",
-      "divers_specialization"
-    ]
+    "mission_categories": ["fire", "divers_specialization"]
   },
   {
     "id": "261-0",
@@ -8278,11 +8278,7 @@
     "overlay_index": 0,
     "base_mission_id": 261,
     "additive_overlays": "",
-    "mission_categories": [
-      "fire",
-      "disaster_response_specialization",
-      "divers_specialization"
-    ]
+    "mission_categories": ["fire", "divers_specialization"]
   },
   {
     "id": "262",
@@ -8323,11 +8319,7 @@
     "overlay_index": null,
     "base_mission_id": 262,
     "additive_overlays": "",
-    "mission_categories": [
-      "water_rescue",
-      "disaster_response_specialization",
-      "divers_specialization"
-    ]
+    "mission_categories": ["fire", "divers_specialization"]
   },
   {
     "id": "262-0",
@@ -8370,11 +8362,7 @@
     "overlay_index": 0,
     "base_mission_id": 262,
     "additive_overlays": "",
-    "mission_categories": [
-      "water_rescue",
-      "disaster_response_specialization",
-      "divers_specialization"
-    ]
+    "mission_categories": ["fire", "divers_specialization"]
   },
   {
     "id": "263",
@@ -8415,11 +8403,7 @@
     "overlay_index": null,
     "base_mission_id": 263,
     "additive_overlays": "",
-    "mission_categories": [
-      "fire",
-      "disaster_response_specialization",
-      "divers_specialization"
-    ]
+    "mission_categories": ["fire", "divers_specialization"]
   },
   {
     "id": "263-0",
@@ -8462,11 +8446,7 @@
     "overlay_index": 0,
     "base_mission_id": 263,
     "additive_overlays": "",
-    "mission_categories": [
-      "fire",
-      "disaster_response_specialization",
-      "divers_specialization"
-    ]
+    "mission_categories": ["fire", "divers_specialization"]
   },
   {
     "id": "264",
@@ -8507,11 +8487,7 @@
     "overlay_index": null,
     "base_mission_id": 264,
     "additive_overlays": "",
-    "mission_categories": [
-      "water_rescue",
-      "disaster_response_specialization",
-      "divers_specialization"
-    ]
+    "mission_categories": ["fire", "divers_specialization"]
   },
   {
     "id": "264-0",
@@ -8554,11 +8530,7 @@
     "overlay_index": 0,
     "base_mission_id": 264,
     "additive_overlays": "",
-    "mission_categories": [
-      "water_rescue",
-      "disaster_response_specialization",
-      "divers_specialization"
-    ]
+    "mission_categories": ["fire", "divers_specialization"]
   },
   {
     "id": "265",
@@ -8599,11 +8571,7 @@
     "overlay_index": null,
     "base_mission_id": 265,
     "additive_overlays": "",
-    "mission_categories": [
-      "fire",
-      "disaster_response_specialization",
-      "divers_specialization"
-    ]
+    "mission_categories": ["fire", "divers_specialization"]
   },
   {
     "id": "265-0",
@@ -8646,11 +8614,7 @@
     "overlay_index": 0,
     "base_mission_id": 265,
     "additive_overlays": "",
-    "mission_categories": [
-      "fire",
-      "disaster_response_specialization",
-      "divers_specialization"
-    ]
+    "mission_categories": ["fire", "divers_specialization"]
   },
   {
     "id": "266",
@@ -8691,11 +8655,7 @@
     "overlay_index": null,
     "base_mission_id": 266,
     "additive_overlays": "",
-    "mission_categories": [
-      "water_rescue",
-      "disaster_response_specialization",
-      "divers_specialization"
-    ]
+    "mission_categories": ["fire", "divers_specialization"]
   },
   {
     "id": "266-0",
@@ -8738,11 +8698,7 @@
     "overlay_index": 0,
     "base_mission_id": 266,
     "additive_overlays": "",
-    "mission_categories": [
-      "water_rescue",
-      "disaster_response_specialization",
-      "divers_specialization"
-    ]
+    "mission_categories": ["fire", "divers_specialization"]
   },
   {
     "id": "267",
@@ -8783,11 +8739,7 @@
     "overlay_index": null,
     "base_mission_id": 267,
     "additive_overlays": "",
-    "mission_categories": [
-      "fire",
-      "disaster_response_specialization",
-      "divers_specialization"
-    ]
+    "mission_categories": ["fire", "divers_specialization"]
   },
   {
     "id": "267-0",
@@ -8830,11 +8782,7 @@
     "overlay_index": 0,
     "base_mission_id": 267,
     "additive_overlays": "",
-    "mission_categories": [
-      "fire",
-      "disaster_response_specialization",
-      "divers_specialization"
-    ]
+    "mission_categories": ["fire", "divers_specialization"]
   },
   {
     "id": "268",
@@ -8875,11 +8823,7 @@
     "overlay_index": null,
     "base_mission_id": 268,
     "additive_overlays": "",
-    "mission_categories": [
-      "water_rescue",
-      "disaster_response_specialization",
-      "divers_specialization"
-    ]
+    "mission_categories": ["fire", "divers_specialization"]
   },
   {
     "id": "268-0",
@@ -8922,11 +8866,7 @@
     "overlay_index": 0,
     "base_mission_id": 268,
     "additive_overlays": "",
-    "mission_categories": [
-      "water_rescue",
-      "disaster_response_specialization",
-      "divers_specialization"
-    ]
+    "mission_categories": ["fire", "divers_specialization"]
   },
   {
     "id": "269",
@@ -8967,11 +8907,7 @@
     "overlay_index": null,
     "base_mission_id": 269,
     "additive_overlays": "",
-    "mission_categories": [
-      "fire",
-      "disaster_response_specialization",
-      "divers_specialization"
-    ]
+    "mission_categories": ["fire", "divers_specialization"]
   },
   {
     "id": "269-0",
@@ -9014,11 +8950,7 @@
     "overlay_index": 0,
     "base_mission_id": 269,
     "additive_overlays": "",
-    "mission_categories": [
-      "fire",
-      "disaster_response_specialization",
-      "divers_specialization"
-    ]
+    "mission_categories": ["fire", "divers_specialization"]
   },
   {
     "id": "270",
@@ -9059,11 +8991,7 @@
     "overlay_index": null,
     "base_mission_id": 270,
     "additive_overlays": "",
-    "mission_categories": [
-      "water_rescue",
-      "disaster_response_specialization",
-      "divers_specialization"
-    ]
+    "mission_categories": ["fire", "divers_specialization"]
   },
   {
     "id": "270-0",
@@ -9106,11 +9034,7 @@
     "overlay_index": 0,
     "base_mission_id": 270,
     "additive_overlays": "",
-    "mission_categories": [
-      "water_rescue",
-      "disaster_response_specialization",
-      "divers_specialization"
-    ]
+    "mission_categories": ["fire", "divers_specialization"]
   },
   {
     "id": "271",
@@ -9151,11 +9075,7 @@
     "overlay_index": null,
     "base_mission_id": 271,
     "additive_overlays": "",
-    "mission_categories": [
-      "fire",
-      "disaster_response_specialization",
-      "divers_specialization"
-    ]
+    "mission_categories": ["fire", "divers_specialization"]
   },
   {
     "id": "271-0",
@@ -9198,11 +9118,7 @@
     "overlay_index": 0,
     "base_mission_id": 271,
     "additive_overlays": "",
-    "mission_categories": [
-      "fire",
-      "disaster_response_specialization",
-      "divers_specialization"
-    ]
+    "mission_categories": ["fire", "divers_specialization"]
   },
   {
     "id": "272",
@@ -9243,11 +9159,7 @@
     "overlay_index": null,
     "base_mission_id": 272,
     "additive_overlays": "",
-    "mission_categories": [
-      "water_rescue",
-      "disaster_response_specialization",
-      "divers_specialization"
-    ]
+    "mission_categories": ["fire", "divers_specialization"]
   },
   {
     "id": "272-0",
@@ -9290,11 +9202,7 @@
     "overlay_index": 0,
     "base_mission_id": 272,
     "additive_overlays": "",
-    "mission_categories": [
-      "water_rescue",
-      "disaster_response_specialization",
-      "divers_specialization"
-    ]
+    "mission_categories": ["fire", "divers_specialization"]
   },
   {
     "id": "273",
@@ -9335,11 +9243,7 @@
     "overlay_index": null,
     "base_mission_id": 273,
     "additive_overlays": "",
-    "mission_categories": [
-      "fire",
-      "disaster_response_specialization",
-      "divers_specialization"
-    ]
+    "mission_categories": ["fire", "divers_specialization"]
   },
   {
     "id": "273-0",
@@ -9382,11 +9286,7 @@
     "overlay_index": 0,
     "base_mission_id": 273,
     "additive_overlays": "",
-    "mission_categories": [
-      "fire",
-      "disaster_response_specialization",
-      "divers_specialization"
-    ]
+    "mission_categories": ["fire", "divers_specialization"]
   },
   {
     "id": "274",
@@ -9427,11 +9327,7 @@
     "overlay_index": null,
     "base_mission_id": 274,
     "additive_overlays": "",
-    "mission_categories": [
-      "water_rescue",
-      "disaster_response_specialization",
-      "divers_specialization"
-    ]
+    "mission_categories": ["fire", "divers_specialization"]
   },
   {
     "id": "274-0",
@@ -9474,11 +9370,7 @@
     "overlay_index": 0,
     "base_mission_id": 274,
     "additive_overlays": "",
-    "mission_categories": [
-      "water_rescue",
-      "disaster_response_specialization",
-      "divers_specialization"
-    ]
+    "mission_categories": ["fire", "divers_specialization"]
   },
   {
     "id": "275",
@@ -9519,11 +9411,7 @@
     "overlay_index": null,
     "base_mission_id": 275,
     "additive_overlays": "",
-    "mission_categories": [
-      "fire",
-      "disaster_response_specialization",
-      "divers_specialization"
-    ]
+    "mission_categories": ["fire", "divers_specialization"]
   },
   {
     "id": "275-0",
@@ -9566,11 +9454,7 @@
     "overlay_index": 0,
     "base_mission_id": 275,
     "additive_overlays": "",
-    "mission_categories": [
-      "fire",
-      "disaster_response_specialization",
-      "divers_specialization"
-    ]
+    "mission_categories": ["fire", "divers_specialization"]
   },
   {
     "id": "276",
@@ -9611,11 +9495,7 @@
     "overlay_index": null,
     "base_mission_id": 276,
     "additive_overlays": "",
-    "mission_categories": [
-      "water_rescue",
-      "disaster_response_specialization",
-      "divers_specialization"
-    ]
+    "mission_categories": ["fire", "divers_specialization"]
   },
   {
     "id": "276-0",
@@ -9658,11 +9538,7 @@
     "overlay_index": 0,
     "base_mission_id": 276,
     "additive_overlays": "",
-    "mission_categories": [
-      "water_rescue",
-      "disaster_response_specialization",
-      "divers_specialization"
-    ]
+    "mission_categories": ["fire", "divers_specialization"]
   },
   {
     "id": "277",
@@ -12138,6 +12014,7 @@
     "chances": { "patient_transport": 50 },
     "additional": {
       "possible_patient": 3,
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 4,
       "swat_personnel": 6,
       "filter_id": "police_station_missions",
@@ -13254,6 +13131,7 @@
     "requirements": { "police_helicopters": 1, "police_cars": 7, "k9": 1 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "swat_personnel": 12,
       "filter_id": "police_station_missions"
@@ -13499,6 +13377,7 @@
     "requirements": { "police_helicopters": 1, "police_cars": 5, "k9": 1 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 2,
       "max_possible_prisoners": 5,
       "swat_personnel": 12,
       "filter_id": "police_station_missions"
@@ -14164,6 +14043,7 @@
     "requirements": { "police_cars": 1 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
       "date_start": "2022-02-25T10:00:00Z",
@@ -14190,6 +14070,7 @@
     "requirements": { "police_cars": 2 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions"
     },
@@ -14551,6 +14432,7 @@
     "requirements": { "police_cars": 1 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions"
     },
@@ -16376,6 +16258,855 @@
     },
     "overlay_index": null,
     "base_mission_id": 467,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "468",
+    "name": "Hořící propanbutanová láhev",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1800,
+    "generated_by": "",
+    "icons": [
+      "/images/gas_gruen.png",
+      "/images/gas_gelb.png",
+      "/images/gas_rot.png"
+    ],
+    "requirements": { "firetrucks": 3, "battalion_chief_vehicles": 1 },
+    "chances": {},
+    "additional": { "filter_id": "firehouse_missions" },
+    "prerequisites": { "main_building": 0, "fire_stations": 6 },
+    "overlay_index": null,
+    "base_mission_id": 468,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "469",
+    "name": "Pád vozidla z heveru",
+    "place": "",
+    "place_array": [],
+    "average_credits": 3500,
+    "generated_by": "",
+    "icons": [
+      "/images/fallingrocks_gruen.png",
+      "/images/fallingrocks_gelb.png",
+      "/images/fallingrocks_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 4,
+      "battalion_chief_vehicles": 1,
+      "heavy_rescue_vehicles": 1,
+      "police_cars": 2
+    },
+    "chances": {
+      "patient_transport": 100,
+      "helicopter": 70,
+      "patient_critical_care": 100
+    },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "firehouse_missions",
+      "patient_specialization_ids": [4],
+      "patient_specialization_captions": ["Úrazová chirurgie"],
+      "patient_specializations": "Úrazová chirurgie"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 5,
+      "police_stations": 1,
+      "fire_stations": 6
+    },
+    "overlay_index": null,
+    "base_mission_id": 469,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "470",
+    "name": "Zasypaná osoba uvnitř sila",
+    "place": "Silo",
+    "place_array": ["Silo"],
+    "average_credits": 3000,
+    "generated_by": "",
+    "icons": [
+      "/images/medicalstore_gruen.png",
+      "/images/medicalstore_gelb.png",
+      "/images/medicalstore_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 1,
+      "platform_trucks": 1,
+      "heavy_rescue_vehicles": 3
+    },
+    "chances": {
+      "patient_transport": 100,
+      "helicopter": 80,
+      "patient_critical_care": 100
+    },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "firehouse_missions",
+      "patient_specialization_ids": [4],
+      "patient_specialization_captions": ["Úrazová chirurgie"],
+      "patient_specializations": "Úrazová chirurgie"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 1,
+      "fire_stations": 4
+    },
+    "overlay_index": null,
+    "base_mission_id": 470,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "471",
+    "name": "Výbuch metanu v dole",
+    "place": "Důl",
+    "place_array": ["Důl"],
+    "average_credits": 7000,
+    "generated_by": "",
+    "icons": [
+      "/images/blast_gruen.png",
+      "/images/blast_gelb.png",
+      "/images/blast_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 3,
+      "battalion_chief_vehicles": 1,
+      "heavy_rescue_vehicles": 1
+    },
+    "chances": {
+      "patient_transport": 100,
+      "helicopter": 50,
+      "patient_critical_care": 100
+    },
+    "additional": {
+      "possible_patient": 8,
+      "possible_patient_min": 5,
+      "filter_id": "firehouse_missions",
+      "patient_specialization_ids": [4],
+      "patient_specialization_captions": ["Úrazová chirurgie"],
+      "patient_specializations": "Úrazová chirurgie"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 5,
+      "fire_stations": 8
+    },
+    "overlay_index": null,
+    "base_mission_id": 471,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "472",
+    "name": "Resuscitace novorozence",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1200,
+    "generated_by": "",
+    "icons": [
+      "/images/medicalstore_gruen.png",
+      "/images/medicalstore_gelb.png",
+      "/images/medicalstore_rot.png"
+    ],
+    "requirements": {},
+    "chances": {
+      "patient_transport": 100,
+      "helicopter": 50,
+      "patient_critical_care": 100
+    },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "patient_specialization_ids": [8],
+      "patient_specialization_captions": ["Kardiochirurgie"],
+      "patient_specializations": "Kardiochirurgie"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 4 },
+    "overlay_index": null,
+    "base_mission_id": 472,
+    "additive_overlays": "",
+    "mission_categories": ["ambulance"]
+  },
+  {
+    "id": "473",
+    "name": "Kouř v kabině letadla",
+    "place": "Malé letiště (ranvej)\nVelké letiště (ranvej)\nPojezdové dráha",
+    "place_array": [
+      "Malé letiště (ranvej)",
+      "Velké letiště (ranvej)",
+      "Pojezdové dráha"
+    ],
+    "average_credits": 4000,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 1, "arff": 2, "rettungstreppe": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "allow_arff_instead_of_lf": true
+    },
+    "prerequisites": { "main_building": 0, "airport": 1 },
+    "overlay_index": null,
+    "base_mission_id": 473,
+    "additive_overlays": "",
+    "mission_categories": ["airport"]
+  },
+  {
+    "id": "474",
+    "name": "Pád letadla",
+    "place": "Malé letiště (ranvej)\nVelké letiště (ranvej)\nPojezdové dráha",
+    "place_array": [
+      "Malé letiště (ranvej)",
+      "Velké letiště (ranvej)",
+      "Pojezdové dráha"
+    ],
+    "average_credits": 15000,
+    "generated_by": "",
+    "icons": [
+      "/images/planecrash_gruen.png",
+      "/images/planecrash_gelb.png",
+      "/images/planecrash_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 10,
+      "fwk": 2,
+      "battalion_chief_vehicles": 4,
+      "mobile_command_vehicles": 1,
+      "heavy_rescue_vehicles": 4,
+      "arff": 4,
+      "police_cars": 8,
+      "kdow_orgl": 1
+    },
+    "chances": {
+      "patient_transport": 80,
+      "helicopter": 50,
+      "patient_critical_care": 50
+    },
+    "additional": {
+      "possible_patient": 50,
+      "possible_patient_min": 20,
+      "filter_id": "firehouse_missions",
+      "allow_arff_instead_of_lf": true,
+      "patient_specialization_ids": [4],
+      "patient_specialization_captions": ["Úrazová chirurgie"],
+      "patient_specializations": "Úrazová chirurgie"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 10,
+      "police_stations": 4,
+      "airport": 2,
+      "fire_stations": 10
+    },
+    "overlay_index": null,
+    "base_mission_id": 474,
+    "additive_overlays": "",
+    "mission_categories": ["airport"]
+  },
+  {
+    "id": "475",
+    "name": "Požár letadla",
+    "place": "Malé letiště (ranvej)\nVelké letiště (ranvej)\nPojezdové dráha",
+    "place_array": [
+      "Malé letiště (ranvej)",
+      "Velké letiště (ranvej)",
+      "Pojezdové dráha"
+    ],
+    "average_credits": 10000,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 12,
+      "battalion_chief_vehicles": 3,
+      "heavy_rescue_vehicles": 1,
+      "water_tankers": 2,
+      "mobile_air_vehicles": 1,
+      "arff": 4,
+      "rettungstreppe": 2
+    },
+    "chances": { "patient_transport": 50, "patient_critical_care": 30 },
+    "additional": {
+      "possible_patient": 10,
+      "possible_patient_min": 5,
+      "filter_id": "firehouse_missions",
+      "allow_arff_instead_of_lf": true,
+      "patient_specialization_ids": [4],
+      "patient_specialization_captions": ["Úrazová chirurgie"],
+      "patient_specializations": "Úrazová chirurgie"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 10,
+      "airport": 2,
+      "fire_stations": 15
+    },
+    "overlay_index": null,
+    "base_mission_id": 475,
+    "additive_overlays": "",
+    "mission_categories": ["airport"]
+  },
+  {
+    "id": "476",
+    "name": "Prasklá pneumatika na podvozku letadla",
+    "place": "Malé letiště (ranvej)\nVelké letiště (ranvej)\nHangár\nPojezdové dráha",
+    "place_array": [
+      "Malé letiště (ranvej)",
+      "Velké letiště (ranvej)",
+      "Hangár",
+      "Pojezdové dráha"
+    ],
+    "average_credits": 700,
+    "generated_by": "",
+    "icons": [
+      "/images/planecrash_gruen.png",
+      "/images/planecrash_gelb.png",
+      "/images/planecrash_rot.png"
+    ],
+    "requirements": { "firetrucks": 1, "arff": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "allow_arff_instead_of_lf": true
+    },
+    "prerequisites": { "main_building": 0, "airport": 1 },
+    "overlay_index": null,
+    "base_mission_id": 476,
+    "additive_overlays": "",
+    "mission_categories": ["airport"]
+  },
+  {
+    "id": "477",
+    "name": "Asistence při přistávnání letadla",
+    "place": "Malé letiště (ranvej)\nVelké letiště (ranvej)",
+    "place_array": ["Malé letiště (ranvej)", "Velké letiště (ranvej)"],
+    "average_credits": 300,
+    "generated_by": "",
+    "icons": [
+      "/images/planecrash_gruen.png",
+      "/images/planecrash_gelb.png",
+      "/images/planecrash_rot.png"
+    ],
+    "requirements": { "firetrucks": 1, "arff": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "allow_arff_instead_of_lf": true
+    },
+    "prerequisites": { "main_building": 0, "airport": 1 },
+    "overlay_index": null,
+    "base_mission_id": 477,
+    "additive_overlays": "",
+    "mission_categories": ["airport"]
+  },
+  {
+    "id": "478",
+    "name": "Únik leteckého paliva na ranvej",
+    "place": "Malé letiště (ranvej)\nVelké letiště (ranvej)",
+    "place_array": ["Malé letiště (ranvej)", "Velké letiště (ranvej)"],
+    "average_credits": 1000,
+    "generated_by": "",
+    "icons": [
+      "/images/planecrash_gruen.png",
+      "/images/planecrash_gelb.png",
+      "/images/planecrash_rot.png"
+    ],
+    "requirements": { "firetrucks": 1, "heavy_rescue_vehicles": 1, "arff": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "allow_arff_instead_of_lf": true
+    },
+    "prerequisites": { "main_building": 0, "airport": 1 },
+    "overlay_index": null,
+    "base_mission_id": 478,
+    "additive_overlays": "",
+    "mission_categories": ["airport"]
+  },
+  {
+    "id": "479",
+    "name": "Transport invalidní osoby z letadla",
+    "place": "Malé letiště (ranvej)\nVelké letiště (ranvej)\nPojezdové dráha",
+    "place_array": [
+      "Malé letiště (ranvej)",
+      "Velké letiště (ranvej)",
+      "Pojezdové dráha"
+    ],
+    "average_credits": 100,
+    "generated_by": "",
+    "icons": [
+      "/images/planecrash_gruen.png",
+      "/images/planecrash_gelb.png",
+      "/images/planecrash_rot.png"
+    ],
+    "requirements": { "firetrucks": 1, "arff": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "allow_arff_instead_of_lf": true
+    },
+    "prerequisites": { "main_building": 0, "airport": 1 },
+    "overlay_index": null,
+    "base_mission_id": 479,
+    "additive_overlays": "",
+    "mission_categories": ["airport"]
+  },
+  {
+    "id": "480",
+    "name": "Zdravotní problém pasažéra v letadle",
+    "place": "Pojezdové dráha",
+    "place_array": ["Pojezdové dráha"],
+    "average_credits": 150,
+    "generated_by": "",
+    "icons": [
+      "/images/planecrash_gruen.png",
+      "/images/planecrash_gelb.png",
+      "/images/planecrash_rot.png"
+    ],
+    "requirements": { "firetrucks": 1, "rettungstreppe": 1 },
+    "chances": { "patient_transport": 90, "patient_critical_care": 50 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "firehouse_missions",
+      "allow_arff_instead_of_lf": true,
+      "patient_specialization_ids": [4],
+      "patient_specialization_captions": ["Úrazová chirurgie"],
+      "patient_specializations": "Úrazová chirurgie"
+    },
+    "prerequisites": { "main_building": 0, "rescue_stations": 1, "airport": 1 },
+    "overlay_index": null,
+    "base_mission_id": 480,
+    "additive_overlays": "",
+    "mission_categories": ["airport"]
+  },
+  {
+    "id": "481",
+    "name": "Požár v letištním terminálu",
+    "place": "Letištní terminál",
+    "place_array": ["Letištní terminál"],
+    "average_credits": 5000,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 15,
+      "battalion_chief_vehicles": 4,
+      "platform_trucks": 3,
+      "mobile_air_vehicles": 2,
+      "arff": 4,
+      "crew_carrier": 5
+    },
+    "chances": { "patient_transport": 50, "patient_critical_care": 30 },
+    "additional": {
+      "possible_patient": 20,
+      "possible_patient_min": 8,
+      "filter_id": "firehouse_missions",
+      "allow_arff_instead_of_lf": true,
+      "patient_specialization_ids": [4],
+      "patient_specialization_captions": ["Úrazová chirurgie"],
+      "patient_specializations": "Úrazová chirurgie"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 5,
+      "airport": 2,
+      "fire_stations": 12
+    },
+    "overlay_index": null,
+    "base_mission_id": 481,
+    "additive_overlays": "",
+    "mission_categories": ["airport"]
+  },
+  {
+    "id": "482",
+    "name": "Požár v hangáru",
+    "place": "Hangár",
+    "place_array": ["Hangár"],
+    "average_credits": 3000,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 10,
+      "battalion_chief_vehicles": 3,
+      "platform_trucks": 2,
+      "water_tankers": 1,
+      "mobile_air_vehicles": 1,
+      "arff": 2
+    },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "allow_arff_instead_of_lf": true
+    },
+    "prerequisites": { "main_building": 0, "airport": 1, "fire_stations": 8 },
+    "overlay_index": null,
+    "base_mission_id": 482,
+    "additive_overlays": "",
+    "mission_categories": ["airport"]
+  },
+  {
+    "id": "483",
+    "name": "Porucha letadla v podvozku",
+    "place": "Velké letiště (ranvej)",
+    "place_array": ["Velké letiště (ranvej)"],
+    "average_credits": 9000,
+    "generated_by": "",
+    "icons": [
+      "/images/planecrash_gruen.png",
+      "/images/planecrash_gelb.png",
+      "/images/planecrash_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 4,
+      "battalion_chief_vehicles": 1,
+      "mobile_command_vehicles": 1,
+      "platform_trucks": 1,
+      "heavy_rescue_vehicles": 1,
+      "arff": 2,
+      "hazmat_vehicles": 1,
+      "police_cars": 5,
+      "rettungstreppe": 1
+    },
+    "chances": { "patient_transport": 10 },
+    "additional": {
+      "possible_patient": 4,
+      "filter_id": "firehouse_missions",
+      "patient_at_end_of_mission": true,
+      "patient_specialization_ids": [1],
+      "patient_specialization_captions": ["Všeobecný chirurg"],
+      "patient_specializations": "Všeobecný chirurg"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 8,
+      "police_stations": 6,
+      "airport": 1,
+      "fire_stations": 14
+    },
+    "overlay_index": null,
+    "base_mission_id": 483,
+    "additive_overlays": "",
+    "mission_categories": ["airport"]
+  },
+  {
+    "id": "484",
+    "name": "Požár vánoční výzdoby",
+    "place": "",
+    "place_array": [],
+    "average_credits": 300,
+    "generated_by": "",
+    "icons": [
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
+    ],
+    "requirements": { "firetrucks": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "date_start": "2022-12-12T09:00:00Z",
+      "date_end": "2022-12-24T22:59:00Z"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 484,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "485",
+    "name": "Santovy saně blokující silnici",
+    "place": "",
+    "place_array": [],
+    "average_credits": 300,
+    "generated_by": "",
+    "icons": [
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
+    ],
+    "requirements": { "police_cars": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "police_station_missions",
+      "optional_event_mission": true,
+      "date_start": "2022-12-12T09:00:00Z",
+      "date_end": "2022-12-24T22:59:00Z"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 485,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "486",
+    "name": "Krádež vánočního stromku",
+    "place": "",
+    "place_array": [],
+    "average_credits": 300,
+    "generated_by": "",
+    "icons": [
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
+    ],
+    "requirements": { "police_cars": 3 },
+    "chances": {},
+    "additional": {
+      "filter_id": "police_station_missions",
+      "optional_event_mission": true,
+      "date_start": "2022-12-12T09:00:00Z",
+      "date_end": "2022-12-24T22:59:00Z"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 486,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "487",
+    "name": "Krádež vánočních dárků v nákupním centru",
+    "place": "",
+    "place_array": [],
+    "average_credits": 300,
+    "generated_by": "",
+    "icons": [
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
+    ],
+    "requirements": { "police_cars": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "police_station_missions",
+      "optional_event_mission": true,
+      "date_start": "2022-12-12T09:00:00Z",
+      "date_end": "2022-12-24T22:59:00Z"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 487,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "488",
+    "name": "Zátah na opilé nezletilé osoby",
+    "place": "Bar\nDiskotéka",
+    "place_array": ["Bar", "Diskotéka"],
+    "average_credits": 2900,
+    "generated_by": "",
+    "icons": [
+      "/images/bar_coktail_gruen.png",
+      "/images/bar_coktail_gelb.png",
+      "/images/bar_coktail_rot.png"
+    ],
+    "requirements": { "police_cars": 4, "riot_police": 1 },
+    "chances": {},
+    "additional": {
+      "min_possible_prisoners": 2,
+      "max_possible_prisoners": 15,
+      "filter_id": "police_station_missions"
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "police_stations": 6,
+      "riot_police": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 488,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "489",
+    "name": "Požár stodoly",
+    "place": "",
+    "place_array": [],
+    "average_credits": 6500,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 8,
+      "battalion_chief_vehicles": 1,
+      "platform_trucks": 1,
+      "police_cars": 2,
+      "crew_carrier": 2
+    },
+    "chances": {},
+    "additional": { "filter_id": "firehouse_missions" },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 1,
+      "fire_stations": 6
+    },
+    "overlay_index": null,
+    "base_mission_id": 489,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "490",
+    "name": "Táborák zapálí kůlnu",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "",
+    "icons": [
+      "/images/snowy_gruen.png",
+      "/images/snowy_gelb.png",
+      "/images/snowy_rot.png"
+    ],
+    "requirements": { "firetrucks": 2 },
+    "chances": { "patient_transport": 30 },
+    "additional": {
+      "possible_patient": 1,
+      "filter_id": "firehouse_missions",
+      "date_start": "2023-01-06T10:00:00Z",
+      "date_end": "2023-03-20T22:59:00Z",
+      "patient_specialization_ids": [1],
+      "patient_specialization_captions": ["Všeobecný chirurg"],
+      "patient_specializations": "Všeobecný chirurg"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 490,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "491",
+    "name": "Rvačka na zamrzlém jezeře",
+    "place": "",
+    "place_array": [],
+    "average_credits": 650,
+    "generated_by": "",
+    "icons": [
+      "/images/snowy_gruen.png",
+      "/images/snowy_gelb.png",
+      "/images/snowy_rot.png"
+    ],
+    "requirements": { "police_cars": 1 },
+    "chances": { "patient_transport": 30 },
+    "additional": {
+      "possible_patient": 2,
+      "filter_id": "police_station_missions",
+      "date_start": "2023-01-06T10:00:00Z",
+      "date_end": "2023-03-20T22:59:00Z",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Všeobecný internista"],
+      "patient_specializations": "Všeobecný internista"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 491,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "492",
+    "name": "Iceskater sklouzl",
+    "place": "",
+    "place_array": [],
+    "average_credits": null,
+    "generated_by": "",
+    "icons": [
+      "/images/snowy_gruen.png",
+      "/images/snowy_gelb.png",
+      "/images/snowy_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 60 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "date_start": "2023-01-06T10:00:00Z",
+      "date_end": "2023-03-20T22:59:00Z",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Všeobecný internista"],
+      "patient_specializations": "Všeobecný internista"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 492,
+    "additive_overlays": "",
+    "mission_categories": ["ambulance"]
+  },
+  {
+    "id": "493",
+    "name": "Děti házející sněhové koule na lidi a domy",
+    "place": "",
+    "place_array": [],
+    "average_credits": 550,
+    "generated_by": "",
+    "icons": [
+      "/images/snowy_gruen.png",
+      "/images/snowy_gelb.png",
+      "/images/snowy_rot.png"
+    ],
+    "requirements": { "police_cars": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "police_station_missions",
+      "date_start": "2023-01-06T10:00:00Z",
+      "date_end": "2023-03-20T22:59:00Z"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 493,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "494",
+    "name": "Požár v papírně",
+    "place": "",
+    "place_array": [],
+    "average_credits": 780,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 4 },
+    "chances": {},
+    "additional": { "filter_id": "firehouse_missions" },
+    "prerequisites": { "main_building": 0, "fire_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 494,
     "additive_overlays": "",
     "mission_categories": ["fire"]
   }
