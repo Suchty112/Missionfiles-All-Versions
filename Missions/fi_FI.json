@@ -373,7 +373,7 @@
     "additional": {
       "expansion_missions_ids": [331],
       "filter_id": "firehouse_missions",
-      "subsequent_missions_ids": [452]
+      "subsequent_missions_ids": [452, 500]
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -595,7 +595,7 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "subsequent_missions_ids": [452]
+      "subsequent_missions_ids": [452, 500]
     },
     "prerequisites": { "main_building": 0, "fire_stations": 3 },
     "overlay_index": null,
@@ -932,6 +932,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "subsequent_missions_ids": [500],
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Kardiologia"],
       "patient_specializations": "Kardiologia"
@@ -960,6 +961,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "subsequent_missions_ids": [500],
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Yleislääkäri"],
       "patient_specializations": "Yleislääkäri"
@@ -1048,6 +1050,7 @@
       "filter_id": "ambulance_station_missions",
       "allow_ktw_instead_of_rtw": true,
       "patient_allow_first_responder_chance": 50,
+      "subsequent_missions_ids": [500],
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
       "patient_specializations": "Traumatologia"
@@ -1084,7 +1087,7 @@
     "additional": {
       "possible_patient": 4,
       "filter_id": "firehouse_missions",
-      "subsequent_missions_ids": [452],
+      "subsequent_missions_ids": [452, 500],
       "fire_alarm_system_possible": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Yleislääkäri"],
@@ -1128,7 +1131,7 @@
     "additional": {
       "possible_patient": 4,
       "filter_id": "firehouse_missions",
-      "subsequent_missions_ids": [452],
+      "subsequent_missions_ids": [452, 500],
       "fire_alarm_system_possible": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Yleislääkäri"],
@@ -1615,7 +1618,7 @@
     "additional": {
       "possible_patient": 4,
       "filter_id": "firehouse_missions",
-      "subsequent_missions_ids": [382, 452],
+      "subsequent_missions_ids": [382, 452, 500],
       "fire_alarm_system_possible": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Yleislääkäri"],
@@ -1654,7 +1657,7 @@
     "additional": {
       "possible_patient": 4,
       "filter_id": "firehouse_missions",
-      "subsequent_missions_ids": [382, 452],
+      "subsequent_missions_ids": [382, 452, 500],
       "fire_alarm_system_possible": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Yleislääkäri"],
@@ -1860,7 +1863,7 @@
     "additional": {
       "possible_patient": 6,
       "filter_id": "firehouse_missions",
-      "subsequent_missions_ids": [382, 452],
+      "subsequent_missions_ids": [382, 452, 500],
       "fire_alarm_system_possible": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Yleislääkäri"],
@@ -1903,7 +1906,7 @@
     "additional": {
       "possible_patient": 6,
       "filter_id": "firehouse_missions",
-      "subsequent_missions_ids": [382, 452],
+      "subsequent_missions_ids": [382, 452, 500],
       "fire_alarm_system_possible": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Yleislääkäri"],
@@ -1976,7 +1979,7 @@
     "additional": {
       "possible_patient": 6,
       "filter_id": "firehouse_missions",
-      "subsequent_missions_ids": [382, 452],
+      "subsequent_missions_ids": [382, 452, 500],
       "fire_alarm_system_possible": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Yleislääkäri"],
@@ -2019,7 +2022,7 @@
     "additional": {
       "possible_patient": 6,
       "filter_id": "firehouse_missions",
-      "subsequent_missions_ids": [382, 452],
+      "subsequent_missions_ids": [382, 452, 500],
       "fire_alarm_system_possible": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Yleislääkäri"],
@@ -2265,6 +2268,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "subsequent_missions_ids": [500],
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Yleislääkäri"],
       "patient_specializations": "Yleislääkäri"
@@ -2697,6 +2701,7 @@
     "requirements": { "police_cars": 4 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions"
     },
@@ -3144,7 +3149,7 @@
       "possible_patient": 20,
       "expansion_missions_ids": [104],
       "filter_id": "firehouse_missions",
-      "subsequent_missions_ids": [382, 452],
+      "subsequent_missions_ids": [382, 452, 500],
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Yleislääkäri"],
       "patient_specializations": "Yleislääkäri"
@@ -3186,7 +3191,7 @@
       "possible_patient": 20,
       "expansion_missions_ids": [104],
       "filter_id": "firehouse_missions",
-      "subsequent_missions_ids": [382, 452],
+      "subsequent_missions_ids": [382, 452, 500],
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Yleislääkäri"],
       "patient_specializations": "Yleislääkäri"
@@ -3601,7 +3606,7 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "subsequent_missions_ids": [382, 450],
+      "subsequent_missions_ids": [382, 450, 472],
       "fire_alarm_system_possible": true
     },
     "prerequisites": { "main_building": 0, "fire_stations": 6 },
@@ -4564,7 +4569,7 @@
     "requirements": { "police_cars": 3, "k9": 1 },
     "chances": {},
     "additional": {
-      "expansion_missions_ids": [138],
+      "expansion_missions_ids": [138, 471],
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
       "subsequent_missions_ids": [451]
@@ -4678,6 +4683,7 @@
     "chances": { "patient_transport": 30 },
     "additional": {
       "possible_patient": 5,
+      "expansion_missions_ids": [471],
       "followup_missions_ids": [312],
       "max_possible_prisoners": 4,
       "filter_id": "police_station_missions",
@@ -4857,6 +4863,7 @@
     "additional": {
       "possible_patient": 1,
       "possible_patient_min": 1,
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "swat_personnel": 6,
       "filter_id": "police_station_missions",
@@ -4998,6 +5005,7 @@
     "additional": {
       "possible_patient": 1,
       "possible_patient_min": 0,
+      "min_possible_prisoners": 0,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
       "patient_allow_first_responder_chance": 50,
@@ -5497,7 +5505,7 @@
     "additional": {
       "possible_patient": 5,
       "filter_id": "firehouse_missions",
-      "subsequent_missions_ids": [382],
+      "subsequent_missions_ids": [382, 472],
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Yleislääkäri"],
       "patient_specializations": "Yleislääkäri"
@@ -5521,17 +5529,17 @@
     "average_credits": 600,
     "generated_by": "",
     "icons": [
-      "/images/baseball_gruen.png",
-      "/images/baseball_gelb.png",
-      "/images/baseball_rot.png"
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
     ],
     "requirements": { "police_cars": 2 },
     "chances": { "patient_transport": 30 },
     "additional": {
       "possible_patient": 2,
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-01T10:00:00+02:00",
-      "date_end": "2021-12-26T23:59:00+02:00",
+      "date_start": "2022-12-01T10:00:00Z",
+      "date_end": "2022-12-25T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
       "patient_specializations": "Traumatologia"
@@ -5550,16 +5558,16 @@
     "average_credits": 800,
     "generated_by": "",
     "icons": [
-      "/images/fire_gruen.png",
-      "/images/fire_gelb.png",
-      "/images/fire_rot.png"
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
     ],
     "requirements": { "water_needed": 500, "firetrucks": 1 },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-01T10:00:00+02:00",
-      "date_end": "2021-12-26T23:59:00+02:00"
+      "date_start": "2022-12-01T10:00:00Z",
+      "date_end": "2022-12-25T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 5 },
     "overlay_index": null,
@@ -5575,17 +5583,17 @@
     "average_credits": 610,
     "generated_by": "",
     "icons": [
-      "/images/fire_gruen.png",
-      "/images/fire_gelb.png",
-      "/images/fire_rot.png"
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
     ],
     "requirements": { "water_needed": 1500, "firetrucks": 1 },
     "chances": { "patient_transport": 30 },
     "additional": {
       "possible_patient": 1,
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-01T10:00:00+02:00",
-      "date_end": "2021-12-26T23:59:00+02:00",
+      "date_start": "2022-12-01T10:00:00Z",
+      "date_end": "2022-12-25T22:59:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Yleislääkäri"],
       "patient_specializations": "Yleislääkäri"
@@ -5604,16 +5612,16 @@
     "average_credits": 870,
     "generated_by": "",
     "icons": [
-      "/images/fire_gruen.png",
-      "/images/fire_gelb.png",
-      "/images/fire_rot.png"
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
     ],
     "requirements": { "water_needed": 1000, "firetrucks": 1 },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-01T10:00:00+02:00",
-      "date_end": "2021-12-26T23:59:00+02:00"
+      "date_start": "2022-12-01T10:00:00Z",
+      "date_end": "2022-12-25T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 6 },
     "overlay_index": null,
@@ -5629,17 +5637,17 @@
     "average_credits": 310,
     "generated_by": "",
     "icons": [
-      "/images/fire_gruen.png",
-      "/images/fire_gelb.png",
-      "/images/fire_rot.png"
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
     ],
     "requirements": { "water_needed": 3500, "firetrucks": 1 },
     "chances": { "patient_transport": 30 },
     "additional": {
       "possible_patient": 1,
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-01T10:00:00+02:00",
-      "date_end": "2021-12-26T23:59:00+02:00",
+      "date_start": "2022-12-01T10:00:00Z",
+      "date_end": "2022-12-25T22:59:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Yleislääkäri"],
       "patient_specializations": "Yleislääkäri"
@@ -5658,16 +5666,16 @@
     "average_credits": 300,
     "generated_by": "",
     "icons": [
-      "/images/theft_gruen.png",
-      "/images/theft_gelb.png",
-      "/images/theft_rot.png"
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
     ],
     "requirements": { "police_cars": 1 },
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-01T10:00:00+02:00",
-      "date_end": "2021-12-26T23:59:00+02:00"
+      "date_start": "2022-12-01T10:00:00Z",
+      "date_end": "2022-12-25T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 2 },
     "overlay_index": null,
@@ -5692,8 +5700,8 @@
     "additional": {
       "possible_patient": 3,
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-01T10:00:00+02:00",
-      "date_end": "2021-12-26T23:59:00+02:00",
+      "date_start": "2023-01-06T10:00:00Z",
+      "date_end": "2023-03-20T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
       "patient_specializations": "Traumatologia"
@@ -5712,9 +5720,9 @@
     "average_credits": null,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
     ],
     "requirements": {},
     "chances": { "patient_transport": 30 },
@@ -5722,8 +5730,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-01T10:00:00+02:00",
-      "date_end": "2021-12-26T23:59:00+02:00",
+      "date_start": "2022-12-01T10:00:00Z",
+      "date_end": "2022-12-25T22:59:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Yleislääkäri"],
       "patient_specializations": "Yleislääkäri"
@@ -5899,8 +5907,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -5924,8 +5932,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -5949,8 +5957,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
@@ -5979,8 +5987,8 @@
     "additional": {
       "possible_patient": 2,
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Yleislääkäri"],
       "patient_specializations": "Yleislääkäri"
@@ -6007,8 +6015,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -6037,8 +6045,8 @@
     "chances": { "platform_trucks": 30 },
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 6 },
     "overlay_index": null,
@@ -6062,8 +6070,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -6087,8 +6095,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -6112,8 +6120,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -6146,8 +6154,8 @@
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Yleislääkäri"],
       "patient_specializations": "Yleislääkäri"
@@ -6179,8 +6187,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -6204,8 +6212,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -6231,8 +6239,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
       "patient_specializations": "Traumatologia"
@@ -6261,8 +6269,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
       "patient_specializations": "Traumatologia"
@@ -6295,8 +6303,8 @@
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
       "patient_specializations": "Traumatologia"
@@ -6325,8 +6333,8 @@
       "possible_patient": 3,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
       "patient_specializations": "Traumatologia"
@@ -6355,8 +6363,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
       "patient_specializations": "Traumatologia"
@@ -6385,8 +6393,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
       "patient_specializations": "Traumatologia"
@@ -6416,8 +6424,8 @@
       "duration": 5400,
       "guard_mission": true,
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": {
       "main_building": 6,
@@ -6447,8 +6455,8 @@
       "possible_patient": 1,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
       "patient_specializations": "Traumatologia"
@@ -6481,8 +6489,8 @@
       "expansion_missions_ids": [205],
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -6509,8 +6517,8 @@
       "possible_patient_min": 1,
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
       "patient_specializations": "Traumatologia"
@@ -7920,6 +7928,7 @@
     "requirements": { "police_cars": 4 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 3,
       "filter_id": "police_station_missions",
       "date_start": "2022-04-08T09:00:00Z",
@@ -7946,6 +7955,7 @@
     "requirements": { "police_cars": 5 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 2,
       "max_possible_prisoners": 4,
       "filter_id": "police_station_missions",
       "date_start": "2022-04-08T09:00:00Z",
@@ -8673,6 +8683,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "subsequent_missions_ids": [500],
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Kardiologia"],
       "patient_specializations": "Kardiologia"
@@ -8759,6 +8770,7 @@
     "chances": { "k9": 40 },
     "additional": {
       "expansion_missions_ids": [390],
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions"
     },
@@ -8819,6 +8831,7 @@
     "chances": {},
     "additional": {
       "followup_missions_ids": [312],
+      "min_possible_prisoners": 2,
       "max_possible_prisoners": 7,
       "swat_personnel": 12,
       "filter_id": "police_station_missions",
@@ -9296,6 +9309,7 @@
     "additional": {
       "possible_patient": 30,
       "possible_patient_min": 4,
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "swat_personnel": 12,
       "filter_id": "police_station_missions",
@@ -9595,8 +9609,8 @@
   {
     "id": "306",
     "name": "792 Uimakilpailun valvonta",
-    "place": "Järvi\nJoki\nUimaranta\nUima-allas",
-    "place_array": ["Järvi", "Joki", "Uimaranta", "Uima-allas"],
+    "place": "Järvi\nJoki\nRanta\nUima-allas",
+    "place_array": ["Järvi", "Joki", "Ranta", "Uima-allas"],
     "average_credits": 2000,
     "generated_by": "",
     "icons": [
@@ -11126,6 +11140,7 @@
     "requirements": { "police_cars": 2 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions"
     },
@@ -11981,6 +11996,7 @@
     "additional": {
       "duration_text": "2 tuntia",
       "duration": 7200,
+      "expansion_missions_ids": [471],
       "followup_missions_ids": [56, 67, 349, 126],
       "swat_personnel": 8,
       "average_min_police_personnel": 40,
@@ -12310,7 +12326,9 @@
     },
     "additional": {
       "possible_patient": 2,
+      "expansion_missions_ids": [471],
       "followup_missions_ids": [138, 312],
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 3,
       "swat_personnel": 12,
       "filter_id": "police_station_missions",
@@ -12854,6 +12872,7 @@
     "additional": {
       "possible_patient": 2,
       "possible_patient_min": 1,
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
       "patient_allow_first_responder_chance": 100,
@@ -13067,8 +13086,8 @@
   {
     "id": "414",
     "name": "35 Juhlaporukalla musiikki liian kovalla",
-    "place": "Puisto\nKukkula\nUimaranta",
-    "place_array": ["Puisto", "Kukkula", "Uimaranta"],
+    "place": "Puisto\nKukkula\nRanta",
+    "place_array": ["Puisto", "Kukkula", "Ranta"],
     "average_credits": 500,
     "generated_by": "",
     "icons": [
@@ -13547,7 +13566,7 @@
   {
     "id": "429",
     "name": "033 Joukkotappelu",
-    "place": "Ostoskeskus\nRautatieasema (paikallis- ja pitkän matkan liikenne)\nRautatieasema (paikallisliikenne)\nKoulu\nDisko\nMetroasema\nBaari\nKeskusta-alue\nUimaranta\nPuisto\nJuhlatila",
+    "place": "Ostoskeskus\nRautatieasema (paikallis- ja pitkän matkan liikenne)\nRautatieasema (paikallisliikenne)\nKoulu\nDisko\nMetroasema\nBaari\nKeskusta-alue\nRanta\nPuisto\nJuhlatila",
     "place_array": [
       "Ostoskeskus",
       "Rautatieasema (paikallis- ja pitkän matkan liikenne)",
@@ -13557,7 +13576,7 @@
       "Metroasema",
       "Baari",
       "Keskusta-alue",
-      "Uimaranta",
+      "Ranta",
       "Puisto",
       "Juhlatila"
     ],
@@ -13574,6 +13593,7 @@
       "possible_patient": 8,
       "possible_patient_min": 2,
       "followup_missions_ids": [55, 147, 138, 56, 317, 312, 311, 67],
+      "min_possible_prisoners": 3,
       "max_possible_prisoners": 8,
       "average_min_police_personnel": 15,
       "filter_id": "police_station_missions",
@@ -13646,6 +13666,7 @@
     "chances": {},
     "additional": {
       "expansion_missions_ids": [55],
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions"
     },
@@ -13753,6 +13774,7 @@
     },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 4,
       "swat_personnel": 2,
       "average_min_police_personnel": 12,
@@ -13965,6 +13987,7 @@
     "chances": { "patient_transport": 33 },
     "additional": {
       "possible_patient": 8,
+      "expansion_missions_ids": [471],
       "followup_missions_ids": [434, 435, 141, 436, 138, 55, 88, 135, 137],
       "max_possible_prisoners": 24,
       "swat_personnel": 16,
@@ -15059,6 +15082,1021 @@
     },
     "overlay_index": null,
     "base_mission_id": 470,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "471",
+    "name": "792 Varautuminen ensihoitotehtävään",
+    "place": "",
+    "place_array": [],
+    "average_credits": 250,
+    "generated_by": "",
+    "icons": [
+      "/images/ambulance_gruen.png",
+      "/images/ambulance_gelb.png",
+      "/images/ambulance_rot.png"
+    ],
+    "requirements": { "ambulances": 1, "kdow_orgl": 1 },
+    "chances": {
+      "patient_transport": 75,
+      "helicopter": 25,
+      "kdow_orgl": 50,
+      "patient_critical_care": 25
+    },
+    "additional": {
+      "possible_patient": 2,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "patient_specialization_ids": [4],
+      "patient_specialization_captions": ["Traumatologia"],
+      "patient_specializations": "Traumatologia"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 3 },
+    "overlay_index": null,
+    "base_mission_id": 471,
+    "additive_overlays": "",
+    "mission_categories": ["ambulance"]
+  },
+  {
+    "id": "472",
+    "name": "601 Poltettu ravintola",
+    "place": "Pikaruokaravintola\nRavintola",
+    "place_array": ["Pikaruokaravintola", "Ravintola"],
+    "average_credits": 3000,
+    "generated_by": "",
+    "icons": [
+      "/images/zoom_gruen.png",
+      "/images/zoom_gelb.png",
+      "/images/zoom_rot.png"
+    ],
+    "requirements": {
+      "police_cars": 1,
+      "personnel_educations": { "arson_investigator": 2 },
+      "civil_patrolcar": 1
+    },
+    "chances": {},
+    "additional": {
+      "filter_id": "police_station_missions",
+      "subsequent_mission_only": true,
+      "personnel_educations": { "Palonsyyntutkija": 2 }
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "police_stations": 5,
+      "criminal_investigation_count": 1,
+      "personnel_educations": { "arson_investigator": 4 },
+      "main_building_extensions": [11]
+    },
+    "overlay_index": null,
+    "base_mission_id": 472,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "473",
+    "name": "443 Kaasusäiliön räjähdys",
+    "place": "",
+    "place_array": [],
+    "average_credits": 9800,
+    "generated_by": "",
+    "icons": [
+      "/images/blast_gruen.png",
+      "/images/blast_gelb.png",
+      "/images/blast_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 5,
+      "battalion_chief_vehicles": 1,
+      "platform_trucks": 2,
+      "water_tankers": 2,
+      "hazmat_vehicles": 1,
+      "police_cars": 3
+    },
+    "chances": { "patient_transport": 25, "patient_critical_care": 10 },
+    "additional": {
+      "possible_patient": 12,
+      "filter_id": "firehouse_missions",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Yleislääkäri"],
+      "patient_specializations": "Yleislääkäri"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 6,
+      "police_stations": 5,
+      "fire_stations": 14
+    },
+    "overlay_index": null,
+    "base_mission_id": 473,
+    "additive_overlays": "",
+    "mission_categories": ["fire", "fire_support_specialization"]
+  },
+  {
+    "id": "473/a",
+    "name": "443 Kaasusäiliön räjähdys",
+    "place": "",
+    "place_array": [],
+    "average_credits": 10200,
+    "generated_by": "",
+    "icons": [
+      "/images/blast_gruen.png",
+      "/images/blast_gelb.png",
+      "/images/blast_rot.png"
+    ],
+    "requirements": {
+      "water_needed": 11000,
+      "firetrucks": 5,
+      "battalion_chief_vehicles": 1,
+      "platform_trucks": 2,
+      "water_tankers": 2,
+      "hazmat_vehicles": 1,
+      "police_cars": 3,
+      "hose": 1,
+      "pump": 1
+    },
+    "chances": { "patient_transport": 25, "patient_critical_care": 10 },
+    "additional": {
+      "possible_patient": 12,
+      "filter_id": "firehouse_missions",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Yleislääkäri"],
+      "patient_specializations": "Yleislääkäri"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 6,
+      "police_stations": 5,
+      "fire_support_count": 1,
+      "fire_stations": 14
+    },
+    "overlay_index": null,
+    "base_mission_id": 473,
+    "additive_overlays": "a",
+    "mission_categories": ["fire", "fire_support_specialization"]
+  },
+  {
+    "id": "474",
+    "name": "401 Kytkinhuoneessa savunhajua",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": { "filter_id": "firehouse_missions" },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 474,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "475",
+    "name": "221 Kaatunut pieni alus",
+    "place": "",
+    "place_array": [],
+    "average_credits": 8000,
+    "generated_by": "",
+    "icons": [
+      "/images/cruiseship_gruen.png",
+      "/images/cruiseship_gelb.png",
+      "/images/cruiseship_rot.png"
+    ],
+    "requirements": { "coastal_boat": 1, "coastal_helicopter": 1 },
+    "chances": { "patient_transport": 80, "helicopter": 20 },
+    "additional": {
+      "possible_patient": 2,
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true,
+      "handoff_possible_via_building_types": [23],
+      "patient_specialization_ids": [4],
+      "patient_specialization_captions": ["Traumatologia"],
+      "patient_specializations": "Traumatologia"
+    },
+    "prerequisites": {
+      "main_building": 23,
+      "rescue_stations": 3,
+      "coastal_rescue_count": 1,
+      "coastal_helicopter_count": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 475,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "476",
+    "name": "222 Kaatunut suuri alus",
+    "place": "",
+    "place_array": [],
+    "average_credits": 14000,
+    "generated_by": "",
+    "icons": [
+      "/images/cruiseship_gruen.png",
+      "/images/cruiseship_gelb.png",
+      "/images/cruiseship_rot.png"
+    ],
+    "requirements": {
+      "coastal_boat": 4,
+      "large_coastal_boat": 1,
+      "coastal_helicopter": 2
+    },
+    "chances": { "patient_transport": 100, "helicopter": 20 },
+    "additional": {
+      "possible_patient": 5,
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true,
+      "handoff_possible_via_building_types": [23],
+      "patient_specialization_ids": [4],
+      "patient_specialization_captions": ["Traumatologia"],
+      "patient_specializations": "Traumatologia"
+    },
+    "prerequisites": {
+      "main_building": 23,
+      "rescue_stations": 8,
+      "coastal_rescue_count": 4,
+      "coastal_helicopter_count": 2
+    },
+    "overlay_index": null,
+    "base_mission_id": 476,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "477",
+    "name": "68 Rajatarkastus",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1000,
+    "generated_by": "",
+    "icons": [
+      "/images/zoom_gruen.png",
+      "/images/zoom_gelb.png",
+      "/images/zoom_rot.png"
+    ],
+    "requirements": { "coastal_rescue": 1 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 1,
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions", "default"]
+    },
+    "prerequisites": {
+      "main_building": 23,
+      "rescue_stations": 1,
+      "coastal_rescue_count": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 477,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue"]
+  },
+  {
+    "id": "478",
+    "name": "481 Kadonnut alus",
+    "place": "",
+    "place_array": [],
+    "average_credits": 7000,
+    "generated_by": "",
+    "icons": [
+      "/images/cruiseship_gruen.png",
+      "/images/cruiseship_gelb.png",
+      "/images/cruiseship_rot.png"
+    ],
+    "requirements": { "coastal_boat": 2, "coastal_helicopter": 1 },
+    "chances": { "patient_transport": 100, "helicopter": 20 },
+    "additional": {
+      "possible_patient": 5,
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true,
+      "handoff_possible_via_building_types": [23],
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Yleislääkäri"],
+      "patient_specializations": "Yleislääkäri"
+    },
+    "prerequisites": {
+      "main_building": 23,
+      "rescue_stations": 3,
+      "coastal_rescue_count": 2,
+      "coastal_helicopter_count": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 478,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "479",
+    "name": "68 Rajavalvonta",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1000,
+    "generated_by": "",
+    "icons": [
+      "/images/zoom_gruen.png",
+      "/images/zoom_gelb.png",
+      "/images/zoom_rot.png"
+    ],
+    "requirements": { "coastal_rescue": 2 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 1,
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions", "default"]
+    },
+    "prerequisites": {
+      "main_building": 23,
+      "rescue_stations": 2,
+      "coastal_rescue_count": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 479,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue"]
+  },
+  {
+    "id": "480",
+    "name": "610 Salakuljetus veneellä",
+    "place": "",
+    "place_array": [],
+    "average_credits": 4000,
+    "generated_by": "",
+    "icons": [
+      "/images/cruiseship_gruen.png",
+      "/images/cruiseship_gelb.png",
+      "/images/cruiseship_rot.png"
+    ],
+    "requirements": {
+      "personnel_educations": { "law_enforcement_marine": 12 },
+      "large_coastal_boat": 2,
+      "coastal_helicopter": 2,
+      "coastal_plane": 1
+    },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 4,
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true,
+      "handoff_possible_via_building_types": [23],
+      "personnel_educations": { "Lainvalvonnan merivoimat": 12 }
+    },
+    "prerequisites": {
+      "main_building": 23,
+      "police_stations": 2,
+      "personnel_educations": { "law_enforcement_marine": 25 },
+      "coastal_rescue_count": 2,
+      "coastal_plane_count": 1,
+      "coastal_helicopter_count": 2
+    },
+    "overlay_index": null,
+    "base_mission_id": 480,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "481",
+    "name": "391 Laskuvarjohyppyonnettomuus",
+    "place": "",
+    "place_array": [],
+    "average_credits": 2500,
+    "generated_by": "",
+    "icons": [
+      "/images/waterpark_gruen.png",
+      "/images/waterpark_gelb.png",
+      "/images/waterpark_rot.png"
+    ],
+    "requirements": {
+      "coastal_rescue": 2,
+      "coastal_boat": 1,
+      "coastal_helicopter": 1
+    },
+    "chances": { "patient_transport": 100, "helicopter": 10 },
+    "additional": {
+      "possible_patient": 4,
+      "possible_patient_min": 1,
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions", "default"],
+      "patient_at_end_of_mission": true,
+      "patient_specialization_ids": [1],
+      "patient_specialization_captions": ["Yleiskirurgi"],
+      "patient_specializations": "Yleiskirurgi"
+    },
+    "prerequisites": {
+      "main_building": 23,
+      "rescue_stations": 3,
+      "coastal_rescue_count": 2,
+      "coastal_helicopter_count": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 481,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue"]
+  },
+  {
+    "id": "482",
+    "name": "481 Syvän veden etsintä ja pelastus",
+    "place": "",
+    "place_array": [],
+    "average_credits": 4000,
+    "generated_by": "",
+    "icons": [
+      "/images/waterpark_gruen.png",
+      "/images/waterpark_gelb.png",
+      "/images/waterpark_rot.png"
+    ],
+    "requirements": { "coastal_boat": 2, "coastal_helicopter": 2 },
+    "chances": { "patient_transport": 100, "helicopter": 100 },
+    "additional": {
+      "possible_patient": 3,
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true,
+      "handoff_possible_via_building_types": [23],
+      "patient_specialization_ids": [4],
+      "patient_specialization_captions": ["Traumatologia"],
+      "patient_specializations": "Traumatologia"
+    },
+    "prerequisites": {
+      "main_building": 23,
+      "rescue_stations": 2,
+      "coastal_rescue_count": 2,
+      "coastal_helicopter_count": 2
+    },
+    "overlay_index": null,
+    "base_mission_id": 482,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "483",
+    "name": "480 Panttivankien pelastaminen rahtilaivalla",
+    "place": "",
+    "place_array": [],
+    "average_credits": 8500,
+    "generated_by": "",
+    "icons": [
+      "/images/cruiseship_gruen.png",
+      "/images/cruiseship_gelb.png",
+      "/images/cruiseship_rot.png"
+    ],
+    "requirements": {
+      "personnel_educations": { "law_enforcement_marine": 18 },
+      "coastal_boat": 2,
+      "large_coastal_boat": 3,
+      "coastal_helicopter": 2
+    },
+    "chances": { "patient_transport": 100, "helicopter": 10 },
+    "additional": {
+      "possible_patient": 8,
+      "possible_patient_min": 1,
+      "max_possible_prisoners": 6,
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true,
+      "handoff_possible_via_building_types": [23],
+      "patient_at_end_of_mission": true,
+      "patient_specialization_ids": [4],
+      "patient_specialization_captions": ["Traumatologia"],
+      "patient_specializations": "Traumatologia",
+      "personnel_educations": { "Lainvalvonnan merivoimat": 18 }
+    },
+    "prerequisites": {
+      "main_building": 23,
+      "rescue_stations": 5,
+      "police_stations": 6,
+      "personnel_educations": { "law_enforcement_marine": 40 },
+      "coastal_rescue_count": 4,
+      "coastal_helicopter_count": 2
+    },
+    "overlay_index": null,
+    "base_mission_id": 483,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "484",
+    "name": "223 Laitonta toimintaa harjoittava valaanpyyntialus",
+    "place": "",
+    "place_array": [],
+    "average_credits": 8000,
+    "generated_by": "",
+    "icons": [
+      "/images/cruiseship_gruen.png",
+      "/images/cruiseship_gelb.png",
+      "/images/cruiseship_rot.png"
+    ],
+    "requirements": {
+      "personnel_educations": { "law_enforcement_marine": 8 },
+      "coastal_boat": 2,
+      "large_coastal_boat": 1
+    },
+    "chances": {},
+    "additional": {
+      "min_possible_prisoners": 4,
+      "max_possible_prisoners": 8,
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true,
+      "handoff_possible_via_building_types": [23],
+      "personnel_educations": { "Lainvalvonnan merivoimat": 8 }
+    },
+    "prerequisites": {
+      "main_building": 23,
+      "police_stations": 6,
+      "personnel_educations": { "law_enforcement_marine": 20 },
+      "coastal_rescue_count": 3
+    },
+    "overlay_index": null,
+    "base_mission_id": 484,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "485",
+    "name": "223 Useat valaanpyyntialukset harjoittavat laitonta toimintaa",
+    "place": "",
+    "place_array": [],
+    "average_credits": 10000,
+    "generated_by": "",
+    "icons": [
+      "/images/cruiseship_gruen.png",
+      "/images/cruiseship_gelb.png",
+      "/images/cruiseship_rot.png"
+    ],
+    "requirements": {
+      "personnel_educations": { "law_enforcement_marine": 24 },
+      "coastal_boat": 6,
+      "large_coastal_boat": 3,
+      "coastal_helicopter": 2
+    },
+    "chances": {},
+    "additional": {
+      "min_possible_prisoners": 10,
+      "max_possible_prisoners": 24,
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true,
+      "handoff_possible_via_building_types": [23],
+      "personnel_educations": { "Lainvalvonnan merivoimat": 24 }
+    },
+    "prerequisites": {
+      "main_building": 23,
+      "police_stations": 14,
+      "personnel_educations": { "law_enforcement_marine": 50 },
+      "coastal_rescue_count": 6,
+      "coastal_helicopter_count": 2
+    },
+    "overlay_index": null,
+    "base_mission_id": 485,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "486",
+    "name": "223 Merimiehet loukussa kaatuneessa laivaston aluksessa",
+    "place": "",
+    "place_array": [],
+    "average_credits": 9000,
+    "generated_by": "",
+    "icons": [
+      "/images/waterpark_gruen.png",
+      "/images/waterpark_gelb.png",
+      "/images/waterpark_rot.png"
+    ],
+    "requirements": { "large_coastal_boat": 2, "coastal_helicopter": 1 },
+    "chances": { "patient_transport": 100, "helicopter": 10 },
+    "additional": {
+      "possible_patient": 4,
+      "possible_patient_min": 1,
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true,
+      "handoff_possible_via_building_types": [23],
+      "patient_at_end_of_mission": true,
+      "patient_specialization_ids": [4],
+      "patient_specialization_captions": ["Traumatologia"],
+      "patient_specializations": "Traumatologia"
+    },
+    "prerequisites": {
+      "main_building": 23,
+      "rescue_stations": 7,
+      "coastal_rescue_count": 3,
+      "coastal_helicopter_count": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 486,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "487",
+    "name": "223 Ahdinkoon joutunut jahti joutui hirmumyrskyn kouriin",
+    "place": "",
+    "place_array": [],
+    "average_credits": 5000,
+    "generated_by": "",
+    "icons": [
+      "/images/cruiseship_gruen.png",
+      "/images/cruiseship_gelb.png",
+      "/images/cruiseship_rot.png"
+    ],
+    "requirements": {
+      "large_coastal_boat": 1,
+      "coastal_helicopter": 1,
+      "coastal_plane": 1
+    },
+    "chances": { "patient_transport": 100, "helicopter": 10 },
+    "additional": {
+      "possible_patient": 4,
+      "possible_patient_min": 1,
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true,
+      "handoff_possible_via_building_types": [23],
+      "patient_specialization_ids": [4],
+      "patient_specialization_captions": ["Traumatologia"],
+      "patient_specializations": "Traumatologia"
+    },
+    "prerequisites": {
+      "main_building": 23,
+      "rescue_stations": 3,
+      "coastal_rescue_count": 4,
+      "coastal_plane_count": 1,
+      "coastal_helicopter_count": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 487,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "488",
+    "name": "Moottorivene liikkuu liian kovaa",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1200,
+    "generated_by": "",
+    "icons": [
+      "/images/zoom_gruen.png",
+      "/images/zoom_gelb.png",
+      "/images/zoom_rot.png"
+    ],
+    "requirements": { "coastal_boat": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true
+    },
+    "prerequisites": { "main_building": 23, "coastal_rescue_count": 1 },
+    "overlay_index": null,
+    "base_mission_id": 488,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "489",
+    "name": "Vene ankkurissa suojelualueella",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1200,
+    "generated_by": "",
+    "icons": [
+      "/images/zoom_gruen.png",
+      "/images/zoom_gelb.png",
+      "/images/zoom_rot.png"
+    ],
+    "requirements": { "coastal_boat": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true
+    },
+    "prerequisites": { "main_building": 23, "coastal_rescue_count": 2 },
+    "overlay_index": null,
+    "base_mission_id": 489,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "490",
+    "name": "Vesiliikenneonnettomuus merellä (pieni)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1500,
+    "generated_by": "",
+    "icons": [
+      "/images/zoom_gruen.png",
+      "/images/zoom_gelb.png",
+      "/images/zoom_rot.png"
+    ],
+    "requirements": { "coastal_boat": 1, "large_coastal_boat": 1 },
+    "chances": { "patient_transport": 40 },
+    "additional": {
+      "possible_patient": 4,
+      "possible_patient_min": 1,
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true,
+      "handoff_possible_via_building_types": [23],
+      "patient_at_end_of_mission": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Yleislääkäri"],
+      "patient_specializations": "Yleislääkäri"
+    },
+    "prerequisites": { "main_building": 23, "coastal_rescue_count": 2 },
+    "overlay_index": null,
+    "base_mission_id": 490,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "491",
+    "name": "401 Joulukoriste syttyi tuleen",
+    "place": "",
+    "place_array": [],
+    "average_credits": 300,
+    "generated_by": "",
+    "icons": [
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
+    ],
+    "requirements": { "firetrucks": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "date_start": "2022-12-12T09:00:00Z",
+      "date_end": "2022-12-24T22:59:00Z"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 491,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "492",
+    "name": "25 Joulupukin reki tukkii tien",
+    "place": "",
+    "place_array": [],
+    "average_credits": 300,
+    "generated_by": "",
+    "icons": [
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
+    ],
+    "requirements": { "police_cars": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "police_station_missions",
+      "optional_event_mission": true,
+      "date_start": "2022-12-12T09:00:00Z",
+      "date_end": "2022-12-24T22:59:00Z"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 492,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "493",
+    "name": "12 Joulukuusi varastettu",
+    "place": "",
+    "place_array": [],
+    "average_credits": 300,
+    "generated_by": "",
+    "icons": [
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
+    ],
+    "requirements": { "police_cars": 3 },
+    "chances": {},
+    "additional": {
+      "filter_id": "police_station_missions",
+      "optional_event_mission": true,
+      "date_start": "2022-12-12T09:00:00Z",
+      "date_end": "2022-12-24T22:59:00Z"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 493,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "494",
+    "name": "12 Joululahjat varastettu ostoskeskuksessa",
+    "place": "",
+    "place_array": [],
+    "average_credits": 300,
+    "generated_by": "",
+    "icons": [
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
+    ],
+    "requirements": { "police_cars": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "police_station_missions",
+      "optional_event_mission": true,
+      "date_start": "2022-12-12T09:00:00Z",
+      "date_end": "2022-12-24T22:59:00Z"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 494,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "495",
+    "name": "601 Tuhopolttoyritys",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1250,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 1,
+      "police_cars": 3,
+      "personnel_educations": { "arson_investigator": 2 },
+      "civil_patrolcar": 1
+    },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 2,
+      "filter_id": "firehouse_missions",
+      "subsequent_mission_only": true,
+      "personnel_educations": { "Palonsyyntutkija": 2 }
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 4,
+      "criminal_investigation_count": 1,
+      "personnel_educations": { "arson_investigator": 4 }
+    },
+    "overlay_index": null,
+    "base_mission_id": 495,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "496",
+    "name": "401 Leirituli sytyttää puuvajan tuleen",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "",
+    "icons": [
+      "/images/snowy_gruen.png",
+      "/images/snowy_gelb.png",
+      "/images/snowy_rot.png"
+    ],
+    "requirements": { "firetrucks": 2 },
+    "chances": { "patient_transport": 30 },
+    "additional": {
+      "possible_patient": 1,
+      "filter_id": "firehouse_missions",
+      "date_start": "2023-01-06T10:00:00Z",
+      "date_end": "2023-03-20T22:59:00Z",
+      "patient_specialization_ids": [1],
+      "patient_specialization_captions": ["Yleiskirurgi"],
+      "patient_specializations": "Yleiskirurgi"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 496,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "497",
+    "name": "12 Rähinä jäätyneellä järvellä",
+    "place": "",
+    "place_array": [],
+    "average_credits": 650,
+    "generated_by": "",
+    "icons": [
+      "/images/snowy_gruen.png",
+      "/images/snowy_gelb.png",
+      "/images/snowy_rot.png"
+    ],
+    "requirements": { "police_cars": 1 },
+    "chances": { "patient_transport": 30 },
+    "additional": {
+      "possible_patient": 2,
+      "filter_id": "police_station_missions",
+      "date_start": "2023-01-06T10:00:00Z",
+      "date_end": "2023-03-20T22:59:00Z",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Yleislääkäri"],
+      "patient_specializations": "Yleislääkäri"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 497,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "498",
+    "name": "Jääpelaaja liukastui",
+    "place": "",
+    "place_array": [],
+    "average_credits": null,
+    "generated_by": "",
+    "icons": [
+      "/images/snowy_gruen.png",
+      "/images/snowy_gelb.png",
+      "/images/snowy_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 60 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "date_start": "2023-01-06T10:00:00Z",
+      "date_end": "2023-03-20T22:59:00Z",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Yleislääkäri"],
+      "patient_specializations": "Yleislääkäri"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 498,
+    "additive_overlays": "",
+    "mission_categories": ["ambulance"]
+  },
+  {
+    "id": "499",
+    "name": "12 Lapset heittelevät lumipalloja ihmisten ja talojen päälle",
+    "place": "",
+    "place_array": [],
+    "average_credits": 550,
+    "generated_by": "",
+    "icons": [
+      "/images/snowy_gruen.png",
+      "/images/snowy_gelb.png",
+      "/images/snowy_rot.png"
+    ],
+    "requirements": { "police_cars": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "police_station_missions",
+      "date_start": "2023-01-06T10:00:00Z",
+      "date_end": "2023-03-20T22:59:00Z"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 499,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "500",
+    "name": "551 Kiireellinen ovenavaus",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": {
+      "allow_rw_instead_of_lf": true,
+      "average_min_fire_personnel": 4,
+      "filter_id": "firehouse_missions",
+      "subsequent_mission_only": true
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 500,
     "additive_overlays": "",
     "mission_categories": ["fire"]
   }
