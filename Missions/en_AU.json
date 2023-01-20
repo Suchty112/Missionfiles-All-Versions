@@ -2255,16 +2255,16 @@
     "average_credits": 300,
     "generated_by": "",
     "icons": [
-      "/images/theft_gruen.png",
-      "/images/theft_gelb.png",
-      "/images/theft_rot.png"
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
     ],
     "requirements": { "police_cars": 1 },
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-01T10:00:00+11:00",
-      "date_end": "2021-12-26T23:59:00+11:00"
+      "date_start": "2022-12-01T10:00:00Z",
+      "date_end": "2022-12-25T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 2 },
     "overlay_index": null,
@@ -2280,17 +2280,17 @@
     "average_credits": 610,
     "generated_by": "",
     "icons": [
-      "/images/fire_gruen.png",
-      "/images/fire_gelb.png",
-      "/images/fire_rot.png"
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
     ],
     "requirements": { "firetrucks": 1 },
     "chances": { "patient_transport": 30 },
     "additional": {
       "possible_patient": 1,
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-01T10:00:00+11:00",
-      "date_end": "2021-12-26T23:59:00+11:00",
+      "date_start": "2022-12-01T10:00:00Z",
+      "date_end": "2022-12-25T22:59:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["General Internal"],
       "patient_specializations": "General Internal"
@@ -2309,17 +2309,17 @@
     "average_credits": 310,
     "generated_by": "",
     "icons": [
-      "/images/fire_gruen.png",
-      "/images/fire_gelb.png",
-      "/images/fire_rot.png"
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
     ],
     "requirements": { "firetrucks": 1 },
     "chances": { "patient_transport": 30 },
     "additional": {
       "possible_patient": 1,
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-01T10:00:00+11:00",
-      "date_end": "2021-12-26T23:59:00+11:00",
+      "date_start": "2022-12-01T10:00:00Z",
+      "date_end": "2022-12-25T22:59:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["General Internal"],
       "patient_specializations": "General Internal"
@@ -2338,9 +2338,9 @@
     "average_credits": null,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
     ],
     "requirements": {},
     "chances": { "patient_transport": 30 },
@@ -2348,8 +2348,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-01T10:00:00+11:00",
-      "date_end": "2021-12-26T23:59:00+11:00",
+      "date_start": "2022-12-01T10:00:00Z",
+      "date_end": "2022-12-25T22:59:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["General Internal"],
       "patient_specializations": "General Internal"
@@ -2368,16 +2368,16 @@
     "average_credits": 870,
     "generated_by": "",
     "icons": [
-      "/images/fire_gruen.png",
-      "/images/fire_gelb.png",
-      "/images/fire_rot.png"
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
     ],
     "requirements": { "firetrucks": 1 },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-01T10:00:00+11:00",
-      "date_end": "2021-12-26T23:59:00+11:00"
+      "date_start": "2022-12-01T10:00:00Z",
+      "date_end": "2022-12-25T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 6 },
     "overlay_index": null,
@@ -2393,16 +2393,16 @@
     "average_credits": 800,
     "generated_by": "",
     "icons": [
-      "/images/fire_gruen.png",
-      "/images/fire_gelb.png",
-      "/images/fire_rot.png"
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
     ],
     "requirements": { "firetrucks": 1 },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-01T10:00:00+11:00",
-      "date_end": "2021-12-26T23:59:00+11:00"
+      "date_start": "2022-12-01T10:00:00Z",
+      "date_end": "2022-12-25T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 5 },
     "overlay_index": null,
@@ -2418,17 +2418,17 @@
     "average_credits": 600,
     "generated_by": "",
     "icons": [
-      "/images/baseball_gruen.png",
-      "/images/baseball_gelb.png",
-      "/images/baseball_rot.png"
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
     ],
     "requirements": { "police_cars": 2 },
     "chances": { "patient_transport": 30 },
     "additional": {
       "possible_patient": 2,
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-01T10:00:00+11:00",
-      "date_end": "2021-12-26T23:59:00+11:00",
+      "date_start": "2022-12-01T10:00:00Z",
+      "date_end": "2022-12-25T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatology"],
       "patient_specializations": "Traumatology"
@@ -2627,8 +2627,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -2652,8 +2652,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -2677,8 +2677,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
@@ -2703,8 +2703,8 @@
     "additional": {
       "possible_patient": 2,
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["General Internal"],
       "patient_specializations": "General Internal"
@@ -2731,8 +2731,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 3 },
     "overlay_index": null,
@@ -2756,8 +2756,8 @@
     "chances": { "platform_trucks": 30 },
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
@@ -2781,8 +2781,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -2806,8 +2806,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -2831,8 +2831,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -2864,8 +2864,8 @@
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["General Internal"],
       "patient_specializations": "General Internal"
@@ -2897,8 +2897,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -2922,8 +2922,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -2949,8 +2949,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatology"],
       "patient_specializations": "Traumatology"
@@ -4277,6 +4277,7 @@
     "additional": {
       "possible_patient": 1,
       "possible_patient_min": 1,
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "swat_personnel": 6,
       "filter_id": "police_station_missions",
@@ -5088,8 +5089,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-06-25T09:00:00Z",
-      "date_end": "2021-08-27T23:59:00Z",
+      "date_start": "2023-01-06T10:00:00Z",
+      "date_end": "2023-03-20T22:59:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["General Internal"],
       "patient_specializations": "General Internal"
@@ -5118,8 +5119,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-06-25T09:00:00Z",
-      "date_end": "2021-08-27T23:59:00Z",
+      "date_start": "2023-01-06T10:00:00Z",
+      "date_end": "2023-03-20T22:59:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["General Internal"],
       "patient_specializations": "General Internal"
@@ -5148,8 +5149,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-06-25T09:00:00Z",
-      "date_end": "2021-08-27T23:59:00Z",
+      "date_start": "2023-01-06T10:00:00Z",
+      "date_end": "2023-03-20T22:59:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["General Internal"],
       "patient_specializations": "General Internal"
@@ -5178,8 +5179,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-06-25T09:00:00Z",
-      "date_end": "2021-08-27T23:59:00Z",
+      "date_start": "2023-01-06T10:00:00Z",
+      "date_end": "2023-03-20T22:59:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["General Internal"],
       "patient_specializations": "General Internal"
@@ -5206,8 +5207,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-06-25T09:00:00Z",
-      "date_end": "2021-08-27T23:59:00Z"
+      "date_start": "2023-01-06T10:00:00Z",
+      "date_end": "2023-03-20T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -5235,8 +5236,8 @@
       "possible_patient": 14,
       "possible_patient_min": 5,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-06-25T09:00:00Z",
-      "date_end": "2021-08-27T23:59:00Z",
+      "date_start": "2023-01-06T10:00:00Z",
+      "date_end": "2023-03-20T22:59:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["General Internal"],
       "patient_specializations": "General Internal"
@@ -6932,6 +6933,7 @@
     "requirements": { "police_cars": 4 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 3,
       "filter_id": "police_station_missions",
       "date_start": "2020-10-07T23:59:00+11:00",
@@ -6958,6 +6960,7 @@
     "requirements": { "police_cars": 5 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 2,
       "max_possible_prisoners": 4,
       "filter_id": "police_station_missions",
       "date_start": "2020-10-07T23:59:00+11:00",
@@ -7554,8 +7557,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatology"],
       "patient_specializations": "Traumatology"
@@ -7584,8 +7587,8 @@
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatology"],
       "patient_specializations": "Traumatology"
@@ -7614,8 +7617,8 @@
       "possible_patient": 3,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatology"],
       "patient_specializations": "Traumatology"
@@ -7644,8 +7647,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatology"],
       "patient_specializations": "Traumatology"
@@ -7674,8 +7677,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatology"],
       "patient_specializations": "Traumatology"
@@ -7705,8 +7708,8 @@
       "duration": 5400,
       "guard_mission": true,
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": {
       "main_building": 6,
@@ -7736,8 +7739,8 @@
       "possible_patient": 1,
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatology"],
       "patient_specializations": "Traumatology"
@@ -7770,8 +7773,8 @@
       "expansion_missions_ids": [262],
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -7798,8 +7801,8 @@
       "possible_patient_min": 1,
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatology"],
       "patient_specializations": "Traumatology"
@@ -7831,8 +7834,8 @@
     "additional": {
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 4 },
     "overlay_index": null,
@@ -9603,6 +9606,7 @@
     "additional": {
       "possible_patient": 30,
       "possible_patient_min": 4,
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "swat_personnel": 12,
       "filter_id": "police_station_missions",
@@ -9653,7 +9657,7 @@
     "overlay_index": null,
     "base_mission_id": 322,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "323",
@@ -9688,7 +9692,7 @@
     "overlay_index": null,
     "base_mission_id": 323,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "324",
@@ -9723,7 +9727,7 @@
     "overlay_index": null,
     "base_mission_id": 324,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "325",
@@ -9760,7 +9764,7 @@
     "overlay_index": null,
     "base_mission_id": 325,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "326",
@@ -9794,7 +9798,7 @@
     "overlay_index": null,
     "base_mission_id": 326,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "327",
@@ -9829,7 +9833,7 @@
     "overlay_index": null,
     "base_mission_id": 327,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "328",
@@ -9865,7 +9869,7 @@
     "overlay_index": null,
     "base_mission_id": 328,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "329",
@@ -9904,7 +9908,7 @@
     "overlay_index": null,
     "base_mission_id": 329,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "330",
@@ -9932,7 +9936,7 @@
     "overlay_index": null,
     "base_mission_id": 330,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "331",
@@ -9971,7 +9975,7 @@
     "overlay_index": null,
     "base_mission_id": 331,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "332",
@@ -10010,7 +10014,7 @@
     "overlay_index": null,
     "base_mission_id": 332,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "333",
@@ -10034,7 +10038,7 @@
     "overlay_index": null,
     "base_mission_id": 333,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "334",
@@ -10062,7 +10066,7 @@
     "overlay_index": null,
     "base_mission_id": 334,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "335",
@@ -10094,7 +10098,7 @@
     "overlay_index": null,
     "base_mission_id": 335,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "336",
@@ -10127,7 +10131,7 @@
     "overlay_index": null,
     "base_mission_id": 336,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "337",
@@ -11720,6 +11724,7 @@
     "requirements": { "police_cars": 2 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions"
     },
@@ -12565,7 +12570,7 @@
     "overlay_index": null,
     "base_mission_id": 411,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "412",
@@ -12813,7 +12818,7 @@
     "overlay_index": null,
     "base_mission_id": 417,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "418",
@@ -12851,7 +12856,7 @@
     "overlay_index": null,
     "base_mission_id": 418,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "419",
@@ -12893,7 +12898,7 @@
     "overlay_index": null,
     "base_mission_id": 419,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "420",
@@ -12933,7 +12938,7 @@
     "overlay_index": null,
     "base_mission_id": 420,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "421",
@@ -13255,7 +13260,7 @@
     "overlay_index": null,
     "base_mission_id": 430,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "431",
@@ -13393,7 +13398,7 @@
     "overlay_index": null,
     "base_mission_id": 434,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "435",
@@ -13446,7 +13451,7 @@
     "overlay_index": null,
     "base_mission_id": 435,
     "additive_overlays": "",
-    "mission_categories": ["fire", "riot_police_specialization"]
+    "mission_categories": ["police", "riot_police_specialization"]
   },
   {
     "id": "436",
@@ -13665,6 +13670,7 @@
       "possible_patient": 20,
       "possible_patient_min": 1,
       "expansion_missions_ids": [441],
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 4,
       "filter_id": "firehouse_missions",
       "patient_at_end_of_mission": true,
@@ -13732,6 +13738,7 @@
       "possible_patient": 26,
       "possible_patient_min": 1,
       "expansion_missions_ids": [442],
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 4,
       "filter_id": "firehouse_missions",
       "patient_at_end_of_mission": true,
@@ -13799,6 +13806,7 @@
       "possible_patient": 33,
       "possible_patient_min": 1,
       "expansion_missions_ids": [443],
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 4,
       "filter_id": "firehouse_missions",
       "patient_at_end_of_mission": true,
@@ -13865,6 +13873,7 @@
     "additional": {
       "possible_patient": 45,
       "possible_patient_min": 1,
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 4,
       "filter_id": "firehouse_missions",
       "patient_at_end_of_mission": true,
@@ -14050,6 +14059,7 @@
     },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 5,
       "swat_personnel": 6,
       "filter_id": "police_station_missions"
@@ -14086,6 +14096,7 @@
     "chances": {},
     "additional": {
       "expansion_missions_ids": [450],
+      "min_possible_prisoners": 2,
       "max_possible_prisoners": 6,
       "swat_personnel": 6,
       "filter_id": "police_station_missions",
@@ -14124,6 +14135,7 @@
     "chances": {},
     "additional": {
       "expansion_missions_ids": [451],
+      "min_possible_prisoners": 2,
       "max_possible_prisoners": 9,
       "swat_personnel": 12,
       "filter_id": "police_station_missions",
@@ -14163,6 +14175,7 @@
     },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 2,
       "max_possible_prisoners": 12,
       "swat_personnel": 18,
       "filter_id": "police_station_missions",
@@ -14200,6 +14213,7 @@
     "chances": { "patient_transport": 33, "patient_critical_care": 33 },
     "additional": {
       "possible_patient": 1,
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 3,
       "swat_personnel": 4,
       "filter_id": "police_station_missions",
@@ -14243,6 +14257,7 @@
     "chances": { "patient_transport": 33, "patient_critical_care": 33 },
     "additional": {
       "possible_patient": 1,
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 6,
       "swat_personnel": 10,
       "filter_id": "police_station_missions",
@@ -14285,6 +14300,7 @@
     "chances": { "patient_transport": 0 },
     "additional": {
       "possible_patient": 2,
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "swat_personnel": 12,
       "filter_id": "police_station_missions",
@@ -14326,6 +14342,7 @@
       "possible_patient": 5,
       "possible_patient_min": 1,
       "expansion_missions_ids": [456],
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 4,
       "swat_personnel": 8,
       "filter_id": "police_station_missions",
@@ -14369,6 +14386,7 @@
       "possible_patient": 7,
       "possible_patient_min": 1,
       "expansion_missions_ids": [457],
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 6,
       "swat_personnel": 10,
       "filter_id": "police_station_missions",
@@ -14412,6 +14430,7 @@
     "additional": {
       "possible_patient": 9,
       "possible_patient_min": 1,
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 9,
       "swat_personnel": 12,
       "filter_id": "police_station_missions",
@@ -14453,6 +14472,7 @@
     },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 3,
       "filter_id": "police_station_missions"
     },
@@ -14489,6 +14509,7 @@
     },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 4,
       "swat_personnel": 2,
       "filter_id": "police_station_missions"
@@ -14531,6 +14552,7 @@
     "additional": {
       "possible_patient": 5,
       "possible_patient_min": 1,
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 7,
       "swat_personnel": 12,
       "filter_id": "police_station_missions",
@@ -14572,6 +14594,7 @@
       "possible_patient": 3,
       "possible_patient_min": 1,
       "expansion_missions_ids": [462],
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 3,
       "swat_personnel": 6,
       "filter_id": "police_station_missions",
@@ -14858,6 +14881,7 @@
     "additional": {
       "possible_patient": 8,
       "possible_patient_min": 1,
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 8,
       "swat_personnel": 12,
       "filter_id": "police_station_missions",
@@ -14906,6 +14930,7 @@
     "additional": {
       "possible_patient": 8,
       "possible_patient_min": 1,
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 8,
       "swat_personnel": 12,
       "filter_id": "police_station_missions",
@@ -14954,6 +14979,7 @@
     "additional": {
       "possible_patient": 6,
       "possible_patient_min": 1,
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 7,
       "swat_personnel": 12,
       "filter_id": "police_station_missions",
@@ -15002,6 +15028,7 @@
     "additional": {
       "possible_patient": 6,
       "possible_patient_min": 1,
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 7,
       "swat_personnel": 12,
       "filter_id": "police_station_missions",
@@ -15050,6 +15077,7 @@
     "additional": {
       "possible_patient": 6,
       "possible_patient_min": 1,
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 7,
       "swat_personnel": 12,
       "filter_id": "police_station_missions",
@@ -15098,6 +15126,7 @@
     "additional": {
       "possible_patient": 6,
       "possible_patient_min": 1,
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 7,
       "swat_personnel": 12,
       "filter_id": "police_station_missions",
@@ -15135,6 +15164,7 @@
     "additional": {
       "possible_patient": 3,
       "possible_patient_min": 1,
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 3,
       "swat_personnel": 6,
       "filter_id": "police_station_missions",
@@ -15175,6 +15205,7 @@
     "additional": {
       "possible_patient": 3,
       "possible_patient_min": 1,
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 3,
       "swat_personnel": 6,
       "filter_id": "police_station_missions",
@@ -15255,6 +15286,7 @@
     "additional": {
       "possible_patient": 9,
       "possible_patient_min": 3,
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "swat_personnel": 6,
       "filter_id": "police_station_missions",
@@ -15303,6 +15335,7 @@
     "additional": {
       "possible_patient": 9,
       "possible_patient_min": 3,
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "swat_personnel": 6,
       "filter_id": "police_station_missions",
@@ -15345,6 +15378,7 @@
     "chances": { "patient_transport": 33, "patient_critical_care": 3 },
     "additional": {
       "possible_patient": 3,
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 4,
       "swat_personnel": 12,
       "filter_id": "police_station_missions",
@@ -15387,6 +15421,7 @@
     "chances": { "patient_transport": 33, "patient_critical_care": 3 },
     "additional": {
       "possible_patient": 3,
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 4,
       "swat_personnel": 12,
       "filter_id": "police_station_missions",
@@ -15443,6 +15478,7 @@
     "additional": {
       "possible_patient": 55,
       "possible_patient_min": 1,
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 9,
       "swat_personnel": 2,
       "filter_id": "police_station_missions",
@@ -15501,6 +15537,7 @@
     "additional": {
       "possible_patient": 55,
       "possible_patient_min": 1,
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 9,
       "swat_personnel": 2,
       "filter_id": "police_station_missions",
@@ -16118,6 +16155,7 @@
     "requirements": { "police_cars": 4 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 3,
       "filter_id": "police_station_missions",
       "date_start": "2022-10-07T00:00:00Z",
@@ -16144,6 +16182,7 @@
     "requirements": { "police_cars": 4 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 2,
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
       "date_start": "2022-10-07T00:00:00Z",
@@ -16470,6 +16509,7 @@
     "requirements": { "police_cars": 6, "k9": 2 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 4,
       "filter_id": "police_station_missions"
     },
@@ -16494,6 +16534,7 @@
     "requirements": { "police_cars": 2 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions"
     },
@@ -16623,5 +16664,1245 @@
     "base_mission_id": 507,
     "additive_overlays": "",
     "mission_categories": ["fire"]
+  },
+  {
+    "id": "508",
+    "name": "Subject Ejected from A MVA",
+    "place": "Gas station",
+    "place_array": ["Gas station"],
+    "average_credits": 4000,
+    "generated_by": "",
+    "icons": [
+      "/images/caraccident_gruen.png",
+      "/images/caraccident_gelb.png",
+      "/images/caraccident_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 4,
+      "battalion_chief_vehicles": 1,
+      "heavy_rescue_vehicles": 1,
+      "police_cars": 6
+    },
+    "chances": { "patient_transport": 60 },
+    "additional": {
+      "possible_patient": 7,
+      "possible_patient_min": 1,
+      "min_possible_prisoners": 1,
+      "max_possible_prisoners": 2,
+      "filter_id": "firehouse_missions",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["General Internal"],
+      "patient_specializations": "General Internal"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 6,
+      "fire_stations": 11
+    },
+    "overlay_index": null,
+    "base_mission_id": 508,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "508/a",
+    "name": "Subject Ejected from A MVA",
+    "place": "Gas station",
+    "place_array": ["Gas station"],
+    "average_credits": 8550,
+    "generated_by": "",
+    "icons": [
+      "/images/caraccident_gruen.png",
+      "/images/caraccident_gelb.png",
+      "/images/caraccident_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 4,
+      "battalion_chief_vehicles": 1,
+      "heavy_rescue_vehicles": 1,
+      "police_helicopters": 1,
+      "police_cars": 6,
+      "police_service_group_leader": 1
+    },
+    "chances": { "patient_transport": 60 },
+    "additional": {
+      "possible_patient": 7,
+      "possible_patient_min": 1,
+      "min_possible_prisoners": 1,
+      "max_possible_prisoners": 2,
+      "filter_id": "firehouse_missions",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["General Internal"],
+      "patient_specializations": "General Internal"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 6,
+      "police_helicopter_stations": 1,
+      "police_service_group_leader": 1,
+      "fire_stations": 11
+    },
+    "overlay_index": null,
+    "base_mission_id": 508,
+    "additive_overlays": "a",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "509",
+    "name": "Line Search",
+    "place": "Campsite\nCliff\nField\nForest\nHeathland\nHill\nMoorland\nPark",
+    "place_array": [
+      "Campsite",
+      "Cliff",
+      "Field",
+      "Forest",
+      "Heathland",
+      "Hill",
+      "Moorland",
+      "Park"
+    ],
+    "average_credits": 2500,
+    "generated_by": "",
+    "icons": [
+      "/images/ambulance_gruen.png",
+      "/images/ambulance_gelb.png",
+      "/images/ambulance_rot.png"
+    ],
+    "requirements": {
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "police_cars": 4,
+      "water_rescue": 2,
+      "k9": 2,
+      "police_horse": 1
+    },
+    "chances": { "mobile_command_vehicles": 40 },
+    "additional": {
+      "filter_id": "water_watch_missions",
+      "need_police_horse_only_if_present": true
+    },
+    "prerequisites": {
+      "main_building": 15,
+      "wasserrettung": 1,
+      "police_stations": 6,
+      "fire_stations": 13
+    },
+    "overlay_index": null,
+    "base_mission_id": 509,
+    "additive_overlays": "",
+    "mission_categories": ["water_rescue"]
+  },
+  {
+    "id": "509/a",
+    "name": "Line Search",
+    "place": "Campsite\nCliff\nField\nForest\nHeathland\nHill\nMoorland\nPark",
+    "place_array": [
+      "Campsite",
+      "Cliff",
+      "Field",
+      "Forest",
+      "Heathland",
+      "Hill",
+      "Moorland",
+      "Park"
+    ],
+    "average_credits": 5050,
+    "generated_by": "",
+    "icons": [
+      "/images/ambulance_gruen.png",
+      "/images/ambulance_gelb.png",
+      "/images/ambulance_rot.png"
+    ],
+    "requirements": {
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "police_cars": 4,
+      "water_rescue": 2,
+      "k9": 2,
+      "police_horse": 1,
+      "police_service_group_leader": 1
+    },
+    "chances": { "mobile_command_vehicles": 40 },
+    "additional": {
+      "filter_id": "water_watch_missions",
+      "need_police_horse_only_if_present": true
+    },
+    "prerequisites": {
+      "main_building": 15,
+      "wasserrettung": 1,
+      "police_stations": 6,
+      "police_service_group_leader": 1,
+      "fire_stations": 13
+    },
+    "overlay_index": null,
+    "base_mission_id": 509,
+    "additive_overlays": "a",
+    "mission_categories": ["water_rescue"]
+  },
+  {
+    "id": "510",
+    "name": "Inflate Soccer ball",
+    "place": "",
+    "place_array": [],
+    "average_credits": 300,
+    "generated_by": "",
+    "icons": [
+      "/images/soccer_gruen.png",
+      "/images/soccer_gelb.png",
+      "/images/soccer_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": {
+      "allow_rw_instead_of_lf": true,
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "date_start": "2022-11-18T10:00:00Z",
+      "date_end": "2022-12-18T22:59:00Z"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 510,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "511",
+    "name": "Team bus parked in no stopping zone",
+    "place": "",
+    "place_array": [],
+    "average_credits": 300,
+    "generated_by": "",
+    "icons": [
+      "/images/soccer_gruen.png",
+      "/images/soccer_gelb.png",
+      "/images/soccer_rot.png"
+    ],
+    "requirements": { "police_cars": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "police_station_missions",
+      "optional_event_mission": true,
+      "date_start": "2022-11-18T10:00:00Z",
+      "date_end": "2022-12-18T22:59:00Z"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 511,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "512",
+    "name": "Treatment after diving",
+    "place": "",
+    "place_array": [],
+    "average_credits": null,
+    "generated_by": "",
+    "icons": [
+      "/images/soccer_gruen.png",
+      "/images/soccer_gelb.png",
+      "/images/soccer_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 0 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "optional_event_mission": true,
+      "date_start": "2022-11-18T10:00:00Z",
+      "date_end": "2022-12-18T22:59:00Z",
+      "patient_specialization_ids": [1],
+      "patient_specialization_captions": ["General Surgeon"],
+      "patient_specializations": "General Surgeon"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 512,
+    "additive_overlays": "",
+    "mission_categories": ["ambulance"]
+  },
+  {
+    "id": "513",
+    "name": "Injury after hitting bar",
+    "place": "",
+    "place_array": [],
+    "average_credits": null,
+    "generated_by": "",
+    "icons": [
+      "/images/soccer_gruen.png",
+      "/images/soccer_gelb.png",
+      "/images/soccer_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 0 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "optional_event_mission": true,
+      "date_start": "2022-11-18T10:00:00Z",
+      "date_end": "2022-12-18T22:59:00Z",
+      "patient_specialization_ids": [1],
+      "patient_specialization_captions": ["General Surgeon"],
+      "patient_specializations": "General Surgeon"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 513,
+    "additive_overlays": "",
+    "mission_categories": ["ambulance"]
+  },
+  {
+    "id": "514",
+    "name": "Goal fell down",
+    "place": "",
+    "place_array": [],
+    "average_credits": 300,
+    "generated_by": "",
+    "icons": [
+      "/images/soccer_gruen.png",
+      "/images/soccer_gelb.png",
+      "/images/soccer_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": {
+      "allow_rw_instead_of_lf": true,
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "date_start": "2022-11-18T10:00:00Z",
+      "date_end": "2022-12-18T22:59:00Z"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 514,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "515",
+    "name": "Stolen trophy",
+    "place": "",
+    "place_array": [],
+    "average_credits": 600,
+    "generated_by": "",
+    "icons": [
+      "/images/soccer_gruen.png",
+      "/images/soccer_gelb.png",
+      "/images/soccer_rot.png"
+    ],
+    "requirements": { "police_cars": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "police_station_missions",
+      "optional_event_mission": true,
+      "date_start": "2022-11-18T10:00:00Z",
+      "date_end": "2022-12-18T22:59:00Z"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 515,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "516",
+    "name": "Frostbite from ice spray",
+    "place": "Stadium",
+    "place_array": ["Stadium"],
+    "average_credits": null,
+    "generated_by": "",
+    "icons": [
+      "/images/soccer_gruen.png",
+      "/images/soccer_gelb.png",
+      "/images/soccer_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 20, "patient_critical_care": 60 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "optional_event_mission": true,
+      "date_start": "2022-11-18T10:00:00Z",
+      "date_end": "2022-12-18T22:59:00Z",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["General Internal"],
+      "patient_specializations": "General Internal"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 516,
+    "additive_overlays": "",
+    "mission_categories": ["ambulance"]
+  },
+  {
+    "id": "517",
+    "name": "Sore throat after celebrating",
+    "place": "Stadium",
+    "place_array": ["Stadium"],
+    "average_credits": null,
+    "generated_by": "",
+    "icons": [
+      "/images/soccer_gruen.png",
+      "/images/soccer_gelb.png",
+      "/images/soccer_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 30 },
+    "additional": {
+      "possible_patient": 3,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "optional_event_mission": true,
+      "date_start": "2022-11-18T10:00:00Z",
+      "date_end": "2022-12-18T22:59:00Z",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["General Internal"],
+      "patient_specializations": "General Internal"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 517,
+    "additive_overlays": "",
+    "mission_categories": ["ambulance"]
+  },
+  {
+    "id": "518",
+    "name": "Missing captain armband",
+    "place": "Stadium",
+    "place_array": ["Stadium"],
+    "average_credits": 1200,
+    "generated_by": "",
+    "icons": [
+      "/images/soccer_gruen.png",
+      "/images/soccer_gelb.png",
+      "/images/soccer_rot.png"
+    ],
+    "requirements": { "police_helicopters": 1, "police_cars": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "police_station_missions",
+      "optional_event_mission": true,
+      "date_start": "2022-11-18T10:00:00Z",
+      "date_end": "2022-12-18T22:59:00Z"
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "police_stations": 2,
+      "police_helicopter_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 518,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "519",
+    "name": "Burning corner flag",
+    "place": "Stadium",
+    "place_array": ["Stadium"],
+    "average_credits": 450,
+    "generated_by": "",
+    "icons": [
+      "/images/soccer_gruen.png",
+      "/images/soccer_gelb.png",
+      "/images/soccer_rot.png"
+    ],
+    "requirements": { "firetrucks": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "date_start": "2022-11-18T10:00:00Z",
+      "date_end": "2022-12-18T22:59:00Z"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 519,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "520",
+    "name": "Library Fire",
+    "place": "Office Building",
+    "place_array": ["Office Building"],
+    "average_credits": 8500,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 10,
+      "ambulances": 2,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 2,
+      "platform_trucks": 2,
+      "heavy_rescue_vehicles": 2,
+      "water_tankers": 2,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "police_cars": 2,
+      "water_rescue": 1
+    },
+    "chances": { "patient_transport": 57, "patient_critical_care": 43 },
+    "additional": {
+      "possible_patient": 5,
+      "possible_patient_min": 1,
+      "filter_id": "firehouse_missions",
+      "patient_at_end_of_mission": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["General Internal"],
+      "patient_specializations": "General Internal"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "wasserrettung": 1,
+      "rescue_stations": 5,
+      "fire_stations": 5
+    },
+    "overlay_index": null,
+    "base_mission_id": 520,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "521",
+    "name": "Silage Fire",
+    "place": "Farm",
+    "place_array": ["Farm"],
+    "average_credits": 11000,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 9,
+      "battalion_chief_vehicles": 2,
+      "platform_trucks": 2,
+      "heavy_rescue_vehicles": 2,
+      "water_tankers": 2,
+      "mobile_air_vehicles": 1,
+      "police_cars": 2
+    },
+    "chances": {},
+    "additional": { "filter_id": "firehouse_missions" },
+    "prerequisites": { "main_building": 0, "fire_stations": 5 },
+    "overlay_index": null,
+    "base_mission_id": 521,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "522",
+    "name": "Server Fire at Data Centre",
+    "place": "City Centre",
+    "place_array": ["City Centre"],
+    "average_credits": 18888,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 11,
+      "ambulances": 10,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 2,
+      "platform_trucks": 3,
+      "heavy_rescue_vehicles": 2,
+      "water_tankers": 3,
+      "mobile_air_vehicles": 2,
+      "hazmat_vehicles": 3,
+      "police_cars": 4,
+      "water_rescue": 1
+    },
+    "chances": { "patient_transport": 64, "patient_critical_care": 47 },
+    "additional": {
+      "possible_patient": 33,
+      "possible_patient_min": 1,
+      "filter_id": "firehouse_missions",
+      "allow_dlk_instead_of_lf": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["General Internal"],
+      "patient_specializations": "General Internal"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "wasserrettung": 1,
+      "rescue_stations": 20,
+      "police_stations": 3,
+      "fire_stations": 7
+    },
+    "overlay_index": null,
+    "base_mission_id": 522,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "522/a",
+    "name": "Server Fire at Data Centre",
+    "place": "City Centre",
+    "place_array": ["City Centre"],
+    "average_credits": 21438,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 11,
+      "ambulances": 10,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 2,
+      "platform_trucks": 3,
+      "heavy_rescue_vehicles": 2,
+      "water_tankers": 3,
+      "mobile_air_vehicles": 2,
+      "hazmat_vehicles": 3,
+      "police_cars": 4,
+      "water_rescue": 1,
+      "police_service_group_leader": 1
+    },
+    "chances": { "patient_transport": 64, "patient_critical_care": 47 },
+    "additional": {
+      "possible_patient": 33,
+      "possible_patient_min": 1,
+      "filter_id": "firehouse_missions",
+      "allow_dlk_instead_of_lf": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["General Internal"],
+      "patient_specializations": "General Internal"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "wasserrettung": 1,
+      "rescue_stations": 20,
+      "police_stations": 3,
+      "police_service_group_leader": 1,
+      "fire_stations": 7
+    },
+    "overlay_index": null,
+    "base_mission_id": 522,
+    "additive_overlays": "a",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "523",
+    "name": "Impalement",
+    "place": "Factory",
+    "place_array": ["Factory"],
+    "average_credits": 555,
+    "generated_by": "",
+    "icons": [
+      "/images/climbing_gruen.png",
+      "/images/climbing_gelb.png",
+      "/images/climbing_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 1,
+      "ambulances": 1,
+      "platform_trucks": 1,
+      "heavy_rescue_vehicles": 1,
+      "police_cars": 1
+    },
+    "chances": { "patient_transport": 82, "patient_critical_care": 66 },
+    "additional": {
+      "possible_patient": 2,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "allow_dlk_instead_of_lf": true,
+      "patient_at_end_of_mission": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["General Internal"],
+      "patient_specializations": "General Internal"
+    },
+    "prerequisites": {
+      "main_building": 2,
+      "rescue_stations": 2,
+      "police_stations": 1,
+      "fire_stations": 2
+    },
+    "overlay_index": null,
+    "base_mission_id": 523,
+    "additive_overlays": "",
+    "mission_categories": ["ambulance"]
+  },
+  {
+    "id": "524",
+    "name": "Assist resident locked in bedroom",
+    "place": "Cabin",
+    "place_array": ["Cabin"],
+    "average_credits": 5550,
+    "generated_by": "",
+    "icons": [
+      "/images/zoom_gruen.png",
+      "/images/zoom_gelb.png",
+      "/images/zoom_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 2,
+      "ambulances": 1,
+      "heavy_rescue_vehicles": 1,
+      "police_cars": 2
+    },
+    "chances": { "patient_transport": 55 },
+    "additional": {
+      "possible_patient": 1,
+      "filter_id": "firehouse_missions",
+      "patient_at_end_of_mission": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["General Internal"],
+      "patient_specializations": "General Internal"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 1,
+      "police_stations": 2,
+      "fire_stations": 2
+    },
+    "overlay_index": null,
+    "base_mission_id": 524,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "525",
+    "name": "Ship Fire",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "",
+    "icons": [
+      "/images/cruiseship_gruen.png",
+      "/images/cruiseship_gelb.png",
+      "/images/cruiseship_rot.png"
+    ],
+    "requirements": { "large_coastal_boat": 1 },
+    "chances": { "patient_transport": 50 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true,
+      "handoff_possible_via_building_types": [24],
+      "patient_at_end_of_mission": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["General Internal"],
+      "patient_specializations": "General Internal"
+    },
+    "prerequisites": { "main_building": 24, "coastal_rescue_count": 1 },
+    "overlay_index": null,
+    "base_mission_id": 525,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "526",
+    "name": "Boat Fire",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "",
+    "icons": [
+      "/images/cruiseship_gruen.png",
+      "/images/cruiseship_gelb.png",
+      "/images/cruiseship_rot.png"
+    ],
+    "requirements": { "large_coastal_boat": 1 },
+    "chances": { "patient_transport": 50 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true,
+      "handoff_possible_via_building_types": [24],
+      "patient_at_end_of_mission": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["General Internal"],
+      "patient_specializations": "General Internal"
+    },
+    "prerequisites": { "main_building": 24, "coastal_rescue_count": 1 },
+    "overlay_index": null,
+    "base_mission_id": 526,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "527",
+    "name": "Yacht Fire",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "",
+    "icons": [
+      "/images/cruiseship_gruen.png",
+      "/images/cruiseship_gelb.png",
+      "/images/cruiseship_rot.png"
+    ],
+    "requirements": { "large_coastal_boat": 1 },
+    "chances": { "patient_transport": 50 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true,
+      "handoff_possible_via_building_types": [24],
+      "patient_at_end_of_mission": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["General Internal"],
+      "patient_specializations": "General Internal"
+    },
+    "prerequisites": { "main_building": 24, "coastal_rescue_count": 1 },
+    "overlay_index": null,
+    "base_mission_id": 527,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "528",
+    "name": "Kayakers Blown Off Course",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "",
+    "icons": [
+      "/images/cruiseship_gruen.png",
+      "/images/cruiseship_gelb.png",
+      "/images/cruiseship_rot.png"
+    ],
+    "requirements": { "large_coastal_boat": 1 },
+    "chances": { "patient_transport": 50 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true,
+      "handoff_possible_via_building_types": [24],
+      "patient_at_end_of_mission": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["General Internal"],
+      "patient_specializations": "General Internal"
+    },
+    "prerequisites": { "main_building": 24, "coastal_rescue_count": 1 },
+    "overlay_index": null,
+    "base_mission_id": 528,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "529",
+    "name": "Wellfare Check",
+    "place": "",
+    "place_array": [],
+    "average_credits": 830,
+    "generated_by": "",
+    "icons": [
+      "/images/clock_gruen.png",
+      "/images/clock_gelb.png",
+      "/images/clock_rot.png"
+    ],
+    "requirements": { "large_coastal_boat": 1 },
+    "chances": { "patient_transport": 50 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true,
+      "handoff_possible_via_building_types": [24],
+      "patient_at_end_of_mission": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["General Internal"],
+      "patient_specializations": "General Internal"
+    },
+    "prerequisites": { "main_building": 24, "coastal_rescue_count": 2 },
+    "overlay_index": null,
+    "base_mission_id": 529,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "530",
+    "name": "Yacht Race Support",
+    "place": "",
+    "place_array": [],
+    "average_credits": 830,
+    "generated_by": "",
+    "icons": [
+      "/images/clock_gruen.png",
+      "/images/clock_gelb.png",
+      "/images/clock_rot.png"
+    ],
+    "requirements": { "large_coastal_boat": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true
+    },
+    "prerequisites": { "main_building": 24, "coastal_rescue_count": 2 },
+    "overlay_index": null,
+    "base_mission_id": 530,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "531",
+    "name": "Boat Lost Mast",
+    "place": "",
+    "place_array": [],
+    "average_credits": 830,
+    "generated_by": "",
+    "icons": [
+      "/images/cruiseship_gruen.png",
+      "/images/cruiseship_gelb.png",
+      "/images/cruiseship_rot.png"
+    ],
+    "requirements": { "large_coastal_boat": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true
+    },
+    "prerequisites": { "main_building": 24, "coastal_rescue_count": 2 },
+    "overlay_index": null,
+    "base_mission_id": 531,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "532",
+    "name": "Person Overboard",
+    "place": "",
+    "place_array": [],
+    "average_credits": 830,
+    "generated_by": "",
+    "icons": [
+      "/images/cruiseship_gruen.png",
+      "/images/cruiseship_gelb.png",
+      "/images/cruiseship_rot.png"
+    ],
+    "requirements": { "large_coastal_boat": 1 },
+    "chances": { "patient_transport": 50 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true,
+      "handoff_possible_via_building_types": [24],
+      "patient_at_end_of_mission": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["General Internal"],
+      "patient_specializations": "General Internal"
+    },
+    "prerequisites": { "main_building": 24, "coastal_rescue_count": 2 },
+    "overlay_index": null,
+    "base_mission_id": 532,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "533",
+    "name": "Vessel Breakdown",
+    "place": "",
+    "place_array": [],
+    "average_credits": 830,
+    "generated_by": "",
+    "icons": [
+      "/images/cruiseship_gruen.png",
+      "/images/cruiseship_gelb.png",
+      "/images/cruiseship_rot.png"
+    ],
+    "requirements": { "large_coastal_boat": 1 },
+    "chances": { "patient_transport": 50 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true,
+      "handoff_possible_via_building_types": [24],
+      "patient_at_end_of_mission": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["General Internal"],
+      "patient_specializations": "General Internal"
+    },
+    "prerequisites": { "main_building": 24, "coastal_rescue_count": 2 },
+    "overlay_index": null,
+    "base_mission_id": 533,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "534",
+    "name": "Police Search",
+    "place": "Beach",
+    "place_array": ["Beach"],
+    "average_credits": 1250,
+    "generated_by": "",
+    "icons": [
+      "/images/zoom_gruen.png",
+      "/images/zoom_gelb.png",
+      "/images/zoom_rot.png"
+    ],
+    "requirements": {
+      "mobile_command_vehicles": 1,
+      "heavy_rescue_vehicles": 2,
+      "water_rescue": 4,
+      "boats": 2,
+      "road_rescue": 1,
+      "coastal_rescue": 1
+    },
+    "chances": {},
+    "additional": { "filter_id": "water_watch_missions" },
+    "prerequisites": { "main_building": 15, "wasserrettung": 5 },
+    "overlay_index": null,
+    "base_mission_id": 534,
+    "additive_overlays": "",
+    "mission_categories": ["water_rescue"]
+  },
+  {
+    "id": "535",
+    "name": "Christmas Decoration Caught Fire",
+    "place": "",
+    "place_array": [],
+    "average_credits": 300,
+    "generated_by": "",
+    "icons": [
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
+    ],
+    "requirements": { "firetrucks": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "date_start": "2022-12-12T09:00:00Z",
+      "date_end": "2022-12-24T22:59:00Z"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 535,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "536",
+    "name": "Santa's Sled Blocking the Road",
+    "place": "",
+    "place_array": [],
+    "average_credits": 300,
+    "generated_by": "",
+    "icons": [
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
+    ],
+    "requirements": { "police_cars": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "police_station_missions",
+      "optional_event_mission": true,
+      "date_start": "2022-12-12T09:00:00Z",
+      "date_end": "2022-12-24T22:59:00Z"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 536,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "537",
+    "name": "Christmas Tree Stolen",
+    "place": "",
+    "place_array": [],
+    "average_credits": 300,
+    "generated_by": "",
+    "icons": [
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
+    ],
+    "requirements": { "police_cars": 3 },
+    "chances": {},
+    "additional": {
+      "filter_id": "police_station_missions",
+      "optional_event_mission": true,
+      "date_start": "2022-12-12T09:00:00Z",
+      "date_end": "2022-12-24T22:59:00Z"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 537,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "538",
+    "name": "Christmas Presents Stolen in Mall",
+    "place": "",
+    "place_array": [],
+    "average_credits": 300,
+    "generated_by": "",
+    "icons": [
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
+    ],
+    "requirements": { "police_cars": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "police_station_missions",
+      "optional_event_mission": true,
+      "date_start": "2022-12-12T09:00:00Z",
+      "date_end": "2022-12-24T22:59:00Z"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 538,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "539",
+    "name": "Man pinned under round bale",
+    "place": "",
+    "place_array": [],
+    "average_credits": 4965,
+    "generated_by": "",
+    "icons": [
+      "/images/climbing_gruen.png",
+      "/images/climbing_gelb.png",
+      "/images/climbing_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 1,
+      "ambulances": 1,
+      "battalion_chief_vehicles": 1,
+      "heavy_rescue_vehicles": 1,
+      "police_cars": 1
+    },
+    "chances": { "battalion_chief_vehicles": 45, "patient_transport": 73 },
+    "additional": {
+      "possible_patient": 1,
+      "filter_id": "firehouse_missions",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["General Internal"],
+      "patient_specializations": "General Internal"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 1,
+      "police_stations": 1,
+      "fire_stations": 6
+    },
+    "overlay_index": null,
+    "base_mission_id": 539,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "540",
+    "name": "Minor House Flooding",
+    "place": "",
+    "place_array": [],
+    "average_credits": 800,
+    "generated_by": "",
+    "icons": [
+      "/images/river_gruen.png",
+      "/images/river_gelb.png",
+      "/images/river_rot.png"
+    ],
+    "requirements": { "water_rescue": 1 },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [541],
+      "filter_id": "water_watch_missions"
+    },
+    "prerequisites": { "main_building": 15, "wasserrettung": 1 },
+    "overlay_index": null,
+    "base_mission_id": 540,
+    "additive_overlays": "",
+    "mission_categories": ["water_rescue"]
+  },
+  {
+    "id": "541",
+    "name": "Moderate House Flooding",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1600,
+    "generated_by": "",
+    "icons": [
+      "/images/river_gruen.png",
+      "/images/river_gelb.png",
+      "/images/river_rot.png"
+    ],
+    "requirements": { "water_rescue": 1, "road_rescue": 1 },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [542],
+      "filter_id": "water_watch_missions"
+    },
+    "prerequisites": { "main_building": 15, "wasserrettung": 1 },
+    "overlay_index": null,
+    "base_mission_id": 541,
+    "additive_overlays": "",
+    "mission_categories": ["water_rescue"]
+  },
+  {
+    "id": "542",
+    "name": "Significant House Flooding",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1600,
+    "generated_by": "",
+    "icons": [
+      "/images/river_gruen.png",
+      "/images/river_gelb.png",
+      "/images/river_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 1,
+      "heavy_rescue_vehicles": 1,
+      "water_rescue": 2,
+      "road_rescue": 2
+    },
+    "chances": { "patient_transport": 30, "patient_critical_care": 10 },
+    "additional": {
+      "possible_patient": 5,
+      "possible_patient_min": 0,
+      "filter_id": "water_watch_missions",
+      "patient_allow_first_responder_chance": 50,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["General Internal"],
+      "patient_specializations": "General Internal"
+    },
+    "prerequisites": {
+      "main_building": 15,
+      "wasserrettung": 2,
+      "fire_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 542,
+    "additive_overlays": "",
+    "mission_categories": ["water_rescue"]
   }
 ]
