@@ -1816,7 +1816,7 @@
     "overlay_index": null,
     "base_mission_id": 64,
     "additive_overlays": "",
-    "mission_categories": ["fire", "traffic_police_specialization"]
+    "mission_categories": ["police", "traffic_police_specialization"]
   },
   {
     "id": "64/a",
@@ -1855,7 +1855,7 @@
     "overlay_index": null,
     "base_mission_id": 64,
     "additive_overlays": "a",
-    "mission_categories": ["fire", "traffic_police_specialization"]
+    "mission_categories": ["police", "traffic_police_specialization"]
   },
   {
     "id": "65",
@@ -2249,16 +2249,16 @@
     "average_credits": 300,
     "generated_by": "",
     "icons": [
-      "/images/theft_gruen.png",
-      "/images/theft_gelb.png",
-      "/images/theft_rot.png"
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
     ],
     "requirements": { "police_cars": 1 },
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00"
+      "date_start": "2022-12-01T10:00:00Z",
+      "date_end": "2022-12-25T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 2 },
     "overlay_index": null,
@@ -2274,17 +2274,17 @@
     "average_credits": 610,
     "generated_by": "",
     "icons": [
-      "/images/fire_gruen.png",
-      "/images/fire_gelb.png",
-      "/images/fire_rot.png"
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
     ],
     "requirements": { "firetrucks": 1 },
     "chances": { "patient_transport": 30 },
     "additional": {
       "possible_patient": 1,
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00",
+      "date_start": "2022-12-01T10:00:00Z",
+      "date_end": "2022-12-25T22:59:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Invärtesmedicinare"],
       "patient_specializations": "Invärtesmedicinare"
@@ -2303,17 +2303,17 @@
     "average_credits": 310,
     "generated_by": "",
     "icons": [
-      "/images/fire_gruen.png",
-      "/images/fire_gelb.png",
-      "/images/fire_rot.png"
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
     ],
     "requirements": { "firetrucks": 1 },
     "chances": { "patient_transport": 30 },
     "additional": {
       "possible_patient": 1,
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00",
+      "date_start": "2022-12-01T10:00:00Z",
+      "date_end": "2022-12-25T22:59:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Invärtesmedicinare"],
       "patient_specializations": "Invärtesmedicinare"
@@ -2341,8 +2341,8 @@
     "additional": {
       "possible_patient": 3,
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00",
+      "date_start": "2023-01-06T10:00:00Z",
+      "date_end": "2023-03-20T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologi"],
       "patient_specializations": "Traumatologi"
@@ -2361,16 +2361,16 @@
     "average_credits": 870,
     "generated_by": "",
     "icons": [
-      "/images/fire_gruen.png",
-      "/images/fire_gelb.png",
-      "/images/fire_rot.png"
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
     ],
     "requirements": { "firetrucks": 1 },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00"
+      "date_start": "2022-12-01T10:00:00Z",
+      "date_end": "2022-12-25T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 6 },
     "overlay_index": null,
@@ -2386,16 +2386,16 @@
     "average_credits": 800,
     "generated_by": "",
     "icons": [
-      "/images/fire_gruen.png",
-      "/images/fire_gelb.png",
-      "/images/fire_rot.png"
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
     ],
     "requirements": { "firetrucks": 1 },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00"
+      "date_start": "2022-12-01T10:00:00Z",
+      "date_end": "2022-12-25T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 5 },
     "overlay_index": null,
@@ -2411,17 +2411,17 @@
     "average_credits": 600,
     "generated_by": "",
     "icons": [
-      "/images/baseball_gruen.png",
-      "/images/baseball_gelb.png",
-      "/images/baseball_rot.png"
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
     ],
     "requirements": { "police_cars": 2 },
     "chances": { "patient_transport": 30 },
     "additional": {
       "possible_patient": 2,
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00",
+      "date_start": "2022-12-01T10:00:00Z",
+      "date_end": "2022-12-25T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologi"],
       "patient_specializations": "Traumatologi"
@@ -2596,8 +2596,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -2621,8 +2621,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -2646,8 +2646,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
@@ -2672,8 +2672,8 @@
     "additional": {
       "possible_patient": 2,
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Invärtesmedicinare"],
       "patient_specializations": "Invärtesmedicinare"
@@ -2700,8 +2700,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 3 },
     "overlay_index": null,
@@ -2725,8 +2725,8 @@
     "chances": { "platform_trucks": 30 },
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
@@ -2750,8 +2750,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -2775,8 +2775,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -2800,8 +2800,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -2833,8 +2833,8 @@
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Invärtesmedicinare"],
       "patient_specializations": "Invärtesmedicinare"
@@ -2866,8 +2866,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -2891,8 +2891,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -2918,8 +2918,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologi"],
       "patient_specializations": "Traumatologi"
@@ -4274,6 +4274,7 @@
     "additional": {
       "possible_patient": 4,
       "possible_patient_min": 2,
+      "min_possible_prisoners": 5,
       "max_possible_prisoners": 25,
       "swat_personnel": 3,
       "filter_id": "police_station_missions",
@@ -4317,6 +4318,7 @@
     "additional": {
       "possible_patient": 4,
       "possible_patient_min": 2,
+      "min_possible_prisoners": 10,
       "max_possible_prisoners": 25,
       "swat_personnel": 3,
       "filter_id": "police_station_missions",
@@ -4361,6 +4363,7 @@
     "additional": {
       "possible_patient": 4,
       "possible_patient_min": 2,
+      "min_possible_prisoners": 5,
       "max_possible_prisoners": 25,
       "swat_personnel": 3,
       "filter_id": "police_station_missions",
@@ -4406,6 +4409,7 @@
     "additional": {
       "possible_patient": 4,
       "possible_patient_min": 2,
+      "min_possible_prisoners": 10,
       "max_possible_prisoners": 25,
       "swat_personnel": 3,
       "filter_id": "police_station_missions",
@@ -4603,6 +4607,7 @@
     "additional": {
       "possible_patient": 1,
       "possible_patient_min": 1,
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
       "patient_at_end_of_mission": true,
@@ -4887,7 +4892,7 @@
       "patient_specializations": "Invärtesmedicinare"
     },
     "prerequisites": {
-      "main_building": 15,
+      "main_building": -1,
       "wasserrettung": 2,
       "rescue_stations": 1,
       "police_stations": 2,
@@ -4896,7 +4901,7 @@
     "overlay_index": null,
     "base_mission_id": 158,
     "additive_overlays": "",
-    "mission_categories": ["water_rescue", "water_rescue_specialization"]
+    "mission_categories": ["water_rescue"]
   },
   {
     "id": "159",
@@ -4926,7 +4931,7 @@
       "patient_specializations": "Invärtesmedicinare"
     },
     "prerequisites": {
-      "main_building": 15,
+      "main_building": -1,
       "wasserrettung": 3,
       "rescue_stations": 1,
       "police_stations": 3,
@@ -4935,7 +4940,7 @@
     "overlay_index": null,
     "base_mission_id": 159,
     "additive_overlays": "",
-    "mission_categories": ["water_rescue", "water_rescue_specialization"]
+    "mission_categories": ["water_rescue"]
   },
   {
     "id": "160",
@@ -4965,7 +4970,7 @@
       "patient_specializations": "Invärtesmedicinare"
     },
     "prerequisites": {
-      "main_building": 15,
+      "main_building": -1,
       "wasserrettung": 3,
       "rescue_stations": 10,
       "police_stations": 3,
@@ -4974,7 +4979,7 @@
     "overlay_index": null,
     "base_mission_id": 160,
     "additive_overlays": "",
-    "mission_categories": ["water_rescue", "water_rescue_specialization"]
+    "mission_categories": ["water_rescue"]
   },
   {
     "id": "161",
@@ -5000,14 +5005,14 @@
       "patient_specializations": "Invärtesmedicinare"
     },
     "prerequisites": {
-      "main_building": 15,
+      "main_building": -1,
       "wasserrettung": 1,
       "rescue_stations": 1
     },
     "overlay_index": null,
     "base_mission_id": 161,
     "additive_overlays": "",
-    "mission_categories": ["water_rescue", "water_rescue_specialization"]
+    "mission_categories": ["water_rescue"]
   },
   {
     "id": "162",
@@ -5041,7 +5046,7 @@
       "patient_specializations": "Invärtesmedicinare"
     },
     "prerequisites": {
-      "main_building": 15,
+      "main_building": -1,
       "wasserrettung": 2,
       "rescue_stations": 1,
       "police_stations": 4,
@@ -5051,7 +5056,7 @@
     "overlay_index": null,
     "base_mission_id": 162,
     "additive_overlays": "",
-    "mission_categories": ["water_rescue", "water_rescue_specialization"]
+    "mission_categories": ["water_rescue"]
   },
   {
     "id": "163",
@@ -5068,11 +5073,11 @@
     "requirements": { "boats": 1 },
     "chances": {},
     "additional": { "filter_id": "water_watch_missions" },
-    "prerequisites": { "main_building": 15, "wasserrettung": 1 },
+    "prerequisites": { "main_building": -1, "wasserrettung": 1 },
     "overlay_index": null,
     "base_mission_id": 163,
     "additive_overlays": "",
-    "mission_categories": ["water_rescue", "water_rescue_specialization"]
+    "mission_categories": ["water_rescue"]
   },
   {
     "id": "164",
@@ -5098,14 +5103,14 @@
       "patient_specializations": "Invärtesmedicinare"
     },
     "prerequisites": {
-      "main_building": 15,
+      "main_building": -1,
       "wasserrettung": 1,
       "rescue_stations": 1
     },
     "overlay_index": null,
     "base_mission_id": 164,
     "additive_overlays": "",
-    "mission_categories": ["water_rescue", "water_rescue_specialization"]
+    "mission_categories": ["water_rescue"]
   },
   {
     "id": "165",
@@ -5675,7 +5680,7 @@
     "overlay_index": null,
     "base_mission_id": 185,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "186",
@@ -5709,7 +5714,7 @@
     "overlay_index": null,
     "base_mission_id": 186,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "187",
@@ -5743,7 +5748,7 @@
     "overlay_index": null,
     "base_mission_id": 187,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "188",
@@ -5779,7 +5784,7 @@
     "overlay_index": null,
     "base_mission_id": 188,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "189",
@@ -5807,7 +5812,7 @@
     "overlay_index": null,
     "base_mission_id": 189,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "190",
@@ -5835,7 +5840,7 @@
     "overlay_index": null,
     "base_mission_id": 190,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "191",
@@ -5864,7 +5869,7 @@
     "overlay_index": null,
     "base_mission_id": 191,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "192",
@@ -5889,7 +5894,7 @@
     "overlay_index": null,
     "base_mission_id": 192,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "193",
@@ -6090,6 +6095,7 @@
     "additional": {
       "possible_patient": 1,
       "expansion_missions_ids": [137],
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 5,
       "average_min_police_personnel": 5,
       "filter_id": "police_station_missions",
@@ -6640,8 +6646,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-11-19T11:00:00+01:00",
-      "date_end": "2021-11-22T23:59:00+01:00"
+      "date_start": "2022-11-17T10:00:00+01:00",
+      "date_end": "2022-11-20T22:59:00+01:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -6665,8 +6671,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-11-19T11:00:00+01:00",
-      "date_end": "2021-11-22T23:59:00+01:00"
+      "date_start": "2022-11-17T10:00:00+01:00",
+      "date_end": "2022-11-20T22:59:00+01:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 3 },
     "overlay_index": null,
@@ -6690,8 +6696,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-11-19T11:00:00+01:00",
-      "date_end": "2021-11-22T23:59:00+01:00"
+      "date_start": "2022-11-17T10:00:00+01:00",
+      "date_end": "2022-11-20T22:59:00+01:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
@@ -6715,8 +6721,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-11-19T11:00:00+01:00",
-      "date_end": "2021-11-22T23:59:00+01:00"
+      "date_start": "2022-11-17T10:00:00+01:00",
+      "date_end": "2022-11-20T22:59:00+01:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 6 },
     "overlay_index": null,
@@ -6740,8 +6746,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-11-19T11:00:00+01:00",
-      "date_end": "2021-11-22T23:59:00+01:00"
+      "date_start": "2022-11-17T10:00:00+01:00",
+      "date_end": "2022-11-20T22:59:00+01:00"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -6765,8 +6771,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-11-19T11:00:00+01:00",
-      "date_end": "2021-11-22T23:59:00+01:00"
+      "date_start": "2022-11-17T10:00:00+01:00",
+      "date_end": "2022-11-20T22:59:00+01:00"
     },
     "prerequisites": { "main_building": 6, "police_stations": 2 },
     "overlay_index": null,
@@ -6791,8 +6797,8 @@
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2021-11-19T11:00:00+01:00",
-      "date_end": "2021-11-22T23:59:00+01:00"
+      "date_start": "2022-11-17T10:00:00+01:00",
+      "date_end": "2022-11-20T22:59:00+01:00"
     },
     "prerequisites": { "main_building": 6, "police_stations": 3 },
     "overlay_index": null,
@@ -6815,10 +6821,11 @@
     "requirements": { "police_cars": 4 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 3,
       "filter_id": "police_station_missions",
-      "date_start": "2021-11-19T11:00:00+01:00",
-      "date_end": "2021-11-22T23:59:00+01:00"
+      "date_start": "2022-11-17T10:00:00+01:00",
+      "date_end": "2022-11-20T22:59:00+01:00"
     },
     "prerequisites": { "main_building": 6, "police_stations": 6 },
     "overlay_index": null,
@@ -6841,10 +6848,11 @@
     "requirements": { "police_cars": 5 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 2,
       "max_possible_prisoners": 4,
       "filter_id": "police_station_missions",
-      "date_start": "2021-11-19T11:00:00+01:00",
-      "date_end": "2021-11-22T23:59:00+01:00"
+      "date_start": "2022-11-17T10:00:00+01:00",
+      "date_end": "2022-11-20T22:59:00+01:00"
     },
     "prerequisites": { "main_building": 6, "police_stations": 6 },
     "overlay_index": null,
@@ -6870,8 +6878,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-11-19T11:00:00+01:00",
-      "date_end": "2021-11-22T23:59:00+01:00",
+      "date_start": "2022-11-17T10:00:00+01:00",
+      "date_end": "2022-11-20T22:59:00+01:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Invärtesmedicinare"],
       "patient_specializations": "Invärtesmedicinare"
@@ -6900,8 +6908,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-11-19T11:00:00+01:00",
-      "date_end": "2021-11-22T23:59:00+01:00",
+      "date_start": "2022-11-17T10:00:00+01:00",
+      "date_end": "2022-11-20T22:59:00+01:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Invärtesmedicinare"],
       "patient_specializations": "Invärtesmedicinare"
@@ -6930,8 +6938,8 @@
       "possible_patient": 5,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-11-19T11:00:00+01:00",
-      "date_end": "2021-11-22T23:59:00+01:00",
+      "date_start": "2022-11-17T10:00:00+01:00",
+      "date_end": "2022-11-20T22:59:00+01:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologi"],
       "patient_specializations": "Traumatologi"
@@ -6960,8 +6968,8 @@
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-11-19T11:00:00+01:00",
-      "date_end": "2021-11-22T23:59:00+01:00",
+      "date_start": "2022-11-17T10:00:00+01:00",
+      "date_end": "2022-11-20T22:59:00+01:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologi"],
       "patient_specializations": "Traumatologi"
@@ -6990,8 +6998,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-11-19T11:00:00+01:00",
-      "date_end": "2021-11-22T23:59:00+01:00",
+      "date_start": "2022-11-17T10:00:00+01:00",
+      "date_end": "2022-11-20T22:59:00+01:00",
       "patient_specialization_ids": [8],
       "patient_specialization_captions": ["Hjärtkirurgi"],
       "patient_specializations": "Hjärtkirurgi"
@@ -7028,8 +7036,8 @@
       "duration": 1200,
       "guard_mission": true,
       "filter_id": "police_station_missions",
-      "date_start": "2021-11-19T11:00:00+01:00",
-      "date_end": "2021-11-22T23:59:00+01:00"
+      "date_start": "2022-11-17T10:00:00+01:00",
+      "date_end": "2022-11-20T22:59:00+01:00"
     },
     "prerequisites": {
       "main_building": 6,
@@ -7066,8 +7074,8 @@
       "duration": 600,
       "guard_mission": true,
       "filter_id": "police_station_missions",
-      "date_start": "2021-11-19T11:00:00+01:00",
-      "date_end": "2021-11-22T23:59:00+01:00"
+      "date_start": "2022-11-17T10:00:00+01:00",
+      "date_end": "2022-11-20T22:59:00+01:00"
     },
     "prerequisites": {
       "main_building": 6,
@@ -7098,8 +7106,8 @@
       "possible_patient": 18,
       "possible_patient_min": 2,
       "filter_id": "police_station_missions",
-      "date_start": "2021-11-19T11:00:00+01:00",
-      "date_end": "2021-11-22T23:59:00+01:00",
+      "date_start": "2022-11-17T10:00:00+01:00",
+      "date_end": "2022-11-20T22:59:00+01:00",
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Allmänkirurg"],
       "patient_specializations": "Allmänkirurg"
@@ -7439,8 +7447,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologi"],
       "patient_specializations": "Traumatologi"
@@ -7469,8 +7477,8 @@
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologi"],
       "patient_specializations": "Traumatologi"
@@ -7499,8 +7507,8 @@
       "possible_patient": 3,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologi"],
       "patient_specializations": "Traumatologi"
@@ -7529,8 +7537,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologi"],
       "patient_specializations": "Traumatologi"
@@ -7559,8 +7567,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologi"],
       "patient_specializations": "Traumatologi"
@@ -7590,8 +7598,8 @@
       "duration": 5400,
       "guard_mission": true,
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": {
       "main_building": 6,
@@ -7621,8 +7629,8 @@
       "possible_patient": 1,
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologi"],
       "patient_specializations": "Traumatologi"
@@ -7655,8 +7663,8 @@
       "expansion_missions_ids": [252],
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -7683,8 +7691,8 @@
       "possible_patient_min": 1,
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z",
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologi"],
       "patient_specializations": "Traumatologi"
@@ -7716,8 +7724,8 @@
     "additional": {
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-27T10:00:00Z",
-      "date_end": "2022-01-01T23:00:00Z"
+      "date_start": "2022-12-30T10:00:00Z",
+      "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 4 },
     "overlay_index": null,
@@ -7958,7 +7966,7 @@
     "overlay_index": null,
     "base_mission_id": 261,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "262",
@@ -7997,7 +8005,7 @@
     "overlay_index": null,
     "base_mission_id": 262,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "263",
@@ -8036,7 +8044,7 @@
     "overlay_index": null,
     "base_mission_id": 263,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "264",
@@ -8060,7 +8068,7 @@
     "overlay_index": null,
     "base_mission_id": 264,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "265",
@@ -8093,7 +8101,7 @@
     "overlay_index": null,
     "base_mission_id": 265,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "266",
@@ -8126,7 +8134,7 @@
     "overlay_index": null,
     "base_mission_id": 266,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "267",
@@ -8160,7 +8168,7 @@
     "overlay_index": null,
     "base_mission_id": 267,
     "additive_overlays": "",
-    "mission_categories": ["forestry", "forestry_specialization"]
+    "mission_categories": ["forestry"]
   },
   {
     "id": "268",
@@ -8615,6 +8623,7 @@
     "requirements": { "police_cars": 2 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions"
     },
@@ -9597,7 +9606,7 @@
       "patient_specializations": "Traumatologi"
     },
     "prerequisites": {
-      "main_building": 15,
+      "main_building": -1,
       "wasserrettung": 1,
       "rescue_stations": 3,
       "fire_stations": 11
@@ -9605,7 +9614,7 @@
     "overlay_index": null,
     "base_mission_id": 305,
     "additive_overlays": "",
-    "mission_categories": ["water_rescue", "water_rescue_specialization"]
+    "mission_categories": ["water_rescue"]
   },
   {
     "id": "305/a",
@@ -9641,7 +9650,7 @@
       "patient_specializations": "Traumatologi"
     },
     "prerequisites": {
-      "main_building": 15,
+      "main_building": -1,
       "wasserrettung": 1,
       "rescue_stations": 3,
       "police_stations": 7,
@@ -9651,7 +9660,7 @@
     "overlay_index": null,
     "base_mission_id": 305,
     "additive_overlays": "a",
-    "mission_categories": ["water_rescue", "water_rescue_specialization"]
+    "mission_categories": ["water_rescue"]
   },
   {
     "id": "306",
@@ -10145,7 +10154,7 @@
       "patient_specializations": "Traumatologi"
     },
     "prerequisites": {
-      "main_building": 15,
+      "main_building": -1,
       "wasserrettung": 1,
       "rescue_stations": 3,
       "fire_stations": 11
@@ -10153,7 +10162,7 @@
     "overlay_index": null,
     "base_mission_id": 322,
     "additive_overlays": "",
-    "mission_categories": ["water_rescue", "water_rescue_specialization"]
+    "mission_categories": ["water_rescue"]
   },
   {
     "id": "322/a",
@@ -10185,7 +10194,7 @@
       "patient_specializations": "Traumatologi"
     },
     "prerequisites": {
-      "main_building": 15,
+      "main_building": -1,
       "wasserrettung": 1,
       "rescue_stations": 3,
       "police_stations": 7,
@@ -10195,7 +10204,7 @@
     "overlay_index": null,
     "base_mission_id": 322,
     "additive_overlays": "a",
-    "mission_categories": ["water_rescue", "water_rescue_specialization"]
+    "mission_categories": ["water_rescue"]
   },
   {
     "id": "323",
@@ -10335,6 +10344,7 @@
     "requirements": { "police_cars": 1 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions"
     },
@@ -10359,6 +10369,7 @@
     "requirements": { "police_cars": 2 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions"
     },
@@ -11459,6 +11470,7 @@
     "requirements": { "police_cars": 3, "k9": 2 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 4,
       "filter_id": "police_station_missions"
     },
@@ -11525,6 +11537,7 @@
     "requirements": { "police_cars": 3 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
       "subsequent_missions_ids": [282]
@@ -11550,6 +11563,7 @@
     "requirements": { "police_cars": 2 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 5,
       "filter_id": "police_station_missions"
     },
@@ -12072,6 +12086,7 @@
     "requirements": { "police_cars": 1, "k9": 1 },
     "chances": { "k9": 25 },
     "additional": {
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions"
     },
@@ -12816,7 +12831,7 @@
       "date_end": "2022-04-18T23:59:59+02:00"
     },
     "prerequisites": {
-      "main_building": 15,
+      "main_building": -1,
       "wasserrettung": 2,
       "police_stations": 1,
       "fire_stations": 1
@@ -12824,7 +12839,7 @@
     "overlay_index": null,
     "base_mission_id": 400,
     "additive_overlays": "",
-    "mission_categories": ["water_rescue", "water_rescue_specialization"]
+    "mission_categories": ["water_rescue"]
   },
   {
     "id": "401",
@@ -13071,7 +13086,7 @@
     "overlay_index": null,
     "base_mission_id": 407,
     "additive_overlays": "",
-    "mission_categories": ["fire", "traffic_police_specialization"]
+    "mission_categories": ["police", "traffic_police_specialization"]
   },
   {
     "id": "408",
@@ -13213,7 +13228,7 @@
     "overlay_index": null,
     "base_mission_id": 411,
     "additive_overlays": "",
-    "mission_categories": ["fire", "traffic_police_specialization"]
+    "mission_categories": ["police", "traffic_police_specialization"]
   },
   {
     "id": "412",
@@ -13514,6 +13529,7 @@
     "chances": { "patient_transport": 60 },
     "additional": {
       "possible_patient": 2,
+      "min_possible_prisoners": 5,
       "max_possible_prisoners": 12,
       "filter_id": "police_station_missions",
       "patient_at_end_of_mission": true,
@@ -13552,6 +13568,7 @@
     },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 2,
       "max_possible_prisoners": 5,
       "filter_id": "police_station_missions"
     },
@@ -13582,6 +13599,7 @@
     "chances": { "patient_transport": 30 },
     "additional": {
       "possible_patient": 3,
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 4,
       "swat_personnel": 10,
       "filter_id": "police_station_missions",
@@ -14781,5 +14799,817 @@
     "base_mission_id": 453,
     "additive_overlays": "a",
     "mission_categories": ["fire", "fire_support_specialization"]
+  },
+  {
+    "id": "454",
+    "name": "Rengöring av spåren",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1000,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 1,
+      "heavy_rescue_vehicles": 1,
+      "police_cars": 1
+    },
+    "chances": {},
+    "additional": { "filter_id": "firehouse_missions" },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 1,
+      "fire_stations": 4
+    },
+    "overlay_index": null,
+    "base_mission_id": 454,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "455",
+    "name": "Synkope återfanns",
+    "place": "",
+    "place_array": [],
+    "average_credits": 750,
+    "generated_by": "",
+    "icons": [
+      "/images/medicalstore_gruen.png",
+      "/images/medicalstore_gelb.png",
+      "/images/medicalstore_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 50, "patient_critical_care": 25 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Invärtesmedicinare"],
+      "patient_specializations": "Invärtesmedicinare"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 455,
+    "additive_overlays": "",
+    "mission_categories": ["ambulance"]
+  },
+  {
+    "id": "456",
+    "name": "Explosion av gasbehållare",
+    "place": "",
+    "place_array": [],
+    "average_credits": 9800,
+    "generated_by": "",
+    "icons": [
+      "/images/blast_gruen.png",
+      "/images/blast_gelb.png",
+      "/images/blast_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 5,
+      "battalion_chief_vehicles": 1,
+      "platform_trucks": 2,
+      "water_tankers": 2,
+      "hazmat_vehicles": 2,
+      "police_cars": 3
+    },
+    "chances": { "patient_transport": 25, "patient_critical_care": 10 },
+    "additional": {
+      "possible_patient": 25,
+      "filter_id": "firehouse_missions",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Invärtesmedicinare"],
+      "patient_specializations": "Invärtesmedicinare"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 6,
+      "police_stations": 5,
+      "fire_stations": 14
+    },
+    "overlay_index": null,
+    "base_mission_id": 456,
+    "additive_overlays": "",
+    "mission_categories": ["fire", "fire_support_specialization"]
+  },
+  {
+    "id": "456/a",
+    "name": "Explosion av gasbehållare",
+    "place": "",
+    "place_array": [],
+    "average_credits": 10200,
+    "generated_by": "",
+    "icons": [
+      "/images/blast_gruen.png",
+      "/images/blast_gelb.png",
+      "/images/blast_rot.png"
+    ],
+    "requirements": {
+      "water_needed": 16000,
+      "firetrucks": 5,
+      "battalion_chief_vehicles": 1,
+      "platform_trucks": 2,
+      "water_tankers": 2,
+      "hazmat_vehicles": 2,
+      "police_cars": 3,
+      "pump": 2
+    },
+    "chances": { "patient_transport": 25, "patient_critical_care": 10 },
+    "additional": {
+      "possible_patient": 25,
+      "filter_id": "firehouse_missions",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Invärtesmedicinare"],
+      "patient_specializations": "Invärtesmedicinare"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 6,
+      "police_stations": 5,
+      "fire_support_count": 1,
+      "fire_stations": 14
+    },
+    "overlay_index": null,
+    "base_mission_id": 456,
+    "additive_overlays": "a",
+    "mission_categories": ["fire", "fire_support_specialization"]
+  },
+  {
+    "id": "457",
+    "name": "Brand i växeln",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": { "filter_id": "firehouse_missions" },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 457,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "458",
+    "name": "Kontroll",
+    "place": "Strand\nÖ\nKust",
+    "place_array": ["Strand", "Ö", "Kust"],
+    "average_credits": 400,
+    "generated_by": "",
+    "icons": [
+      "/images/cruiseship_gruen.png",
+      "/images/cruiseship_gelb.png",
+      "/images/cruiseship_rot.png"
+    ],
+    "requirements": {
+      "personnel_educations": { "coastal_rescue": 2 },
+      "coastal_boat": 1
+    },
+    "chances": {},
+    "additional": {
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true,
+      "personnel_educations": { "Livräddare": 2 }
+    },
+    "prerequisites": {
+      "main_building": 24,
+      "personnel_educations": { "coastal_rescue": 5 },
+      "coastal_rescue_count": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 458,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "459",
+    "name": "Sjöfylleri",
+    "place": "Strand\nÖ\nKust",
+    "place_array": ["Strand", "Ö", "Kust"],
+    "average_credits": 5500,
+    "generated_by": "",
+    "icons": [
+      "/images/bar_coktail_gruen.png",
+      "/images/bar_coktail_gelb.png",
+      "/images/bar_coktail_rot.png"
+    ],
+    "requirements": { "coastal_boat": 1 },
+    "chances": {},
+    "additional": {
+      "min_possible_prisoners": 1,
+      "max_possible_prisoners": 2,
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "handoff_possible_via_building_types": [24],
+      "patient_at_end_of_mission": true
+    },
+    "prerequisites": { "main_building": 24, "coastal_rescue_count": 1 },
+    "overlay_index": null,
+    "base_mission_id": 459,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue"]
+  },
+  {
+    "id": "460",
+    "name": "Oljespill - liten",
+    "place": "Ö",
+    "place_array": ["Ö"],
+    "average_credits": 2500,
+    "generated_by": "",
+    "icons": [
+      "/images/oil_gruen.png",
+      "/images/oil_gelb.png",
+      "/images/oil_rot.png"
+    ],
+    "requirements": {
+      "coastal_boat": 1,
+      "large_coastal_boat": 1,
+      "coastal_guard_boat": 1,
+      "coastal_boat_trailer": 1,
+      "coastal_boat_hover": 1
+    },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [461],
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true
+    },
+    "prerequisites": { "main_building": 24, "coastal_rescue_count": 5 },
+    "overlay_index": null,
+    "base_mission_id": 460,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "461",
+    "name": "Oljespill - stor",
+    "place": "Ö",
+    "place_array": ["Ö"],
+    "average_credits": 4500,
+    "generated_by": "",
+    "icons": [
+      "/images/oil_gruen.png",
+      "/images/oil_gelb.png",
+      "/images/oil_rot.png"
+    ],
+    "requirements": {
+      "coastal_boat": 4,
+      "large_coastal_boat": 2,
+      "coastal_guard_boat": 3,
+      "coastal_boat_trailer": 2,
+      "coastal_boat_hover": 1
+    },
+    "chances": {},
+    "additional": {
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true
+    },
+    "prerequisites": { "main_building": 24, "coastal_rescue_count": 10 },
+    "overlay_index": null,
+    "base_mission_id": 461,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "462",
+    "name": "Strandnära oljespill",
+    "place": "Kust",
+    "place_array": ["Kust"],
+    "average_credits": 700,
+    "generated_by": "",
+    "icons": [
+      "/images/oil_gruen.png",
+      "/images/oil_gelb.png",
+      "/images/oil_rot.png"
+    ],
+    "requirements": { "coastal_boat": 2, "large_coastal_boat": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true
+    },
+    "prerequisites": { "main_building": 24, "coastal_rescue_count": 4 },
+    "overlay_index": null,
+    "base_mission_id": 462,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "463",
+    "name": "Grovt sjöfylleri - fartyg",
+    "place": "Strand\nÖ",
+    "place_array": ["Strand", "Ö"],
+    "average_credits": 750,
+    "generated_by": "",
+    "icons": [
+      "/images/bar_coktail_gruen.png",
+      "/images/bar_coktail_gelb.png",
+      "/images/bar_coktail_rot.png"
+    ],
+    "requirements": { "coastal_boat": 1, "coastal_guard_boat": 1 },
+    "chances": { "patient_transport": 30 },
+    "additional": {
+      "possible_patient": 2,
+      "possible_patient_min": 1,
+      "min_possible_prisoners": 1,
+      "max_possible_prisoners": 2,
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true,
+      "handoff_possible_via_building_types": [24],
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Invärtesmedicinare"],
+      "patient_specializations": "Invärtesmedicinare"
+    },
+    "prerequisites": { "main_building": 24, "coastal_rescue_count": 4 },
+    "overlay_index": null,
+    "base_mission_id": 463,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "464",
+    "name": "Nödbogsering - fartyg",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1050,
+    "generated_by": "",
+    "icons": [
+      "/images/cruiseship_gruen.png",
+      "/images/cruiseship_gelb.png",
+      "/images/cruiseship_rot.png"
+    ],
+    "requirements": { "large_coastal_boat": 1, "coastal_boat_hover": 1 },
+    "chances": {},
+    "additional": {
+      "min_possible_prisoners": 1,
+      "max_possible_prisoners": 2,
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true,
+      "handoff_possible_via_building_types": [24]
+    },
+    "prerequisites": { "main_building": 24, "coastal_rescue_count": 4 },
+    "overlay_index": null,
+    "base_mission_id": 464,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "465",
+    "name": "Kontroll - Hummerfiske",
+    "place": "",
+    "place_array": [],
+    "average_credits": 600,
+    "generated_by": "",
+    "icons": [
+      "/images/cruiseship_gruen.png",
+      "/images/cruiseship_gelb.png",
+      "/images/cruiseship_rot.png"
+    ],
+    "requirements": { "coastal_boat": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true
+    },
+    "prerequisites": { "main_building": 24, "coastal_rescue_count": 1 },
+    "overlay_index": null,
+    "base_mission_id": 465,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "466",
+    "name": "Sjötrafikkontroll",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "",
+    "icons": [
+      "/images/cruiseship_gruen.png",
+      "/images/cruiseship_gelb.png",
+      "/images/cruiseship_rot.png"
+    ],
+    "requirements": { "coastal_boat": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true
+    },
+    "prerequisites": { "main_building": 24, "coastal_rescue_count": 1 },
+    "overlay_index": null,
+    "base_mission_id": 466,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "467",
+    "name": "Övervakning till sjöss",
+    "place": "",
+    "place_array": [],
+    "average_credits": 400,
+    "generated_by": "",
+    "icons": [
+      "/images/cruiseship_gruen.png",
+      "/images/cruiseship_gelb.png",
+      "/images/cruiseship_rot.png"
+    ],
+    "requirements": { "coastal_guard_boat": 1 },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [458, 459, 460, 461, 462, 463, 464],
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true
+    },
+    "prerequisites": { "main_building": 24, "coastal_rescue_count": 2 },
+    "overlay_index": null,
+    "base_mission_id": 467,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "468",
+    "name": "Fartyg out of controll",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1200,
+    "generated_by": "",
+    "icons": [
+      "/images/zoom_gruen.png",
+      "/images/zoom_gelb.png",
+      "/images/zoom_rot.png"
+    ],
+    "requirements": { "coastal_boat": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true
+    },
+    "prerequisites": { "main_building": 24, "coastal_rescue_count": 1 },
+    "overlay_index": null,
+    "base_mission_id": 468,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "469",
+    "name": "Båt för ankar i ett skyddat område",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1200,
+    "generated_by": "",
+    "icons": [
+      "/images/zoom_gruen.png",
+      "/images/zoom_gelb.png",
+      "/images/zoom_rot.png"
+    ],
+    "requirements": { "coastal_boat": 1, "coastal_guard_boat": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true
+    },
+    "prerequisites": { "main_building": 24, "coastal_rescue_count": 2 },
+    "overlay_index": null,
+    "base_mission_id": 469,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "470",
+    "name": "Sjunkande båt (liten)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1500,
+    "generated_by": "",
+    "icons": [
+      "/images/zoom_gruen.png",
+      "/images/zoom_gelb.png",
+      "/images/zoom_rot.png"
+    ],
+    "requirements": {
+      "coastal_boat": 1,
+      "large_coastal_boat": 1,
+      "coastal_boat_hover": 1
+    },
+    "chances": { "patient_transport": 40 },
+    "additional": {
+      "possible_patient": 4,
+      "possible_patient_min": 1,
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true,
+      "handoff_possible_via_building_types": [24],
+      "patient_at_end_of_mission": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Invärtesmedicinare"],
+      "patient_specializations": "Invärtesmedicinare"
+    },
+    "prerequisites": { "main_building": 24, "coastal_rescue_count": 2 },
+    "overlay_index": null,
+    "base_mission_id": 470,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "471",
+    "name": "Juldekoration fattade eld",
+    "place": "",
+    "place_array": [],
+    "average_credits": 300,
+    "generated_by": "",
+    "icons": [
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
+    ],
+    "requirements": { "firetrucks": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "date_start": "2022-12-12T09:00:00Z",
+      "date_end": "2022-12-24T22:59:00Z"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 471,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "472",
+    "name": "Jultomtens släde blockerar vägen",
+    "place": "",
+    "place_array": [],
+    "average_credits": 300,
+    "generated_by": "",
+    "icons": [
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
+    ],
+    "requirements": { "police_cars": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "police_station_missions",
+      "optional_event_mission": true,
+      "date_start": "2022-12-12T09:00:00Z",
+      "date_end": "2022-12-24T22:59:00Z"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 472,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "473",
+    "name": "Julgran stulen",
+    "place": "",
+    "place_array": [],
+    "average_credits": 300,
+    "generated_by": "",
+    "icons": [
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
+    ],
+    "requirements": { "police_cars": 3 },
+    "chances": {},
+    "additional": {
+      "filter_id": "police_station_missions",
+      "optional_event_mission": true,
+      "date_start": "2022-12-12T09:00:00Z",
+      "date_end": "2022-12-24T22:59:00Z"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 473,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "474",
+    "name": "Julklappar stulna i köpcentrum",
+    "place": "",
+    "place_array": [],
+    "average_credits": 300,
+    "generated_by": "",
+    "icons": [
+      "/images/xmas_gruen.png",
+      "/images/xmas_gelb.png",
+      "/images/xmas_rot.png"
+    ],
+    "requirements": { "police_cars": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "police_station_missions",
+      "optional_event_mission": true,
+      "date_start": "2022-12-12T09:00:00Z",
+      "date_end": "2022-12-24T22:59:00Z"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 474,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "475",
+    "name": "Försök till mordbrand",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1250,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 2,
+      "battalion_chief_vehicles": 1,
+      "water_tankers": 1,
+      "police_cars": 3
+    },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 2,
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 4,
+      "fire_stations": 7
+    },
+    "overlay_index": null,
+    "base_mission_id": 475,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "476",
+    "name": "En lägereld sätter eld på en vedbod",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "",
+    "icons": [
+      "/images/snowy_gruen.png",
+      "/images/snowy_gelb.png",
+      "/images/snowy_rot.png"
+    ],
+    "requirements": { "firetrucks": 2 },
+    "chances": { "patient_transport": 30 },
+    "additional": {
+      "possible_patient": 1,
+      "filter_id": "firehouse_missions",
+      "date_start": "2023-01-06T10:00:00Z",
+      "date_end": "2023-03-20T22:59:00Z",
+      "patient_specialization_ids": [1],
+      "patient_specialization_captions": ["Allmänkirurg"],
+      "patient_specializations": "Allmänkirurg"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 476,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "477",
+    "name": "Bråk på frusen sjö",
+    "place": "",
+    "place_array": [],
+    "average_credits": 650,
+    "generated_by": "",
+    "icons": [
+      "/images/snowy_gruen.png",
+      "/images/snowy_gelb.png",
+      "/images/snowy_rot.png"
+    ],
+    "requirements": { "police_cars": 1 },
+    "chances": { "patient_transport": 30 },
+    "additional": {
+      "possible_patient": 2,
+      "filter_id": "police_station_missions",
+      "date_start": "2023-01-06T10:00:00Z",
+      "date_end": "2023-03-20T22:59:00Z",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Invärtesmedicinare"],
+      "patient_specializations": "Invärtesmedicinare"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 477,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "478",
+    "name": "Iceskater halkade",
+    "place": "",
+    "place_array": [],
+    "average_credits": null,
+    "generated_by": "",
+    "icons": [
+      "/images/snowy_gruen.png",
+      "/images/snowy_gelb.png",
+      "/images/snowy_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 60 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "date_start": "2023-01-06T10:00:00Z",
+      "date_end": "2023-03-20T22:59:00Z",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Invärtesmedicinare"],
+      "patient_specializations": "Invärtesmedicinare"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 478,
+    "additive_overlays": "",
+    "mission_categories": ["ambulance"]
+  },
+  {
+    "id": "479",
+    "name": "Snöbollskrig pågår",
+    "place": "",
+    "place_array": [],
+    "average_credits": 550,
+    "generated_by": "",
+    "icons": [
+      "/images/snowy_gruen.png",
+      "/images/snowy_gelb.png",
+      "/images/snowy_rot.png"
+    ],
+    "requirements": { "police_cars": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "police_station_missions",
+      "date_start": "2023-01-06T10:00:00Z",
+      "date_end": "2023-03-20T22:59:00Z"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 479,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "480",
+    "name": "Smuggling via båt",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1200,
+    "generated_by": "",
+    "icons": [
+      "/images/cruiseship_gruen.png",
+      "/images/cruiseship_gelb.png",
+      "/images/cruiseship_rot.png"
+    ],
+    "requirements": { "coastal_guard_boat": 2 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 4,
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true,
+      "handoff_possible_via_building_types": [24]
+    },
+    "prerequisites": {
+      "main_building": 24,
+      "police_stations": 2,
+      "coastal_rescue_count": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 480,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
   }
 ]
