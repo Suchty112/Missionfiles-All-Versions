@@ -1252,9 +1252,9 @@
     "average_credits": null,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": {},
     "chances": { "patient_transport": 30 },
@@ -2263,7 +2263,7 @@
     "name": "Vrachtwagen gekanteld",
     "place": "",
     "place_array": [],
-    "average_credits": 1000,
+    "average_credits": 2170,
     "generated_by": "",
     "icons": [
       "/images/caraccident_gruen.png",
@@ -2274,26 +2274,28 @@
       "firetrucks": 1,
       "battalion_chief_vehicles": 1,
       "heavy_rescue_vehicles": 1,
-      "police_cars": 1
+      "police_cars": 1,
+      "traffic_unit": 1
     },
     "chances": { "heavy_rescue_vehicles": 70, "patient_transport": 30 },
     "additional": {
       "possible_patient": 1,
-      "filter_id": "police_station_missions",
+      "filter_id": "firehouse_missions",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
       "patient_specializations": "Traumatologie"
     },
     "prerequisites": {
-      "main_building": 5,
-      "rescue_stations": 1,
+      "main_building": 0,
+      "rescue_stations": 6,
       "police_stations": 1,
+      "technical_aid": 2,
       "fire_stations": 3
     },
     "overlay_index": null,
     "base_mission_id": 82,
     "additive_overlays": "",
-    "mission_categories": ["police"]
+    "mission_categories": ["fire", "technical_aid"]
   },
   {
     "id": "83",
@@ -4122,7 +4124,7 @@
     "name": "Brandende vogelverschrikker",
     "place": "",
     "place_array": [],
-    "average_credits": 350,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/ghost_gruen.png",
@@ -4147,7 +4149,7 @@
     "name": "Brandend pompoenveld",
     "place": "",
     "place_array": [],
-    "average_credits": 850,
+    "average_credits": 1010,
     "generated_by": "",
     "icons": [
       "/images/ghost_gruen.png",
@@ -4172,7 +4174,7 @@
     "name": "Overkookte pompoensoep",
     "place": "",
     "place_array": [],
-    "average_credits": 1500,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/ghost_gruen.png",
@@ -4205,7 +4207,7 @@
     "name": "Heks vast in boom",
     "place": "",
     "place_array": [],
-    "average_credits": 900,
+    "average_credits": 840,
     "generated_by": "",
     "icons": [
       "/images/ghost_gruen.png",
@@ -4234,7 +4236,7 @@
     "name": "Monster uitgebroken",
     "place": "",
     "place_array": [],
-    "average_credits": 1600,
+    "average_credits": 1010,
     "generated_by": "",
     "icons": [
       "/images/ghost_gruen.png",
@@ -4248,7 +4250,7 @@
       "date_start": "2022-10-14T09:00:00Z",
       "date_end": "2022-11-01T10:00:00Z"
     },
-    "prerequisites": { "main_building": 5, "police_stations": 2 },
+    "prerequisites": { "main_building": 5, "police_stations": 4 },
     "overlay_index": null,
     "base_mission_id": 150,
     "additive_overlays": "",
@@ -4259,7 +4261,7 @@
     "name": "Gestolen pompoenen",
     "place": "",
     "place_array": [],
-    "average_credits": 100,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/ghost_gruen.png",
@@ -4284,7 +4286,7 @@
     "name": "Frankenstein gespot",
     "place": "",
     "place_array": [],
-    "average_credits": 550,
+    "average_credits": 840,
     "generated_by": "",
     "icons": [
       "/images/ghost_gruen.png",
@@ -4298,7 +4300,7 @@
       "date_start": "2022-10-14T09:00:00Z",
       "date_end": "2022-11-01T10:00:00Z"
     },
-    "prerequisites": { "main_building": 5, "police_stations": 2 },
+    "prerequisites": { "main_building": 5, "police_stations": 3 },
     "overlay_index": null,
     "base_mission_id": 152,
     "additive_overlays": "",
@@ -4309,7 +4311,7 @@
     "name": "Snoep diefstal",
     "place": "",
     "place_array": [],
-    "average_credits": 100,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/ghost_gruen.png",
@@ -4334,7 +4336,7 @@
     "name": "Horrorclown gespot",
     "place": "",
     "place_array": [],
-    "average_credits": 600,
+    "average_credits": 670,
     "generated_by": "",
     "icons": [
       "/images/ghost_gruen.png",
@@ -4533,7 +4535,7 @@
     "name": "Brandende cadeautjes",
     "place": "",
     "place_array": [],
-    "average_credits": 550,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/sint_gruen.png",
@@ -4673,7 +4675,7 @@
     "name": "Piet klem in schoorsteen",
     "place": "",
     "place_array": [],
-    "average_credits": 950,
+    "average_credits": 670,
     "generated_by": "",
     "icons": [
       "/images/sint_gruen.png",
@@ -4703,21 +4705,44 @@
     "name": "Toezicht manifestatie pietendiscussie",
     "place": "",
     "place_array": [],
-    "average_credits": 1200,
+    "average_credits": 29430,
     "generated_by": "",
     "icons": [
-      "/images/sint_gruen.png",
-      "/images/sint_gelb.png",
-      "/images/sint_rot.png"
+      "/images/clock_gruen.png",
+      "/images/clock_gelb.png",
+      "/images/clock_rot.png"
     ],
-    "requirements": { "police_cars": 4 },
+    "requirements": {
+      "hondengeleider": 2,
+      "lebefkw": 1,
+      "gefkw": 1,
+      "police_helicopters": 1,
+      "police_cars": 4,
+      "grukw": 6,
+      "ovdp": 1,
+      "police_horse": 8,
+      "detention_unit": 1
+    },
     "chances": {},
     "additional": {
+      "duration_text": "2 uur",
+      "duration": 7200,
+      "guard_mission": true,
       "filter_id": "police_station_missions",
       "date_start": "2022-11-12T10:00:00+01:00",
       "date_end": "2022-12-06T23:59:00+01:00"
     },
-    "prerequisites": { "main_building": 5, "police_stations": 3 },
+    "prerequisites": {
+      "main_building": 5,
+      "police_stations": 5,
+      "police_helicopter_stations": 1,
+      "bereitschaftspolizei": 7,
+      "riot_unit_count": 2,
+      "detention_unit_count": 1,
+      "prisoner_transport_count": 1,
+      "police_horse": 2,
+      "hondengeleider": 1
+    },
     "overlay_index": null,
     "base_mission_id": 166,
     "additive_overlays": "",
@@ -4728,7 +4753,7 @@
     "name": "Schoenen dief",
     "place": "",
     "place_array": [],
-    "average_credits": 200,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/sint_gruen.png",
@@ -4753,14 +4778,14 @@
     "name": "Verstikking in pepernoot",
     "place": "",
     "place_array": [],
-    "average_credits": null,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/sint_gruen.png",
       "/images/sint_gelb.png",
       "/images/sint_rot.png"
     ],
-    "requirements": {},
+    "requirements": { "police_cars": 1 },
     "chances": { "patient_transport": 80 },
     "additional": {
       "possible_patient": 1,
@@ -4772,7 +4797,11 @@
       "patient_specialization_captions": ["Traumatologie"],
       "patient_specializations": "Traumatologie"
     },
-    "prerequisites": { "main_building": 3, "rescue_stations": 1 },
+    "prerequisites": {
+      "main_building": 3,
+      "rescue_stations": 1,
+      "police_stations": 1
+    },
     "overlay_index": null,
     "base_mission_id": 168,
     "additive_overlays": "",
@@ -5584,9 +5613,9 @@
     "average_credits": 800,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": {
       "firetrucks": 1,
@@ -7352,7 +7381,7 @@
     "name": "Grote boek van Sinterklaas aangespoeld",
     "place": "Meer",
     "place_array": ["Meer"],
-    "average_credits": 1000,
+    "average_credits": 1570,
     "generated_by": "",
     "icons": [
       "/images/river_gruen.png",
@@ -7373,9 +7402,9 @@
     },
     "prerequisites": {
       "main_building": -1,
-      "wasserrettung": 1,
+      "wasserrettung": 2,
       "police_stations": 1,
-      "fire_stations": 12
+      "fire_stations": 1
     },
     "overlay_index": null,
     "base_mission_id": 253,
@@ -9090,7 +9119,7 @@
     "name": "Verkeersongeval met touringcar",
     "place": "",
     "place_array": [],
-    "average_credits": 1450,
+    "average_credits": 3190,
     "generated_by": "",
     "icons": [
       "/images/caraccident_gruen.png",
@@ -9101,12 +9130,14 @@
       "firetrucks": 1,
       "battalion_chief_vehicles": 1,
       "heavy_rescue_vehicles": 1,
-      "police_cars": 2
+      "police_cars": 2,
+      "traffic_unit": 1
     },
     "chances": { "heavy_rescue_vehicles": 50, "patient_transport": 100 },
     "additional": {
       "possible_patient": 6,
       "possible_patient_min": 3,
+      "expansion_missions_ids": [306, 307],
       "filter_id": "firehouse_missions",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
@@ -9114,21 +9145,22 @@
     },
     "prerequisites": {
       "main_building": 0,
-      "rescue_stations": 6,
+      "rescue_stations": 8,
       "police_stations": 2,
+      "technical_aid": 2,
       "fire_stations": 6
     },
     "overlay_index": null,
     "base_mission_id": 305,
     "additive_overlays": "",
-    "mission_categories": ["fire"]
+    "mission_categories": ["fire", "technical_aid"]
   },
   {
     "id": "306",
     "name": "Verkeersongeval met touringcar",
     "place": "",
     "place_array": [],
-    "average_credits": 2100,
+    "average_credits": 4400,
     "generated_by": "",
     "icons": [
       "/images/caraccident_gruen.png",
@@ -9140,12 +9172,14 @@
       "battalion_chief_vehicles": 1,
       "mobile_command_vehicles": 1,
       "heavy_rescue_vehicles": 1,
-      "police_cars": 3
+      "police_cars": 3,
+      "traffic_unit": 1
     },
     "chances": { "mobile_command_vehicles": 50, "patient_transport": 100 },
     "additional": {
       "possible_patient": 8,
       "possible_patient_min": 5,
+      "expansion_missions_ids": [307],
       "filter_id": "firehouse_missions",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
@@ -9155,19 +9189,20 @@
       "main_building": 0,
       "rescue_stations": 8,
       "police_stations": 3,
-      "fire_stations": 12
+      "technical_aid": 2,
+      "fire_stations": 13
     },
     "overlay_index": null,
     "base_mission_id": 306,
     "additive_overlays": "",
-    "mission_categories": ["fire"]
+    "mission_categories": ["fire", "technical_aid"]
   },
   {
     "id": "307",
     "name": "Verkeersongeval met touringcar",
     "place": "",
     "place_array": [],
-    "average_credits": 5730,
+    "average_credits": 7230,
     "generated_by": "",
     "icons": [
       "/images/caraccident_gruen.png",
@@ -9181,7 +9216,8 @@
       "elw3": 1,
       "heavy_rescue_vehicles": 1,
       "police_cars": 4,
-      "ovdp": 1
+      "ovdp": 1,
+      "traffic_unit": 2
     },
     "chances": { "patient_transport": 100 },
     "additional": {
@@ -9194,22 +9230,23 @@
     },
     "prerequisites": {
       "main_building": 0,
-      "rescue_stations": 10,
+      "rescue_stations": 8,
       "police_stations": 5,
       "bereitschaftspolizei": 1,
+      "technical_aid": 3,
       "fire_stations": 14
     },
     "overlay_index": null,
     "base_mission_id": 307,
     "additive_overlays": "",
-    "mission_categories": ["fire"]
+    "mission_categories": ["fire", "technical_aid"]
   },
   {
     "id": "307-0",
     "name": "Verkeersongeval met touringcar",
     "place": "",
     "place_array": [],
-    "average_credits": 10470,
+    "average_credits": 11970,
     "generated_by": "",
     "icons": [
       "/images/caraccident_gruen.png",
@@ -9224,31 +9261,33 @@
       "platform_trucks": 1,
       "heavy_rescue_vehicles": 3,
       "police_cars": 10,
-      "ovdp": 1
+      "ovdp": 1,
+      "traffic_unit": 2
     },
     "chances": { "nef": 3, "patient_transport": 40 },
     "additional": {
       "possible_patient": 100,
       "possible_patient_min": 50,
       "filter_id": "firehouse_missions",
-      "patient_specialization_ids": [4, 1],
+      "patient_specialization_ids": [4, 0],
       "patient_specialization_captions": [
         "Traumatologie",
-        "Algemene Heelkunde"
+        "Interne Geneeskunde"
       ],
-      "patient_specializations": "Traumatologie, Algemene Heelkunde"
+      "patient_specializations": "Traumatologie, Interne Geneeskunde"
     },
     "prerequisites": {
       "main_building": 0,
       "rescue_stations": 33,
       "police_stations": 10,
       "bereitschaftspolizei": 1,
+      "technical_aid": 3,
       "fire_stations": 17
     },
     "overlay_index": 0,
     "base_mission_id": 307,
     "additive_overlays": "",
-    "mission_categories": ["fire"]
+    "mission_categories": ["fire", "technical_aid"]
   },
   {
     "id": "308",
@@ -15137,9 +15176,9 @@
     "average_credits": 1600,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": {
       "firetrucks": 1,
@@ -15169,9 +15208,9 @@
     "average_credits": 1600,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": {
       "firetrucks": 1,
@@ -16755,7 +16794,7 @@
     "name": "Kettingbotsing",
     "place": "Snelweg oprit / afrit",
     "place_array": ["Snelweg oprit / afrit"],
-    "average_credits": 2000,
+    "average_credits": 3700,
     "generated_by": "",
     "icons": [
       "/images/caraccident_gruen.png",
@@ -16766,7 +16805,8 @@
       "firetrucks": 3,
       "battalion_chief_vehicles": 1,
       "heavy_rescue_vehicles": 1,
-      "police_cars": 3
+      "police_cars": 3,
+      "traffic_unit": 1
     },
     "chances": { "patient_transport": 80 },
     "additional": {
@@ -16779,21 +16819,22 @@
     },
     "prerequisites": {
       "main_building": 0,
-      "rescue_stations": 6,
+      "rescue_stations": 8,
       "police_stations": 3,
-      "fire_stations": 8
+      "technical_aid": 2,
+      "fire_stations": 6
     },
     "overlay_index": null,
     "base_mission_id": 502,
     "additive_overlays": "",
-    "mission_categories": ["fire"]
+    "mission_categories": ["fire", "technical_aid"]
   },
   {
     "id": "503",
     "name": "Kettingbotsing",
     "place": "Snelweg oprit / afrit",
     "place_array": ["Snelweg oprit / afrit"],
-    "average_credits": 6060,
+    "average_credits": 6810,
     "generated_by": "",
     "icons": [
       "/images/caraccident_gruen.png",
@@ -16807,7 +16848,8 @@
       "elw3": 1,
       "heavy_rescue_vehicles": 1,
       "police_cars": 3,
-      "ovdp": 1
+      "ovdp": 1,
+      "traffic_unit": 1
     },
     "chances": { "nef": 5, "patient_transport": 80 },
     "additional": {
@@ -16822,12 +16864,14 @@
       "main_building": 0,
       "rescue_stations": 10,
       "police_stations": 5,
+      "bereitschaftspolizei": 1,
+      "technical_aid": 2,
       "fire_stations": 14
     },
     "overlay_index": null,
     "base_mission_id": 503,
     "additive_overlays": "",
-    "mission_categories": ["fire"]
+    "mission_categories": ["fire", "technical_aid"]
   },
   {
     "id": "504",
@@ -17866,7 +17910,11 @@
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
     },
-    "prerequisites": { "main_building": 0, "fire_stations": 6 },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 2,
+      "fire_stations": 6
+    },
     "overlay_index": null,
     "base_mission_id": 530,
     "additive_overlays": "",
@@ -17891,7 +17939,7 @@
       "date_start": "2022-12-30T10:00:00Z",
       "date_end": "2023-01-02T22:59:00Z"
     },
-    "prerequisites": { "main_building": 0, "fire_stations": 3 },
+    "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
     "base_mission_id": 531,
     "additive_overlays": "",
@@ -18002,7 +18050,7 @@
     "name": "Beschonken bestuurder na Oud en Nieuw feest",
     "place": "",
     "place_array": [],
-    "average_credits": 150,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/icy_road_gruen.png",
@@ -18027,7 +18075,7 @@
     "name": "Beschonken bestuurder na Oud en Nieuw feest",
     "place": "",
     "place_array": [],
-    "average_credits": 150,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/icy_road_gruen.png",
@@ -18955,10 +19003,10 @@
   },
   {
     "id": "562",
-    "name": "Hart gestolen",
+    "name": "Pijlen Cupido gestolen",
     "place": "",
     "place_array": [],
-    "average_credits": 400,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/theft_gruen.png",
@@ -18970,8 +19018,9 @@
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2020-02-14T00:00:00+01:00",
-      "date_end": "2020-02-14T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
     },
     "prerequisites": { "main_building": 5, "police_stations": 2 },
     "overlay_index": null,
@@ -18981,10 +19030,10 @@
   },
   {
     "id": "563",
-    "name": "Hart gebroken",
+    "name": "Persoon gewond door pijl van Cupido",
     "place": "",
     "place_array": [],
-    "average_credits": 300,
+    "average_credits": null,
     "generated_by": "",
     "icons": [
       "/images/ambulance_gruen.png",
@@ -18992,16 +19041,17 @@
       "/images/ambulance_rot.png"
     ],
     "requirements": {},
-    "chances": { "patient_transport": 100 },
+    "chances": { "patient_transport": 60 },
     "additional": {
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2020-02-14T00:00:00+01:00",
-      "date_end": "2020-02-14T23:59:00+01:00",
-      "patient_specialization_ids": [7],
-      "patient_specialization_captions": ["Cardiologie"],
-      "patient_specializations": "Cardiologie"
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
+      "patient_specialization_ids": [4],
+      "patient_specialization_captions": ["Traumatologie"],
+      "patient_specializations": "Traumatologie"
     },
     "prerequisites": { "main_building": 3, "rescue_stations": 1 },
     "overlay_index": null,
@@ -19470,7 +19520,7 @@
     "name": "Paasei dief",
     "place": "",
     "place_array": [],
-    "average_credits": 100,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/theft_gruen.png",
@@ -19496,7 +19546,7 @@
     "name": "Kwast gestolen uit werkplaats",
     "place": "School",
     "place_array": ["School"],
-    "average_credits": 150,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/theft_gruen.png",
@@ -19522,7 +19572,7 @@
     "name": "Ingestort konijnenhol",
     "place": "",
     "place_array": [],
-    "average_credits": 1500,
+    "average_credits": 2440,
     "generated_by": "",
     "icons": [
       "/images/fallingrocks_gruen.png",
@@ -19552,7 +19602,7 @@
     "name": "Aangevallen Paashaas",
     "place": "",
     "place_array": [],
-    "average_credits": 300,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/caraccident_gruen.png",
@@ -19586,7 +19636,7 @@
     "name": "Brandende paasmand",
     "place": "",
     "place_array": [],
-    "average_credits": 110,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -19627,7 +19677,6 @@
     },
     "chances": {},
     "additional": {
-      "allow_rw_instead_of_lf": true,
       "filter_id": "firehouse_missions",
       "date_start": "2022-04-08T09:00:00Z",
       "date_end": "2022-04-18T23:59:59+02:00"
@@ -19647,7 +19696,7 @@
     "name": "Brandende eierkoker",
     "place": "",
     "place_array": [],
-    "average_credits": 800,
+    "average_credits": 840,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -19676,7 +19725,7 @@
     "name": "Hazenbijeenkomst in Paaseistad",
     "place": "Stadion",
     "place_array": ["Stadion"],
-    "average_credits": 7000,
+    "average_credits": 10530,
     "generated_by": "",
     "icons": [
       "/images/clock_gruen.png",
@@ -19709,7 +19758,7 @@
     "name": "Gekantelde paaseivrachtwagen",
     "place": "",
     "place_array": [],
-    "average_credits": 2200,
+    "average_credits": 1420,
     "generated_by": "",
     "icons": [
       "/images/caraccident_gruen.png",
@@ -19734,8 +19783,8 @@
     },
     "prerequisites": {
       "main_building": 0,
-      "max_police_stations": 3,
-      "fire_stations": 8
+      "rescue_stations": 2,
+      "fire_stations": 6
     },
     "overlay_index": null,
     "base_mission_id": 586,
@@ -19747,7 +19796,7 @@
     "name": "Prioriteit: paasei-jacht",
     "place": "",
     "place_array": [],
-    "average_credits": 1000,
+    "average_credits": 1350,
     "generated_by": "",
     "icons": [
       "/images/theft_gruen.png",
@@ -19761,7 +19810,7 @@
       "date_start": "2022-04-08T09:00:00Z",
       "date_end": "2022-04-18T23:59:59+02:00"
     },
-    "prerequisites": { "main_building": 5, "police_stations": 3 },
+    "prerequisites": { "main_building": 5, "police_stations": 5 },
     "overlay_index": null,
     "base_mission_id": 587,
     "additive_overlays": "",
@@ -19772,7 +19821,7 @@
     "name": "Paashaas in een kraan",
     "place": "",
     "place_array": [],
-    "average_credits": 2000,
+    "average_credits": 1690,
     "generated_by": "",
     "icons": [
       "/images/constructioncrane_gruen.png",
@@ -19780,10 +19829,10 @@
       "/images/constructioncrane_rot.png"
     ],
     "requirements": {
-      "firetrucks": 1,
+      "firetrucks": 2,
       "battalion_chief_vehicles": 1,
       "platform_trucks": 1,
-      "police_cars": 1
+      "police_cars": 2
     },
     "chances": {},
     "additional": {
@@ -19793,8 +19842,8 @@
     },
     "prerequisites": {
       "main_building": 0,
-      "police_stations": 1,
-      "fire_stations": 12
+      "police_stations": 2,
+      "fire_stations": 6
     },
     "overlay_index": null,
     "base_mission_id": 588,
@@ -20336,9 +20385,9 @@
     "average_credits": 500,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": { "police_cars": 1 },
     "chances": { "patient_transport": 60 },
@@ -21159,7 +21208,7 @@
     "name": "Barbecuebrand",
     "place": "",
     "place_array": [],
-    "average_credits": 600,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -22867,6 +22916,7 @@
     "requirements": { "hondengeleider": 1, "police_cars": 2, "bike_police": 1 },
     "chances": {},
     "additional": {
+      "followup_missions_ids": [1018],
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
       "subsequent_missions_ids": [1001],
@@ -23116,6 +23166,7 @@
     "chances": {},
     "additional": {
       "expansion_missions_ids": [684, 685],
+      "followup_missions_ids": [1018],
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions"
     },
@@ -23141,6 +23192,7 @@
     "chances": {},
     "additional": {
       "expansion_missions_ids": [685],
+      "followup_missions_ids": [1018],
       "max_possible_prisoners": 2,
       "filter_id": "riot_police_missions"
     },
@@ -23172,6 +23224,7 @@
     "additional": {
       "possible_patient": 1,
       "possible_patient_min": 1,
+      "followup_missions_ids": [1018],
       "max_possible_prisoners": 3,
       "filter_id": "riot_police_missions",
       "patient_specialization_ids": [1],
@@ -23336,7 +23389,7 @@
     "name": "Illegaal vuurwerk in huis",
     "place": "",
     "place_array": [],
-    "average_credits": 1200,
+    "average_credits": 1170,
     "generated_by": "",
     "icons": [
       "/images/cuffs_gruen.png",
@@ -23555,27 +23608,43 @@
     "name": "Toezicht nieuwjaarsfeest",
     "place": "Stadscentrum",
     "place_array": ["Stadscentrum"],
-    "average_credits": 15000,
+    "average_credits": 27975,
     "generated_by": "",
     "icons": [
       "/images/clock_gruen.png",
       "/images/clock_gelb.png",
       "/images/clock_rot.png"
     ],
-    "requirements": { "ambulances": 2, "police_cars": 4 },
+    "requirements": {
+      "hondengeleider": 2,
+      "ambulances": 2,
+      "lebefkw": 1,
+      "gefkw": 1,
+      "police_cars": 4,
+      "grukw": 6,
+      "ovdp": 1,
+      "police_horse": 4,
+      "bike_police": 5
+    },
     "chances": {},
     "additional": {
       "duration_text": "een uur 30 minuten",
       "duration": 5400,
       "guard_mission": true,
       "filter_id": "police_station_missions",
+      "need_bike_police_only_if_present": true,
       "date_start": "2022-12-30T10:00:00Z",
       "date_end": "2023-01-02T22:59:00Z"
     },
     "prerequisites": {
       "main_building": 5,
-      "rescue_stations": 2,
-      "police_stations": 4
+      "rescue_stations": 1,
+      "police_stations": 12,
+      "bereitschaftspolizei": 6,
+      "riot_unit_count": 2,
+      "prisoner_transport_count": 1,
+      "police_horse": 1,
+      "hondengeleider": 1
     },
     "overlay_index": null,
     "base_mission_id": 698,
@@ -23587,7 +23656,7 @@
     "name": "Afsteken illegaal vuurwerk",
     "place": "",
     "place_array": [],
-    "average_credits": 800,
+    "average_credits": 670,
     "generated_by": "",
     "icons": [
       "/images/theft_gruen.png",
@@ -23621,7 +23690,7 @@
     "name": "Vuurwerk afgestoken op de weg",
     "place": "",
     "place_array": [],
-    "average_credits": 300,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/icy_road_gruen.png",
@@ -23648,7 +23717,7 @@
     "name": "Auto verongelukt door vuurwerk op de weg",
     "place": "",
     "place_array": [],
-    "average_credits": 1200,
+    "average_credits": 1520,
     "generated_by": "",
     "icons": [
       "/images/caraccident_gruen.png",
@@ -23670,7 +23739,7 @@
     },
     "prerequisites": {
       "main_building": 5,
-      "rescue_stations": 4,
+      "rescue_stations": 8,
       "police_stations": 2
     },
     "overlay_index": null,
@@ -23683,7 +23752,7 @@
     "name": "Gesabotteerde vuurwerkshow",
     "place": "",
     "place_array": [],
-    "average_credits": 2000,
+    "average_credits": 1010,
     "generated_by": "",
     "icons": [
       "/images/theft_gruen.png",
@@ -24662,8 +24731,9 @@
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
@@ -24692,8 +24762,9 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
@@ -24722,8 +24793,9 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Cardiologie"],
       "patient_specializations": "Cardiologie"
@@ -24752,8 +24824,9 @@
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Cardiologie"],
       "patient_specializations": "Cardiologie"
@@ -24769,7 +24842,7 @@
     "name": "Valentijnsdecoraties in restaurant in brand gevlogen",
     "place": "",
     "place_array": [],
-    "average_credits": 2000,
+    "average_credits": 2710,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -24785,16 +24858,17 @@
     "additional": {
       "possible_patient": 8,
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
     },
     "prerequisites": {
       "main_building": 0,
-      "rescue_stations": 7,
-      "fire_stations": 7
+      "rescue_stations": 8,
+      "fire_stations": 6
     },
     "overlay_index": null,
     "base_mission_id": 731,
@@ -24819,8 +24893,9 @@
       "possible_patient": 2,
       "possible_patient_min": 2,
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
@@ -24840,21 +24915,32 @@
     "name": "Zoektocht naar verdwenen vriendje",
     "place": "",
     "place_array": [],
-    "average_credits": 1100,
+    "average_credits": 2170,
     "generated_by": "",
     "icons": [
       "/images/zoom_gruen.png",
       "/images/zoom_gelb.png",
       "/images/zoom_rot.png"
     ],
-    "requirements": { "police_cars": 2 },
+    "requirements": {
+      "hondengeleider": 1,
+      "police_helicopters": 1,
+      "police_cars": 2
+    },
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
     },
-    "prerequisites": { "main_building": 5, "police_stations": 2 },
+    "prerequisites": {
+      "main_building": 5,
+      "police_stations": 2,
+      "police_helicopter_stations": 1,
+      "bereitschaftspolizei": 1,
+      "hondengeleider": 1
+    },
     "overlay_index": null,
     "base_mission_id": 733,
     "additive_overlays": "",
@@ -24865,7 +24951,7 @@
     "name": "Klacht over luidruchtig ruziënd stel",
     "place": "",
     "place_array": [],
-    "average_credits": 700,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/zoom_gruen.png",
@@ -24876,8 +24962,9 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
     },
     "prerequisites": { "main_building": 5, "police_stations": 1 },
     "overlay_index": null,
@@ -24890,7 +24977,7 @@
     "name": "Gestolen hart",
     "place": "",
     "place_array": [],
-    "average_credits": 1100,
+    "average_credits": 670,
     "generated_by": "",
     "icons": [
       "/images/theft_gruen.png",
@@ -24901,8 +24988,9 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
     },
     "prerequisites": { "main_building": 5, "police_stations": 2 },
     "overlay_index": null,
@@ -24915,7 +25003,7 @@
     "name": "Ongeluk bij bakken verjaardagstaart",
     "place": "",
     "place_array": [],
-    "average_credits": 800,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -24926,8 +25014,9 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-18T11:00:00+01:00",
-      "date_end": "2022-02-21T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-02-09T00:00:00Z",
+      "date_end": "2023-02-12T23:00:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -24940,7 +25029,7 @@
     "name": "Verjaardagsballon vast in boom",
     "place": "",
     "place_array": [],
-    "average_credits": 600,
+    "average_credits": 840,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -24951,8 +25040,9 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-18T11:00:00+01:00",
-      "date_end": "2022-02-21T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-02-09T00:00:00Z",
+      "date_end": "2023-02-12T23:00:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 3 },
     "overlay_index": null,
@@ -24965,7 +25055,7 @@
     "name": "Vuur door elektrische verjaardagsversiering (klein)",
     "place": "",
     "place_array": [],
-    "average_credits": 1850,
+    "average_credits": 670,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -24976,8 +25066,9 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-18T11:00:00+01:00",
-      "date_end": "2022-02-21T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-02-09T00:00:00Z",
+      "date_end": "2023-02-12T23:00:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
@@ -24990,7 +25081,7 @@
     "name": "Vuur door elektrische verjaardagsversiering (groot)",
     "place": "",
     "place_array": [],
-    "average_credits": 3000,
+    "average_credits": 1350,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -25001,8 +25092,9 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-18T11:00:00+01:00",
-      "date_end": "2022-02-21T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-02-09T00:00:00Z",
+      "date_end": "2023-02-12T23:00:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 6 },
     "overlay_index": null,
@@ -25015,7 +25107,7 @@
     "name": "Verjaardagscadeau gestolen",
     "place": "",
     "place_array": [],
-    "average_credits": 400,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/theft_gruen.png",
@@ -25026,8 +25118,9 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-18T11:00:00+01:00",
-      "date_end": "2022-02-21T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-02-09T00:00:00Z",
+      "date_end": "2023-02-12T23:00:00Z"
     },
     "prerequisites": { "main_building": 5, "police_stations": 1 },
     "overlay_index": null,
@@ -25040,7 +25133,7 @@
     "name": "Sabotage van verjaardagsjukeboxes",
     "place": "",
     "place_array": [],
-    "average_credits": 800,
+    "average_credits": 670,
     "generated_by": "",
     "icons": [
       "/images/dancinghall_gruen.png",
@@ -25051,8 +25144,9 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-18T11:00:00+01:00",
-      "date_end": "2022-02-21T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-02-09T00:00:00Z",
+      "date_end": "2023-02-12T23:00:00Z"
     },
     "prerequisites": { "main_building": 5, "police_stations": 2 },
     "overlay_index": null,
@@ -25065,22 +25159,28 @@
     "name": "Verjaardagsgast vermist",
     "place": "",
     "place_array": [],
-    "average_credits": 1200,
+    "average_credits": 1340,
     "generated_by": "",
     "icons": [
       "/images/dancinghall_gruen.png",
       "/images/dancinghall_gelb.png",
       "/images/dancinghall_rot.png"
     ],
-    "requirements": { "police_cars": 3 },
+    "requirements": { "hondengeleider": 1, "police_cars": 3 },
     "chances": {},
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-18T11:00:00+01:00",
-      "date_end": "2022-02-21T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-02-09T00:00:00Z",
+      "date_end": "2023-02-12T23:00:00Z"
     },
-    "prerequisites": { "main_building": 5, "police_stations": 3 },
+    "prerequisites": {
+      "main_building": 5,
+      "police_stations": 3,
+      "bereitschaftspolizei": 1,
+      "hondengeleider": 1
+    },
     "overlay_index": null,
     "base_mission_id": 742,
     "additive_overlays": "",
@@ -25091,7 +25191,7 @@
     "name": "Verjaardagsgasten hebben versiering gestolen",
     "place": "",
     "place_array": [],
-    "average_credits": 3000,
+    "average_credits": 1010,
     "generated_by": "",
     "icons": [
       "/images/theft_gruen.png",
@@ -25104,10 +25204,11 @@
       "min_possible_prisoners": 1,
       "max_possible_prisoners": 3,
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-18T11:00:00+01:00",
-      "date_end": "2022-02-21T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-02-09T00:00:00Z",
+      "date_end": "2023-02-12T23:00:00Z"
     },
-    "prerequisites": { "main_building": 5, "police_stations": 6 },
+    "prerequisites": { "main_building": 5, "police_stations": 4 },
     "overlay_index": null,
     "base_mission_id": 743,
     "additive_overlays": "",
@@ -25118,23 +25219,29 @@
     "name": "Verjaardagsgasten hebben taart gestolen",
     "place": "",
     "place_array": [],
-    "average_credits": 5000,
+    "average_credits": 2680,
     "generated_by": "",
     "icons": [
       "/images/theft_gruen.png",
       "/images/theft_gelb.png",
       "/images/theft_rot.png"
     ],
-    "requirements": { "police_cars": 5 },
+    "requirements": { "gefkw": 1, "police_cars": 5, "ovdp": 1 },
     "chances": {},
     "additional": {
       "min_possible_prisoners": 2,
       "max_possible_prisoners": 4,
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-18T11:00:00+01:00",
-      "date_end": "2022-02-21T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-02-09T00:00:00Z",
+      "date_end": "2023-02-12T23:00:00Z"
     },
-    "prerequisites": { "main_building": 5, "police_stations": 6 },
+    "prerequisites": {
+      "main_building": 5,
+      "police_stations": 4,
+      "bereitschaftspolizei": 1,
+      "prisoner_transport_count": 1
+    },
     "overlay_index": null,
     "base_mission_id": 744,
     "additive_overlays": "",
@@ -25158,8 +25265,9 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-02-18T11:00:00+01:00",
-      "date_end": "2022-02-21T23:59:00+01:00",
+      "optional_event_mission": true,
+      "date_start": "2023-02-09T00:00:00Z",
+      "date_end": "2023-02-12T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
@@ -25188,8 +25296,9 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-02-18T11:00:00+01:00",
-      "date_end": "2022-02-21T23:59:00+01:00",
+      "optional_event_mission": true,
+      "date_start": "2023-02-09T00:00:00Z",
+      "date_end": "2023-02-12T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
@@ -25218,8 +25327,9 @@
       "possible_patient": 5,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-02-18T11:00:00+01:00",
-      "date_end": "2022-02-21T23:59:00+01:00",
+      "optional_event_mission": true,
+      "date_start": "2023-02-09T00:00:00Z",
+      "date_end": "2023-02-12T23:00:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
       "patient_specializations": "Traumatologie"
@@ -25248,8 +25358,9 @@
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-02-18T11:00:00+01:00",
-      "date_end": "2022-02-21T23:59:00+01:00",
+      "optional_event_mission": true,
+      "date_start": "2023-02-09T00:00:00Z",
+      "date_end": "2023-02-12T23:00:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
       "patient_specializations": "Traumatologie"
@@ -25278,8 +25389,9 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-02-18T11:00:00+01:00",
-      "date_end": "2022-02-21T23:59:00+01:00",
+      "optional_event_mission": true,
+      "date_start": "2023-02-09T00:00:00Z",
+      "date_end": "2023-02-12T23:00:00Z",
       "patient_specialization_ids": [8],
       "patient_specialization_captions": ["Cardiochirurgie"],
       "patient_specializations": "Cardiochirurgie"
@@ -25295,7 +25407,7 @@
     "name": "Mensen vermist op dansvloer",
     "place": "",
     "place_array": [],
-    "average_credits": 7500,
+    "average_credits": 7305,
     "generated_by": "",
     "icons": [
       "/images/clock_gruen.png",
@@ -25304,11 +25416,13 @@
     ],
     "requirements": {
       "firetrucks": 1,
+      "hondengeleider": 2,
       "ambulances": 1,
       "battalion_chief_vehicles": 1,
       "platform_trucks": 1,
       "heavy_rescue_vehicles": 1,
-      "police_cars": 1
+      "police_cars": 3,
+      "ovdp": 1
     },
     "chances": {},
     "additional": {
@@ -25316,13 +25430,16 @@
       "duration": 1200,
       "guard_mission": true,
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-18T11:00:00+01:00",
-      "date_end": "2022-02-21T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-02-09T00:00:00Z",
+      "date_end": "2023-02-12T23:00:00Z"
     },
     "prerequisites": {
       "main_building": 5,
       "rescue_stations": 1,
-      "police_stations": 1,
+      "police_stations": 5,
+      "bereitschaftspolizei": 2,
+      "hondengeleider": 1,
       "fire_stations": 6
     },
     "overlay_index": null,
@@ -25335,7 +25452,7 @@
     "name": "Ballonnen opblazen voor verjaardagsfeest",
     "place": "",
     "place_array": [],
-    "average_credits": 15000,
+    "average_credits": 6330,
     "generated_by": "",
     "icons": [
       "/images/clock_gruen.png",
@@ -25346,7 +25463,9 @@
       "firetrucks": 3,
       "ambulances": 2,
       "platform_trucks": 2,
-      "heavy_rescue_vehicles": 2
+      "heavy_rescue_vehicles": 2,
+      "mobile_air_vehicles": 1,
+      "police_cars": 2
     },
     "chances": {},
     "additional": {
@@ -25354,14 +25473,15 @@
       "duration": 600,
       "guard_mission": true,
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-18T11:00:00+01:00",
-      "date_end": "2022-02-21T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-02-09T00:00:00Z",
+      "date_end": "2023-02-12T23:00:00Z"
     },
     "prerequisites": {
       "main_building": 5,
       "rescue_stations": 1,
-      "police_stations": 3,
-      "fire_stations": 5
+      "police_stations": 2,
+      "fire_stations": 7
     },
     "overlay_index": null,
     "base_mission_id": 751,
@@ -25370,15 +25490,15 @@
   },
   {
     "id": "752",
-    "name": "Gast heeft vergiftigd drankje gedronken op verjaardagsfeest",
+    "name": "Gasten hebben een vergiftigd drankje gedronken op verjaardagsfeest",
     "place": "",
     "place_array": [],
-    "average_credits": 1200,
+    "average_credits": 2370,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": { "battalion_chief_vehicles": 2, "police_cars": 3 },
     "chances": { "patient_transport": 80 },
@@ -25386,8 +25506,9 @@
       "possible_patient": 18,
       "possible_patient_min": 2,
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-18T11:00:00+01:00",
-      "date_end": "2022-02-21T23:59:00+01:00",
+      "optional_event_mission": true,
+      "date_start": "2023-02-09T00:00:00Z",
+      "date_end": "2023-02-12T23:00:00Z",
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Algemene Heelkunde"],
       "patient_specializations": "Algemene Heelkunde"
@@ -25594,6 +25715,7 @@
     "requirements": { "police_cars": 3 },
     "chances": {},
     "additional": {
+      "followup_missions_ids": [1018],
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions"
     },
@@ -25618,6 +25740,7 @@
     "requirements": { "police_cars": 3 },
     "chances": {},
     "additional": {
+      "followup_missions_ids": [1018],
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions"
     },
@@ -26167,7 +26290,7 @@
     "name": "Vrachtwagenongeval met zwaar letsel",
     "place": "Snelweg oprit / afrit",
     "place_array": ["Snelweg oprit / afrit"],
-    "average_credits": 3110,
+    "average_credits": 3860,
     "generated_by": "",
     "icons": [
       "/images/caraccident_gruen.png",
@@ -26178,16 +26301,15 @@
       "firetrucks": 2,
       "battalion_chief_vehicles": 1,
       "heavy_rescue_vehicles": 1,
-      "police_cars": 2
+      "police_cars": 2,
+      "traffic_unit": 1
     },
     "chances": { "nef": 40, "patient_transport": 100 },
     "additional": {
       "possible_patient": 3,
       "possible_patient_min": 1,
       "expansion_missions_ids": [773],
-      "allow_rw_instead_of_lf": true,
       "filter_id": "firehouse_missions",
-      "patient_at_end_of_mission": true,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
       "patient_specializations": "Traumatologie"
@@ -26196,19 +26318,20 @@
       "main_building": 0,
       "rescue_stations": 10,
       "police_stations": 2,
+      "technical_aid": 2,
       "fire_stations": 6
     },
     "overlay_index": null,
     "base_mission_id": 772,
     "additive_overlays": "",
-    "mission_categories": ["fire"]
+    "mission_categories": ["fire", "technical_aid"]
   },
   {
     "id": "773",
     "name": "Vrachtwagen op file ingereden",
     "place": "Snelweg oprit / afrit",
     "place_array": ["Snelweg oprit / afrit"],
-    "average_credits": 6210,
+    "average_credits": 7710,
     "generated_by": "",
     "icons": [
       "/images/caraccident_gruen.png",
@@ -26222,16 +26345,15 @@
       "mobile_command_vehicles": 1,
       "heavy_rescue_vehicles": 2,
       "police_cars": 4,
-      "ovdp": 1
+      "ovdp": 1,
+      "traffic_unit": 2
     },
     "chances": { "nef": 40, "patient_transport": 100 },
     "additional": {
       "possible_patient": 10,
       "possible_patient_min": 1,
       "max_possible_prisoners": 1,
-      "allow_rw_instead_of_lf": true,
       "filter_id": "firehouse_missions",
-      "patient_at_end_of_mission": true,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
       "patient_specializations": "Traumatologie"
@@ -26240,12 +26362,14 @@
       "main_building": 0,
       "rescue_stations": 10,
       "police_stations": 5,
+      "bereitschaftspolizei": 1,
+      "technical_aid": 3,
       "fire_stations": 14
     },
     "overlay_index": null,
     "base_mission_id": 773,
     "additive_overlays": "",
-    "mission_categories": ["fire"]
+    "mission_categories": ["fire", "technical_aid"]
   },
   {
     "id": "774",
@@ -26654,42 +26778,50 @@
     "name": "Dier op de snelweg",
     "place": "Snelweg oprit / afrit\nVerzorgingsplaats (Snelweg)",
     "place_array": ["Snelweg oprit / afrit", "Verzorgingsplaats (Snelweg)"],
-    "average_credits": 670,
+    "average_credits": 1420,
     "generated_by": "",
     "icons": [
       "/images/cat_gruen.png",
       "/images/cat_gelb.png",
       "/images/cat_rot.png"
     ],
-    "requirements": { "police_cars": 2 },
+    "requirements": { "police_cars": 2, "traffic_unit": 1 },
     "chances": {},
     "additional": { "filter_id": "police_station_missions" },
-    "prerequisites": { "main_building": 5, "police_stations": 2 },
+    "prerequisites": {
+      "main_building": 5,
+      "police_stations": 2,
+      "technical_aid": 2
+    },
     "overlay_index": null,
     "base_mission_id": 784,
     "additive_overlays": "",
-    "mission_categories": ["police"]
+    "mission_categories": ["police", "technical_aid"]
   },
   {
     "id": "785",
     "name": "Voetganger op de snelweg",
     "place": "Snelweg oprit / afrit\nVerzorgingsplaats (Snelweg)",
     "place_array": ["Snelweg oprit / afrit", "Verzorgingsplaats (Snelweg)"],
-    "average_credits": 840,
+    "average_credits": 1590,
     "generated_by": "",
     "icons": [
       "/images/icy_road_gruen.png",
       "/images/icy_road_gelb.png",
       "/images/icy_road_rot.png"
     ],
-    "requirements": { "police_cars": 3 },
+    "requirements": { "police_cars": 3, "traffic_unit": 1 },
     "chances": {},
     "additional": { "filter_id": "police_station_missions" },
-    "prerequisites": { "main_building": 5, "police_stations": 3 },
+    "prerequisites": {
+      "main_building": 5,
+      "police_stations": 3,
+      "technical_aid": 2
+    },
     "overlay_index": null,
     "base_mission_id": 785,
     "additive_overlays": "",
-    "mission_categories": ["police"]
+    "mission_categories": ["police", "technical_aid"]
   },
   {
     "id": "786",
@@ -27689,36 +27821,36 @@
     "name": "Vrachtwagen vast in tunnel",
     "place": "Tunnel",
     "place_array": ["Tunnel"],
-    "average_credits": 840,
+    "average_credits": 1590,
     "generated_by": "",
     "icons": [
       "/images/icy_road_gruen.png",
       "/images/icy_road_gelb.png",
       "/images/icy_road_rot.png"
     ],
-    "requirements": { "firetrucks": 1, "police_cars": 2 },
+    "requirements": { "firetrucks": 1, "police_cars": 2, "traffic_unit": 1 },
     "chances": {},
     "additional": {
       "expansion_missions_ids": [816],
-      "allow_rw_instead_of_lf": true,
       "filter_id": "firehouse_missions"
     },
     "prerequisites": {
       "main_building": 0,
       "police_stations": 2,
+      "technical_aid": 2,
       "fire_stations": 1
     },
     "overlay_index": null,
     "base_mission_id": 815,
     "additive_overlays": "",
-    "mission_categories": ["fire"]
+    "mission_categories": ["fire", "technical_aid"]
   },
   {
     "id": "816",
     "name": "Vrachtwagen vast in tunnel",
     "place": "Tunnel",
     "place_array": ["Tunnel"],
-    "average_credits": 2730,
+    "average_credits": 3480,
     "generated_by": "",
     "icons": [
       "/images/icy_road_gruen.png",
@@ -27730,12 +27862,12 @@
       "battalion_chief_vehicles": 1,
       "heavy_rescue_vehicles": 1,
       "police_cars": 3,
-      "ovdp": 1
+      "ovdp": 1,
+      "traffic_unit": 1
     },
     "chances": { "patient_transport": 100 },
     "additional": {
       "possible_patient": 1,
-      "allow_rw_instead_of_lf": true,
       "filter_id": "firehouse_missions",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
@@ -27745,12 +27877,14 @@
       "main_building": 0,
       "rescue_stations": 1,
       "police_stations": 5,
+      "bereitschaftspolizei": 1,
+      "technical_aid": 2,
       "fire_stations": 6
     },
     "overlay_index": null,
     "base_mission_id": 816,
     "additive_overlays": "",
-    "mission_categories": ["fire"]
+    "mission_categories": ["fire", "technical_aid"]
   },
   {
     "id": "817",
@@ -27858,7 +27992,7 @@
     "name": "Opblazen wedstrijdbal",
     "place": "",
     "place_array": [],
-    "average_credits": 300,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/soccer_gruen.png",
@@ -27868,7 +28002,6 @@
     "requirements": { "firetrucks": 1 },
     "chances": {},
     "additional": {
-      "allow_rw_instead_of_lf": true,
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
       "date_start": "2022-11-18T10:00:00Z",
@@ -27885,7 +28018,7 @@
     "name": "Spelersbus geparkeerd bij parkeerverbod",
     "place": "",
     "place_array": [],
-    "average_credits": 300,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/soccer_gruen.png",
@@ -27919,7 +28052,7 @@
       "/images/soccer_rot.png"
     ],
     "requirements": {},
-    "chances": { "patient_transport": 0 },
+    "chances": { "nef": 1, "patient_transport": 0 },
     "additional": {
       "possible_patient": 1,
       "possible_patient_min": 1,
@@ -27975,7 +28108,7 @@
     "name": "Doel omgevallen",
     "place": "",
     "place_array": [],
-    "average_credits": 300,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/soccer_gruen.png",
@@ -28002,7 +28135,7 @@
     "name": "Gestolen trofee",
     "place": "",
     "place_array": [],
-    "average_credits": 600,
+    "average_credits": 670,
     "generated_by": "",
     "icons": [
       "/images/soccer_gruen.png",
@@ -28090,7 +28223,7 @@
     "name": "Verloren aanvoerdersarmband",
     "place": "Stadion",
     "place_array": ["Stadion"],
-    "average_credits": 1200,
+    "average_credits": 1500,
     "generated_by": "",
     "icons": [
       "/images/soccer_gruen.png",
@@ -28120,7 +28253,7 @@
     "name": "Brandende cornervlag",
     "place": "Stadion",
     "place_array": ["Stadion"],
-    "average_credits": 450,
+    "average_credits": 670,
     "generated_by": "",
     "icons": [
       "/images/soccer_gruen.png",
@@ -28146,7 +28279,7 @@
     "name": "Beveiligen zwemwedstrijd",
     "place": "Meer\nRivier",
     "place_array": ["Meer", "Rivier"],
-    "average_credits": 2000,
+    "average_credits": 4410,
     "generated_by": "",
     "icons": [
       "/images/clock_gruen.png",
@@ -28175,7 +28308,7 @@
     "name": "Verontreinigde ijscokar",
     "place": "",
     "place_array": [],
-    "average_credits": null,
+    "average_credits": 1350,
     "generated_by": "",
     "icons": [
       "/images/medicalstore_gruen.png",
@@ -28209,7 +28342,7 @@
     "name": "Illegaal kampvuur in park",
     "place": "Park",
     "place_array": ["Park"],
-    "average_credits": 600,
+    "average_credits": 670,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -28280,7 +28413,10 @@
     ],
     "requirements": { "police_cars": 3 },
     "chances": {},
-    "additional": { "filter_id": "police_station_missions" },
+    "additional": {
+      "followup_missions_ids": [1018],
+      "filter_id": "police_station_missions"
+    },
     "prerequisites": { "main_building": 5, "police_stations": 3 },
     "overlay_index": null,
     "base_mission_id": 834,
@@ -28621,7 +28757,7 @@
     "name": "Aanrijding met zwaar letsel",
     "place": "Snelweg oprit / afrit",
     "place_array": ["Snelweg oprit / afrit"],
-    "average_credits": 4590,
+    "average_credits": 5340,
     "generated_by": "",
     "icons": [
       "/images/caraccident_gruen.png",
@@ -28633,14 +28769,14 @@
       "battalion_chief_vehicles": 1,
       "heavy_rescue_vehicles": 1,
       "police_cars": 6,
-      "ovdp": 1
+      "ovdp": 1,
+      "traffic_unit": 1
     },
-    "chances": { "nef": 40, "patient_transport": 90 },
+    "chances": { "nef": 35, "patient_transport": 90 },
     "additional": {
       "possible_patient": 6,
       "possible_patient_min": 2,
       "filter_id": "police_station_missions",
-      "patient_at_end_of_mission": true,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
       "patient_specializations": "Traumatologie"
@@ -28650,12 +28786,13 @@
       "rescue_stations": 10,
       "police_stations": 7,
       "bereitschaftspolizei": 1,
+      "technical_aid": 2,
       "fire_stations": 6
     },
     "overlay_index": null,
     "base_mission_id": 841,
     "additive_overlays": "",
-    "mission_categories": ["police"]
+    "mission_categories": ["police", "fire"]
   },
   {
     "id": "842",
@@ -29246,7 +29383,7 @@
     "name": "Verkeersongeval door gevallen bladeren",
     "place": "",
     "place_array": [],
-    "average_credits": 2190,
+    "average_credits": 2600,
     "generated_by": "",
     "icons": [
       "/images/autumn_gruen.png",
@@ -29359,7 +29496,6 @@
     "requirements": { "firetrucks": 1 },
     "chances": {},
     "additional": {
-      "allow_rw_instead_of_lf": true,
       "filter_id": "firehouse_missions",
       "date_start": "2022-09-30T09:00:00Z",
       "date_end": "2022-11-30T22:59:00Z"
@@ -29405,7 +29541,7 @@
     "name": "Ongeluk op mistige weg",
     "place": "",
     "place_array": [],
-    "average_credits": 800,
+    "average_credits": 1580,
     "generated_by": "",
     "icons": [
       "/images/autumn_gruen.png",
@@ -30686,7 +30822,7 @@
     "name": "Massa-beroerte tijdens het eten van fondue (klein)",
     "place": "",
     "place_array": [],
-    "average_credits": 2500,
+    "average_credits": 3720,
     "generated_by": "",
     "icons": [
       "/images/dancinghall_gruen.png",
@@ -30720,7 +30856,7 @@
       "main_building": 3,
       "rescue_stations": 10,
       "police_stations": 2,
-      "fire_stations": 6
+      "fire_stations": 10
     },
     "overlay_index": null,
     "base_mission_id": 886,
@@ -30732,7 +30868,7 @@
     "name": "Massa-beroerte tijdens het eten van fondue (groot)",
     "place": "",
     "place_array": [],
-    "average_credits": 5000,
+    "average_credits": 4980,
     "generated_by": "",
     "icons": [
       "/images/dancinghall_gruen.png",
@@ -30750,7 +30886,7 @@
     "chances": {
       "mobile_air_vehicles": 10,
       "gwmess": 20,
-      "nef": 20,
+      "nef": 7,
       "patient_transport": 25
     },
     "additional": {
@@ -30765,9 +30901,9 @@
     },
     "prerequisites": {
       "main_building": 3,
-      "rescue_stations": 15,
+      "rescue_stations": 24,
       "police_stations": 5,
-      "fire_stations": 11
+      "fire_stations": 10
     },
     "overlay_index": 0,
     "base_mission_id": 886,
@@ -30779,7 +30915,7 @@
     "name": "Massa-beroerte tijdens het eten van fondue (enorm)",
     "place": "",
     "place_array": [],
-    "average_credits": 14000,
+    "average_credits": 14070,
     "generated_by": "",
     "icons": [
       "/images/dancinghall_gruen.png",
@@ -30787,21 +30923,23 @@
       "/images/dancinghall_rot.png"
     ],
     "requirements": {
-      "firetrucks": 16,
+      "firetrucks": 20,
       "battalion_chief_vehicles": 3,
       "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "platform_trucks": 2,
       "heavy_rescue_vehicles": 1,
       "mobile_air_vehicles": 1,
       "gwmess": 1,
+      "hazmat_vehicles": 1,
       "police_cars": 14
     },
     "chances": {
       "mobile_command_vehicles": 50,
       "mobile_air_vehicles": 25,
       "gwmess": 50,
-      "nef": 20,
-      "patient_transport": 25,
-      "helicopter": 2
+      "nef": 2,
+      "patient_transport": 25
     },
     "additional": {
       "possible_patient": 250,
@@ -30815,9 +30953,9 @@
     },
     "prerequisites": {
       "main_building": 3,
-      "rescue_stations": 46,
-      "police_stations": 9,
-      "fire_stations": 16
+      "rescue_stations": 78,
+      "police_stations": 16,
+      "fire_stations": 28
     },
     "overlay_index": 1,
     "base_mission_id": 886,
@@ -31684,7 +31822,7 @@
     "name": "Verhoog bewustzijn van het bestaan van 112 onder kinderen",
     "place": "School",
     "place_array": ["School"],
-    "average_credits": 2500,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/comment_gruen.png",
@@ -31695,11 +31833,49 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-11T10:00:00Z",
-      "date_end": "2022-02-12T10:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-11T10:00:00Z",
+      "date_end": "2023-02-12T10:00:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
+    "base_mission_id": 902,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "902-0",
+    "name": "Verhoog bewustzijn van het bestaan van 112 onder kinderen",
+    "place": "School",
+    "place_array": ["School"],
+    "average_credits": 2270,
+    "generated_by": "",
+    "icons": [
+      "/images/comment_gruen.png",
+      "/images/comment_gelb.png",
+      "/images/comment_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 2,
+      "spokesman": 1,
+      "battalion_chief_vehicles": 1,
+      "platform_trucks": 1,
+      "heavy_rescue_vehicles": 1,
+      "police_cars": 1
+    },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "date_start": "2023-02-11T10:00:00Z",
+      "date_end": "2023-02-12T10:00:00Z"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 1,
+      "fire_stations": 14
+    },
+    "overlay_index": 0,
     "base_mission_id": 902,
     "additive_overlays": "",
     "mission_categories": ["fire"]
@@ -31709,7 +31885,7 @@
     "name": "Verhoog bewustzijn van het bestaan van 112 onder kinderen",
     "place": "School",
     "place_array": ["School"],
-    "average_credits": 2500,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/comment_gruen.png",
@@ -31720,11 +31896,52 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-11T10:00:00Z",
-      "date_end": "2022-02-12T10:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-11T10:00:00Z",
+      "date_end": "2023-02-12T10:00:00Z"
     },
     "prerequisites": { "main_building": 5, "police_stations": 1 },
     "overlay_index": null,
+    "base_mission_id": 903,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "903-0",
+    "name": "Verhoog bewustzijn van het bestaan van 112 onder kinderen",
+    "place": "School",
+    "place_array": ["School"],
+    "average_credits": 2905,
+    "generated_by": "",
+    "icons": [
+      "/images/comment_gruen.png",
+      "/images/comment_gelb.png",
+      "/images/comment_rot.png"
+    ],
+    "requirements": {
+      "hondengeleider": 1,
+      "gefkw": 1,
+      "police_cars": 5,
+      "police_horse": 2,
+      "bike_police": 1
+    },
+    "chances": {},
+    "additional": {
+      "filter_id": "police_station_missions",
+      "need_bike_police_only_if_present": true,
+      "optional_event_mission": true,
+      "date_start": "2023-02-11T10:00:00Z",
+      "date_end": "2023-02-12T10:00:00Z"
+    },
+    "prerequisites": {
+      "main_building": 5,
+      "police_stations": 6,
+      "bereitschaftspolizei": 3,
+      "prisoner_transport_count": 1,
+      "police_horse": 1,
+      "hondengeleider": 1
+    },
+    "overlay_index": 0,
     "base_mission_id": 903,
     "additive_overlays": "",
     "mission_categories": ["police"]
@@ -31746,8 +31963,9 @@
     "additional": {
       "followup_missions_ids": [905],
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-11T10:00:00Z",
-      "date_end": "2022-02-12T10:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-11T10:00:00Z",
+      "date_end": "2023-02-12T10:00:00Z"
     },
     "prerequisites": {
       "main_building": 0,
@@ -31761,11 +31979,60 @@
     "mission_categories": ["fire"]
   },
   {
+    "id": "904-0",
+    "name": "Aankondiging voor nieuwe 112 functionaliteiten",
+    "place": "",
+    "place_array": [],
+    "average_credits": 6120,
+    "generated_by": "",
+    "icons": [
+      "/images/comment_gruen.png",
+      "/images/comment_gelb.png",
+      "/images/comment_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 2,
+      "hondengeleider": 1,
+      "ambulances": 1,
+      "lebefkw": 1,
+      "police_cars": 10,
+      "grukw": 3,
+      "ovdp": 1
+    },
+    "chances": { "patient_transport": 20 },
+    "additional": {
+      "possible_patient": 5,
+      "possible_patient_min": 2,
+      "followup_missions_ids": [905],
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "patient_at_end_of_mission": true,
+      "date_start": "2023-02-11T10:00:00Z",
+      "date_end": "2023-02-12T10:00:00Z",
+      "patient_specialization_ids": [1],
+      "patient_specialization_captions": ["Algemene Heelkunde"],
+      "patient_specializations": "Algemene Heelkunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 8,
+      "police_stations": 10,
+      "bereitschaftspolizei": 2,
+      "riot_unit_count": 1,
+      "hondengeleider": 1,
+      "fire_stations": 2
+    },
+    "overlay_index": 0,
+    "base_mission_id": 904,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
     "id": "905",
     "name": "Europese 112 dag viering",
     "place": "",
     "place_array": [],
-    "average_credits": 4500,
+    "average_credits": 2270,
     "generated_by": "",
     "icons": [
       "/images/dancinghall_gruen.png",
@@ -31774,17 +32041,23 @@
     ],
     "requirements": {
       "firetrucks": 2,
-      "ambulances": 2,
       "battalion_chief_vehicles": 1,
       "platform_trucks": 1,
       "heavy_rescue_vehicles": 1,
       "police_cars": 3
     },
-    "chances": {},
+    "chances": { "patient_transport": 50 },
     "additional": {
+      "possible_patient": 2,
+      "possible_patient_min": 1,
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-11T10:00:00Z",
-      "date_end": "2022-02-12T10:00:00Z"
+      "optional_event_mission": true,
+      "patient_at_end_of_mission": true,
+      "date_start": "2023-02-11T10:00:00Z",
+      "date_end": "2023-02-12T10:00:00Z",
+      "patient_specialization_ids": [1],
+      "patient_specialization_captions": ["Algemene Heelkunde"],
+      "patient_specializations": "Algemene Heelkunde"
     },
     "prerequisites": {
       "main_building": 0,
@@ -31798,16 +32071,72 @@
     "mission_categories": ["fire"]
   },
   {
+    "id": "905-0",
+    "name": "Europese 112 dag viering",
+    "place": "",
+    "place_array": [],
+    "average_credits": 8060,
+    "generated_by": "",
+    "icons": [
+      "/images/dancinghall_gruen.png",
+      "/images/dancinghall_gelb.png",
+      "/images/dancinghall_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 2,
+      "hondengeleider": 1,
+      "battalion_chief_vehicles": 1,
+      "platform_trucks": 1,
+      "heavy_rescue_vehicles": 1,
+      "lebefkw": 1,
+      "gefkw": 1,
+      "police_cars": 5,
+      "grukw": 3,
+      "ovdp": 1,
+      "police_horse": 4
+    },
+    "chances": { "nef": 5, "patient_transport": 50 },
+    "additional": {
+      "possible_patient": 10,
+      "possible_patient_min": 3,
+      "min_possible_prisoners": 2,
+      "max_possible_prisoners": 5,
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "patient_at_end_of_mission": true,
+      "date_start": "2023-02-11T10:00:00Z",
+      "date_end": "2023-02-12T10:00:00Z",
+      "patient_specialization_ids": [1],
+      "patient_specialization_captions": ["Algemene Heelkunde"],
+      "patient_specializations": "Algemene Heelkunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 10,
+      "police_stations": 6,
+      "bereitschaftspolizei": 4,
+      "riot_unit_count": 1,
+      "prisoner_transport_count": 1,
+      "police_horse": 1,
+      "hondengeleider": 1,
+      "fire_stations": 6
+    },
+    "overlay_index": 0,
+    "base_mission_id": 905,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
     "id": "906",
     "name": "Nationale 112 award ceremonie",
     "place": "",
     "place_array": [],
-    "average_credits": 7500,
+    "average_credits": 10380,
     "generated_by": "",
     "icons": [
-      "/images/comment_gruen.png",
-      "/images/comment_gelb.png",
-      "/images/comment_rot.png"
+      "/images/clock_gruen.png",
+      "/images/clock_gelb.png",
+      "/images/clock_rot.png"
     ],
     "requirements": {
       "firetrucks": 4,
@@ -31822,16 +32151,20 @@
     },
     "chances": {},
     "additional": {
+      "duration_text": "een uur",
+      "duration": 3600,
       "followup_missions_ids": [905],
+      "guard_mission": true,
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-11T10:00:00Z",
-      "date_end": "2022-02-12T10:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-11T10:00:00Z",
+      "date_end": "2023-02-12T10:00:00Z"
     },
     "prerequisites": {
       "main_building": 0,
-      "rescue_stations": 2,
-      "police_stations": 6,
-      "fire_stations": 11
+      "rescue_stations": 1,
+      "police_stations": 5,
+      "fire_stations": 14
     },
     "overlay_index": null,
     "base_mission_id": 906,
@@ -31843,7 +32176,7 @@
     "name": "Brandend praalwagen",
     "place": "",
     "place_array": [],
-    "average_credits": 2500,
+    "average_credits": 1940,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -31860,17 +32193,18 @@
     "additional": {
       "possible_patient": 2,
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-25T10:00:00Z",
-      "date_end": "2022-03-01T23:59:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-17T10:00:00Z",
+      "date_end": "2023-02-22T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
     },
     "prerequisites": {
       "main_building": 0,
-      "rescue_stations": 1,
-      "police_stations": 2,
-      "fire_stations": 6
+      "rescue_stations": 2,
+      "police_stations": 1,
+      "fire_stations": 7
     },
     "overlay_index": null,
     "base_mission_id": 907,
@@ -31882,7 +32216,7 @@
     "name": "Ongelukken in de carnavalsoptocht",
     "place": "",
     "place_array": [],
-    "average_credits": 1500,
+    "average_credits": 2360,
     "generated_by": "",
     "icons": [
       "/images/baseball_gruen.png",
@@ -31895,9 +32229,10 @@
       "possible_patient": 6,
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
+      "optional_event_mission": true,
       "patient_at_end_of_mission": true,
-      "date_start": "2022-02-25T10:00:00Z",
-      "date_end": "2022-03-01T23:59:00Z",
+      "date_start": "2023-02-17T10:00:00Z",
+      "date_end": "2023-02-22T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
@@ -31917,7 +32252,7 @@
     "name": "Gestolen masker",
     "place": "",
     "place_array": [],
-    "average_credits": 1000,
+    "average_credits": 1170,
     "generated_by": "",
     "icons": [
       "/images/theft_gruen.png",
@@ -31928,11 +32263,13 @@
     "chances": { "nef": 25, "patient_transport": 50 },
     "additional": {
       "possible_patient": 1,
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
+      "optional_event_mission": true,
       "patient_at_end_of_mission": true,
-      "date_start": "2022-02-25T10:00:00Z",
-      "date_end": "2022-03-01T23:59:00Z",
+      "date_start": "2023-02-17T10:00:00Z",
+      "date_end": "2023-02-22T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
@@ -31940,7 +32277,7 @@
     "prerequisites": {
       "main_building": 5,
       "rescue_stations": 10,
-      "police_stations": 4
+      "police_stations": 2
     },
     "overlay_index": null,
     "base_mission_id": 909,
@@ -31952,7 +32289,7 @@
     "name": "Gemaskerd bal trofee gestolen",
     "place": "",
     "place_array": [],
-    "average_credits": 1750,
+    "average_credits": 1680,
     "generated_by": "",
     "icons": [
       "/images/theft_gruen.png",
@@ -31965,9 +32302,10 @@
       "possible_patient": 2,
       "max_possible_prisoners": 3,
       "filter_id": "police_station_missions",
+      "optional_event_mission": true,
       "patient_at_end_of_mission": true,
-      "date_start": "2022-02-25T10:00:00Z",
-      "date_end": "2022-03-01T23:59:00Z",
+      "date_start": "2023-02-17T10:00:00Z",
+      "date_end": "2023-02-22T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
@@ -31975,7 +32313,7 @@
     "prerequisites": {
       "main_building": 5,
       "rescue_stations": 10,
-      "police_stations": 5
+      "police_stations": 4
     },
     "overlay_index": null,
     "base_mission_id": 910,
@@ -31987,7 +32325,7 @@
     "name": "Brand op carnaval feest",
     "place": "",
     "place_array": [],
-    "average_credits": 500,
+    "average_credits": 670,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -31998,8 +32336,9 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-25T10:00:00Z",
-      "date_end": "2022-03-01T23:59:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-17T10:00:00Z",
+      "date_end": "2023-02-22T23:00:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -32025,13 +32364,14 @@
       "possible_patient": 3,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-02-25T10:00:00Z",
-      "date_end": "2022-03-01T23:59:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-17T10:00:00Z",
+      "date_end": "2023-02-22T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
     },
-    "prerequisites": { "main_building": 3, "rescue_stations": 1 },
+    "prerequisites": { "main_building": 3, "rescue_stations": 8 },
     "overlay_index": null,
     "base_mission_id": 912,
     "additive_overlays": "",
@@ -32042,7 +32382,7 @@
     "name": "Carnaval beveiliging",
     "place": "",
     "place_array": [],
-    "average_credits": 4000,
+    "average_credits": 3735,
     "generated_by": "",
     "icons": [
       "/images/clock_gruen.png",
@@ -32060,12 +32400,13 @@
       "duration": 3600,
       "guard_mission": true,
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-25T10:00:00Z",
-      "date_end": "2022-03-01T23:59:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-17T10:00:00Z",
+      "date_end": "2023-02-22T23:00:00Z"
     },
     "prerequisites": {
       "main_building": 0,
-      "police_stations": 1,
+      "police_stations": 2,
       "fire_stations": 6
     },
     "overlay_index": null,
@@ -32078,7 +32419,7 @@
     "name": "Crimineel verstopt zich op carnaval feest",
     "place": "",
     "place_array": [],
-    "average_credits": 200,
+    "average_credits": 670,
     "generated_by": "",
     "icons": [
       "/images/zoom_gruen.png",
@@ -32090,10 +32431,11 @@
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-25T10:00:00Z",
-      "date_end": "2022-03-01T23:59:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-17T10:00:00Z",
+      "date_end": "2023-02-22T23:00:00Z"
     },
-    "prerequisites": { "main_building": 5, "police_stations": 1 },
+    "prerequisites": { "main_building": 5, "police_stations": 2 },
     "overlay_index": null,
     "base_mission_id": 914,
     "additive_overlays": "",
@@ -32104,7 +32446,7 @@
     "name": "Carnaval outfit in brand",
     "place": "",
     "place_array": [],
-    "average_credits": 400,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -32115,8 +32457,9 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-25T10:00:00Z",
-      "date_end": "2022-03-01T23:59:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-17T10:00:00Z",
+      "date_end": "2023-02-22T23:00:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -32129,7 +32472,7 @@
     "name": "Feestkleding gestolen",
     "place": "",
     "place_array": [],
-    "average_credits": 200,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/theft_gruen.png",
@@ -32142,8 +32485,9 @@
       "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-25T10:00:00Z",
-      "date_end": "2022-03-01T23:59:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-17T10:00:00Z",
+      "date_end": "2023-02-22T23:00:00Z"
     },
     "prerequisites": { "main_building": 5, "police_stations": 1 },
     "overlay_index": null,
@@ -32314,7 +32658,7 @@
     "name": "Allergische reactie bijensteek",
     "place": "",
     "place_array": [],
-    "average_credits": 550,
+    "average_credits": null,
     "generated_by": "",
     "icons": [
       "/images/spring_gruen.png",
@@ -32344,7 +32688,7 @@
     "name": "Allergische reactie door pollen",
     "place": "",
     "place_array": [],
-    "average_credits": 650,
+    "average_credits": null,
     "generated_by": "",
     "icons": [
       "/images/spring_gruen.png",
@@ -32374,14 +32718,14 @@
     "name": "Val van ladder tijdens voorjaarsschoonmaak",
     "place": "",
     "place_array": [],
-    "average_credits": 500,
+    "average_credits": 1170,
     "generated_by": "",
     "icons": [
       "/images/spring_gruen.png",
       "/images/spring_gelb.png",
       "/images/spring_rot.png"
     ],
-    "requirements": {},
+    "requirements": { "police_cars": 2 },
     "chances": { "patient_transport": 50 },
     "additional": {
       "possible_patient": 1,
@@ -32393,7 +32737,11 @@
       "patient_specialization_captions": ["Traumatologie"],
       "patient_specializations": "Traumatologie"
     },
-    "prerequisites": { "main_building": 3, "rescue_stations": 1 },
+    "prerequisites": {
+      "main_building": 3,
+      "rescue_stations": 1,
+      "police_stations": 2
+    },
     "overlay_index": null,
     "base_mission_id": 922,
     "additive_overlays": "",
@@ -32404,7 +32752,7 @@
     "name": "Wild dier valt picknickers aan",
     "place": "",
     "place_array": [],
-    "average_credits": 600,
+    "average_credits": 1850,
     "generated_by": "",
     "icons": [
       "/images/spring_gruen.png",
@@ -32438,7 +32786,7 @@
     "name": "Voedselvergiftiging van wilde bessen",
     "place": "Park\nBos",
     "place_array": ["Park", "Bos"],
-    "average_credits": 800,
+    "average_credits": null,
     "generated_by": "",
     "icons": [
       "/images/spring_gruen.png",
@@ -32451,7 +32799,6 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "patient_allow_first_responder_chance": 50,
       "date_start": "2022-03-18T10:00:00Z",
       "date_end": "2022-03-28T23:59:59+02:00",
       "patient_specialization_ids": [1],
@@ -32469,7 +32816,7 @@
     "name": "Picknickmand in brand",
     "place": "Park\nBos",
     "place_array": ["Park", "Bos"],
-    "average_credits": 800,
+    "average_credits": 670,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -32494,7 +32841,7 @@
     "name": "Persoon steelt kalveren",
     "place": "Boerderij",
     "place_array": ["Boerderij"],
-    "average_credits": 900,
+    "average_credits": 670,
     "generated_by": "",
     "icons": [
       "/images/cat_gruen.png",
@@ -32510,7 +32857,7 @@
       "date_start": "2022-03-18T10:00:00Z",
       "date_end": "2022-03-28T23:59:59+02:00"
     },
-    "prerequisites": { "main_building": 5, "police_stations": 1 },
+    "prerequisites": { "main_building": 5, "police_stations": 2 },
     "overlay_index": null,
     "base_mission_id": 926,
     "additive_overlays": "",
@@ -32521,7 +32868,7 @@
     "name": "Koeien dief op de vlucht",
     "place": "Bos",
     "place_array": ["Bos"],
-    "average_credits": 900,
+    "average_credits": 2180,
     "generated_by": "",
     "icons": [
       "/images/climbing_gruen.png",
@@ -32539,7 +32886,7 @@
     },
     "prerequisites": {
       "main_building": 5,
-      "police_stations": 10,
+      "police_stations": 4,
       "police_helicopter_stations": 1
     },
     "overlay_index": null,
@@ -32552,14 +32899,14 @@
     "name": "Dief aangevallen door een koe",
     "place": "Boerderij",
     "place_array": ["Boerderij"],
-    "average_credits": 860,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/ambulance_gruen.png",
       "/images/ambulance_gelb.png",
       "/images/ambulance_rot.png"
     ],
-    "requirements": { "ambulances": 1 },
+    "requirements": { "police_cars": 1 },
     "chances": { "patient_transport": 35 },
     "additional": {
       "possible_patient": 1,
@@ -32572,7 +32919,11 @@
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
     },
-    "prerequisites": { "main_building": 3, "rescue_stations": 1 },
+    "prerequisites": {
+      "main_building": 3,
+      "rescue_stations": 1,
+      "police_stations": 1
+    },
     "overlay_index": null,
     "base_mission_id": 928,
     "additive_overlays": "",
@@ -33036,7 +33387,7 @@
     "name": "Gesmolten chocolade haas",
     "place": "",
     "place_array": [],
-    "average_credits": 100,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -33061,7 +33412,7 @@
     "name": "Bliksem treft konijnenhol",
     "place": "",
     "place_array": [],
-    "average_credits": 1600,
+    "average_credits": 2600,
     "generated_by": "",
     "icons": [
       "/images/blast_gruen.png",
@@ -33088,8 +33439,8 @@
     "prerequisites": {
       "main_building": 0,
       "rescue_stations": 10,
-      "police_stations": 3,
-      "fire_stations": 4
+      "police_stations": 2,
+      "fire_stations": 6
     },
     "overlay_index": null,
     "base_mission_id": 936,
@@ -33693,7 +34044,10 @@
     ],
     "requirements": { "police_cars": 2 },
     "chances": {},
-    "additional": { "filter_id": "police_station_missions" },
+    "additional": {
+      "followup_missions_ids": [1018],
+      "filter_id": "police_station_missions"
+    },
     "prerequisites": { "main_building": 5, "police_stations": 2 },
     "overlay_index": null,
     "base_mission_id": 947,
@@ -35615,9 +35969,9 @@
     "average_credits": 3585,
     "generated_by": "",
     "icons": [
-      "/images/fire_gruen.png",
-      "/images/fire_gelb.png",
-      "/images/fire_rot.png"
+      "/images/clock_gruen.png",
+      "/images/clock_gelb.png",
+      "/images/clock_rot.png"
     ],
     "requirements": {
       "firetrucks": 3,
@@ -35645,9 +35999,9 @@
     "average_credits": 9210,
     "generated_by": "",
     "icons": [
-      "/images/fire_gruen.png",
-      "/images/fire_gelb.png",
-      "/images/fire_rot.png"
+      "/images/clock_gruen.png",
+      "/images/clock_gelb.png",
+      "/images/clock_rot.png"
     ],
     "requirements": {
       "firetrucks": 3,
@@ -35694,6 +36048,7 @@
       "vehicle_groups": ["ocean_missions"],
       "uses_custom_spawn_area": true,
       "handoff_possible_via_building_types": [19],
+      "patient_at_end_of_mission": true,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
       "patient_specializations": "Traumatologie"
@@ -35951,9 +36306,9 @@
     "average_credits": 3300,
     "generated_by": "",
     "icons": [
-      "/images/waterpark_gruen.png",
-      "/images/waterpark_gelb.png",
-      "/images/waterpark_rot.png"
+      "/images/clock_gruen.png",
+      "/images/clock_gelb.png",
+      "/images/clock_rot.png"
     ],
     "requirements": { "firetrucks": 1, "diver_units": 1, "boats": 1 },
     "chances": {},
@@ -36578,6 +36933,407 @@
     "prerequisites": { "main_building": 5, "police_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 1006,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "1007",
+    "name": "Persoon bekneld tussen fietsspaken",
+    "place": "",
+    "place_array": [],
+    "average_credits": 740,
+    "generated_by": "",
+    "icons": [
+      "/images/ambulance_gruen.png",
+      "/images/ambulance_gelb.png",
+      "/images/ambulance_rot.png"
+    ],
+    "requirements": { "firetrucks": 1, "heavy_rescue_vehicles": 1 },
+    "chances": { "heavy_rescue_vehicles": 30, "patient_transport": 65 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "allow_rw_instead_of_lf": true,
+      "filter_id": "ambulance_station_missions",
+      "patient_at_end_of_mission": true,
+      "patient_specialization_ids": [4],
+      "patient_specialization_captions": ["Traumatologie"],
+      "patient_specializations": "Traumatologie"
+    },
+    "prerequisites": {
+      "main_building": 3,
+      "rescue_stations": 1,
+      "fire_stations": 4
+    },
+    "overlay_index": null,
+    "base_mission_id": 1007,
+    "additive_overlays": "",
+    "mission_categories": ["ambulance"]
+  },
+  {
+    "id": "1008",
+    "name": "Aanrijding snelweg, veroorzaker gevlucht",
+    "place": "Snelweg oprit / afrit\nVerzorgingsplaats (Snelweg)",
+    "place_array": ["Snelweg oprit / afrit", "Verzorgingsplaats (Snelweg)"],
+    "average_credits": 1510,
+    "generated_by": "",
+    "icons": [
+      "/images/caraccident_gruen.png",
+      "/images/caraccident_gelb.png",
+      "/images/caraccident_rot.png"
+    ],
+    "requirements": { "firetrucks": 1, "police_cars": 3, "traffic_unit": 1 },
+    "chances": { "patient_transport": 55 },
+    "additional": {
+      "possible_patient": 1,
+      "filter_id": "police_station_missions",
+      "patient_specialization_ids": [4],
+      "patient_specialization_captions": ["Traumatologie"],
+      "patient_specializations": "Traumatologie"
+    },
+    "prerequisites": {
+      "main_building": 5,
+      "rescue_stations": 1,
+      "police_stations": 3,
+      "technical_aid": 1,
+      "fire_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1008,
+    "additive_overlays": "",
+    "mission_categories": ["police", "technical_aid"]
+  },
+  {
+    "id": "1009",
+    "name": "Auto tegen pijlwagen gereden",
+    "place": "Verzorgingsplaats (Snelweg)\nSnelweg oprit / afrit",
+    "place_array": ["Verzorgingsplaats (Snelweg)", "Snelweg oprit / afrit"],
+    "average_credits": 4090,
+    "generated_by": "",
+    "icons": [
+      "/images/caraccident_gruen.png",
+      "/images/caraccident_gelb.png",
+      "/images/caraccident_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 2,
+      "battalion_chief_vehicles": 1,
+      "police_cars": 4,
+      "ovdp": 1,
+      "traffic_unit": 1
+    },
+    "chances": { "patient_transport": 80 },
+    "additional": {
+      "possible_patient": 4,
+      "possible_patient_min": 1,
+      "filter_id": "police_station_missions",
+      "patient_specialization_ids": [4, 1],
+      "patient_specialization_captions": [
+        "Traumatologie",
+        "Algemene Heelkunde"
+      ],
+      "patient_specializations": "Traumatologie, Algemene Heelkunde"
+    },
+    "prerequisites": {
+      "main_building": 5,
+      "rescue_stations": 8,
+      "police_stations": 5,
+      "bereitschaftspolizei": 1,
+      "technical_aid": 2,
+      "fire_stations": 6
+    },
+    "overlay_index": null,
+    "base_mission_id": 1009,
+    "additive_overlays": "",
+    "mission_categories": ["fire", "technical_aid"]
+  },
+  {
+    "id": "1010",
+    "name": "Meningsverschil in bankkantoor",
+    "place": "Bankkantoor",
+    "place_array": ["Bankkantoor"],
+    "average_credits": 500,
+    "generated_by": "",
+    "icons": [
+      "/images/comment_gruen.png",
+      "/images/comment_gelb.png",
+      "/images/comment_rot.png"
+    ],
+    "requirements": { "police_cars": 1 },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [1011],
+      "filter_id": "police_station_missions"
+    },
+    "prerequisites": { "main_building": 5, "police_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 1010,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "1011",
+    "name": "Vechtpartij in bankkantoor",
+    "place": "Bankkantoor",
+    "place_array": ["Bankkantoor"],
+    "average_credits": 1810,
+    "generated_by": "",
+    "icons": [
+      "/images/baseball_gruen.png",
+      "/images/baseball_gelb.png",
+      "/images/baseball_rot.png"
+    ],
+    "requirements": { "police_cars": 4, "ovdp": 1 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 1,
+      "filter_id": "police_station_missions"
+    },
+    "prerequisites": {
+      "main_building": 5,
+      "police_stations": 5,
+      "bereitschaftspolizei": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1011,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "1012",
+    "name": "Persoon met gevaarlijke stoffen",
+    "place": "",
+    "place_array": [],
+    "average_credits": 10660,
+    "generated_by": "",
+    "icons": [
+      "/images/blast_gruen.png",
+      "/images/blast_gelb.png",
+      "/images/blast_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 4,
+      "spokesman": 1,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "water_tankers": 2,
+      "mobile_air_vehicles": 1,
+      "gwmess": 2,
+      "hazmat_vehicles": 1,
+      "police_cars": 10,
+      "ovdp": 1
+    },
+    "chances": { "patient_transport": 35 },
+    "additional": {
+      "possible_patient": 3,
+      "possible_patient_min": 1,
+      "max_possible_prisoners": 1,
+      "filter_id": "firehouse_missions",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 8,
+      "police_stations": 10,
+      "bereitschaftspolizei": 1,
+      "fire_stations": 18
+    },
+    "overlay_index": null,
+    "base_mission_id": 1012,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1013",
+    "name": "Ongeluk bij bakken valentijn diner",
+    "place": "",
+    "place_array": [],
+    "average_credits": 670,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 1013,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1014",
+    "name": "Brandend Valentijnsboeket",
+    "place": "",
+    "place_array": [],
+    "average_credits": 670,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 1014,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1015",
+    "name": "Kaars omgevallen bij diner",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [732],
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 1015,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1016",
+    "name": "Aanvaring veerpont",
+    "place": "Pontsteiger",
+    "place_array": ["Pontsteiger"],
+    "average_credits": 12630,
+    "generated_by": "",
+    "icons": [
+      "/images/cruiseship_gruen.png",
+      "/images/cruiseship_gelb.png",
+      "/images/cruiseship_rot.png"
+    ],
+    "requirements": {
+      "water_rescue": 5,
+      "boats": 2,
+      "coastal_boat": 5,
+      "coastal_helicopter": 1,
+      "coastal_guard_boat": 3
+    },
+    "chances": { "patient_transport": 5 },
+    "additional": {
+      "possible_patient": 110,
+      "possible_patient_min": 30,
+      "followup_missions_ids": [1017],
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["default", "ocean_missions"],
+      "patient_specialization_ids": [1, 4],
+      "patient_specialization_captions": [
+        "Algemene Heelkunde",
+        "Traumatologie"
+      ],
+      "patient_specializations": "Algemene Heelkunde, Traumatologie"
+    },
+    "prerequisites": {
+      "main_building": 19,
+      "water_rescue_2": 7,
+      "rescue_stations": 35,
+      "coastal_rescue_count": 3,
+      "coastal_rescue_small_count": 4,
+      "coastal_helicopter_count": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1016,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "1017",
+    "name": "Redding overboord geslagen slachtoffers",
+    "place": "Pontsteiger",
+    "place_array": ["Pontsteiger"],
+    "average_credits": 1230,
+    "generated_by": "",
+    "icons": [
+      "/images/waterpark_gruen.png",
+      "/images/waterpark_gelb.png",
+      "/images/waterpark_rot.png"
+    ],
+    "requirements": { "coastal_boat": 1 },
+    "chances": { "patient_transport": 100 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "coastal_rescue_missions",
+      "followup_mission_only": true,
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true,
+      "handoff_possible_via_building_types": [19],
+      "patient_at_end_of_mission": true,
+      "patient_specialization_ids": [0, 4, 1],
+      "patient_specialization_captions": [
+        "Interne Geneeskunde",
+        "Traumatologie",
+        "Algemene Heelkunde"
+      ],
+      "patient_specializations": "Interne Geneeskunde, Traumatologie, Algemene Heelkunde"
+    },
+    "prerequisites": {
+      "main_building": 19,
+      "rescue_stations": 1,
+      "coastal_rescue_small_count": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1017,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "1018",
+    "name": "Assistentie collega",
+    "place": "",
+    "place_array": [],
+    "average_credits": 840,
+    "generated_by": "",
+    "icons": [
+      "/images/cuffs_gruen.png",
+      "/images/cuffs_gelb.png",
+      "/images/cuffs_rot.png"
+    ],
+    "requirements": { "police_cars": 3 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 1,
+      "filter_id": "police_station_missions",
+      "followup_mission_only": true
+    },
+    "prerequisites": { "main_building": 5, "police_stations": 3 },
+    "overlay_index": null,
+    "base_mission_id": 1018,
     "additive_overlays": "",
     "mission_categories": ["police"]
   }
