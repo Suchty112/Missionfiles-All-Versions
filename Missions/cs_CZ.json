@@ -3564,9 +3564,9 @@
     "average_credits": 1500,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": { "police_cars": 4, "k9": 1 },
     "chances": {},
@@ -7813,9 +7813,9 @@
     "average_credits": 1200,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": { "battalion_chief_vehicles": 2, "police_cars": 3 },
     "chances": { "patient_transport": 80 },
@@ -9923,8 +9923,9 @@
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -9953,8 +9954,9 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -9983,8 +9985,9 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Kardiologie"],
       "patient_specializations": "Kardiologie"
@@ -10013,8 +10016,9 @@
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Kardiologie"],
       "patient_specializations": "Kardiologie"
@@ -10046,8 +10050,9 @@
     "additional": {
       "possible_patient": 8,
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -10080,8 +10085,9 @@
       "possible_patient": 2,
       "possible_patient_min": 2,
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -10112,8 +10118,9 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 2 },
     "overlay_index": null,
@@ -10137,8 +10144,9 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -10162,8 +10170,9 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 2 },
     "overlay_index": null,
@@ -13450,8 +13459,9 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-11T10:00:00+01:00",
-      "date_end": "2022-02-11T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-02-11T10:00:00Z",
+      "date_end": "2023-02-12T10:00:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -13475,8 +13485,9 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-11T10:00:00+01:00",
-      "date_end": "2022-02-11T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-02-11T10:00:00Z",
+      "date_end": "2023-02-12T10:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -13501,8 +13512,9 @@
     "additional": {
       "followup_missions_ids": [396],
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-11T10:00:00+01:00",
-      "date_end": "2022-02-11T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-02-11T10:00:00Z",
+      "date_end": "2023-02-12T10:00:00Z"
     },
     "prerequisites": {
       "main_building": 0,
@@ -13538,8 +13550,9 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-11T10:00:00+01:00",
-      "date_end": "2022-02-11T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-02-11T10:00:00Z",
+      "date_end": "2023-02-12T10:00:00Z"
     },
     "prerequisites": {
       "main_building": 0,
@@ -13579,8 +13592,9 @@
     "additional": {
       "followup_missions_ids": [396],
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-11T10:00:00+01:00",
-      "date_end": "2022-02-11T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-02-11T10:00:00Z",
+      "date_end": "2023-02-12T10:00:00Z"
     },
     "prerequisites": {
       "main_building": 0,
@@ -13767,8 +13781,9 @@
     "additional": {
       "possible_patient": 2,
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-25T10:00:00Z",
-      "date_end": "2022-03-01T23:59:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-17T10:00:00Z",
+      "date_end": "2023-02-22T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -13802,8 +13817,9 @@
       "possible_patient": 6,
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-25T10:00:00Z",
-      "date_end": "2022-03-01T23:59:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-17T10:00:00Z",
+      "date_end": "2023-02-22T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -13836,8 +13852,9 @@
       "possible_patient": 1,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-25T10:00:00Z",
-      "date_end": "2022-03-01T23:59:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-17T10:00:00Z",
+      "date_end": "2023-02-22T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -13870,8 +13887,9 @@
       "possible_patient": 2,
       "max_possible_prisoners": 3,
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-25T10:00:00Z",
-      "date_end": "2022-03-01T23:59:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-17T10:00:00Z",
+      "date_end": "2023-02-22T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -13902,8 +13920,9 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-25T10:00:00Z",
-      "date_end": "2022-03-01T23:59:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-17T10:00:00Z",
+      "date_end": "2023-02-22T23:00:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -13929,8 +13948,9 @@
       "possible_patient": 3,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-02-25T10:00:00Z",
-      "date_end": "2022-03-01T23:59:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-17T10:00:00Z",
+      "date_end": "2023-02-22T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -13964,8 +13984,9 @@
       "duration": 3600,
       "guard_mission": true,
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-25T10:00:00Z",
-      "date_end": "2022-03-01T23:59:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-17T10:00:00Z",
+      "date_end": "2023-02-22T23:00:00Z"
     },
     "prerequisites": {
       "main_building": 0,
@@ -13994,8 +14015,9 @@
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-25T10:00:00Z",
-      "date_end": "2022-03-01T23:59:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-17T10:00:00Z",
+      "date_end": "2023-02-22T23:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -14019,8 +14041,9 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-25T10:00:00Z",
-      "date_end": "2022-03-01T23:59:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-17T10:00:00Z",
+      "date_end": "2023-02-22T23:00:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -14046,8 +14069,9 @@
       "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-25T10:00:00Z",
-      "date_end": "2022-03-01T23:59:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-17T10:00:00Z",
+      "date_end": "2023-02-22T23:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -16924,9 +16948,9 @@
     "average_credits": 2900,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": { "police_cars": 4, "riot_police": 1 },
     "chances": {},
@@ -17107,6 +17131,285 @@
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
     "base_mission_id": 494,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "495",
+    "name": "Oheň v grilovací jámě",
+    "place": "Rychlé občerstvení",
+    "place_array": ["Rychlé občerstvení"],
+    "average_credits": 6250,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 6,
+      "battalion_chief_vehicles": 2,
+      "police_cars": 4
+    },
+    "chances": { "patient_transport": 50 },
+    "additional": {
+      "possible_patient": 6,
+      "filter_id": "firehouse_missions",
+      "fire_alarm_system_possible": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Všeobecný internista"],
+      "patient_specializations": "Všeobecný internista"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 5,
+      "police_stations": 7,
+      "fire_stations": 10
+    },
+    "overlay_index": null,
+    "base_mission_id": 495,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "496",
+    "name": "Požár ve věznici",
+    "place": "Věznice",
+    "place_array": ["Věznice"],
+    "average_credits": 30000,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 15,
+      "battalion_chief_vehicles": 5,
+      "mobile_command_vehicles": 1,
+      "platform_trucks": 4,
+      "water_tankers": 2,
+      "mobile_air_vehicles": 1,
+      "police_helicopters": 2,
+      "police_cars": 30,
+      "k9": 4,
+      "wasserwerfer": 2,
+      "kdow_orgl": 1,
+      "police_horse": 6,
+      "detention_unit": 6,
+      "crew_carrier": 10,
+      "riot_police": 20,
+      "riot_police_command": 2,
+      "riot_police_equipment": 1,
+      "riot_police_maintenance": 1
+    },
+    "chances": { "patient_transport": 40 },
+    "additional": {
+      "possible_patient": 15,
+      "max_possible_prisoners": 50,
+      "filter_id": "police_station_missions",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Všeobecný internista"],
+      "patient_specializations": "Všeobecný internista"
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "rescue_stations": 5,
+      "police_stations": 14,
+      "police_helicopter_stations": 1,
+      "riot_police": 6,
+      "police_horse": 1,
+      "fire_stations": 20
+    },
+    "overlay_index": null,
+    "base_mission_id": 496,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "497",
+    "name": "Převoz pacienta k vyšetření",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "",
+    "icons": [
+      "/images/medicalstore_gruen.png",
+      "/images/medicalstore_gelb.png",
+      "/images/medicalstore_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 100 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Všeobecný internista"],
+      "patient_specializations": "Všeobecný internista"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 497,
+    "additive_overlays": "",
+    "mission_categories": ["ambulance"]
+  },
+  {
+    "id": "498",
+    "name": "Nehoda při pečení valentýnské večeře",
+    "place": "",
+    "place_array": [],
+    "average_credits": 800,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 498,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "499",
+    "name": "Hořící valentýnská kytice",
+    "place": "",
+    "place_array": [],
+    "average_credits": 800,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 499,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "500",
+    "name": "Požár od večeře při svíčkách",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [292],
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 500,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "501",
+    "name": "Požár ve sběrném dvoře",
+    "place": "Sběrný dvůr",
+    "place_array": ["Sběrný dvůr"],
+    "average_credits": 1200,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 4, "battalion_chief_vehicles": 1 },
+    "chances": {},
+    "additional": { "filter_id": "firehouse_missions" },
+    "prerequisites": { "main_building": 0, "fire_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 501,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "502",
+    "name": "Požární cvičení v průmyslovém objektu",
+    "place": "Velkosklad\nChladírenský sklad\nElektrárna\nTovárna\nMalá chemická skladovací nádrž\nVelká chemická skladovací nádrž",
+    "place_array": [
+      "Velkosklad",
+      "Chladírenský sklad",
+      "Elektrárna",
+      "Továrna",
+      "Malá chemická skladovací nádrž",
+      "Velká chemická skladovací nádrž"
+    ],
+    "average_credits": 3000,
+    "generated_by": "",
+    "icons": [
+      "/images/clock_gruen.png",
+      "/images/clock_gelb.png",
+      "/images/clock_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": {
+      "duration_text": "45 minut",
+      "duration": 2700,
+      "guard_mission": true,
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 502,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "503",
+    "name": "Požární cvičení v instituční budově",
+    "place": "Škola\nKancelářská budova",
+    "place_array": ["Škola", "Kancelářská budova"],
+    "average_credits": 1000,
+    "generated_by": "",
+    "icons": [
+      "/images/clock_gruen.png",
+      "/images/clock_gelb.png",
+      "/images/clock_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": {
+      "duration_text": "30 minut",
+      "duration": 1800,
+      "guard_mission": true,
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 503,
     "additive_overlays": "",
     "mission_categories": ["fire"]
   }
