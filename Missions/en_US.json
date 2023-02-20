@@ -4656,9 +4656,9 @@
     "average_credits": 1500,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": { "police_cars": 4, "k9": 1 },
     "chances": {},
@@ -10925,9 +10925,9 @@
     "average_credits": 1000,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": { "police_cars": 4 },
     "chances": { "patient_transport": 30 },
@@ -11750,9 +11750,9 @@
     "average_credits": 800,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": { "police_cars": 3, "k9": 1 },
     "chances": {},
@@ -11774,9 +11774,9 @@
     "average_credits": 800,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": { "police_cars": 3, "k9": 1 },
     "chances": {},
@@ -11798,9 +11798,9 @@
     "average_credits": 800,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": { "police_cars": 3, "k9": 1 },
     "chances": {},
@@ -14070,12 +14070,12 @@
     ],
     "requirements": { "police_cars": 1 },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
-    "prerequisites": { "main_building": 0, "police_stations": 1 },
+    "additional": { "filter_id": "police_station_missions" },
+    "prerequisites": { "main_building": 5, "police_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 344,
     "additive_overlays": "",
-    "mission_categories": ["fire"]
+    "mission_categories": ["police"]
   },
   {
     "id": "345",
@@ -14091,12 +14091,12 @@
     ],
     "requirements": { "police_cars": 1 },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
-    "prerequisites": { "main_building": 0, "police_stations": 1 },
+    "additional": { "filter_id": "police_station_missions" },
+    "prerequisites": { "main_building": 5, "police_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 345,
     "additive_overlays": "",
-    "mission_categories": ["fire"]
+    "mission_categories": ["police"]
   },
   {
     "id": "346",
@@ -14112,12 +14112,12 @@
     ],
     "requirements": { "police_cars": 1 },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
-    "prerequisites": { "main_building": 0, "police_stations": 1 },
+    "additional": { "filter_id": "police_station_missions" },
+    "prerequisites": { "main_building": 5, "police_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 346,
     "additive_overlays": "",
-    "mission_categories": ["fire"]
+    "mission_categories": ["police"]
   },
   {
     "id": "347",
@@ -14135,12 +14135,12 @@
     ],
     "requirements": { "police_cars": 1 },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
-    "prerequisites": { "main_building": 0, "police_stations": 1 },
+    "additional": { "filter_id": "police_station_missions" },
+    "prerequisites": { "main_building": 5, "police_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 347,
     "additive_overlays": "",
-    "mission_categories": ["fire"]
+    "mission_categories": ["police"]
   },
   {
     "id": "348",
@@ -23868,8 +23868,9 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "patient_us_code_possible": ["26-A-11"],
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["General Internal"],
       "patient_specializations": "General Internal"
@@ -23899,8 +23900,9 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "patient_us_code_possible": ["26-A-5", "26-B-1", "26-A-6"],
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Cardiology"],
       "patient_specializations": "Cardiology"
@@ -23930,8 +23932,9 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "patient_us_code_possible": ["9-E-2"],
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Cardiology"],
       "patient_specializations": "Cardiology"
@@ -23961,8 +23964,9 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "patient_us_code_possible": ["9-E-2"],
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Cardiology"],
       "patient_specializations": "Cardiology"
@@ -23995,8 +23999,9 @@
       "possible_patient": 8,
       "filter_id": "firehouse_missions",
       "patient_us_code_possible": ["7-C-1"],
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["General Internal"],
       "patient_specializations": "General Internal"
@@ -24030,8 +24035,9 @@
       "possible_patient_min": 2,
       "filter_id": "firehouse_missions",
       "patient_us_code_possible": ["7-C-1"],
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["General Internal"],
       "patient_specializations": "General Internal"
@@ -24062,8 +24068,9 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
     },
     "prerequisites": { "main_building": 5, "police_stations": 2 },
     "overlay_index": null,
@@ -24087,8 +24094,9 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
     },
     "prerequisites": { "main_building": 5, "police_stations": 1 },
     "overlay_index": null,
@@ -24112,8 +24120,9 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
     },
     "prerequisites": { "main_building": 5, "police_stations": 2 },
     "overlay_index": null,
@@ -26562,9 +26571,9 @@
     "average_credits": 400,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": { "police_cars": 1 },
     "chances": {},
@@ -31319,9 +31328,9 @@
     "average_credits": 1200,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": { "battalion_chief_vehicles": 2, "police_cars": 3 },
     "chances": { "patient_transport": 80 },
@@ -37836,6 +37845,535 @@
     },
     "overlay_index": null,
     "base_mission_id": 826,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "827",
+    "name": "Burst Tire - Aircraft",
+    "place": "Small Airport (Runway)\nLarge Airport (Runway)",
+    "place_array": ["Small Airport (Runway)", "Large Airport (Runway)"],
+    "average_credits": 750,
+    "generated_by": "",
+    "icons": [
+      "/images/planecrash_gruen.png",
+      "/images/planecrash_gelb.png",
+      "/images/planecrash_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 1,
+      "battalion_chief_vehicles": 1,
+      "arff": 6
+    },
+    "chances": { "patient_transport": 50, "helicopter": 10 },
+    "additional": {
+      "possible_patient": 4,
+      "possible_patient_min": 0,
+      "filter_id": "firehouse_missions",
+      "patient_us_code_possible": ["30-B-1", "30-B-2", "30-D-5"],
+      "patient_allow_first_responder_chance": 10,
+      "patient_specialization_ids": [4],
+      "patient_specialization_captions": ["Traumatology"],
+      "patient_specializations": "Traumatology"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 1,
+      "airport": 1,
+      "fire_stations": 6
+    },
+    "overlay_index": null,
+    "base_mission_id": 827,
+    "additive_overlays": "",
+    "mission_categories": ["airport"]
+  },
+  {
+    "id": "828",
+    "name": "Sports Stadium Collapse",
+    "place": "Stadium",
+    "place_array": ["Stadium"],
+    "average_credits": 45000,
+    "generated_by": "",
+    "icons": [
+      "/images/blast_gruen.png",
+      "/images/blast_gelb.png",
+      "/images/blast_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 40,
+      "battalion_chief_vehicles": 10,
+      "mobile_command_vehicles": 2,
+      "platform_trucks": 10,
+      "heavy_rescue_vehicles": 20,
+      "mobile_air_vehicles": 4,
+      "police_cars": 15,
+      "k9": 4,
+      "sheriff": 4
+    },
+    "chances": { "patient_transport": 30, "helicopter": 50 },
+    "additional": {
+      "possible_patient": 250,
+      "possible_patient_min": 75,
+      "filter_id": "firehouse_missions",
+      "patient_us_code_possible": ["22-D-3M"],
+      "patient_allow_first_responder_chance": 10,
+      "patient_specialization_ids": [4],
+      "patient_specialization_captions": ["Traumatology"],
+      "patient_specializations": "Traumatology"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 30,
+      "police_stations": 10,
+      "fire_stations": 50
+    },
+    "overlay_index": null,
+    "base_mission_id": 828,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "829",
+    "name": "College Sports Stand Collapse",
+    "place": "Stadium",
+    "place_array": ["Stadium"],
+    "average_credits": 35000,
+    "generated_by": "",
+    "icons": [
+      "/images/blast_gruen.png",
+      "/images/blast_gelb.png",
+      "/images/blast_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 35,
+      "battalion_chief_vehicles": 5,
+      "mobile_command_vehicles": 2,
+      "platform_trucks": 10,
+      "heavy_rescue_vehicles": 20,
+      "mobile_air_vehicles": 3,
+      "police_cars": 10,
+      "k9": 2,
+      "sheriff": 3
+    },
+    "chances": { "patient_transport": 30, "helicopter": 50 },
+    "additional": {
+      "possible_patient": 100,
+      "possible_patient_min": 50,
+      "filter_id": "firehouse_missions",
+      "patient_us_code_possible": ["22-D-3M"],
+      "patient_allow_first_responder_chance": 10,
+      "patient_specialization_ids": [4],
+      "patient_specialization_captions": ["Traumatology"],
+      "patient_specializations": "Traumatology"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 25,
+      "police_stations": 10,
+      "fire_stations": 30
+    },
+    "overlay_index": null,
+    "base_mission_id": 829,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "830",
+    "name": "Restaurant Food Theft",
+    "place": "Bar\nDiscotheque\nFast Food Restaurant\nHotel\nMall\nRestaurant",
+    "place_array": [
+      "Bar",
+      "Discotheque",
+      "Fast Food Restaurant",
+      "Hotel",
+      "Mall",
+      "Restaurant"
+    ],
+    "average_credits": 1250,
+    "generated_by": "",
+    "icons": [
+      "/images/theft_gruen.png",
+      "/images/theft_gelb.png",
+      "/images/theft_rot.png"
+    ],
+    "requirements": { "police_cars": 2 },
+    "chances": { "patient_transport": 75 },
+    "additional": {
+      "possible_patient": 2,
+      "possible_patient_min": 0,
+      "min_possible_prisoners": 1,
+      "max_possible_prisoners": 4,
+      "filter_id": "police_station_missions",
+      "patient_us_code_possible": [
+        "30-D-1",
+        "30-D-2",
+        "30-D-3",
+        "30-B-1",
+        "30-B-2",
+        "30-A-1"
+      ],
+      "patient_allow_first_responder_chance": 50,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["General Internal"],
+      "patient_specializations": "General Internal"
+    },
+    "prerequisites": {
+      "main_building": 5,
+      "rescue_stations": 1,
+      "police_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 830,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "831",
+    "name": "Accident when baking valentine dinner",
+    "place": "",
+    "place_array": [],
+    "average_credits": 800,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 831,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "832",
+    "name": "Burning Valentine Bouquet",
+    "place": "",
+    "place_array": [],
+    "average_credits": 800,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 832,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "833",
+    "name": "Fire from candle light dinner",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [533],
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 833,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "834",
+    "name": "Traffic Light Monitoring",
+    "place": "Tunnel",
+    "place_array": ["Tunnel"],
+    "average_credits": 300,
+    "generated_by": "",
+    "icons": [
+      "/images/zoom_gruen.png",
+      "/images/zoom_gelb.png",
+      "/images/zoom_rot.png"
+    ],
+    "requirements": { "police_cars": 1 },
+    "chances": {},
+    "additional": { "filter_id": "police_station_missions" },
+    "prerequisites": { "main_building": 5, "police_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 834,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "835",
+    "name": "Tanker Truck Fire",
+    "place": "",
+    "place_array": [],
+    "average_credits": 4500,
+    "generated_by": "",
+    "icons": [
+      "/images/caraccident_gruen.png",
+      "/images/caraccident_gelb.png",
+      "/images/caraccident_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 6,
+      "battalion_chief_vehicles": 2,
+      "heavy_rescue_vehicles": 1,
+      "hazmat_vehicles": 1
+    },
+    "chances": { "patient_transport": 50, "helicopter": 25 },
+    "additional": {
+      "possible_patient": 3,
+      "possible_patient_min": 0,
+      "expansion_missions_ids": [836],
+      "filter_id": "firehouse_missions",
+      "patient_us_code_possible": [
+        "7-A-1",
+        "7-A-3",
+        "7-C-2",
+        "7-C-3",
+        "7-C-4",
+        "7-D-2",
+        "7-D-3",
+        "7-D-4",
+        "7-D-5"
+      ],
+      "patient_allow_first_responder_chance": 10,
+      "patient_specialization_ids": [4],
+      "patient_specialization_captions": ["Traumatology"],
+      "patient_specializations": "Traumatology"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 1,
+      "fire_stations": 11
+    },
+    "overlay_index": null,
+    "base_mission_id": 835,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "836",
+    "name": "Tanker Truck Explosion (Small)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 9000,
+    "generated_by": "",
+    "icons": [
+      "/images/blast_gruen.png",
+      "/images/blast_gelb.png",
+      "/images/blast_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 8,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "heavy_rescue_vehicles": 1,
+      "hazmat_vehicles": 2,
+      "police_cars": 2
+    },
+    "chances": { "patient_transport": 50, "helicopter": 40 },
+    "additional": {
+      "possible_patient": 5,
+      "possible_patient_min": 0,
+      "expansion_missions_ids": [837],
+      "filter_id": "firehouse_missions",
+      "patient_us_code_possible": [
+        "7-B-1E",
+        "7-C-2E",
+        "7-C-4E",
+        "7-D-2E",
+        "7-D-3E",
+        "7-D-4E",
+        "7-D-5E"
+      ],
+      "patient_allow_first_responder_chance": 10,
+      "patient_specialization_ids": [4],
+      "patient_specialization_captions": ["Traumatology"],
+      "patient_specializations": "Traumatology"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 1,
+      "police_stations": 1,
+      "fire_stations": 13
+    },
+    "overlay_index": null,
+    "base_mission_id": 836,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "837",
+    "name": "Tanker Truck Explosion (Medium)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 13500,
+    "generated_by": "",
+    "icons": [
+      "/images/blast_gruen.png",
+      "/images/blast_gelb.png",
+      "/images/blast_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 10,
+      "battalion_chief_vehicles": 4,
+      "mobile_command_vehicles": 1,
+      "heavy_rescue_vehicles": 2,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 2,
+      "police_cars": 4,
+      "personnel_educations": { "gw_gefahrgut": 8 }
+    },
+    "chances": { "patient_transport": 50, "helicopter": 40 },
+    "additional": {
+      "possible_patient": 10,
+      "possible_patient_min": 2,
+      "expansion_missions_ids": [838],
+      "followup_missions_ids": [211],
+      "filter_id": "firehouse_missions",
+      "patient_us_code_possible": ["7-D-1E"],
+      "patient_allow_first_responder_chance": 10,
+      "patient_specialization_ids": [4],
+      "patient_specialization_captions": ["Traumatology"],
+      "patient_specializations": "Traumatology",
+      "personnel_educations": { "HazMat": 8 }
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 2,
+      "police_stations": 3,
+      "fire_stations": 16
+    },
+    "overlay_index": null,
+    "base_mission_id": 837,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "838",
+    "name": "Tanker Truck Explosion (Large)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 18000,
+    "generated_by": "",
+    "icons": [
+      "/images/blast_gruen.png",
+      "/images/blast_gelb.png",
+      "/images/blast_rot.png"
+    ],
+    "requirements": {
+      "foam_needed": 7000,
+      "firetrucks": 15,
+      "battalion_chief_vehicles": 6,
+      "mobile_command_vehicles": 1,
+      "heavy_rescue_vehicles": 4,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 3,
+      "police_cars": 6,
+      "personnel_educations": { "gw_gefahrgut": 12 },
+      "sheriff": 1,
+      "foam": 1
+    },
+    "chances": { "patient_transport": 75, "helicopter": 40 },
+    "additional": {
+      "possible_patient": 20,
+      "possible_patient_min": 5,
+      "expansion_missions_ids": [839],
+      "followup_missions_ids": [211],
+      "filter_id": "firehouse_missions",
+      "patient_us_code_possible": ["7-D-1E"],
+      "patient_allow_first_responder_chance": 10,
+      "patient_specialization_ids": [4],
+      "patient_specialization_captions": ["Traumatology"],
+      "patient_specializations": "Traumatology",
+      "personnel_educations": { "HazMat": 12 }
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 10,
+      "police_stations": 7,
+      "fire_support_count": 1,
+      "fire_stations": 20
+    },
+    "overlay_index": null,
+    "base_mission_id": 838,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "839",
+    "name": "Tanker Truck Explosion (Major)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 26000,
+    "generated_by": "",
+    "icons": [
+      "/images/blast_gruen.png",
+      "/images/blast_gelb.png",
+      "/images/blast_rot.png"
+    ],
+    "requirements": {
+      "foam_needed": 14000,
+      "firetrucks": 20,
+      "battalion_chief_vehicles": 8,
+      "mobile_command_vehicles": 2,
+      "heavy_rescue_vehicles": 6,
+      "mobile_air_vehicles": 2,
+      "hazmat_vehicles": 4,
+      "police_cars": 12,
+      "personnel_educations": { "gw_gefahrgut": 15 },
+      "sheriff": 1,
+      "foam": 2
+    },
+    "chances": { "patient_transport": 80, "helicopter": 40 },
+    "additional": {
+      "possible_patient": 30,
+      "possible_patient_min": 10,
+      "followup_missions_ids": [211, 728],
+      "filter_id": "firehouse_missions",
+      "patient_us_code_possible": ["7-D-1E"],
+      "patient_allow_first_responder_chance": 10,
+      "subsequent_missions_ids": [727],
+      "patient_specialization_ids": [4],
+      "patient_specialization_captions": ["Traumatology"],
+      "patient_specializations": "Traumatology",
+      "personnel_educations": { "HazMat": 15 }
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 20,
+      "police_stations": 10,
+      "fire_support_count": 2,
+      "fire_stations": 25
+    },
+    "overlay_index": null,
+    "base_mission_id": 839,
     "additive_overlays": "",
     "mission_categories": ["fire"]
   }
