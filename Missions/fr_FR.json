@@ -8500,9 +8500,9 @@
     "average_credits": 1200,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": { "battalion_chief_vehicles": 2, "police_cars": 3 },
     "chances": { "patient_transport": 80 },
@@ -9640,8 +9640,9 @@
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne général"],
       "patient_specializations": "Interne général"
@@ -9670,8 +9671,9 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne général"],
       "patient_specializations": "Interne général"
@@ -9700,8 +9702,9 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Cardiologie"],
       "patient_specializations": "Cardiologie"
@@ -9730,8 +9733,9 @@
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Cardiologie"],
       "patient_specializations": "Cardiologie"
@@ -9763,8 +9767,9 @@
     "additional": {
       "possible_patient": 8,
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne général"],
       "patient_specializations": "Interne général"
@@ -9797,8 +9802,9 @@
       "possible_patient": 2,
       "possible_patient_min": 2,
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne général"],
       "patient_specializations": "Interne général"
@@ -9829,8 +9835,9 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 2 },
     "overlay_index": null,
@@ -9854,8 +9861,9 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -9879,8 +9887,9 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 2 },
     "overlay_index": null,
@@ -13342,8 +13351,9 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-11T10:00:00Z",
-      "date_end": "2022-02-12T10:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-11T10:00:00Z",
+      "date_end": "2023-02-12T10:00:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -13367,8 +13377,9 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-11T10:00:00Z",
-      "date_end": "2022-02-12T10:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-11T10:00:00Z",
+      "date_end": "2023-02-12T10:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -13393,8 +13404,9 @@
     "additional": {
       "followup_missions_ids": [407],
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-11T10:00:00Z",
-      "date_end": "2022-02-12T10:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-11T10:00:00Z",
+      "date_end": "2023-02-12T10:00:00Z"
     },
     "prerequisites": {
       "main_building": 0,
@@ -13430,8 +13442,9 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-11T10:00:00Z",
-      "date_end": "2022-02-12T10:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-11T10:00:00Z",
+      "date_end": "2023-02-12T10:00:00Z"
     },
     "prerequisites": {
       "main_building": 0,
@@ -13471,8 +13484,9 @@
     "additional": {
       "followup_missions_ids": [407],
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-11T10:00:00Z",
-      "date_end": "2022-02-12T10:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-11T10:00:00Z",
+      "date_end": "2023-02-12T10:00:00Z"
     },
     "prerequisites": {
       "main_building": 0,
@@ -13507,8 +13521,9 @@
     "additional": {
       "possible_patient": 2,
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-25T10:00:00Z",
-      "date_end": "2022-03-01T23:59:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-17T10:00:00Z",
+      "date_end": "2023-02-22T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne général"],
       "patient_specializations": "Interne général"
@@ -13542,8 +13557,9 @@
       "possible_patient": 6,
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-25T10:00:00Z",
-      "date_end": "2022-03-01T23:59:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-17T10:00:00Z",
+      "date_end": "2023-02-22T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne général"],
       "patient_specializations": "Interne général"
@@ -13576,8 +13592,9 @@
       "possible_patient": 1,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-25T10:00:00Z",
-      "date_end": "2022-03-01T23:59:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-17T10:00:00Z",
+      "date_end": "2023-02-22T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne général"],
       "patient_specializations": "Interne général"
@@ -13610,8 +13627,9 @@
       "possible_patient": 2,
       "max_possible_prisoners": 3,
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-25T10:00:00Z",
-      "date_end": "2022-03-01T23:59:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-17T10:00:00Z",
+      "date_end": "2023-02-22T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne général"],
       "patient_specializations": "Interne général"
@@ -13642,8 +13660,9 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-25T10:00:00Z",
-      "date_end": "2022-03-01T23:59:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-17T10:00:00Z",
+      "date_end": "2023-02-22T23:00:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -13669,8 +13688,9 @@
       "possible_patient": 3,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-02-25T10:00:00Z",
-      "date_end": "2022-03-01T23:59:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-17T10:00:00Z",
+      "date_end": "2023-02-22T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne général"],
       "patient_specializations": "Interne général"
@@ -13704,8 +13724,9 @@
       "duration": 3600,
       "guard_mission": true,
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-25T10:00:00Z",
-      "date_end": "2022-03-01T23:59:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-17T10:00:00Z",
+      "date_end": "2023-02-22T23:00:00Z"
     },
     "prerequisites": {
       "main_building": 0,
@@ -13734,8 +13755,9 @@
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-25T10:00:00Z",
-      "date_end": "2022-03-01T23:59:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-17T10:00:00Z",
+      "date_end": "2023-02-22T23:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -13759,8 +13781,9 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-25T10:00:00Z",
-      "date_end": "2022-03-01T23:59:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-17T10:00:00Z",
+      "date_end": "2023-02-22T23:00:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -13786,8 +13809,9 @@
       "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-25T10:00:00Z",
-      "date_end": "2022-03-01T23:59:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-17T10:00:00Z",
+      "date_end": "2023-02-22T23:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -16331,7 +16355,7 @@
     "prerequisites": {
       "main_building": 23,
       "rescue_stations": 1,
-      "coastal_rescue_small_count": 1
+      "coastal_rescue_count": 1
     },
     "overlay_index": null,
     "base_mission_id": 489,
@@ -16400,7 +16424,7 @@
     "prerequisites": {
       "main_building": 23,
       "rescue_stations": 2,
-      "coastal_rescue_small_count": 1
+      "coastal_rescue_count": 1
     },
     "overlay_index": null,
     "base_mission_id": 491,
@@ -16476,7 +16500,7 @@
     "prerequisites": {
       "main_building": 23,
       "rescue_stations": 2,
-      "coastal_rescue_small_count": 1,
+      "coastal_rescue_count": 1,
       "coastal_helicopter_count": 1
     },
     "overlay_index": null,
@@ -17425,5 +17449,411 @@
     "base_mission_id": 519,
     "additive_overlays": "",
     "mission_categories": ["police"]
+  },
+  {
+    "id": "520",
+    "name": "Accident de train TMD",
+    "place": "",
+    "place_array": [],
+    "average_credits": 7500,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 3,
+      "battalion_chief_vehicles": 3,
+      "mobile_command_vehicles": 1,
+      "heavy_rescue_vehicles": 1,
+      "water_tankers": 1,
+      "hazmat_vehicles": 1,
+      "police_cars": 3,
+      "hose": 1,
+      "foam": 1
+    },
+    "chances": { "patient_transport": 50 },
+    "additional": {
+      "possible_patient": 2,
+      "possible_patient_min": 1,
+      "filter_id": "firehouse_missions",
+      "patient_at_end_of_mission": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne général"],
+      "patient_specializations": "Interne général"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 4,
+      "police_stations": 5,
+      "fire_support_count": 1,
+      "fire_stations": 15
+    },
+    "overlay_index": null,
+    "base_mission_id": 520,
+    "additive_overlays": "",
+    "mission_categories": ["fire", "fire_support_specialization"]
+  },
+  {
+    "id": "521",
+    "name": "Explosion d'un entrepôt de feux d'artifice",
+    "place": "Entrepôt",
+    "place_array": ["Entrepôt"],
+    "average_credits": 16000,
+    "generated_by": "",
+    "icons": [
+      "/images/blast_gruen.png",
+      "/images/blast_gelb.png",
+      "/images/blast_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 10,
+      "battalion_chief_vehicles": 5,
+      "mobile_command_vehicles": 1,
+      "platform_trucks": 2,
+      "water_tankers": 2,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "police_cars": 6,
+      "hose": 2,
+      "pump": 1,
+      "foam": 2
+    },
+    "chances": { "patient_transport": 50 },
+    "additional": {
+      "possible_patient": 10,
+      "possible_patient_min": 5,
+      "filter_id": "firehouse_missions",
+      "patient_at_end_of_mission": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne général"],
+      "patient_specializations": "Interne général"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 5,
+      "police_stations": 5,
+      "fire_support_count": 2,
+      "fire_stations": 13
+    },
+    "overlay_index": null,
+    "base_mission_id": 521,
+    "additive_overlays": "",
+    "mission_categories": ["fire", "fire_support_specialization"]
+  },
+  {
+    "id": "522",
+    "name": "Incendie de casse automobile",
+    "place": "Casse",
+    "place_array": ["Casse"],
+    "average_credits": 10000,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 5,
+      "brush_truck": 1,
+      "battalion_chief_vehicles": 5,
+      "mobile_command_vehicles": 1,
+      "water_tankers": 2,
+      "hazmat_vehicles": 1,
+      "police_cars": 6,
+      "hose": 2,
+      "foam": 2
+    },
+    "chances": {},
+    "additional": { "filter_id": "firehouse_missions" },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 5,
+      "fire_support_count": 2,
+      "fire_stations": 13
+    },
+    "overlay_index": null,
+    "base_mission_id": 522,
+    "additive_overlays": "",
+    "mission_categories": ["fire", "fire_support_specialization"]
+  },
+  {
+    "id": "523",
+    "name": "Déclenchement d'alarme incendie dans une cathédrale",
+    "place": "Lieu de culte",
+    "place_array": ["Lieu de culte"],
+    "average_credits": 2000,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 2,
+      "battalion_chief_vehicles": 1,
+      "platform_trucks": 1,
+      "police_cars": 2
+    },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [524],
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 2,
+      "fire_stations": 5
+    },
+    "overlay_index": null,
+    "base_mission_id": 523,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "524",
+    "name": "Feu de cathédrale",
+    "place": "Lieu de culte",
+    "place_array": ["Lieu de culte"],
+    "average_credits": 20000,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 12,
+      "battalion_chief_vehicles": 3,
+      "mobile_command_vehicles": 2,
+      "platform_trucks": 5,
+      "water_tankers": 2,
+      "mobile_air_vehicles": 2,
+      "hazmat_vehicles": 1,
+      "height_rescue_units": 2,
+      "police_cars": 10,
+      "thw_gkw": 1,
+      "kdow_orgl": 1,
+      "hose": 2,
+      "pump": 1
+    },
+    "chances": { "patient_transport": 50, "patient_critical_care": 50 },
+    "additional": {
+      "possible_patient": 5,
+      "possible_patient_min": 1,
+      "height_rescue_personnel": 10,
+      "filter_id": "firehouse_missions",
+      "patient_allow_first_responder_chance": 50,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne général"],
+      "patient_specializations": "Interne général"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 6,
+      "police_stations": 5,
+      "fire_support_count": 1,
+      "fire_stations": 13
+    },
+    "overlay_index": null,
+    "base_mission_id": 524,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "525",
+    "name": "Évacuation de Zone À Défendre",
+    "place": "",
+    "place_array": [],
+    "average_credits": 25000,
+    "generated_by": "",
+    "icons": [
+      "/images/baseball_gruen.png",
+      "/images/baseball_gelb.png",
+      "/images/baseball_rot.png"
+    ],
+    "requirements": {
+      "police_helicopters": 1,
+      "k9": 2,
+      "wasserwerfer": 2,
+      "detention_unit": 2,
+      "riot_police": 20,
+      "riot_police_command": 2,
+      "riot_police_equipment": 2,
+      "riot_police_trailer": 5,
+      "riot_police_maintenance": 2
+    },
+    "chances": { "patient_transport": 50, "patient_critical_care": 50 },
+    "additional": {
+      "possible_patient": 15,
+      "possible_patient_min": 10,
+      "min_possible_prisoners": 5,
+      "max_possible_prisoners": 10,
+      "filter_id": "riot_police_missions",
+      "patient_at_end_of_mission": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne général"],
+      "patient_specializations": "Interne général"
+    },
+    "prerequisites": {
+      "main_building": 11,
+      "rescue_stations": 5,
+      "police_helicopter_stations": 1,
+      "bereitschaftspolizei": 3,
+      "water_cannon": 2
+    },
+    "overlay_index": null,
+    "base_mission_id": 525,
+    "additive_overlays": "",
+    "mission_categories": ["riot_police"]
+  },
+  {
+    "id": "526",
+    "name": "Attaque de transporteur de fonds",
+    "place": "Banque",
+    "place_array": ["Banque"],
+    "average_credits": 2000,
+    "generated_by": "",
+    "icons": [
+      "/images/blast_gruen.png",
+      "/images/blast_gelb.png",
+      "/images/blast_rot.png"
+    ],
+    "requirements": { "police_helicopters": 1, "police_cars": 5 },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [215],
+      "min_possible_prisoners": 1,
+      "max_possible_prisoners": 2,
+      "filter_id": "police_station_missions"
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "police_stations": 5,
+      "police_helicopter_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 526,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "527",
+    "name": "Exercice d'incendie industriel",
+    "place": "",
+    "place_array": [],
+    "average_credits": 5000,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 10,
+      "battalion_chief_vehicles": 3,
+      "mobile_command_vehicles": 1,
+      "platform_trucks": 2,
+      "heavy_rescue_vehicles": 1,
+      "water_tankers": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "police_cars": 2,
+      "hose": 1,
+      "foam": 1
+    },
+    "chances": {},
+    "additional": { "filter_id": "firehouse_missions" },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 5,
+      "police_stations": 1,
+      "fire_support_count": 2,
+      "fire_stations": 13
+    },
+    "overlay_index": null,
+    "base_mission_id": 527,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "529",
+    "name": "Accident lors de la cuisson du dîner de la Saint-Valentin",
+    "place": "",
+    "place_array": [],
+    "average_credits": 800,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 529,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "530",
+    "name": "Bouquet de la Saint-Valentin en feu",
+    "place": "",
+    "place_array": [],
+    "average_credits": 800,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 530,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "531",
+    "name": "Incendie lors d'un dîner aux chandelles",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [303],
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 531,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
   }
 ]
