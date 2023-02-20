@@ -931,8 +931,8 @@
     "additional": {
       "possible_patient": 1,
       "possible_patient_min": 1,
+      "expansion_missions_ids": [500],
       "filter_id": "ambulance_station_missions",
-      "subsequent_missions_ids": [500],
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Kardiologia"],
       "patient_specializations": "Kardiologia"
@@ -960,8 +960,8 @@
     "additional": {
       "possible_patient": 1,
       "possible_patient_min": 1,
+      "expansion_missions_ids": [500],
       "filter_id": "ambulance_station_missions",
-      "subsequent_missions_ids": [500],
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Yleislääkäri"],
       "patient_specializations": "Yleislääkäri"
@@ -1047,10 +1047,10 @@
     "additional": {
       "possible_patient": 1,
       "possible_patient_min": 1,
+      "expansion_missions_ids": [500],
       "filter_id": "ambulance_station_missions",
       "allow_ktw_instead_of_rtw": true,
       "patient_allow_first_responder_chance": 50,
-      "subsequent_missions_ids": [500],
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
       "patient_specializations": "Traumatologia"
@@ -1863,7 +1863,7 @@
     "additional": {
       "possible_patient": 6,
       "filter_id": "firehouse_missions",
-      "subsequent_missions_ids": [382, 452, 500],
+      "subsequent_missions_ids": [382, 452],
       "fire_alarm_system_possible": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Yleislääkäri"],
@@ -1906,7 +1906,7 @@
     "additional": {
       "possible_patient": 6,
       "filter_id": "firehouse_missions",
-      "subsequent_missions_ids": [382, 452, 500],
+      "subsequent_missions_ids": [382, 452],
       "fire_alarm_system_possible": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Yleislääkäri"],
@@ -1979,7 +1979,7 @@
     "additional": {
       "possible_patient": 6,
       "filter_id": "firehouse_missions",
-      "subsequent_missions_ids": [382, 452, 500],
+      "subsequent_missions_ids": [382, 452],
       "fire_alarm_system_possible": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Yleislääkäri"],
@@ -2022,7 +2022,7 @@
     "additional": {
       "possible_patient": 6,
       "filter_id": "firehouse_missions",
-      "subsequent_missions_ids": [382, 452, 500],
+      "subsequent_missions_ids": [382, 452],
       "fire_alarm_system_possible": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Yleislääkäri"],
@@ -2267,8 +2267,8 @@
     "additional": {
       "possible_patient": 1,
       "possible_patient_min": 1,
+      "expansion_missions_ids": [500],
       "filter_id": "ambulance_station_missions",
-      "subsequent_missions_ids": [500],
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Yleislääkäri"],
       "patient_specializations": "Yleislääkäri"
@@ -4145,15 +4145,16 @@
     "average_credits": null,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": {},
     "chances": { "patient_transport": 30 },
     "additional": {
       "possible_patient": 1,
       "possible_patient_min": 1,
+      "expansion_missions_ids": [500],
       "filter_id": "ambulance_station_missions",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Yleislääkäri"],
@@ -4173,9 +4174,9 @@
     "average_credits": null,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": { "police_cars": 1 },
     "chances": { "patient_transport": 25 },
@@ -4401,9 +4402,9 @@
     "average_credits": 800,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": { "police_cars": 3 },
     "chances": {},
@@ -4427,9 +4428,9 @@
     "average_credits": 800,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": { "police_cars": 3 },
     "chances": {},
@@ -4453,9 +4454,9 @@
     "average_credits": 800,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": { "police_cars": 3 },
     "chances": {},
@@ -4683,7 +4684,6 @@
     "chances": { "patient_transport": 30 },
     "additional": {
       "possible_patient": 5,
-      "expansion_missions_ids": [471],
       "followup_missions_ids": [312],
       "max_possible_prisoners": 4,
       "filter_id": "police_station_missions",
@@ -4710,9 +4710,9 @@
     "average_credits": 1500,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": { "police_cars": 4, "k9": 1 },
     "chances": {},
@@ -5032,9 +5032,9 @@
     "average_credits": 800,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": { "police_cars": 1 },
     "chances": {},
@@ -6936,8 +6936,9 @@
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Yleislääkäri"],
       "patient_specializations": "Yleislääkäri"
@@ -6966,8 +6967,9 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Yleislääkäri"],
       "patient_specializations": "Yleislääkäri"
@@ -6996,8 +6998,9 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Kardiologia"],
       "patient_specializations": "Kardiologia"
@@ -7026,8 +7029,9 @@
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Kardiologia"],
       "patient_specializations": "Kardiologia"
@@ -7060,8 +7064,9 @@
     "additional": {
       "possible_patient": 8,
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Yleislääkäri"],
       "patient_specializations": "Yleislääkäri"
@@ -7094,8 +7099,9 @@
       "possible_patient": 2,
       "possible_patient_min": 2,
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Yleislääkäri"],
       "patient_specializations": "Yleislääkäri"
@@ -7126,8 +7132,9 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 2 },
     "overlay_index": null,
@@ -7151,8 +7158,9 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -7176,8 +7184,9 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 2 },
     "overlay_index": null,
@@ -8203,9 +8212,9 @@
     "average_credits": 1200,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": { "battalion_chief_vehicles": 2, "police_cars": 3 },
     "chances": { "patient_transport": 80 },
@@ -8682,8 +8691,8 @@
     "additional": {
       "possible_patient": 1,
       "possible_patient_min": 1,
+      "expansion_missions_ids": [500],
       "filter_id": "ambulance_station_missions",
-      "subsequent_missions_ids": [500],
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Kardiologia"],
       "patient_specializations": "Kardiologia"
@@ -12154,8 +12163,9 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-11T10:00:00Z",
-      "date_end": "2022-02-12T10:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-11T10:00:00Z",
+      "date_end": "2023-02-12T10:00:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -12179,8 +12189,9 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-11T10:00:00Z",
-      "date_end": "2022-02-12T10:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-11T10:00:00Z",
+      "date_end": "2023-02-12T10:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -12206,8 +12217,9 @@
       "followup_missions_ids": [388],
       "filter_id": "firehouse_missions",
       "allow_ktw_instead_of_rtw": true,
-      "date_start": "2022-02-11T10:00:00Z",
-      "date_end": "2022-02-12T10:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-11T10:00:00Z",
+      "date_end": "2023-02-12T10:00:00Z"
     },
     "prerequisites": {
       "main_building": 0,
@@ -12244,8 +12256,9 @@
     "additional": {
       "filter_id": "firehouse_missions",
       "allow_ktw_instead_of_rtw": true,
-      "date_start": "2022-02-11T10:00:00Z",
-      "date_end": "2022-02-12T10:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-11T10:00:00Z",
+      "date_end": "2023-02-12T10:00:00Z"
     },
     "prerequisites": {
       "main_building": 0,
@@ -12285,8 +12298,9 @@
     "additional": {
       "followup_missions_ids": [388],
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-11T10:00:00Z",
-      "date_end": "2022-02-12T10:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-11T10:00:00Z",
+      "date_end": "2023-02-12T10:00:00Z"
     },
     "prerequisites": {
       "main_building": 0,
@@ -12326,7 +12340,6 @@
     },
     "additional": {
       "possible_patient": 2,
-      "expansion_missions_ids": [471],
       "followup_missions_ids": [138, 312],
       "min_possible_prisoners": 1,
       "max_possible_prisoners": 3,
@@ -13026,9 +13039,9 @@
     "average_credits": 500,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": {},
     "chances": { "patient_transport": 66 },
@@ -14302,9 +14315,9 @@
     "average_credits": 1800,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": {
       "police_cars": 3,
@@ -15465,7 +15478,7 @@
   },
   {
     "id": "481",
-    "name": "391 Laskuvarjohyppyonnettomuus",
+    "name": "391 Nousuvarjoliito-onnettomuus",
     "place": "",
     "place_array": [],
     "average_credits": 2500,
@@ -15992,7 +16005,7 @@
   },
   {
     "id": "497",
-    "name": "12 Rähinä jäätyneellä järvellä",
+    "name": "35 Häiriökäyttäytyminen jäätyneellä järvellä",
     "place": "",
     "place_array": [],
     "average_credits": 650,
@@ -16024,7 +16037,7 @@
     "name": "Jääpelaaja liukastui",
     "place": "",
     "place_array": [],
-    "average_credits": null,
+    "average_credits": 650,
     "generated_by": "",
     "icons": [
       "/images/snowy_gruen.png",
@@ -16051,7 +16064,7 @@
   },
   {
     "id": "499",
-    "name": "12 Lapset heittelevät lumipalloja ihmisten ja talojen päälle",
+    "name": "15 Lapset heittelevät lumipalloja ihmisten ja talojen päälle",
     "place": "",
     "place_array": [],
     "average_credits": 550,
@@ -16091,12 +16104,249 @@
     "additional": {
       "allow_rw_instead_of_lf": true,
       "average_min_fire_personnel": 4,
-      "filter_id": "firehouse_missions",
-      "subsequent_mission_only": true
+      "filter_id": "firehouse_missions"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
     "base_mission_id": 500,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "501",
+    "name": "431 Savuhavainto taajamassa",
+    "place": "",
+    "place_array": [],
+    "average_credits": 400,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [0, 14, 15, 8],
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 501,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "502",
+    "name": "471 Polttoainevuoto autosta",
+    "place": "",
+    "place_array": [],
+    "average_credits": 400,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": { "filter_id": "firehouse_missions" },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 502,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "503",
+    "name": "602 Jengiväkivaltatutkinta",
+    "place": "",
+    "place_array": [],
+    "average_credits": 800,
+    "generated_by": "",
+    "icons": [
+      "/images/zoom_gruen.png",
+      "/images/zoom_gelb.png",
+      "/images/zoom_rot.png"
+    ],
+    "requirements": { "police_cars": 3, "k9": 1, "civil_patrolcar": 1 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 4,
+      "swat_personnel": 6,
+      "average_min_police_personnel": 6,
+      "filter_id": "police_station_missions"
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "police_stations": 3,
+      "criminal_investigation_count": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 503,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "504",
+    "name": "Onnettomuus ystävänpäiväillallista leipoessa",
+    "place": "",
+    "place_array": [],
+    "average_credits": 800,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 504,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "505",
+    "name": "Palava ystävänpäivän kukkakimppu",
+    "place": "",
+    "place_array": [],
+    "average_credits": 800,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 505,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "506",
+    "name": "Kynttiläillallisen aiheuttama palo",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [222],
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 506,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "507",
+    "name": "626 Liikennevalovalvonta",
+    "place": "Liikennevaloristeys\nKeskusta-alue",
+    "place_array": ["Liikennevaloristeys", "Keskusta-alue"],
+    "average_credits": 300,
+    "generated_by": "",
+    "icons": [
+      "/images/zoom_gruen.png",
+      "/images/zoom_gelb.png",
+      "/images/zoom_rot.png"
+    ],
+    "requirements": { "police_cars": 1, "traffic_car": 1 },
+    "chances": {},
+    "additional": { "filter_id": "police_station_missions" },
+    "prerequisites": {
+      "main_building": 6,
+      "police_stations": 3,
+      "traffic_police": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 507,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "508",
+    "name": "h32 Paloharjoitus teollisuudessa",
+    "place": "Varasto\nKylmävarasto\nVoimalaitos\nTehdas\nPieni kemikaalisäiliö\nIso kemikaalisäiliö",
+    "place_array": [
+      "Varasto",
+      "Kylmävarasto",
+      "Voimalaitos",
+      "Tehdas",
+      "Pieni kemikaalisäiliö",
+      "Iso kemikaalisäiliö"
+    ],
+    "average_credits": 3000,
+    "generated_by": "",
+    "icons": [
+      "/images/clock_gruen.png",
+      "/images/clock_gelb.png",
+      "/images/clock_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": {
+      "duration_text": "45 minuuttia",
+      "duration": 2700,
+      "guard_mission": true,
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 508,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "509",
+    "name": "h32 Paloharjoitus koulussa tai toimistossa",
+    "place": "Koulu\nToimistorakennus",
+    "place_array": ["Koulu", "Toimistorakennus"],
+    "average_credits": 1000,
+    "generated_by": "",
+    "icons": [
+      "/images/clock_gruen.png",
+      "/images/clock_gelb.png",
+      "/images/clock_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": {
+      "duration_text": "30 minuuttia",
+      "duration": 1800,
+      "guard_mission": true,
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 509,
     "additive_overlays": "",
     "mission_categories": ["fire"]
   }
