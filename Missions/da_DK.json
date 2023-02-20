@@ -4672,9 +4672,9 @@
     "average_credits": 1500,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": { "police_cars": 4, "k9": 1 },
     "chances": {},
@@ -6580,9 +6580,9 @@
     "average_credits": 800,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": { "police_cars": 3, "k9": 1 },
     "chances": {},
@@ -6604,9 +6604,9 @@
     "average_credits": 800,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": { "police_cars": 3, "k9": 1 },
     "chances": {},
@@ -6628,9 +6628,9 @@
     "average_credits": 800,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": { "police_cars": 3, "k9": 1 },
     "chances": {},
@@ -9162,9 +9162,9 @@
     "average_credits": 1200,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": { "battalion_chief_vehicles": 2, "police_cars": 3 },
     "chances": { "patient_transport": 80 },
@@ -9918,8 +9918,9 @@
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Specialister i intern medicin"],
       "patient_specializations": "Specialister i intern medicin"
@@ -9948,8 +9949,9 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Specialister i intern medicin"],
       "patient_specializations": "Specialister i intern medicin"
@@ -9978,8 +9980,9 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Kardiologi"],
       "patient_specializations": "Kardiologi"
@@ -10008,8 +10011,9 @@
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Kardiologi"],
       "patient_specializations": "Kardiologi"
@@ -10041,8 +10045,9 @@
     "additional": {
       "possible_patient": 8,
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Specialister i intern medicin"],
       "patient_specializations": "Specialister i intern medicin"
@@ -10075,8 +10080,9 @@
       "possible_patient": 2,
       "possible_patient_min": 2,
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Specialister i intern medicin"],
       "patient_specializations": "Specialister i intern medicin"
@@ -10107,8 +10113,9 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 2 },
     "overlay_index": null,
@@ -10132,8 +10139,9 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -10157,8 +10165,9 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 2 },
     "overlay_index": null,
@@ -13562,8 +13571,9 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-11T10:00:00+01:00",
-      "date_end": "2022-02-11T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-02-11T10:00:00Z",
+      "date_end": "2023-02-12T10:00:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -13587,8 +13597,9 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-11T10:00:00+01:00",
-      "date_end": "2022-02-11T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-02-11T10:00:00Z",
+      "date_end": "2023-02-12T10:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -13613,8 +13624,9 @@
     "additional": {
       "followup_missions_ids": [397],
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-11T10:00:00+01:00",
-      "date_end": "2022-02-11T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-02-11T10:00:00Z",
+      "date_end": "2023-02-12T10:00:00Z"
     },
     "prerequisites": {
       "main_building": 0,
@@ -13650,8 +13662,9 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-11T10:00:00+01:00",
-      "date_end": "2022-02-11T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-02-11T10:00:00Z",
+      "date_end": "2023-02-12T10:00:00Z"
     },
     "prerequisites": {
       "main_building": 0,
@@ -13691,8 +13704,9 @@
     "additional": {
       "followup_missions_ids": [397],
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-11T10:00:00+01:00",
-      "date_end": "2022-02-11T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-02-11T10:00:00Z",
+      "date_end": "2023-02-12T10:00:00Z"
     },
     "prerequisites": {
       "main_building": 0,
@@ -13727,8 +13741,9 @@
     "additional": {
       "possible_patient": 2,
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-25T10:00:00Z",
-      "date_end": "2022-03-01T23:59:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-17T10:00:00Z",
+      "date_end": "2023-02-22T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Specialister i intern medicin"],
       "patient_specializations": "Specialister i intern medicin"
@@ -13762,8 +13777,9 @@
       "possible_patient": 6,
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-25T10:00:00Z",
-      "date_end": "2022-03-01T23:59:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-17T10:00:00Z",
+      "date_end": "2023-02-22T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Specialister i intern medicin"],
       "patient_specializations": "Specialister i intern medicin"
@@ -13796,8 +13812,9 @@
       "possible_patient": 1,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-25T10:00:00Z",
-      "date_end": "2022-03-01T23:59:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-17T10:00:00Z",
+      "date_end": "2023-02-22T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Specialister i intern medicin"],
       "patient_specializations": "Specialister i intern medicin"
@@ -13830,8 +13847,9 @@
       "possible_patient": 2,
       "max_possible_prisoners": 3,
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-25T10:00:00Z",
-      "date_end": "2022-03-01T23:59:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-17T10:00:00Z",
+      "date_end": "2023-02-22T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Specialister i intern medicin"],
       "patient_specializations": "Specialister i intern medicin"
@@ -13862,8 +13880,9 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-25T10:00:00Z",
-      "date_end": "2022-03-01T23:59:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-17T10:00:00Z",
+      "date_end": "2023-02-22T23:00:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -13889,8 +13908,9 @@
       "possible_patient": 3,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-02-25T10:00:00Z",
-      "date_end": "2022-03-01T23:59:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-17T10:00:00Z",
+      "date_end": "2023-02-22T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Specialister i intern medicin"],
       "patient_specializations": "Specialister i intern medicin"
@@ -13924,8 +13944,9 @@
       "duration": 3600,
       "guard_mission": true,
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-25T10:00:00Z",
-      "date_end": "2022-03-01T23:59:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-17T10:00:00Z",
+      "date_end": "2023-02-22T23:00:00Z"
     },
     "prerequisites": {
       "main_building": 0,
@@ -13954,8 +13975,9 @@
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-25T10:00:00Z",
-      "date_end": "2022-03-01T23:59:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-17T10:00:00Z",
+      "date_end": "2023-02-22T23:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -13979,8 +14001,9 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-25T10:00:00Z",
-      "date_end": "2022-03-01T23:59:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-17T10:00:00Z",
+      "date_end": "2023-02-22T23:00:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -14006,8 +14029,9 @@
       "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-25T10:00:00Z",
-      "date_end": "2022-03-01T23:59:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-17T10:00:00Z",
+      "date_end": "2023-02-22T23:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -16601,5 +16625,254 @@
     "base_mission_id": 487,
     "additive_overlays": "",
     "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "488",
+    "name": "Ild i en grillplads",
+    "place": "Fast Food-restaurant",
+    "place_array": ["Fast Food-restaurant"],
+    "average_credits": 6250,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 1,
+      "battalion_chief_vehicles": 1,
+      "police_cars": 1
+    },
+    "chances": { "patient_transport": 50 },
+    "additional": {
+      "possible_patient": 4,
+      "filter_id": "firehouse_missions",
+      "fire_alarm_system_possible": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Specialister i intern medicin"],
+      "patient_specializations": "Specialister i intern medicin"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 4,
+      "police_stations": 1,
+      "fire_stations": 10
+    },
+    "overlay_index": null,
+    "base_mission_id": 488,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "489",
+    "name": "Bådmast Tabt",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1200,
+    "generated_by": "",
+    "icons": [
+      "/images/zoom_gruen.png",
+      "/images/zoom_gelb.png",
+      "/images/zoom_rot.png"
+    ],
+    "requirements": { "coastal_boat": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true
+    },
+    "prerequisites": { "main_building": 23, "coastal_rescue_count": 1 },
+    "overlay_index": null,
+    "base_mission_id": 489,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "490",
+    "name": "Spontan lungebetændelse",
+    "place": "",
+    "place_array": [],
+    "average_credits": 750,
+    "generated_by": "",
+    "icons": [
+      "/images/medicalstore_gruen.png",
+      "/images/medicalstore_gelb.png",
+      "/images/medicalstore_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 75, "patient_critical_care": 50 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Specialister i intern medicin"],
+      "patient_specializations": "Specialister i intern medicin"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 3 },
+    "overlay_index": null,
+    "base_mission_id": 490,
+    "additive_overlays": "",
+    "mission_categories": ["ambulance"]
+  },
+  {
+    "id": "491",
+    "name": "Uheld ved bagning af valentinskage",
+    "place": "",
+    "place_array": [],
+    "average_credits": 800,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 491,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "492",
+    "name": "Brændende Valentinsbuket",
+    "place": "",
+    "place_array": [],
+    "average_credits": 800,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 492,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "493",
+    "name": "Ild fra middag med stearinlys",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [295],
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 493,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "494",
+    "name": "Overvågning af trafiklys",
+    "place": "Lyskryds",
+    "place_array": ["Lyskryds"],
+    "average_credits": 300,
+    "generated_by": "",
+    "icons": [
+      "/images/zoom_gruen.png",
+      "/images/zoom_gelb.png",
+      "/images/zoom_rot.png"
+    ],
+    "requirements": { "police_cars": 1 },
+    "chances": {},
+    "additional": { "filter_id": "police_station_missions" },
+    "prerequisites": { "main_building": 6, "police_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 494,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "495",
+    "name": "Industriel brandøvelse",
+    "place": "Varehus\nKølehus\nKraftværk\nFabrik\nLille kemikalietank\nStor kemikalietank",
+    "place_array": [
+      "Varehus",
+      "Kølehus",
+      "Kraftværk",
+      "Fabrik",
+      "Lille kemikalietank",
+      "Stor kemikalietank"
+    ],
+    "average_credits": 3000,
+    "generated_by": "",
+    "icons": [
+      "/images/clock_gruen.png",
+      "/images/clock_gelb.png",
+      "/images/clock_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": {
+      "duration_text": "45 minutter",
+      "duration": 2700,
+      "guard_mission": true,
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 495,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "496",
+    "name": "Brandøvelse i institution",
+    "place": "Skole\nKontorbygning",
+    "place_array": ["Skole", "Kontorbygning"],
+    "average_credits": 1000,
+    "generated_by": "",
+    "icons": [
+      "/images/clock_gruen.png",
+      "/images/clock_gelb.png",
+      "/images/clock_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": {
+      "duration_text": "30 minutter",
+      "duration": 1800,
+      "guard_mission": true,
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 496,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
   }
 ]
