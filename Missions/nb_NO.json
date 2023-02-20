@@ -3686,9 +3686,9 @@
     "average_credits": 1500,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": { "police_cars": 4, "k9": 1 },
     "chances": {},
@@ -5965,9 +5965,9 @@
     "average_credits": 800,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": { "police_cars": 3, "k9": 1 },
     "chances": {},
@@ -5989,9 +5989,9 @@
     "average_credits": 800,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": { "police_cars": 3, "k9": 1 },
     "chances": {},
@@ -6013,9 +6013,9 @@
     "average_credits": 800,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": { "police_cars": 3, "k9": 1 },
     "chances": {},
@@ -8804,9 +8804,9 @@
     "average_credits": 1200,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": { "battalion_chief_vehicles": 2, "police_cars": 3 },
     "chances": { "patient_transport": 80 },
@@ -9065,8 +9065,9 @@
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Generell medisin"],
       "patient_specializations": "Generell medisin"
@@ -9095,8 +9096,9 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Generell medisin"],
       "patient_specializations": "Generell medisin"
@@ -9125,8 +9127,9 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Kardiologi"],
       "patient_specializations": "Kardiologi"
@@ -9155,8 +9158,9 @@
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Kardiologi"],
       "patient_specializations": "Kardiologi"
@@ -9189,8 +9193,9 @@
     "additional": {
       "possible_patient": 8,
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Generell medisin"],
       "patient_specializations": "Generell medisin"
@@ -9223,8 +9228,9 @@
       "possible_patient": 2,
       "possible_patient_min": 2,
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Generell medisin"],
       "patient_specializations": "Generell medisin"
@@ -9255,8 +9261,9 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 2 },
     "overlay_index": null,
@@ -9280,8 +9287,9 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -9305,8 +9313,9 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-04T10:00:00Z",
-      "date_end": "2022-02-15T10:00:00Z"
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 2 },
     "overlay_index": null,
@@ -9458,13 +9467,21 @@
     "requirements": {
       "water_needed": 2500,
       "firetrucks": 4,
+      "large_rescue_boat": 1,
       "battalion_chief_vehicles": 1,
       "platform_trucks": 1,
       "heavy_rescue_vehicles": 1
     },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
-    "prerequisites": { "main_building": 0, "fire_stations": 7 },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "vehicle_groups": ["default", "ocean_missions"]
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_boat_docks": 1,
+      "fire_stations": 7
+    },
     "overlay_index": null,
     "base_mission_id": 289,
     "additive_overlays": "",
@@ -9485,15 +9502,20 @@
     "requirements": {
       "water_needed": 2500,
       "firetrucks": 4,
+      "large_rescue_boat": 1,
       "battalion_chief_vehicles": 1,
       "platform_trucks": 1,
       "heavy_rescue_vehicles": 1,
       "pump": 1
     },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "vehicle_groups": ["default", "ocean_missions"]
+    },
     "prerequisites": {
       "main_building": 0,
+      "rescue_boat_docks": 1,
       "fire_support_count": 1,
       "fire_stations": 7
     },
@@ -13252,8 +13274,9 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-11T10:00:00+01:00",
-      "date_end": "2022-02-11T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-02-11T10:00:00Z",
+      "date_end": "2023-02-12T10:00:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -13277,8 +13300,9 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2022-02-11T10:00:00+01:00",
-      "date_end": "2022-02-11T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-02-11T10:00:00Z",
+      "date_end": "2023-02-12T10:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -13303,8 +13327,9 @@
     "additional": {
       "followup_missions_ids": [389],
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-11T10:00:00+01:00",
-      "date_end": "2022-02-11T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-02-11T10:00:00Z",
+      "date_end": "2023-02-12T10:00:00Z"
     },
     "prerequisites": {
       "main_building": 0,
@@ -13340,8 +13365,9 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-11T10:00:00+01:00",
-      "date_end": "2022-02-11T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-02-11T10:00:00Z",
+      "date_end": "2023-02-12T10:00:00Z"
     },
     "prerequisites": {
       "main_building": 0,
@@ -13381,8 +13407,9 @@
     "additional": {
       "followup_missions_ids": [389],
       "filter_id": "firehouse_missions",
-      "date_start": "2022-02-11T10:00:00+01:00",
-      "date_end": "2022-02-11T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-02-11T10:00:00Z",
+      "date_end": "2023-02-12T10:00:00Z"
     },
     "prerequisites": {
       "main_building": 0,
@@ -14997,7 +15024,7 @@
       "average_min_police_personnel": 24,
       "filter_id": "police_station_missions",
       "subsequent_mission_only": true,
-      "personnel_educations": { "Demonstrasjonsinnsatsleder": 2 }
+      "personnel_educations": { "Demonstrasjons Innsatsleder": 2 }
     },
     "prerequisites": {
       "main_building": 6,
@@ -15032,7 +15059,7 @@
       "filter_id": "police_station_missions",
       "subsequent_mission_only": true,
       "personnel_educations": {
-        "Demonstrasjonsinnsatsleder": 2,
+        "Demonstrasjons Innsatsleder": 2,
         "Demostasjons Trent": 10
       }
     },
@@ -15086,8 +15113,8 @@
   {
     "id": "441",
     "name": "Fengselsopprør (Liten)",
-    "place": "",
-    "place_array": [],
+    "place": "Fengsel",
+    "place_array": ["Fengsel"],
     "average_credits": 4500,
     "generated_by": "",
     "icons": [
@@ -15124,8 +15151,8 @@
   {
     "id": "442",
     "name": "Fengselsopprør (Middels)",
-    "place": "",
-    "place_array": [],
+    "place": "Fengsel",
+    "place_array": ["Fengsel"],
     "average_credits": 6500,
     "generated_by": "",
     "icons": [
@@ -15162,8 +15189,8 @@
   {
     "id": "442/a",
     "name": "Fengselsopprør (Middels)",
-    "place": "",
-    "place_array": [],
+    "place": "Fengsel",
+    "place_array": ["Fengsel"],
     "average_credits": 7500,
     "generated_by": "",
     "icons": [
@@ -15201,9 +15228,9 @@
   },
   {
     "id": "443",
-    "name": "Fengselsopprør (Storn)",
-    "place": "",
-    "place_array": [],
+    "name": "Fengselsopprør (Stor)",
+    "place": "Fengsel",
+    "place_array": ["Fengsel"],
     "average_credits": 9500,
     "generated_by": "",
     "icons": [
@@ -15238,9 +15265,9 @@
   },
   {
     "id": "443/a",
-    "name": "Fengselsopprør (Storn)",
-    "place": "",
-    "place_array": [],
+    "name": "Fengselsopprør (Stor)",
+    "place": "Fengsel",
+    "place_array": ["Fengsel"],
     "average_credits": 10500,
     "generated_by": "",
     "icons": [
@@ -15320,8 +15347,8 @@
   {
     "id": "445",
     "name": "Rømningsforsøk på fanger",
-    "place": "",
-    "place_array": [],
+    "place": "Fengsel",
+    "place_array": ["Fengsel"],
     "average_credits": 11000,
     "generated_by": "",
     "icons": [
@@ -16106,6 +16133,930 @@
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 467,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "468",
+    "name": "Fyr i en grillgrop",
+    "place": "Gatekjøkken",
+    "place_array": ["Gatekjøkken"],
+    "average_credits": 6250,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 1,
+      "battalion_chief_vehicles": 1,
+      "police_cars": 1
+    },
+    "chances": { "patient_transport": 50 },
+    "additional": {
+      "possible_patient": 4,
+      "filter_id": "firehouse_missions",
+      "fire_alarm_system_possible": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Generell medisin"],
+      "patient_specializations": "Generell medisin"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 4,
+      "police_stations": 1,
+      "fire_stations": 10
+    },
+    "overlay_index": null,
+    "base_mission_id": 468,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "469",
+    "name": "Overfall i et kjøpesenter",
+    "place": "Kjøpesenter",
+    "place_array": ["Kjøpesenter"],
+    "average_credits": 12550,
+    "generated_by": "",
+    "icons": [
+      "/images/baseball_gruen.png",
+      "/images/baseball_gelb.png",
+      "/images/baseball_rot.png"
+    ],
+    "requirements": { "police_cars": 5, "k9": 2, "riot_police": 2 },
+    "chances": { "patient_transport": 50 },
+    "additional": {
+      "possible_patient": 10,
+      "max_possible_prisoners": 8,
+      "filter_id": "police_station_missions",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Generell medisin"],
+      "patient_specializations": "Generell medisin"
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "rescue_stations": 7,
+      "police_stations": 12,
+      "riot_police": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 469,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "470",
+    "name": "Spontan pneumothorax",
+    "place": "",
+    "place_array": [],
+    "average_credits": 750,
+    "generated_by": "",
+    "icons": [
+      "/images/medicalstore_gruen.png",
+      "/images/medicalstore_gelb.png",
+      "/images/medicalstore_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 75, "patient_critical_care": 50 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Generell medisin"],
+      "patient_specializations": "Generell medisin"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 3 },
+    "overlay_index": null,
+    "base_mission_id": 470,
+    "additive_overlays": "",
+    "mission_categories": ["ambulance"]
+  },
+  {
+    "id": "471",
+    "name": "Ulykke når du baker valentins middag",
+    "place": "",
+    "place_array": [],
+    "average_credits": 800,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 471,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "472",
+    "name": "Brennende valentinsbukett",
+    "place": "",
+    "place_array": [],
+    "average_credits": 800,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 472,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "473",
+    "name": "Brann fra middag med levende lys",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [280],
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "date_start": "2023-02-03T10:00:00Z",
+      "date_end": "2023-02-15T23:00:00Z"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 473,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "474",
+    "name": "Ulovlig innvandring via vann",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1500,
+    "generated_by": "",
+    "icons": [
+      "/images/river_gruen.png",
+      "/images/river_gelb.png",
+      "/images/river_rot.png"
+    ],
+    "requirements": { "police_boat": 2, "speed_police_boat": 1 },
+    "chances": { "patient_transport": 100 },
+    "additional": {
+      "possible_patient": 6,
+      "possible_patient_min": 3,
+      "min_possible_prisoners": 2,
+      "max_possible_prisoners": 5,
+      "filter_id": "police_station_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true,
+      "handoff_possible_via_building_types": [26],
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Generell medisin"],
+      "patient_specializations": "Generell medisin"
+    },
+    "prerequisites": {
+      "main_building": 32,
+      "rescue_stations": 3,
+      "police_stations": 3,
+      "rescue_boat_docks": 1,
+      "police_boat_dock": 2
+    },
+    "overlay_index": null,
+    "base_mission_id": 474,
+    "additive_overlays": "",
+    "mission_categories": ["water_rescue"]
+  },
+  {
+    "id": "475",
+    "name": "Mistenkelig båt",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "",
+    "icons": [
+      "/images/river_gruen.png",
+      "/images/river_gelb.png",
+      "/images/river_rot.png"
+    ],
+    "requirements": { "police_boat": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "police_station_missions",
+      "subsequent_missions_ids": [474],
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true
+    },
+    "prerequisites": {
+      "main_building": 32,
+      "police_stations": 1,
+      "police_boat_dock": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 475,
+    "additive_overlays": "",
+    "mission_categories": ["police", "water_rescue"]
+  },
+  {
+    "id": "476",
+    "name": "Slåss på yacht",
+    "place": "",
+    "place_array": [],
+    "average_credits": 900,
+    "generated_by": "",
+    "icons": [
+      "/images/river_gruen.png",
+      "/images/river_gelb.png",
+      "/images/river_rot.png"
+    ],
+    "requirements": { "police_boat": 1, "speed_police_boat": 1 },
+    "chances": { "patient_transport": 100 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "min_possible_prisoners": 1,
+      "max_possible_prisoners": 1,
+      "filter_id": "police_station_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true,
+      "handoff_possible_via_building_types": [31],
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Generell medisin"],
+      "patient_specializations": "Generell medisin"
+    },
+    "prerequisites": {
+      "main_building": 32,
+      "rescue_stations": 3,
+      "rescue_boat_docks": 1,
+      "police_boat_dock": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 476,
+    "additive_overlays": "",
+    "mission_categories": ["water_rescue"]
+  },
+  {
+    "id": "477",
+    "name": "Cruiseskip synker",
+    "place": "",
+    "place_array": [],
+    "average_credits": 15000,
+    "generated_by": "",
+    "icons": [
+      "/images/cruiseship_gruen.png",
+      "/images/cruiseship_gelb.png",
+      "/images/cruiseship_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 1,
+      "large_rescue_boat": 4,
+      "large_fire_boat": 2
+    },
+    "chances": { "patient_transport": 100 },
+    "additional": {
+      "possible_patient": 20,
+      "filter_id": "firehouse_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true,
+      "handoff_possible_via_building_types": [26],
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Generell medisin"],
+      "patient_specializations": "Generell medisin"
+    },
+    "prerequisites": {
+      "main_building": 30,
+      "rescue_stations": 10,
+      "fire_boat_docks": 2,
+      "rescue_boat_docks": 2,
+      "fire_stations": 8
+    },
+    "overlay_index": null,
+    "base_mission_id": 477,
+    "additive_overlays": "",
+    "mission_categories": ["water_rescue"]
+  },
+  {
+    "id": "478",
+    "name": "Tankskip i brann",
+    "place": "Cargohavn",
+    "place_array": ["Cargohavn"],
+    "average_credits": 15000,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 8,
+      "large_rescue_boat": 1,
+      "large_fire_boat": 3,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "platform_trucks": 2,
+      "heavy_rescue_vehicles": 2,
+      "mobile_air_vehicles": 2,
+      "hazmat_vehicles": 3,
+      "police_cars": 3
+    },
+    "chances": { "patient_transport": 60 },
+    "additional": {
+      "possible_patient": 15,
+      "filter_id": "firehouse_missions",
+      "vehicle_groups": ["default", "ocean_missions"],
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Generell medisin"],
+      "patient_specializations": "Generell medisin"
+    },
+    "prerequisites": {
+      "main_building": 30,
+      "rescue_stations": 10,
+      "police_stations": 2,
+      "fire_boat_docks": 2,
+      "rescue_boat_docks": 1,
+      "fire_stations": 20
+    },
+    "overlay_index": null,
+    "base_mission_id": 478,
+    "additive_overlays": "",
+    "mission_categories": [
+      "fire",
+      "fire_support_specialization",
+      "water_rescue"
+    ]
+  },
+  {
+    "id": "478/a",
+    "name": "Tankskip i brann",
+    "place": "Cargohavn",
+    "place_array": ["Cargohavn"],
+    "average_credits": 15500,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 8,
+      "large_rescue_boat": 1,
+      "large_fire_boat": 3,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "platform_trucks": 2,
+      "heavy_rescue_vehicles": 2,
+      "mobile_air_vehicles": 2,
+      "hazmat_vehicles": 3,
+      "police_cars": 3,
+      "foam": 1
+    },
+    "chances": { "patient_transport": 60 },
+    "additional": {
+      "possible_patient": 15,
+      "filter_id": "firehouse_missions",
+      "vehicle_groups": ["default", "ocean_missions"],
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Generell medisin"],
+      "patient_specializations": "Generell medisin"
+    },
+    "prerequisites": {
+      "main_building": 30,
+      "rescue_stations": 10,
+      "police_stations": 2,
+      "fire_boat_docks": 2,
+      "rescue_boat_docks": 1,
+      "fire_support_count": 1,
+      "fire_stations": 20
+    },
+    "overlay_index": null,
+    "base_mission_id": 478,
+    "additive_overlays": "a",
+    "mission_categories": [
+      "fire",
+      "fire_support_specialization",
+      "water_rescue"
+    ]
+  },
+  {
+    "id": "479",
+    "name": "Gummibåt feid ut på havet",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1200,
+    "generated_by": "",
+    "icons": [
+      "/images/river_gruen.png",
+      "/images/river_gelb.png",
+      "/images/river_rot.png"
+    ],
+    "requirements": { "large_rescue_boat": 1 },
+    "chances": { "patient_transport": 100 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "water_watch_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true,
+      "handoff_possible_via_building_types": [31],
+      "patient_specialization_ids": [4],
+      "patient_specialization_captions": ["Traume"],
+      "patient_specializations": "Traume"
+    },
+    "prerequisites": {
+      "main_building": 31,
+      "rescue_stations": 1,
+      "rescue_boat_docks": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 479,
+    "additive_overlays": "",
+    "mission_categories": ["water_rescue"]
+  },
+  {
+    "id": "480",
+    "name": "Bygning kollapset i vann",
+    "place": "Innsjø\nElv",
+    "place_array": ["Innsjø", "Elv"],
+    "average_credits": 12000,
+    "generated_by": "",
+    "icons": [
+      "/images/waterpark_gruen.png",
+      "/images/waterpark_gelb.png",
+      "/images/waterpark_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 8,
+      "large_rescue_boat": 2,
+      "battalion_chief_vehicles": 4,
+      "mobile_command_vehicles": 1,
+      "heavy_rescue_vehicles": 6,
+      "police_cars": 6,
+      "boats": 2,
+      "k9": 2,
+      "police_boat": 2
+    },
+    "chances": { "patient_transport": 80 },
+    "additional": {
+      "possible_patient": 30,
+      "possible_patient_min": 3,
+      "filter_id": "firehouse_missions",
+      "vehicle_groups": ["default", "ocean_missions"],
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Generell medisin"],
+      "patient_specializations": "Generell medisin"
+    },
+    "prerequisites": {
+      "main_building": 31,
+      "wasserrettung": 1,
+      "police_stations": 8,
+      "rescue_boat_docks": 1,
+      "police_boat_dock": 1,
+      "fire_stations": 15
+    },
+    "overlay_index": null,
+    "base_mission_id": 480,
+    "additive_overlays": "",
+    "mission_categories": ["fire", "water_rescue"]
+  },
+  {
+    "id": "481",
+    "name": "Containerskip brann",
+    "place": "Cargohavn",
+    "place_array": ["Cargohavn"],
+    "average_credits": 10000,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "foam_needed": 200,
+      "firetrucks": 1,
+      "large_rescue_boat": 2,
+      "large_fire_boat": 4
+    },
+    "chances": { "patient_transport": 100 },
+    "additional": {
+      "possible_patient": 6,
+      "filter_id": "firehouse_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true,
+      "handoff_possible_via_building_types": [31],
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Generell medisin"],
+      "patient_specializations": "Generell medisin"
+    },
+    "prerequisites": {
+      "main_building": 30,
+      "rescue_stations": 3,
+      "fire_boat_docks": 2,
+      "rescue_boat_docks": 2,
+      "fire_stations": 13
+    },
+    "overlay_index": null,
+    "base_mission_id": 481,
+    "additive_overlays": "",
+    "mission_categories": ["water_rescue"]
+  },
+  {
+    "id": "482",
+    "name": "Dokk Kran Brann",
+    "place": "Cargohavn",
+    "place_array": ["Cargohavn"],
+    "average_credits": 6000,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 3,
+      "large_fire_boat": 1,
+      "battalion_chief_vehicles": 1,
+      "platform_trucks": 1
+    },
+    "chances": { "patient_transport": 20 },
+    "additional": {
+      "possible_patient": 1,
+      "filter_id": "firehouse_missions",
+      "vehicle_groups": ["default", "ocean_missions"],
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Generell medisin"],
+      "patient_specializations": "Generell medisin"
+    },
+    "prerequisites": {
+      "main_building": 30,
+      "rescue_stations": 3,
+      "fire_boat_docks": 1,
+      "fire_stations": 6
+    },
+    "overlay_index": null,
+    "base_mission_id": 482,
+    "additive_overlays": "",
+    "mission_categories": ["fire", "water_rescue"]
+  },
+  {
+    "id": "483",
+    "name": "Båt lekker drivstoff",
+    "place": "Marina",
+    "place_array": ["Marina"],
+    "average_credits": 1000,
+    "generated_by": "",
+    "icons": [
+      "/images/river_gruen.png",
+      "/images/river_gelb.png",
+      "/images/river_rot.png"
+    ],
+    "requirements": { "firetrucks": 1, "large_fire_boat": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true
+    },
+    "prerequisites": {
+      "main_building": 30,
+      "fire_boat_docks": 1,
+      "fire_stations": 8
+    },
+    "overlay_index": null,
+    "base_mission_id": 483,
+    "additive_overlays": "",
+    "mission_categories": ["water_rescue"]
+  },
+  {
+    "id": "484",
+    "name": "Brann i oljerigg",
+    "place": "",
+    "place_array": [],
+    "average_credits": 10000,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "large_fire_boat": 2,
+      "coastal_boat": 2,
+      "coastal_helicopter": 2
+    },
+    "chances": { "patient_transport": 100, "helicopter": 30 },
+    "additional": {
+      "possible_patient": 10,
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true,
+      "handoff_possible_via_building_types": [26],
+      "patient_specialization_ids": [1],
+      "patient_specialization_captions": ["Generell kirurgi"],
+      "patient_specializations": "Generell kirurgi"
+    },
+    "prerequisites": {
+      "main_building": 26,
+      "rescue_stations": 6,
+      "fire_boat_docks": 2,
+      "coastal_rescue_count": 3,
+      "coastal_helicopter_count": 2,
+      "fire_stations": 8
+    },
+    "overlay_index": null,
+    "base_mission_id": 484,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "485",
+    "name": "Hai angrep",
+    "place": "Fengsel",
+    "place_array": ["Fengsel"],
+    "average_credits": 1000,
+    "generated_by": "",
+    "icons": [
+      "/images/waterpark_gruen.png",
+      "/images/waterpark_gelb.png",
+      "/images/waterpark_rot.png"
+    ],
+    "requirements": { "coastal_rescue": 1, "coastal_boat": 1 },
+    "chances": { "patient_transport": 100 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions", "default"],
+      "patient_at_end_of_mission": true,
+      "patient_specialization_ids": [1],
+      "patient_specialization_captions": ["Generell kirurgi"],
+      "patient_specializations": "Generell kirurgi"
+    },
+    "prerequisites": {
+      "main_building": 26,
+      "rescue_stations": 3,
+      "coastal_rescue_count": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 485,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue"]
+  },
+  {
+    "id": "486",
+    "name": "Smugling via båt",
+    "place": "",
+    "place_array": [],
+    "average_credits": 4000,
+    "generated_by": "",
+    "icons": [
+      "/images/cruiseship_gruen.png",
+      "/images/cruiseship_gelb.png",
+      "/images/cruiseship_rot.png"
+    ],
+    "requirements": { "coastal_helicopter": 2, "coastal_guard_boat": 2 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 4,
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true,
+      "handoff_possible_via_building_types": [26]
+    },
+    "prerequisites": {
+      "main_building": 26,
+      "water_rescue_2": 2,
+      "police_stations": 2,
+      "coastal_rescue_count": 1,
+      "coastal_helicopter_count": 2
+    },
+    "overlay_index": null,
+    "base_mission_id": 486,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "487",
+    "name": "Parasailing ulykke",
+    "place": "Strand",
+    "place_array": ["Strand"],
+    "average_credits": 2500,
+    "generated_by": "",
+    "icons": [
+      "/images/waterpark_gruen.png",
+      "/images/waterpark_gelb.png",
+      "/images/waterpark_rot.png"
+    ],
+    "requirements": {
+      "coastal_rescue": 2,
+      "coastal_boat": 1,
+      "coastal_helicopter": 1
+    },
+    "chances": { "patient_transport": 100, "helicopter": 10 },
+    "additional": {
+      "possible_patient": 4,
+      "possible_patient_min": 1,
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions", "default"],
+      "patient_at_end_of_mission": true,
+      "patient_specialization_ids": [1],
+      "patient_specialization_captions": ["Generell kirurgi"],
+      "patient_specializations": "Generell kirurgi"
+    },
+    "prerequisites": {
+      "main_building": 26,
+      "rescue_stations": 3,
+      "coastal_rescue_count": 3,
+      "coastal_helicopter_count": 2
+    },
+    "overlay_index": null,
+    "base_mission_id": 487,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue"]
+  },
+  {
+    "id": "488",
+    "name": "Dypvannssøk og redning",
+    "place": "",
+    "place_array": [],
+    "average_credits": 4000,
+    "generated_by": "",
+    "icons": [
+      "/images/waterpark_gruen.png",
+      "/images/waterpark_gelb.png",
+      "/images/waterpark_rot.png"
+    ],
+    "requirements": { "coastal_boat": 2, "coastal_helicopter": 2 },
+    "chances": { "patient_transport": 100, "helicopter": 100 },
+    "additional": {
+      "possible_patient": 3,
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true,
+      "handoff_possible_via_building_types": [26],
+      "patient_specialization_ids": [4],
+      "patient_specialization_captions": ["Traume"],
+      "patient_specializations": "Traume"
+    },
+    "prerequisites": {
+      "main_building": 26,
+      "rescue_stations": 3,
+      "coastal_rescue_count": 2,
+      "coastal_helicopter_count": 2
+    },
+    "overlay_index": null,
+    "base_mission_id": 488,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "489",
+    "name": "Gisselredning ombord på lasteskip",
+    "place": "",
+    "place_array": [],
+    "average_credits": 8500,
+    "generated_by": "",
+    "icons": [
+      "/images/cruiseship_gruen.png",
+      "/images/cruiseship_gelb.png",
+      "/images/cruiseship_rot.png"
+    ],
+    "requirements": {
+      "coastal_boat": 2,
+      "coastal_helicopter": 2,
+      "coastal_guard_boat": 3
+    },
+    "chances": { "patient_transport": 100, "helicopter": 10 },
+    "additional": {
+      "possible_patient": 8,
+      "possible_patient_min": 1,
+      "max_possible_prisoners": 6,
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true,
+      "handoff_possible_via_building_types": [26],
+      "patient_at_end_of_mission": true,
+      "patient_specialization_ids": [4],
+      "patient_specialization_captions": ["Traume"],
+      "patient_specializations": "Traume"
+    },
+    "prerequisites": {
+      "main_building": 26,
+      "water_rescue_2": 2,
+      "rescue_stations": 5,
+      "police_stations": 6,
+      "coastal_rescue_count": 2,
+      "coastal_helicopter_count": 2
+    },
+    "overlay_index": null,
+    "base_mission_id": 489,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "490",
+    "name": "Trafikklysovervåking",
+    "place": "Lyskryss",
+    "place_array": ["Lyskryss"],
+    "average_credits": 300,
+    "generated_by": "",
+    "icons": [
+      "/images/zoom_gruen.png",
+      "/images/zoom_gelb.png",
+      "/images/zoom_rot.png"
+    ],
+    "requirements": { "police_cars": 1, "traffic_car": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "police_station_missions",
+      "need_traffic_car_only_if_present": true
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 3 },
+    "overlay_index": null,
+    "base_mission_id": 490,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "491",
+    "name": "Industriell brannøvelse",
+    "place": "Varehus\nKaldt varehus\nKraftverk\nFabrikk\nLiten kjemisk lagringstank\nStor kjemisk lagringstank",
+    "place_array": [
+      "Varehus",
+      "Kaldt varehus",
+      "Kraftverk",
+      "Fabrikk",
+      "Liten kjemisk lagringstank",
+      "Stor kjemisk lagringstank"
+    ],
+    "average_credits": 3000,
+    "generated_by": "",
+    "icons": [
+      "/images/clock_gruen.png",
+      "/images/clock_gelb.png",
+      "/images/clock_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": {
+      "duration_text": "45 minutter",
+      "duration": 2700,
+      "guard_mission": true,
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 491,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "492",
+    "name": "Institusjonell brannøvelse",
+    "place": "Skole\nKontorbygning",
+    "place_array": ["Skole", "Kontorbygning"],
+    "average_credits": 1000,
+    "generated_by": "",
+    "icons": [
+      "/images/clock_gruen.png",
+      "/images/clock_gelb.png",
+      "/images/clock_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": {
+      "duration_text": "30 minutter",
+      "duration": 1800,
+      "guard_mission": true,
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 492,
     "additive_overlays": "",
     "mission_categories": ["fire"]
   }
