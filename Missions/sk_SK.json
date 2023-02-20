@@ -2143,6 +2143,7 @@
     "requirements": { "police_cars": 4 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions"
     },
@@ -3307,9 +3308,9 @@
     "average_credits": 800,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": { "police_cars": 3 },
     "chances": {},
@@ -3331,9 +3332,9 @@
     "average_credits": 800,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": { "police_cars": 3 },
     "chances": {},
@@ -3355,9 +3356,9 @@
     "average_credits": 800,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": { "police_cars": 3 },
     "chances": {},
@@ -4428,9 +4429,9 @@
     "average_credits": null,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": {},
     "chances": { "patient_transport": 30, "patient_critical_care": 5 },
@@ -7163,6 +7164,7 @@
     "requirements": { "police_cars": 4 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 3,
       "filter_id": "police_station_missions",
       "date_start": "2021-05-06T11:00:00+02:00",
@@ -7189,6 +7191,7 @@
     "requirements": { "police_cars": 5 },
     "chances": {},
     "additional": {
+      "min_possible_prisoners": 2,
       "max_possible_prisoners": 4,
       "filter_id": "police_station_missions",
       "date_start": "2021-05-06T11:00:00+02:00",
@@ -7436,9 +7439,9 @@
     "average_credits": 1200,
     "generated_by": "",
     "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
+      "/images/bar_cocktail_gruen.png",
+      "/images/bar_cocktail_gelb.png",
+      "/images/bar_cocktail_rot.png"
     ],
     "requirements": { "battalion_chief_vehicles": 2, "police_cars": 3 },
     "chances": { "patient_transport": 80 },
@@ -7618,6 +7621,7 @@
     "additional": {
       "possible_patient": 30,
       "possible_patient_min": 4,
+      "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
       "patient_specialization_ids": [0],
