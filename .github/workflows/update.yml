@@ -561,7 +561,7 @@ jobs:
     continue-on-error: true
     needs: sv_SE
     steps:
-    - uses: actions/checkout@v3.3.0.3.0
+    - uses: actions/checkout@v3.3.0
       with:
         persist-credentials: false
         fetch-depth: 0
@@ -590,7 +590,7 @@ jobs:
     continue-on-error: true
     needs: en_GB
     steps:
-    - uses: actions/checkout@v3.3.0.3.0
+    - uses: actions/checkout@v3.3.0
       with:
         persist-credentials: false
         fetch-depth: 0
