@@ -934,8 +934,8 @@
   {
     "id": "34",
     "name": "Hospitals Brand",
-    "place": "Hostpital",
-    "place_array": ["Hostpital"],
+    "place": "Hospital",
+    "place_array": ["Hospital"],
     "average_credits": 6000,
     "generated_by": "",
     "icons": [
@@ -974,8 +974,8 @@
   {
     "id": "34/a",
     "name": "Hospitals Brand",
-    "place": "Hostpital",
-    "place_array": ["Hostpital"],
+    "place": "Hospital",
+    "place_array": ["Hospital"],
     "average_credits": 6000,
     "generated_by": "",
     "icons": [
@@ -2550,7 +2550,7 @@
   },
   {
     "id": "83",
-    "name": "Carbon Monoxid Forgiftning",
+    "name": "Kulilteforgiftning",
     "place": "",
     "place_array": [],
     "average_credits": 2300,
@@ -2840,7 +2840,7 @@
   },
   {
     "id": "88",
-    "name": "3 grads forbrænding",
+    "name": "3. grads forbrænding",
     "place": "",
     "place_array": [],
     "average_credits": null,
@@ -4794,7 +4794,7 @@
   },
   {
     "id": "138",
-    "name": "Indbrud i øjeblikket",
+    "name": "Igangværende indbrud",
     "place": "",
     "place_array": [],
     "average_credits": 1250,
@@ -4808,7 +4808,6 @@
     "chances": {},
     "additional": {
       "max_possible_prisoners": 2,
-      "swat_personnel": 4,
       "filter_id": "police_station_missions",
       "need_elw_police_only_if_present": true
     },
@@ -6446,7 +6445,7 @@
   },
   {
     "id": "181",
-    "name": "Mindre Farbriks Brand",
+    "name": "Mindre Fabriks Brand",
     "place": "Fabrik",
     "place_array": ["Fabrik"],
     "average_credits": 2000,
@@ -6478,7 +6477,7 @@
   },
   {
     "id": "182",
-    "name": "Mega Farbriks Brand",
+    "name": "Mega Fabriks Brand",
     "place": "Fabrik",
     "place_array": ["Fabrik"],
     "average_credits": 9000,
@@ -6524,7 +6523,7 @@
   },
   {
     "id": "182/a",
-    "name": "Mega Farbriks Brand",
+    "name": "Mega Fabriks Brand",
     "place": "Fabrik",
     "place_array": ["Fabrik"],
     "average_credits": 9000,
@@ -6574,7 +6573,7 @@
   },
   {
     "id": "183",
-    "name": "Ulovlig Varer Smugleri",
+    "name": "Smugleri af ulovlige varer",
     "place": "Containerhavn",
     "place_array": ["Containerhavn"],
     "average_credits": 800,
@@ -7503,7 +7502,7 @@
   },
   {
     "id": "213",
-    "name": "Laserkontrol",
+    "name": "Fartkontrol",
     "place": "",
     "place_array": [],
     "average_credits": 2000,
@@ -9536,7 +9535,7 @@
   },
   {
     "id": "278",
-    "name": "Derby kamp",
+    "name": "Fodbold LokalopgørMasse slåskamp ved Derby match",
     "place": "Stadion",
     "place_array": ["Stadion"],
     "average_credits": 12000,
@@ -9569,7 +9568,7 @@
   },
   {
     "id": "279",
-    "name": "Masse slåskamp ved Derby match",
+    "name": "Masse slåskamp ved fodbold lokalopgør",
     "place": "Stadion",
     "place_array": ["Stadion"],
     "average_credits": 14500,
@@ -10387,7 +10386,7 @@
   },
   {
     "id": "306",
-    "name": "Object galt i halsen",
+    "name": "Objekt galt i halsen",
     "place": "",
     "place_array": [],
     "average_credits": null,
@@ -12265,7 +12264,7 @@
   },
   {
     "id": "355",
-    "name": "Kvæstelse forudsaget af knust glas",
+    "name": "Kvæstelse forårsaget af knust glas",
     "place": "",
     "place_array": [],
     "average_credits": null,
@@ -14162,8 +14161,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-03-18T10:00:00Z",
-      "date_end": "2022-03-28T23:59:59+02:00",
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-06-21T10:00:00Z",
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Kardiologi"],
       "patient_specializations": "Kardiologi"
@@ -14192,8 +14191,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-03-18T10:00:00Z",
-      "date_end": "2022-03-28T23:59:59+02:00",
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-06-21T10:00:00Z",
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Kardiologi"],
       "patient_specializations": "Kardiologi"
@@ -14222,8 +14221,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-03-18T10:00:00Z",
-      "date_end": "2022-03-28T23:59:59+02:00",
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-06-21T10:00:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologi"],
       "patient_specializations": "Traumatologi"
@@ -14252,8 +14251,8 @@
       "possible_patient": 3,
       "possible_patient_min": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2022-03-18T10:00:00Z",
-      "date_end": "2022-03-28T23:59:59+02:00",
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-06-21T10:00:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologi"],
       "patient_specializations": "Traumatologi"
@@ -14287,8 +14286,8 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "patient_allow_first_responder_chance": 50,
-      "date_start": "2022-03-18T10:00:00Z",
-      "date_end": "2022-03-28T23:59:59+02:00",
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-06-21T10:00:00Z",
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Kirurg"],
       "patient_specializations": "Kirurg"
@@ -14315,8 +14314,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2022-03-18T10:00:00Z",
-      "date_end": "2022-03-28T23:59:59+02:00"
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-06-21T10:00:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
@@ -14342,8 +14341,8 @@
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
       "subsequent_missions_ids": [420, 421],
-      "date_start": "2022-03-18T10:00:00Z",
-      "date_end": "2022-03-28T23:59:59+02:00"
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-06-21T10:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -14369,8 +14368,8 @@
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
       "subsequent_mission_only": true,
-      "date_start": "2022-03-18T10:00:00Z",
-      "date_end": "2022-03-28T23:59:59+02:00"
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-06-21T10:00:00Z"
     },
     "prerequisites": {
       "main_building": 6,
@@ -14402,8 +14401,8 @@
       "filter_id": "ambulance_station_missions",
       "patient_allow_first_responder_chance": 60,
       "subsequent_mission_only": true,
-      "date_start": "2022-03-18T10:00:00Z",
-      "date_end": "2022-03-28T23:59:59+02:00",
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-06-21T10:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Specialister i intern medicin"],
       "patient_specializations": "Specialister i intern medicin"
@@ -16874,5 +16873,218 @@
     "base_mission_id": 496,
     "additive_overlays": "",
     "mission_categories": ["fire"]
+  },
+  {
+    "id": "497",
+    "name": "Fredelig demonstration (Lille)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 5000,
+    "generated_by": "",
+    "icons": [
+      "/images/dancinghall_gruen.png",
+      "/images/dancinghall_gelb.png",
+      "/images/dancinghall_rot.png"
+    ],
+    "requirements": { "police_cars": 5, "k9": 1, "elw_police": 1 },
+    "chances": {},
+    "additional": {
+      "duration_text": "1 time",
+      "duration": 3600,
+      "guard_mission": true,
+      "filter_id": "police_station_missions",
+      "need_elw_police_only_if_present": true
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 497,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "497/a",
+    "name": "Fredelig demonstration (Lille)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 5800,
+    "generated_by": "",
+    "icons": [
+      "/images/dancinghall_gruen.png",
+      "/images/dancinghall_gelb.png",
+      "/images/dancinghall_rot.png"
+    ],
+    "requirements": {
+      "police_cars": 5,
+      "k9": 1,
+      "elw_police": 1,
+      "riot_police": 2
+    },
+    "chances": {},
+    "additional": {
+      "duration_text": "1 time",
+      "duration": 3600,
+      "guard_mission": true,
+      "filter_id": "police_station_missions",
+      "need_elw_police_only_if_present": true
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "police_stations": 2,
+      "riot_police": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 497,
+    "additive_overlays": "a",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "498",
+    "name": "Fredelig demonstration (Stor)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 10000,
+    "generated_by": "",
+    "icons": [
+      "/images/dancinghall_gruen.png",
+      "/images/dancinghall_gelb.png",
+      "/images/dancinghall_rot.png"
+    ],
+    "requirements": { "police_cars": 8, "k9": 1, "elw_police": 1 },
+    "chances": {},
+    "additional": {
+      "duration_text": "1 time",
+      "duration": 3600,
+      "guard_mission": true,
+      "filter_id": "police_station_missions",
+      "need_elw_police_only_if_present": true
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 6 },
+    "overlay_index": null,
+    "base_mission_id": 498,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "498/a",
+    "name": "Fredelig demonstration (Stor)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 11600,
+    "generated_by": "",
+    "icons": [
+      "/images/dancinghall_gruen.png",
+      "/images/dancinghall_gelb.png",
+      "/images/dancinghall_rot.png"
+    ],
+    "requirements": {
+      "police_cars": 8,
+      "k9": 1,
+      "elw_police": 1,
+      "riot_police": 4
+    },
+    "chances": {},
+    "additional": {
+      "duration_text": "1 time",
+      "duration": 3600,
+      "guard_mission": true,
+      "filter_id": "police_station_missions",
+      "need_elw_police_only_if_present": true
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "police_stations": 6,
+      "riot_police": 2
+    },
+    "overlay_index": null,
+    "base_mission_id": 498,
+    "additive_overlays": "a",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "499",
+    "name": "Hypovolæmisk chok",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "",
+    "icons": [
+      "/images/ambulance_gruen.png",
+      "/images/ambulance_gelb.png",
+      "/images/ambulance_rot.png"
+    ],
+    "requirements": { "ambulances": 1 },
+    "chances": { "patient_transport": 100, "patient_critical_care": 75 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "patient_specialization_ids": [1],
+      "patient_specialization_captions": ["Kirurg"],
+      "patient_specializations": "Kirurg"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 4 },
+    "overlay_index": null,
+    "base_mission_id": 499,
+    "additive_overlays": "",
+    "mission_categories": ["ambulance"]
+  },
+  {
+    "id": "500",
+    "name": "Ulykke med turistbåd",
+    "place": "",
+    "place_array": [],
+    "average_credits": 18750,
+    "generated_by": "",
+    "icons": [
+      "/images/waterpark_gruen.png",
+      "/images/waterpark_gelb.png",
+      "/images/waterpark_rot.png"
+    ],
+    "requirements": { "coastal_boat": 2, "large_coastal_boat": 1 },
+    "chances": { "patient_transport": 50 },
+    "additional": {
+      "possible_patient": 5,
+      "possible_patient_min": 2,
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true,
+      "handoff_possible_via_building_types": [23],
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Specialister i intern medicin"],
+      "patient_specializations": "Specialister i intern medicin"
+    },
+    "prerequisites": { "main_building": 23, "coastal_rescue_count": 3 },
+    "overlay_index": null,
+    "base_mission_id": 500,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "501",
+    "name": "Dybt Snitsår",
+    "place": "",
+    "place_array": [],
+    "average_credits": 350,
+    "generated_by": "",
+    "icons": [
+      "/images/ambulance_gruen.png",
+      "/images/ambulance_gelb.png",
+      "/images/ambulance_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 100 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Specialister i intern medicin"],
+      "patient_specializations": "Specialister i intern medicin"
+    },
+    "prerequisites": { "main_building": 2 },
+    "overlay_index": null,
+    "base_mission_id": 501,
+    "additive_overlays": "",
+    "mission_categories": ["ambulance"]
   }
 ]
