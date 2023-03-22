@@ -17551,8 +17551,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-03-18T10:00:00Z",
-      "date_end": "2022-03-28T23:59:59+02:00",
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-06-21T10:00:00Z",
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Kardiologia"],
       "patient_specializations": "Kardiologia"
@@ -17581,8 +17581,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-03-18T10:00:00Z",
-      "date_end": "2022-03-28T23:59:59+02:00",
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-06-21T10:00:00Z",
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Kardiologia"],
       "patient_specializations": "Kardiologia"
@@ -17611,8 +17611,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-03-18T10:00:00Z",
-      "date_end": "2022-03-28T23:59:59+02:00",
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-06-21T10:00:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
       "patient_specializations": "Traumatologia"
@@ -17641,8 +17641,8 @@
       "possible_patient": 3,
       "possible_patient_min": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2022-03-18T10:00:00Z",
-      "date_end": "2022-03-28T23:59:59+02:00",
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-06-21T10:00:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
       "patient_specializations": "Traumatologia"
@@ -17676,8 +17676,8 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "patient_allow_first_responder_chance": 50,
-      "date_start": "2022-03-18T10:00:00Z",
-      "date_end": "2022-03-28T23:59:59+02:00",
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-06-21T10:00:00Z",
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Chirurg ogólny"],
       "patient_specializations": "Chirurg ogólny"
@@ -17704,8 +17704,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2022-03-18T10:00:00Z",
-      "date_end": "2022-03-28T23:59:59+02:00"
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-06-21T10:00:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
@@ -17731,8 +17731,8 @@
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
       "subsequent_missions_ids": [528, 529],
-      "date_start": "2022-03-18T10:00:00Z",
-      "date_end": "2022-03-28T23:59:59+02:00"
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-06-21T10:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -17758,8 +17758,8 @@
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
       "subsequent_mission_only": true,
-      "date_start": "2022-03-18T10:00:00Z",
-      "date_end": "2022-03-28T23:59:59+02:00"
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-06-21T10:00:00Z"
     },
     "prerequisites": {
       "main_building": 6,
@@ -17791,8 +17791,8 @@
       "filter_id": "ambulance_station_missions",
       "patient_allow_first_responder_chance": 60,
       "subsequent_mission_only": true,
-      "date_start": "2022-03-18T10:00:00Z",
-      "date_end": "2022-03-28T23:59:59+02:00",
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-06-21T10:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interna"],
       "patient_specializations": "Interna"
@@ -21247,5 +21247,166 @@
     "base_mission_id": 630,
     "additive_overlays": "",
     "mission_categories": ["fire"]
+  },
+  {
+    "id": "631",
+    "name": "Pokojowa demonstracja (Mała)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 5000,
+    "generated_by": "",
+    "icons": [
+      "/images/dancinghall_gruen.png",
+      "/images/dancinghall_gelb.png",
+      "/images/dancinghall_rot.png"
+    ],
+    "requirements": {
+      "police_cars": 6,
+      "personnel_educations": { "riot_police": 21 }
+    },
+    "chances": {},
+    "additional": {
+      "duration_text": "1 godzina",
+      "duration": 3600,
+      "guard_mission": true,
+      "filter_id": "police_station_missions",
+      "personnel_educations": { "Szkolenie Personalne OPP": 21 }
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "police_stations": 5,
+      "riot_police": 1,
+      "personnel_educations": { "riot_police": 40 }
+    },
+    "overlay_index": null,
+    "base_mission_id": 631,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "632",
+    "name": "Pokojowa demonstracja (Duża)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 10000,
+    "generated_by": "",
+    "icons": [
+      "/images/dancinghall_gruen.png",
+      "/images/dancinghall_gelb.png",
+      "/images/dancinghall_rot.png"
+    ],
+    "requirements": {
+      "ambulances": 1,
+      "police_cars": 15,
+      "k9": 1,
+      "personnel_educations": { "riot_police": 64 },
+      "riot_police_equipment": 1
+    },
+    "chances": {},
+    "additional": {
+      "duration_text": "1 godzina",
+      "duration": 3600,
+      "guard_mission": true,
+      "filter_id": "police_station_missions",
+      "allow_ktw_instead_of_rtw": true,
+      "personnel_educations": { "Szkolenie Personalne OPP": 64 }
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "police_stations": 10,
+      "riot_police": 1,
+      "personnel_educations": { "riot_police": 80 }
+    },
+    "overlay_index": null,
+    "base_mission_id": 632,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "633",
+    "name": "Wstrząs hipowolemiczny",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "",
+    "icons": [
+      "/images/ambulance_gruen.png",
+      "/images/ambulance_gelb.png",
+      "/images/ambulance_rot.png"
+    ],
+    "requirements": { "ambulances": 1 },
+    "chances": { "patient_transport": 100, "patient_critical_care": 75 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "patient_specialization_ids": [1],
+      "patient_specialization_captions": ["Chirurg ogólny"],
+      "patient_specializations": "Chirurg ogólny"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 4 },
+    "overlay_index": null,
+    "base_mission_id": 633,
+    "additive_overlays": "",
+    "mission_categories": ["ambulance"]
+  },
+  {
+    "id": "634",
+    "name": "Potrzebna hospitalizacja",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1500,
+    "generated_by": "",
+    "icons": [
+      "/images/ambulance_gruen.png",
+      "/images/ambulance_gelb.png",
+      "/images/ambulance_rot.png"
+    ],
+    "requirements": { "ambulances": 1, "police_cars": 1 },
+    "chances": { "patient_transport": 100 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "allow_ktw_instead_of_rtw": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interna"],
+      "patient_specializations": "Interna"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 634,
+    "additive_overlays": "",
+    "mission_categories": ["ambulance"]
+  },
+  {
+    "id": "635",
+    "name": "Wysoka śmiertelność ryb",
+    "place": "Jezioro\nRzeka",
+    "place_array": ["Jezioro", "Rzeka"],
+    "average_credits": 5000,
+    "generated_by": "",
+    "icons": [
+      "/images/river_gruen.png",
+      "/images/river_gelb.png",
+      "/images/river_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 2,
+      "battalion_chief_vehicles": 1,
+      "heavy_rescue_vehicles": 1,
+      "boats": 2
+    },
+    "chances": {},
+    "additional": { "filter_id": "firehouse_missions" },
+    "prerequisites": {
+      "main_building": 0,
+      "wasserrettung": 1,
+      "fire_stations": 8
+    },
+    "overlay_index": null,
+    "base_mission_id": 635,
+    "additive_overlays": "",
+    "mission_categories": ["water_rescue"]
   }
 ]
