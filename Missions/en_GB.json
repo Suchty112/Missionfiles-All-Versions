@@ -12078,8 +12078,9 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2022-03-17T10:00:00+00:00",
-      "date_end": "2022-03-18T10:00:00+00:00"
+      "optional_event_mission": true,
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-03-19T10:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 2 },
     "overlay_index": null,
@@ -12105,8 +12106,9 @@
       "possible_patient": 1,
       "patient_uk_code_possible": ["C-2"],
       "filter_id": "police_station_missions",
-      "date_start": "2022-03-17T10:00:00+00:00",
-      "date_end": "2022-03-18T10:00:00+00:00",
+      "optional_event_mission": true,
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-03-19T10:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["General Internal"],
       "patient_specializations": "General Internal"
@@ -12133,8 +12135,9 @@
     "chances": { "platform_trucks": 10 },
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2022-03-17T10:00:00+00:00",
-      "date_end": "2022-03-18T10:00:00+00:00"
+      "optional_event_mission": true,
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-03-19T10:00:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 3 },
     "overlay_index": null,
@@ -12162,8 +12165,9 @@
       "average_min_police_personnel": 12,
       "guard_mission": true,
       "filter_id": "police_station_missions",
-      "date_start": "2022-03-17T10:00:00+00:00",
-      "date_end": "2022-03-18T10:00:00+00:00"
+      "optional_event_mission": true,
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-03-19T10:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 6 },
     "overlay_index": null,
@@ -12197,8 +12201,9 @@
       "duration": 3600,
       "guard_mission": true,
       "filter_id": "police_station_missions",
-      "date_start": "2022-03-17T10:00:00+00:00",
-      "date_end": "2022-03-18T10:00:00+00:00"
+      "optional_event_mission": true,
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-03-19T10:00:00Z"
     },
     "prerequisites": {
       "main_building": 6,
@@ -12230,8 +12235,9 @@
       "possible_patient_min": 3,
       "patient_uk_code_possible": ["C-3"],
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-03-17T10:00:00+00:00",
-      "date_end": "2022-03-18T10:00:00+00:00",
+      "optional_event_mission": true,
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-03-19T10:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["General Internal"],
       "patient_specializations": "General Internal"
@@ -19320,8 +19326,8 @@
       "possible_patient_min": 1,
       "patient_uk_code_possible": ["C-2"],
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-03-18T10:00:00Z",
-      "date_end": "2022-03-28T23:59:59+01:00",
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-06-21T10:00:00Z",
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Cardiology"],
       "patient_specializations": "Cardiology"
@@ -19351,8 +19357,8 @@
       "possible_patient_min": 1,
       "patient_uk_code_possible": ["C-2"],
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-03-18T10:00:00Z",
-      "date_end": "2022-03-28T23:59:59+01:00",
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-06-21T10:00:00Z",
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Cardiology"],
       "patient_specializations": "Cardiology"
@@ -19382,8 +19388,8 @@
       "possible_patient_min": 1,
       "patient_uk_code_possible": ["C-3"],
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-03-18T10:00:00Z",
-      "date_end": "2022-03-28T23:59:59+01:00",
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-06-21T10:00:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatology"],
       "patient_specializations": "Traumatology"
@@ -19413,8 +19419,8 @@
       "possible_patient_min": 1,
       "patient_uk_code_possible": ["C-2", "C-3"],
       "filter_id": "police_station_missions",
-      "date_start": "2022-03-18T10:00:00Z",
-      "date_end": "2022-03-28T23:59:59+01:00",
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-06-21T10:00:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatology"],
       "patient_specializations": "Traumatology"
@@ -19449,8 +19455,8 @@
       "patient_uk_code_possible": ["C-3"],
       "filter_id": "ambulance_station_missions",
       "patient_allow_first_responder_chance": 50,
-      "date_start": "2022-03-18T10:00:00Z",
-      "date_end": "2022-03-28T23:59:59+01:00",
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-06-21T10:00:00Z",
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["General Surgeon"],
       "patient_specializations": "General Surgeon"
@@ -19477,8 +19483,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2022-03-18T10:00:00Z",
-      "date_end": "2022-03-28T23:59:59+01:00"
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-06-21T10:00:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
@@ -19504,8 +19510,8 @@
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
       "subsequent_missions_ids": [433, 434],
-      "date_start": "2022-03-18T10:00:00Z",
-      "date_end": "2022-03-28T23:59:59+01:00"
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-06-21T10:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -19531,8 +19537,8 @@
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
       "subsequent_mission_only": true,
-      "date_start": "2022-03-18T10:00:00Z",
-      "date_end": "2022-03-28T23:59:59+01:00"
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-06-21T10:00:00Z"
     },
     "prerequisites": {
       "main_building": 6,
@@ -19565,8 +19571,8 @@
       "filter_id": "ambulance_station_missions",
       "patient_allow_first_responder_chance": 60,
       "subsequent_mission_only": true,
-      "date_start": "2022-03-18T10:00:00Z",
-      "date_end": "2022-03-28T23:59:59+01:00",
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-06-21T10:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["General Internal"],
       "patient_specializations": "General Internal"
@@ -24909,6 +24915,112 @@
     "prerequisites": { "main_building": 2, "rescue_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 576,
+    "additive_overlays": "",
+    "mission_categories": ["ambulance"]
+  },
+  {
+    "id": "577",
+    "name": "Person stuck in swing",
+    "place": "",
+    "place_array": [],
+    "average_credits": 600,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": { "filter_id": "firehouse_missions" },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 577,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "578",
+    "name": "Hypovolemic shock",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "",
+    "icons": [
+      "/images/ambulance_gruen.png",
+      "/images/ambulance_gelb.png",
+      "/images/ambulance_rot.png"
+    ],
+    "requirements": { "ambulances": 1 },
+    "chances": { "patient_transport": 100, "patient_critical_care": 75 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "patient_uk_code_possible": ["C-2", "C-3"],
+      "filter_id": "ambulance_station_missions",
+      "patient_specialization_ids": [1],
+      "patient_specialization_captions": ["General Surgeon"],
+      "patient_specializations": "General Surgeon"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 4 },
+    "overlay_index": null,
+    "base_mission_id": 578,
+    "additive_overlays": "",
+    "mission_categories": ["ambulance"]
+  },
+  {
+    "id": "579",
+    "name": "Fire in heritage building",
+    "place": "",
+    "place_array": [],
+    "average_credits": 13000,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 8,
+      "battalion_chief_vehicles": 4,
+      "mobile_command_vehicles": 1,
+      "platform_trucks": 1,
+      "mobile_air_vehicles": 1
+    },
+    "chances": {},
+    "additional": { "filter_id": "firehouse_missions" },
+    "prerequisites": { "main_building": 0, "fire_stations": 13 },
+    "overlay_index": null,
+    "base_mission_id": 579,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "580",
+    "name": "Upper Back Pain",
+    "place": "",
+    "place_array": [],
+    "average_credits": 350,
+    "generated_by": "",
+    "icons": [
+      "/images/ambulance_gruen.png",
+      "/images/ambulance_gelb.png",
+      "/images/ambulance_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 30 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "patient_uk_code_possible": ["C-1", "C-2"],
+      "filter_id": "ambulance_station_missions",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["General Internal"],
+      "patient_specializations": "General Internal"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 580,
     "additive_overlays": "",
     "mission_categories": ["ambulance"]
   }
