@@ -11788,8 +11788,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-03-18T10:00:00Z",
-      "date_end": "2022-03-28T23:59:59+02:00",
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-06-21T10:00:00Z",
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Cardiología"],
       "patient_specializations": "Cardiología"
@@ -11818,8 +11818,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-03-18T10:00:00Z",
-      "date_end": "2022-03-28T23:59:59+02:00",
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-06-21T10:00:00Z",
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Cardiología"],
       "patient_specializations": "Cardiología"
@@ -11848,8 +11848,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2022-03-18T10:00:00Z",
-      "date_end": "2022-03-28T23:59:59+02:00",
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-06-21T10:00:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatología"],
       "patient_specializations": "Traumatología"
@@ -11878,8 +11878,8 @@
       "possible_patient": 3,
       "possible_patient_min": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2022-03-18T10:00:00Z",
-      "date_end": "2022-03-28T23:59:59+02:00",
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-06-21T10:00:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatología"],
       "patient_specializations": "Traumatología"
@@ -11913,8 +11913,8 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "patient_allow_first_responder_chance": 50,
-      "date_start": "2022-03-18T10:00:00Z",
-      "date_end": "2022-03-28T23:59:59+02:00",
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-06-21T10:00:00Z",
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Cirugía general"],
       "patient_specializations": "Cirugía general"
@@ -11941,8 +11941,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2022-03-18T10:00:00Z",
-      "date_end": "2022-03-28T23:59:59+02:00"
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-06-21T10:00:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
@@ -11968,8 +11968,8 @@
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
       "subsequent_missions_ids": [373, 374],
-      "date_start": "2022-03-18T10:00:00Z",
-      "date_end": "2022-03-28T23:59:59+02:00"
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-06-21T10:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -11995,8 +11995,8 @@
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
       "subsequent_mission_only": true,
-      "date_start": "2022-03-18T10:00:00Z",
-      "date_end": "2022-03-28T23:59:59+02:00"
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-06-21T10:00:00Z"
     },
     "prerequisites": {
       "main_building": 6,
@@ -12028,8 +12028,8 @@
       "filter_id": "ambulance_station_missions",
       "patient_allow_first_responder_chance": 60,
       "subsequent_mission_only": true,
-      "date_start": "2022-03-18T10:00:00Z",
-      "date_end": "2022-03-28T23:59:59+02:00",
+      "date_start": "2023-03-17T10:00:00Z",
+      "date_end": "2023-06-21T10:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Medicina interna general"],
       "patient_specializations": "Medicina interna general"
@@ -14389,6 +14389,58 @@
     "mission_categories": ["fire"]
   },
   {
+    "id": "448",
+    "name": "Manifestación pacífica (Pequeña)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 5000,
+    "generated_by": "",
+    "icons": [
+      "/images/dancinghall_gruen.png",
+      "/images/dancinghall_gelb.png",
+      "/images/dancinghall_rot.png"
+    ],
+    "requirements": { "police_cars": 5, "k9": 1 },
+    "chances": {},
+    "additional": {
+      "duration_text": "1 hora",
+      "duration": 3600,
+      "guard_mission": true,
+      "filter_id": "police_station_missions"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 448,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "449",
+    "name": "Manifestación pacífica (Grande)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 10000,
+    "generated_by": "",
+    "icons": [
+      "/images/dancinghall_gruen.png",
+      "/images/dancinghall_gelb.png",
+      "/images/dancinghall_rot.png"
+    ],
+    "requirements": { "police_cars": 15, "k9": 1 },
+    "chances": {},
+    "additional": {
+      "duration_text": "1 hora",
+      "duration": 3600,
+      "guard_mission": true,
+      "filter_id": "police_station_missions"
+    },
+    "prerequisites": { "main_building": 6, "police_stations": 6 },
+    "overlay_index": null,
+    "base_mission_id": 449,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
     "id": "450",
     "name": "Pescador se precipitó por un acantilado",
     "place": "Acantilado",
@@ -14864,9 +14916,9 @@
       "coastal_helicopter": 1,
       "coastal_guard_boat": 1
     },
-    "chances": { "patient_transport": 50 },
+    "chances": { "patient_transport": 100 },
     "additional": {
-      "possible_patient": 20,
+      "possible_patient": 14,
       "filter_id": "coastal_rescue_missions",
       "vehicle_groups": ["ocean_missions"],
       "uses_custom_spawn_area": true,
@@ -15003,5 +15055,92 @@
     "base_mission_id": 465,
     "additive_overlays": "",
     "mission_categories": ["police", "water_rescue"]
+  },
+  {
+    "id": "466",
+    "name": "Shock hipovolémico",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "",
+    "icons": [
+      "/images/ambulance_gruen.png",
+      "/images/ambulance_gelb.png",
+      "/images/ambulance_rot.png"
+    ],
+    "requirements": { "ambulances": 1 },
+    "chances": { "patient_transport": 100, "patient_critical_care": 75 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "patient_specialization_ids": [1],
+      "patient_specialization_captions": ["Cirugía general"],
+      "patient_specializations": "Cirugía general"
+    },
+    "prerequisites": { "main_building": 2, "rescue_stations": 4 },
+    "overlay_index": null,
+    "base_mission_id": 466,
+    "additive_overlays": "",
+    "mission_categories": ["ambulance"]
+  },
+  {
+    "id": "467",
+    "name": "Accidente con un barco turístico",
+    "place": "",
+    "place_array": [],
+    "average_credits": 18750,
+    "generated_by": "",
+    "icons": [
+      "/images/waterpark_gruen.png",
+      "/images/waterpark_gelb.png",
+      "/images/waterpark_rot.png"
+    ],
+    "requirements": { "coastal_boat": 2 },
+    "chances": { "patient_transport": 50 },
+    "additional": {
+      "possible_patient": 5,
+      "possible_patient_min": 2,
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["ocean_missions"],
+      "uses_custom_spawn_area": true,
+      "handoff_possible_via_building_types": [23],
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Medicina interna general"],
+      "patient_specializations": "Medicina interna general"
+    },
+    "prerequisites": { "main_building": 23, "coastal_rescue_count": 3 },
+    "overlay_index": null,
+    "base_mission_id": 467,
+    "additive_overlays": "",
+    "mission_categories": ["coastal_rescue_ocean"]
+  },
+  {
+    "id": "468",
+    "name": "Accidente con corte profundo",
+    "place": "",
+    "place_array": [],
+    "average_credits": 350,
+    "generated_by": "",
+    "icons": [
+      "/images/ambulance_gruen.png",
+      "/images/ambulance_gelb.png",
+      "/images/ambulance_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 100 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Medicina interna general"],
+      "patient_specializations": "Medicina interna general"
+    },
+    "prerequisites": { "main_building": 2 },
+    "overlay_index": null,
+    "base_mission_id": 468,
+    "additive_overlays": "",
+    "mission_categories": ["ambulance"]
   }
 ]
