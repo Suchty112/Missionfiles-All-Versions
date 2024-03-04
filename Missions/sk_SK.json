@@ -13,7 +13,10 @@
     ],
     "requirements": { "firetrucks": 1 },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 0,
@@ -34,7 +37,10 @@
     ],
     "requirements": { "firetrucks": 1 },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 1,
@@ -57,7 +63,8 @@
     "chances": {},
     "additional": {
       "expansion_missions_ids": [27, 16, 19],
-      "filter_id": "firehouse_missions"
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -81,7 +88,8 @@
     "chances": {},
     "additional": {
       "expansion_missions_ids": [27],
-      "filter_id": "firehouse_missions"
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -105,7 +113,8 @@
     "chances": {},
     "additional": {
       "expansion_missions_ids": [14],
-      "filter_id": "firehouse_missions"
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -125,7 +134,7 @@
       "/images/fire_gelb.png",
       "/images/fire_rot.png"
     ],
-    "requirements": { "firetrucks": 2, "platform_trucks": 1 },
+    "requirements": { "platform_trucks": 1, "firetrucks": 2 },
     "chances": {
       "platform_trucks": 30,
       "patient_transport": 50,
@@ -134,6 +143,7 @@
     "additional": {
       "possible_patient": 1,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -158,7 +168,10 @@
     ],
     "requirements": { "firetrucks": 2 },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
     "base_mission_id": 6,
@@ -181,7 +194,8 @@
     "chances": {},
     "additional": {
       "expansion_missions_ids": [14],
-      "filter_id": "firehouse_missions"
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -205,7 +219,8 @@
     "chances": {},
     "additional": {
       "expansion_missions_ids": [20, 22, 6],
-      "filter_id": "firehouse_missions"
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -229,7 +244,8 @@
     "chances": {},
     "additional": {
       "expansion_missions_ids": [14, 6],
-      "filter_id": "firehouse_missions"
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -251,7 +267,10 @@
     ],
     "requirements": { "firetrucks": 1 },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 10,
@@ -272,7 +291,10 @@
     ],
     "requirements": { "firetrucks": 1 },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 11,
@@ -291,13 +313,15 @@
       "/images/sawmill_gelb.png",
       "/images/sawmill_rot.png"
     ],
-    "requirements": { "firetrucks": 1 },
+    "requirements": {
+      "oneof_fire_engine_or_rescue_or_ladder": 1,
+      "firetrucks": 1
+    },
     "chances": {},
     "additional": {
       "expansion_missions_ids": [25],
-      "allow_rw_instead_of_lf": true,
       "filter_id": "firehouse_missions",
-      "allow_dlk_instead_of_lf": true
+      "optional_event_mission": false
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -319,7 +343,10 @@
     ],
     "requirements": { "firetrucks": 2 },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
     "base_mission_id": 13,
@@ -342,7 +369,8 @@
     "chances": {},
     "additional": {
       "expansion_missions_ids": [15],
-      "filter_id": "firehouse_missions"
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
     },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
@@ -364,7 +392,10 @@
     ],
     "requirements": { "firetrucks": 1 },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 15,
@@ -385,7 +416,10 @@
     ],
     "requirements": { "firetrucks": 2 },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
     "base_mission_id": 16,
@@ -406,7 +440,10 @@
     ],
     "requirements": { "firetrucks": 1 },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 17,
@@ -427,7 +464,10 @@
     ],
     "requirements": { "firetrucks": 1 },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 18,
@@ -448,7 +488,10 @@
     ],
     "requirements": { "firetrucks": 1 },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 19,
@@ -468,9 +511,9 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
+      "battalion_chief_vehicles": 1,
       "water_needed": 7500,
-      "firetrucks": 3,
-      "battalion_chief_vehicles": 1
+      "firetrucks": 3
     },
     "chances": {
       "battalion_chief_vehicles": 90,
@@ -480,6 +523,7 @@
     "additional": {
       "possible_patient": 2,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -503,14 +547,15 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "firetrucks": 1,
+      "platform_trucks": 1,
       "battalion_chief_vehicles": 1,
-      "platform_trucks": 1
+      "firetrucks": 1
     },
     "chances": {},
     "additional": {
       "expansion_missions_ids": [22],
-      "filter_id": "firehouse_missions"
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
     },
     "prerequisites": { "main_building": 0, "fire_stations": 3 },
     "overlay_index": null,
@@ -531,13 +576,16 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "water_needed": 7500,
-      "firetrucks": 3,
+      "platform_trucks": 1,
       "battalion_chief_vehicles": 1,
-      "platform_trucks": 1
+      "water_needed": 7500,
+      "firetrucks": 3
     },
     "chances": { "battalion_chief_vehicles": 50 },
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": { "main_building": 0, "fire_stations": 3 },
     "overlay_index": null,
     "base_mission_id": 22,
@@ -558,7 +606,10 @@
     ],
     "requirements": { "firetrucks": 1 },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": { "main_building": 0, "fire_stations": 3 },
     "overlay_index": null,
     "base_mission_id": 23,
@@ -579,7 +630,10 @@
     ],
     "requirements": { "firetrucks": 1 },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": { "main_building": 0, "fire_stations": 3 },
     "overlay_index": null,
     "base_mission_id": 24,
@@ -604,6 +658,7 @@
       "possible_patient": 1,
       "expansion_missions_ids": [24, 2, 29],
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatológia"],
       "patient_specializations": "Traumatológia"
@@ -627,15 +682,16 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
+      "battalion_chief_vehicles": 1,
       "water_needed": 10000,
-      "firetrucks": 4,
-      "battalion_chief_vehicles": 1
+      "firetrucks": 4
     },
     "chances": { "patient_transport": 30, "patient_critical_care": 5 },
     "additional": {
       "possible_patient": 2,
       "filter_id": "firehouse_missions",
       "fire_alarm_system_possible": true,
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -664,7 +720,10 @@
     ],
     "requirements": { "firetrucks": 2 },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": { "main_building": 0, "fire_stations": 4 },
     "overlay_index": null,
     "base_mission_id": 27,
@@ -684,16 +743,17 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "water_needed": 13500,
-      "firetrucks": 3,
       "battalion_chief_vehicles": 1,
+      "water_tankers": 1,
       "heavy_rescue_vehicles": 1,
-      "water_tankers": 1
+      "water_needed": 13500,
+      "firetrucks": 3
     },
     "chances": { "water_tankers": 30 },
     "additional": {
       "filter_id": "firehouse_missions",
-      "fire_alarm_system_possible": true
+      "fire_alarm_system_possible": true,
+      "optional_event_mission": false
     },
     "prerequisites": { "main_building": 0, "fire_stations": 5 },
     "overlay_index": null,
@@ -714,14 +774,17 @@
       "/images/oil_rot.png"
     ],
     "requirements": {
-      "firetrucks": 4,
       "battalion_chief_vehicles": 2,
-      "heavy_rescue_vehicles": 2,
       "hazmat_vehicles": 2,
+      "heavy_rescue_vehicles": 2,
+      "firetrucks": 4,
       "police_cars": 3
     },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": {
       "main_building": 0,
       "police_stations": 2,
@@ -744,11 +807,11 @@
       "/images/oil_gelb.png",
       "/images/oil_rot.png"
     ],
-    "requirements": { "firetrucks": 1 },
+    "requirements": { "oneof_fire_engine_or_rescue": 1, "firetrucks": 1 },
     "chances": {},
     "additional": {
-      "allow_rw_instead_of_lf": true,
-      "filter_id": "firehouse_missions"
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -769,12 +832,15 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "firetrucks": 1,
+      "platform_trucks": 1,
       "battalion_chief_vehicles": 1,
-      "platform_trucks": 1
+      "firetrucks": 1
     },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": { "main_building": 0, "fire_stations": 6 },
     "overlay_index": null,
     "base_mission_id": 31,
@@ -795,7 +861,10 @@
     ],
     "requirements": { "firetrucks": 2 },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": { "main_building": 0, "fire_stations": 6 },
     "overlay_index": null,
     "base_mission_id": 32,
@@ -815,18 +884,19 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "water_needed": 31000,
-      "firetrucks": 10,
-      "battalion_chief_vehicles": 2,
       "platform_trucks": 3,
+      "battalion_chief_vehicles": 2,
+      "water_tankers": 1,
       "heavy_rescue_vehicles": 2,
-      "water_tankers": 1
+      "water_needed": 31000,
+      "firetrucks": 10
     },
     "chances": { "patient_transport": 50, "patient_critical_care": 5 },
     "additional": {
       "possible_patient": 25,
       "filter_id": "firehouse_missions",
       "fire_alarm_system_possible": true,
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -854,19 +924,20 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "water_needed": 31000,
-      "firetrucks": 10,
-      "battalion_chief_vehicles": 2,
       "platform_trucks": 3,
-      "heavy_rescue_vehicles": 2,
+      "battalion_chief_vehicles": 2,
       "water_tankers": 1,
-      "pump": 2
+      "pump": 2,
+      "heavy_rescue_vehicles": 2,
+      "water_needed": 31000,
+      "firetrucks": 10
     },
     "chances": { "patient_transport": 50, "patient_critical_care": 5 },
     "additional": {
       "possible_patient": 25,
       "filter_id": "firehouse_missions",
       "fire_alarm_system_possible": true,
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -900,6 +971,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -928,6 +1000,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Kardiológia"],
       "patient_specializations": "Kardiológia"
@@ -956,6 +1029,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -984,6 +1058,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [5],
       "patient_specialization_captions": ["Neurológia"],
       "patient_specializations": "Neurológia"
@@ -1013,6 +1088,7 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "patient_allow_first_responder_chance": 50,
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -1042,6 +1118,7 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "patient_allow_first_responder_chance": 50,
+      "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatológia"],
       "patient_specializations": "Traumatológia"
@@ -1065,13 +1142,13 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
+      "platform_trucks": 2,
+      "battalion_chief_vehicles": 2,
+      "hazmat_vehicles": 1,
+      "water_tankers": 1,
+      "heavy_rescue_vehicles": 1,
       "water_needed": 26000,
       "firetrucks": 8,
-      "battalion_chief_vehicles": 2,
-      "platform_trucks": 2,
-      "heavy_rescue_vehicles": 1,
-      "water_tankers": 1,
-      "hazmat_vehicles": 1,
       "police_cars": 2
     },
     "chances": {
@@ -1083,6 +1160,7 @@
       "possible_patient": 4,
       "filter_id": "firehouse_missions",
       "fire_alarm_system_possible": true,
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -1111,16 +1189,16 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "foam_needed": 9200,
-      "water_needed": 26000,
-      "firetrucks": 8,
-      "battalion_chief_vehicles": 2,
       "platform_trucks": 2,
-      "heavy_rescue_vehicles": 1,
-      "water_tankers": 1,
+      "battalion_chief_vehicles": 2,
+      "foam": 2,
       "hazmat_vehicles": 1,
-      "police_cars": 2,
-      "foam": 2
+      "water_tankers": 1,
+      "heavy_rescue_vehicles": 1,
+      "water_needed": 26000,
+      "foam_needed": 9200,
+      "firetrucks": 8,
+      "police_cars": 2
     },
     "chances": {
       "water_tankers": 40,
@@ -1131,6 +1209,7 @@
       "possible_patient": 4,
       "filter_id": "firehouse_missions",
       "fire_alarm_system_possible": true,
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -1166,6 +1245,7 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "patient_allow_first_responder_chance": 50,
+      "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatológia"],
       "patient_specializations": "Traumatológia"
@@ -1195,6 +1275,7 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "patient_allow_first_responder_chance": 50,
+      "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatológia"],
       "patient_specializations": "Traumatológia"
@@ -1221,7 +1302,8 @@
     "chances": {},
     "additional": {
       "max_possible_prisoners": 1,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -1245,7 +1327,8 @@
     "chances": {},
     "additional": {
       "max_possible_prisoners": 1,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -1267,7 +1350,10 @@
     ],
     "requirements": { "police_cars": 1 },
     "chances": {},
-    "additional": { "filter_id": "police_station_missions" },
+    "additional": {
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 46,
@@ -1288,7 +1374,10 @@
     ],
     "requirements": { "police_cars": 1 },
     "chances": {},
-    "additional": { "filter_id": "police_station_missions" },
+    "additional": {
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 47,
@@ -1311,7 +1400,8 @@
     "chances": {},
     "additional": {
       "max_possible_prisoners": 1,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -1335,7 +1425,8 @@
     "chances": {},
     "additional": {
       "max_possible_prisoners": 1,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -1357,7 +1448,10 @@
     ],
     "requirements": { "police_cars": 1 },
     "chances": {},
-    "additional": { "filter_id": "police_station_missions" },
+    "additional": {
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 50,
@@ -1378,7 +1472,10 @@
     ],
     "requirements": { "police_cars": 1 },
     "chances": {},
-    "additional": { "filter_id": "police_station_missions" },
+    "additional": {
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 51,
@@ -1399,7 +1496,10 @@
     ],
     "requirements": { "police_cars": 1 },
     "chances": {},
-    "additional": { "filter_id": "police_station_missions" },
+    "additional": {
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 52,
@@ -1422,7 +1522,10 @@
     ],
     "requirements": { "police_cars": 1 },
     "chances": {},
-    "additional": { "filter_id": "police_station_missions" },
+    "additional": {
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 53,
@@ -1443,7 +1546,10 @@
     ],
     "requirements": { "police_cars": 1 },
     "chances": {},
-    "additional": { "filter_id": "police_station_missions" },
+    "additional": {
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 54,
@@ -1468,6 +1574,7 @@
       "possible_patient": 3,
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatológia"],
       "patient_specializations": "Traumatológia"
@@ -1495,7 +1602,8 @@
     "additional": {
       "expansion_missions_ids": [55],
       "max_possible_prisoners": 1,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 2 },
     "overlay_index": null,
@@ -1519,7 +1627,9 @@
     "chances": {},
     "additional": {
       "only_alliance_mission": true,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false,
+      "unavailable_in_normal_missions": true
     },
     "prerequisites": { "main_building": 6 },
     "overlay_index": null,
@@ -1541,7 +1651,10 @@
     ],
     "requirements": { "firetrucks": 2 },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
     "base_mission_id": 58,
@@ -1560,9 +1673,12 @@
       "/images/cat_gelb.png",
       "/images/cat_rot.png"
     ],
-    "requirements": { "firetrucks": 1, "heavy_rescue_vehicles": 1 },
+    "requirements": { "heavy_rescue_vehicles": 1, "firetrucks": 1 },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": { "main_building": 0, "fire_stations": 6 },
     "overlay_index": null,
     "base_mission_id": 59,
@@ -1582,16 +1698,17 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "water_needed": 12500,
-      "firetrucks": 5,
+      "platform_trucks": 1,
       "battalion_chief_vehicles": 1,
-      "platform_trucks": 1
+      "water_needed": 12500,
+      "firetrucks": 5
     },
     "chances": { "patient_transport": 50, "patient_critical_care": 5 },
     "additional": {
       "possible_patient": 4,
       "filter_id": "firehouse_missions",
       "fire_alarm_system_possible": true,
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -1619,17 +1736,18 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "water_needed": 12500,
-      "firetrucks": 5,
-      "battalion_chief_vehicles": 1,
       "platform_trucks": 1,
-      "pump": 1
+      "battalion_chief_vehicles": 1,
+      "pump": 1,
+      "water_needed": 12500,
+      "firetrucks": 5
     },
     "chances": { "patient_transport": 50, "patient_critical_care": 5 },
     "additional": {
       "possible_patient": 4,
       "filter_id": "firehouse_missions",
       "fire_alarm_system_possible": true,
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -1662,6 +1780,7 @@
     "additional": {
       "possible_patient": 4,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatológia"],
       "patient_specializations": "Traumatológia"
@@ -1690,7 +1809,10 @@
     ],
     "requirements": { "police_cars": 1 },
     "chances": {},
-    "additional": { "filter_id": "police_station_missions" },
+    "additional": {
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 62,
@@ -1715,6 +1837,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [6],
       "patient_specialization_captions": ["Neurochirurgia"],
       "patient_specializations": "Neurochirurgia"
@@ -1737,11 +1860,12 @@
       "/images/caraccident_gelb.png",
       "/images/caraccident_rot.png"
     ],
-    "requirements": { "firetrucks": 2, "heavy_rescue_vehicles": 1 },
+    "requirements": { "heavy_rescue_vehicles": 1, "firetrucks": 2 },
     "chances": { "patient_transport": 50, "patient_critical_care": 10 },
     "additional": {
       "possible_patient": 12,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -1770,7 +1894,10 @@
     ],
     "requirements": { "firetrucks": 2 },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
     "base_mission_id": 65,
@@ -1789,7 +1916,7 @@
       "/images/fire_gelb.png",
       "/images/fire_rot.png"
     ],
-    "requirements": { "firetrucks": 2, "platform_trucks": 1 },
+    "requirements": { "platform_trucks": 1, "firetrucks": 2 },
     "chances": {
       "platform_trucks": 30,
       "patient_transport": 50,
@@ -1798,6 +1925,7 @@
     "additional": {
       "possible_patient": 1,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -1826,6 +1954,7 @@
       "possible_patient": 3,
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatológia"],
       "patient_specializations": "Traumatológia"
@@ -1849,13 +1978,13 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "water_needed": 21000,
-      "firetrucks": 6,
+      "platform_trucks": 1,
       "battalion_chief_vehicles": 2,
       "mobile_command_vehicles": 1,
-      "platform_trucks": 1,
-      "heavy_rescue_vehicles": 1,
       "water_tankers": 1,
+      "heavy_rescue_vehicles": 1,
+      "water_needed": 21000,
+      "firetrucks": 6,
       "police_cars": 1
     },
     "chances": {
@@ -1867,6 +1996,7 @@
       "possible_patient": 6,
       "filter_id": "firehouse_missions",
       "fire_alarm_system_possible": true,
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -1895,15 +2025,15 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "water_needed": 21000,
-      "firetrucks": 6,
+      "platform_trucks": 1,
       "battalion_chief_vehicles": 2,
       "mobile_command_vehicles": 1,
-      "platform_trucks": 1,
-      "heavy_rescue_vehicles": 1,
       "water_tankers": 1,
-      "police_cars": 1,
-      "pump": 1
+      "pump": 1,
+      "heavy_rescue_vehicles": 1,
+      "water_needed": 21000,
+      "firetrucks": 6,
+      "police_cars": 1
     },
     "chances": {
       "water_tankers": 20,
@@ -1914,6 +2044,7 @@
       "possible_patient": 6,
       "filter_id": "firehouse_missions",
       "fire_alarm_system_possible": true,
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -1943,14 +2074,17 @@
       "/images/oil_rot.png"
     ],
     "requirements": {
-      "firetrucks": 4,
       "battalion_chief_vehicles": 2,
-      "heavy_rescue_vehicles": 2,
       "hazmat_vehicles": 1,
+      "heavy_rescue_vehicles": 2,
+      "firetrucks": 4,
       "police_cars": 3
     },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": {
       "main_building": 0,
       "police_stations": 2,
@@ -1980,6 +2114,7 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "patient_allow_first_responder_chance": 50,
+      "optional_event_mission": false,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Všeobecný chirurg"],
       "patient_specializations": "Všeobecný chirurg"
@@ -2003,12 +2138,12 @@
       "/images/planecrash_rot.png"
     ],
     "requirements": {
-      "water_needed": 16000,
-      "firetrucks": 4,
       "battalion_chief_vehicles": 1,
-      "heavy_rescue_vehicles": 1,
+      "hazmat_vehicles": 1,
       "water_tankers": 1,
-      "hazmat_vehicles": 1
+      "heavy_rescue_vehicles": 1,
+      "water_needed": 16000,
+      "firetrucks": 4
     },
     "chances": {
       "hazmat_vehicles": 50,
@@ -2018,6 +2153,7 @@
     "additional": {
       "possible_patient": 4,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatológia"],
       "patient_specializations": "Traumatológia"
@@ -2045,16 +2181,17 @@
       "/images/caraccident_rot.png"
     ],
     "requirements": {
-      "firetrucks": 4,
-      "battalion_chief_vehicles": 1,
       "platform_trucks": 1,
+      "battalion_chief_vehicles": 1,
       "heavy_rescue_vehicles": 2,
+      "firetrucks": 4,
       "police_cars": 2
     },
     "chances": { "patient_transport": 80, "patient_critical_care": 10 },
     "additional": {
       "possible_patient": 12,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Všeobecný chirurg"],
       "patient_specializations": "Všeobecný chirurg"
@@ -2083,17 +2220,19 @@
       "/images/blast_rot.png"
     ],
     "requirements": {
-      "water_needed": 37000,
-      "firetrucks": 10,
-      "battalion_chief_vehicles": 3,
       "platform_trucks": 2,
+      "battalion_chief_vehicles": 3,
+      "water_tankers": 2,
       "heavy_rescue_vehicles": 2,
-      "water_tankers": 2
+      "water_needed": 37000,
+      "firetrucks": 10
     },
     "chances": {},
     "additional": {
       "only_alliance_mission": true,
-      "filter_id": "firehouse_missions"
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
+      "unavailable_in_normal_missions": true
     },
     "prerequisites": { "main_building": 0 },
     "overlay_index": null,
@@ -2114,14 +2253,17 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "water_needed": 18500,
-      "firetrucks": 5,
-      "battalion_chief_vehicles": 1,
       "platform_trucks": 1,
-      "water_tankers": 1
+      "battalion_chief_vehicles": 1,
+      "water_tankers": 1,
+      "water_needed": 18500,
+      "firetrucks": 5
     },
     "chances": { "water_tankers": 30 },
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": { "main_building": 0, "fire_stations": 8 },
     "overlay_index": null,
     "base_mission_id": 75,
@@ -2145,7 +2287,8 @@
     "additional": {
       "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 8 },
     "overlay_index": null,
@@ -2171,6 +2314,7 @@
       "possible_patient": 4,
       "possible_patient_min": 1,
       "filter_id": "police_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatológia"],
       "patient_specializations": "Traumatológia"
@@ -2198,12 +2342,15 @@
       "/images/river_rot.png"
     ],
     "requirements": {
-      "firetrucks": 2,
       "battalion_chief_vehicles": 1,
-      "heavy_rescue_vehicles": 1
+      "heavy_rescue_vehicles": 1,
+      "firetrucks": 2
     },
     "chances": { "battalion_chief_vehicles": 20, "heavy_rescue_vehicles": 20 },
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": { "main_building": 0, "fire_stations": 3 },
     "overlay_index": null,
     "base_mission_id": 78,
@@ -2228,6 +2375,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatológia"],
       "patient_specializations": "Traumatológia"
@@ -2256,6 +2404,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatológia"],
       "patient_specializations": "Traumatológia"
@@ -2284,6 +2433,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -2313,6 +2463,7 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "patient_allow_first_responder_chance": 50,
+      "optional_event_mission": false,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Všeobecný chirurg"],
       "patient_specializations": "Všeobecný chirurg"
@@ -2341,6 +2492,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "date_start": "2021-06-25T09:00:00Z",
       "date_end": "2021-08-27T23:59:00Z",
       "patient_specialization_ids": [0],
@@ -2371,6 +2523,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "date_start": "2021-06-25T09:00:00Z",
       "date_end": "2021-08-27T23:59:00Z",
       "patient_specialization_ids": [0],
@@ -2401,6 +2554,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "date_start": "2021-06-25T09:00:00Z",
       "date_end": "2021-08-27T23:59:00Z",
       "patient_specialization_ids": [0],
@@ -2431,6 +2585,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "date_start": "2021-06-25T09:00:00Z",
       "date_end": "2021-08-27T23:59:00Z",
       "patient_specialization_ids": [0],
@@ -2459,6 +2614,7 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "date_start": "2021-06-25T09:00:00Z",
       "date_end": "2021-08-27T23:59:00Z"
     },
@@ -2486,6 +2642,7 @@
       "possible_patient": 6,
       "expansion_missions_ids": [89],
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -2513,16 +2670,17 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "water_needed": 15000,
-      "firetrucks": 6,
+      "platform_trucks": 1,
       "battalion_chief_vehicles": 1,
-      "platform_trucks": 1
+      "water_needed": 15000,
+      "firetrucks": 6
     },
     "chances": { "patient_transport": 40, "patient_critical_care": 5 },
     "additional": {
       "possible_patient": 10,
       "expansion_missions_ids": [91],
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -2555,7 +2713,8 @@
       "duration_text": "20 minút",
       "duration": 1200,
       "guard_mission": true,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -2576,18 +2735,18 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 2,
+      "mobile_air_vehicles": 1,
+      "water_tankers": 1,
+      "heavy_rescue_vehicles": 1,
       "water_needed": 26000,
       "firetrucks": 8,
-      "battalion_chief_vehicles": 2,
-      "platform_trucks": 1,
-      "heavy_rescue_vehicles": 1,
-      "water_tankers": 1,
-      "mobile_air_vehicles": 1,
       "police_cars": 3
     },
     "chances": {
-      "water_tankers": 10,
       "mobile_air_vehicles": 30,
+      "water_tankers": 10,
       "patient_transport": 40,
       "patient_critical_care": 5
     },
@@ -2595,6 +2754,7 @@
       "possible_patient": 20,
       "expansion_missions_ids": [92],
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -2623,20 +2783,21 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "water_needed": 41000,
-      "firetrucks": 14,
+      "platform_trucks": 2,
       "battalion_chief_vehicles": 4,
       "mobile_command_vehicles": 1,
-      "platform_trucks": 2,
-      "heavy_rescue_vehicles": 2,
-      "water_tankers": 1,
       "mobile_air_vehicles": 1,
+      "water_tankers": 1,
+      "heavy_rescue_vehicles": 2,
+      "water_needed": 41000,
+      "firetrucks": 14,
       "police_cars": 6
     },
     "chances": { "patient_transport": 40, "patient_critical_care": 5 },
     "additional": {
       "possible_patient": 50,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -2670,6 +2831,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Kardiológia"],
       "patient_specializations": "Kardiológia"
@@ -2697,7 +2859,8 @@
     "additional": {
       "expansion_missions_ids": [96],
       "max_possible_prisoners": 2,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 7 },
     "overlay_index": null,
@@ -2724,7 +2887,8 @@
     "additional": {
       "expansion_missions_ids": [97],
       "max_possible_prisoners": 2,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 7 },
     "overlay_index": null,
@@ -2745,9 +2909,9 @@
       "/images/medicalstore_rot.png"
     ],
     "requirements": {
-      "firetrucks": 2,
       "battalion_chief_vehicles": 2,
       "heavy_rescue_vehicles": 1,
+      "firetrucks": 2,
       "police_cars": 2
     },
     "chances": { "patient_transport": 90, "patient_critical_care": 5 },
@@ -2755,6 +2919,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "patient_at_end_of_mission": true,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatológia"],
@@ -2786,9 +2951,9 @@
       "/images/medicalstore_rot.png"
     ],
     "requirements": {
-      "firetrucks": 2,
       "battalion_chief_vehicles": 2,
       "heavy_rescue_vehicles": 1,
+      "firetrucks": 2,
       "police_cars": 2
     },
     "chances": { "patient_transport": 90, "patient_critical_care": 5 },
@@ -2796,6 +2961,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "patient_at_end_of_mission": true,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatológia"],
@@ -2825,15 +2991,16 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
+      "battalion_chief_vehicles": 1,
       "water_needed": 7500,
-      "firetrucks": 3,
-      "battalion_chief_vehicles": 1
+      "firetrucks": 3
     },
     "chances": { "patient_transport": 60, "patient_critical_care": 5 },
     "additional": {
       "possible_patient": 4,
       "expansion_missions_ids": [269],
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -2861,15 +3028,15 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "water_needed": 32000,
-      "firetrucks": 8,
+      "platform_trucks": 3,
       "battalion_chief_vehicles": 4,
       "mobile_command_vehicles": 1,
-      "platform_trucks": 3,
-      "heavy_rescue_vehicles": 4,
-      "water_tankers": 2,
       "mobile_air_vehicles": 2,
       "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "heavy_rescue_vehicles": 4,
+      "water_needed": 32000,
+      "firetrucks": 8,
       "police_cars": 4
     },
     "chances": { "patient_transport": 60, "patient_critical_care": 5 },
@@ -2877,6 +3044,7 @@
       "possible_patient": 10,
       "filter_id": "firehouse_missions",
       "fire_alarm_system_possible": true,
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -2910,6 +3078,7 @@
       "possible_patient": 17,
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Všeobecný chirurg"],
       "patient_specializations": "Všeobecný chirurg"
@@ -2937,13 +3106,13 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
+      "platform_trucks": 4,
+      "battalion_chief_vehicles": 2,
+      "mobile_air_vehicles": 1,
+      "water_tankers": 1,
+      "heavy_rescue_vehicles": 2,
       "water_needed": 31000,
       "firetrucks": 10,
-      "battalion_chief_vehicles": 2,
-      "platform_trucks": 4,
-      "heavy_rescue_vehicles": 2,
-      "water_tankers": 1,
-      "mobile_air_vehicles": 1,
       "police_cars": 3
     },
     "chances": {
@@ -2955,6 +3124,7 @@
       "possible_patient": 4,
       "filter_id": "firehouse_missions",
       "fire_alarm_system_possible": true,
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -2983,15 +3153,15 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
+      "platform_trucks": 4,
+      "battalion_chief_vehicles": 2,
+      "mobile_air_vehicles": 1,
+      "water_tankers": 1,
+      "pump": 2,
+      "heavy_rescue_vehicles": 2,
       "water_needed": 31000,
       "firetrucks": 10,
-      "battalion_chief_vehicles": 2,
-      "platform_trucks": 4,
-      "heavy_rescue_vehicles": 2,
-      "water_tankers": 1,
-      "mobile_air_vehicles": 1,
-      "police_cars": 3,
-      "pump": 2
+      "police_cars": 3
     },
     "chances": {
       "mobile_air_vehicles": 50,
@@ -3002,6 +3172,7 @@
       "possible_patient": 4,
       "filter_id": "firehouse_missions",
       "fire_alarm_system_possible": true,
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -3031,20 +3202,21 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "water_needed": 48000,
-      "firetrucks": 12,
+      "platform_trucks": 2,
       "battalion_chief_vehicles": 2,
       "mobile_command_vehicles": 1,
-      "platform_trucks": 2,
-      "heavy_rescue_vehicles": 3,
-      "water_tankers": 3,
       "mobile_air_vehicles": 1,
+      "water_tankers": 3,
+      "heavy_rescue_vehicles": 3,
+      "water_needed": 48000,
+      "firetrucks": 12,
       "police_cars": 2
     },
     "chances": { "patient_transport": 20, "patient_critical_care": 5 },
     "additional": {
       "possible_patient": 2,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -3073,23 +3245,24 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "foam_needed": 7800,
-      "water_needed": 48000,
-      "firetrucks": 12,
+      "platform_trucks": 2,
       "battalion_chief_vehicles": 2,
       "mobile_command_vehicles": 1,
-      "platform_trucks": 2,
-      "heavy_rescue_vehicles": 3,
-      "water_tankers": 3,
+      "foam": 1,
       "mobile_air_vehicles": 1,
-      "police_cars": 2,
+      "water_tankers": 3,
       "pump": 3,
-      "foam": 1
+      "heavy_rescue_vehicles": 3,
+      "water_needed": 48000,
+      "foam_needed": 7800,
+      "firetrucks": 12,
+      "police_cars": 2
     },
     "chances": { "patient_transport": 20, "patient_critical_care": 5 },
     "additional": {
       "possible_patient": 2,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -3124,6 +3297,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatológia"],
       "patient_specializations": "Traumatológia"
@@ -3147,16 +3321,17 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "water_needed": 10000,
-      "firetrucks": 4,
       "battalion_chief_vehicles": 2,
-      "mobile_command_vehicles": 1
+      "mobile_command_vehicles": 1,
+      "water_needed": 10000,
+      "firetrucks": 4
     },
     "chances": { "patient_transport": 30, "patient_critical_care": 5 },
     "additional": {
       "possible_patient": 3,
       "filter_id": "firehouse_missions",
       "fire_alarm_system_possible": true,
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -3184,17 +3359,18 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "water_needed": 10000,
-      "firetrucks": 4,
       "battalion_chief_vehicles": 2,
       "mobile_command_vehicles": 1,
-      "pump": 1
+      "pump": 1,
+      "water_needed": 10000,
+      "firetrucks": 4
     },
     "chances": { "patient_transport": 30, "patient_critical_care": 5 },
     "additional": {
       "possible_patient": 3,
       "filter_id": "firehouse_missions",
       "fire_alarm_system_possible": true,
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -3223,14 +3399,14 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "water_needed": 26000,
-      "firetrucks": 8,
+      "platform_trucks": 2,
       "battalion_chief_vehicles": 4,
       "mobile_command_vehicles": 1,
-      "platform_trucks": 2,
-      "heavy_rescue_vehicles": 2,
-      "water_tankers": 1,
       "mobile_air_vehicles": 1,
+      "water_tankers": 1,
+      "heavy_rescue_vehicles": 2,
+      "water_needed": 26000,
+      "firetrucks": 8,
       "police_cars": 2
     },
     "chances": { "patient_transport": 30, "patient_critical_care": 5 },
@@ -3238,6 +3414,7 @@
       "possible_patient": 7,
       "filter_id": "firehouse_missions",
       "fire_alarm_system_possible": true,
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -3266,24 +3443,25 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "foam_needed": 9200,
-      "water_needed": 26000,
-      "firetrucks": 8,
+      "platform_trucks": 2,
       "battalion_chief_vehicles": 4,
       "mobile_command_vehicles": 1,
-      "platform_trucks": 2,
-      "heavy_rescue_vehicles": 2,
-      "water_tankers": 1,
+      "foam": 2,
       "mobile_air_vehicles": 1,
-      "police_cars": 2,
+      "water_tankers": 1,
       "pump": 2,
-      "foam": 2
+      "heavy_rescue_vehicles": 2,
+      "water_needed": 26000,
+      "foam_needed": 9200,
+      "firetrucks": 8,
+      "police_cars": 2
     },
     "chances": { "patient_transport": 30, "patient_critical_care": 5 },
     "additional": {
       "possible_patient": 7,
       "filter_id": "firehouse_missions",
       "fire_alarm_system_possible": true,
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -3316,7 +3494,8 @@
     "chances": {},
     "additional": {
       "max_possible_prisoners": 1,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 7 },
     "overlay_index": null,
@@ -3340,7 +3519,8 @@
     "chances": {},
     "additional": {
       "max_possible_prisoners": 1,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 7 },
     "overlay_index": null,
@@ -3364,7 +3544,8 @@
     "chances": {},
     "additional": {
       "max_possible_prisoners": 1,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 7 },
     "overlay_index": null,
@@ -3384,9 +3565,12 @@
       "/images/fire_gelb.png",
       "/images/fire_rot.png"
     ],
-    "requirements": { "firetrucks": 2, "battalion_chief_vehicles": 1 },
+    "requirements": { "battalion_chief_vehicles": 1, "firetrucks": 2 },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": { "main_building": 0, "fire_stations": 6 },
     "overlay_index": null,
     "base_mission_id": 109,
@@ -3405,14 +3589,16 @@
       "/images/sawmill_gelb.png",
       "/images/sawmill_rot.png"
     ],
-    "requirements": { "firetrucks": 1 },
+    "requirements": {
+      "oneof_fire_engine_or_rescue_or_ladder": 1,
+      "firetrucks": 1
+    },
     "chances": { "patient_transport": 100, "patient_critical_care": 5 },
     "additional": {
       "possible_patient": 1,
       "possible_patient_min": 1,
-      "allow_rw_instead_of_lf": true,
       "filter_id": "firehouse_missions",
-      "allow_dlk_instead_of_lf": true,
+      "optional_event_mission": false,
       "patient_at_end_of_mission": true,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatológia"],
@@ -3440,13 +3626,14 @@
       "/images/clock_gelb.png",
       "/images/clock_rot.png"
     ],
-    "requirements": { "firetrucks": 2, "ambulances": 1, "police_cars": 7 },
+    "requirements": { "ambulances": 1, "firetrucks": 2, "police_cars": 7 },
     "chances": {},
     "additional": {
       "duration_text": "1 hodina",
       "duration": 3600,
       "guard_mission": true,
-      "filter_id": "firehouse_missions"
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
     },
     "prerequisites": {
       "main_building": 0,
@@ -3472,20 +3659,21 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "water_needed": 21000,
-      "firetrucks": 6,
+      "platform_trucks": 2,
       "battalion_chief_vehicles": 2,
       "mobile_command_vehicles": 1,
-      "platform_trucks": 2,
-      "heavy_rescue_vehicles": 4,
-      "water_tankers": 1,
       "mobile_air_vehicles": 2,
+      "water_tankers": 1,
+      "heavy_rescue_vehicles": 4,
+      "water_needed": 21000,
+      "firetrucks": 6,
       "police_cars": 2
     },
     "chances": { "water_tankers": 20 },
     "additional": {
       "filter_id": "firehouse_missions",
-      "fire_alarm_system_possible": true
+      "fire_alarm_system_possible": true,
+      "optional_event_mission": false
     },
     "prerequisites": {
       "main_building": 0,
@@ -3513,6 +3701,7 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "date_start": "2021-10-15T09:00:00Z",
       "date_end": "2021-10-31T23:59:00+01:00"
     },
@@ -3538,6 +3727,7 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "date_start": "2021-10-15T09:00:00Z",
       "date_end": "2021-10-31T23:59:00+01:00"
     },
@@ -3560,9 +3750,9 @@
       "/images/ghost_rot.png"
     ],
     "requirements": {
-      "firetrucks": 2,
       "battalion_chief_vehicles": 1,
-      "mobile_air_vehicles": 1
+      "mobile_air_vehicles": 1,
+      "firetrucks": 2
     },
     "chances": {
       "mobile_air_vehicles": 50,
@@ -3572,6 +3762,7 @@
     "additional": {
       "possible_patient": 1,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "date_start": "2021-10-15T09:00:00Z",
       "date_end": "2021-10-31T23:59:00+01:00",
       "patient_specialization_ids": [5],
@@ -3600,11 +3791,12 @@
       "/images/ghost_gelb.png",
       "/images/ghost_rot.png"
     ],
-    "requirements": { "firetrucks": 1, "platform_trucks": 1 },
+    "requirements": { "platform_trucks": 1, "firetrucks": 1 },
     "chances": { "patient_transport": 50, "patient_critical_care": 5 },
     "additional": {
       "possible_patient": 1,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "date_start": "2021-10-15T09:00:00Z",
       "date_end": "2021-10-31T23:59:00+01:00",
       "patient_specialization_ids": [4],
@@ -3635,6 +3827,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "date_start": "2021-10-15T09:00:00Z",
       "date_end": "2021-10-31T23:59:00+01:00",
       "patient_specialization_ids": [5],
@@ -3663,6 +3856,7 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
+      "optional_event_mission": false,
       "date_start": "2021-10-15T09:00:00Z",
       "date_end": "2021-10-31T23:59:00+01:00"
     },
@@ -3688,6 +3882,7 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
+      "optional_event_mission": false,
       "date_start": "2021-10-15T09:00:00Z",
       "date_end": "2021-10-31T23:59:00+01:00"
     },
@@ -3713,6 +3908,7 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
+      "optional_event_mission": false,
       "date_start": "2021-10-15T09:00:00Z",
       "date_end": "2021-10-31T23:59:00+01:00"
     },
@@ -3738,6 +3934,7 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
+      "optional_event_mission": false,
       "date_start": "2021-10-15T09:00:00Z",
       "date_end": "2021-10-31T23:59:00+01:00"
     },
@@ -3765,6 +3962,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatológia"],
       "patient_specializations": "Traumatológia"
@@ -3788,12 +3986,15 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
+      "battalion_chief_vehicles": 1,
       "water_needed": 12500,
-      "firetrucks": 5,
-      "battalion_chief_vehicles": 1
+      "firetrucks": 5
     },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": { "main_building": 0, "fire_stations": 6 },
     "overlay_index": null,
     "base_mission_id": 123,
@@ -3818,7 +4019,8 @@
       "duration_text": "30 minút",
       "duration": 1800,
       "guard_mission": true,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 2 },
     "overlay_index": null,
@@ -3848,6 +4050,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Všeobecný chirurg"],
       "patient_specializations": "Všeobecný chirurg"
@@ -3871,10 +4074,10 @@
       "/images/constructioncrane_rot.png"
     ],
     "requirements": {
-      "firetrucks": 2,
-      "battalion_chief_vehicles": 1,
       "platform_trucks": 1,
+      "battalion_chief_vehicles": 1,
       "heavy_rescue_vehicles": 2,
+      "firetrucks": 2,
       "police_cars": 2
     },
     "chances": {
@@ -3886,6 +4089,7 @@
       "possible_patient": 8,
       "possible_patient_min": 2,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatológia"],
       "patient_specializations": "Traumatológia"
@@ -3914,10 +4118,10 @@
       "/images/constructioncrane_rot.png"
     ],
     "requirements": {
-      "firetrucks": 4,
-      "battalion_chief_vehicles": 2,
       "platform_trucks": 2,
+      "battalion_chief_vehicles": 2,
       "heavy_rescue_vehicles": 3,
+      "firetrucks": 4,
       "police_cars": 1
     },
     "chances": {
@@ -3929,6 +4133,7 @@
       "possible_patient": 20,
       "possible_patient_min": 8,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatológia"],
       "patient_specializations": "Traumatológia"
@@ -3966,6 +4171,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Všeobecný chirurg"],
       "patient_specializations": "Všeobecný chirurg"
@@ -3998,6 +4204,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [6],
       "patient_specialization_captions": ["Neurochirurgia"],
       "patient_specializations": "Neurochirurgia"
@@ -4030,6 +4237,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Všeobecný chirurg"],
       "patient_specializations": "Všeobecný chirurg"
@@ -4053,14 +4261,17 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "water_needed": 40500,
-      "firetrucks": 9,
-      "battalion_chief_vehicles": 2,
       "platform_trucks": 3,
-      "water_tankers": 3
+      "battalion_chief_vehicles": 2,
+      "water_tankers": 3,
+      "water_needed": 40500,
+      "firetrucks": 9
     },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": { "main_building": 0, "fire_stations": 13 },
     "overlay_index": null,
     "base_mission_id": 131,
@@ -4089,6 +4300,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -4112,19 +4324,20 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "water_needed": 31000,
-      "firetrucks": 10,
+      "platform_trucks": 2,
       "battalion_chief_vehicles": 4,
       "mobile_command_vehicles": 1,
-      "platform_trucks": 2,
-      "water_tankers": 1,
       "mobile_air_vehicles": 1,
+      "water_tankers": 1,
+      "water_needed": 31000,
+      "firetrucks": 10,
       "police_cars": 2
     },
     "chances": { "patient_transport": 25, "patient_critical_care": 5 },
     "additional": {
       "possible_patient": 3,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -4153,20 +4366,21 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "water_needed": 31000,
-      "firetrucks": 10,
+      "platform_trucks": 2,
       "battalion_chief_vehicles": 4,
       "mobile_command_vehicles": 1,
-      "platform_trucks": 2,
-      "water_tankers": 1,
       "mobile_air_vehicles": 1,
-      "police_cars": 2,
-      "pump": 2
+      "water_tankers": 1,
+      "pump": 2,
+      "water_needed": 31000,
+      "firetrucks": 10,
+      "police_cars": 2
     },
     "chances": { "patient_transport": 25, "patient_critical_care": 5 },
     "additional": {
       "possible_patient": 3,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -4196,25 +4410,26 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 1,
+      "mobile_air_vehicles": 1,
+      "water_tankers": 1,
+      "heavy_rescue_vehicles": 1,
       "water_needed": 16000,
       "firetrucks": 4,
-      "battalion_chief_vehicles": 1,
-      "platform_trucks": 1,
-      "heavy_rescue_vehicles": 1,
-      "water_tankers": 1,
-      "mobile_air_vehicles": 1,
       "police_cars": 2
     },
     "chances": {
       "platform_trucks": 50,
-      "water_tankers": 20,
       "mobile_air_vehicles": 20,
+      "water_tankers": 20,
       "patient_transport": 60,
       "patient_critical_care": 5
     },
     "additional": {
       "possible_patient": 5,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -4247,8 +4462,9 @@
     "additional": {
       "possible_patient": 2,
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00",
+      "optional_event_mission": true,
+      "date_start": "2023-12-01T10:00:00Z",
+      "date_end": "2023-12-26T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatológia"],
       "patient_specializations": "Traumatológia"
@@ -4275,8 +4491,9 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-12-01T10:00:00Z",
+      "date_end": "2023-12-26T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 5 },
     "overlay_index": null,
@@ -4301,8 +4518,9 @@
     "additional": {
       "possible_patient": 1,
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00",
+      "optional_event_mission": true,
+      "date_start": "2023-12-01T10:00:00Z",
+      "date_end": "2023-12-26T22:59:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -4329,8 +4547,9 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-12-01T10:00:00Z",
+      "date_end": "2023-12-26T22:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 6 },
     "overlay_index": null,
@@ -4355,8 +4574,9 @@
     "additional": {
       "possible_patient": 1,
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00",
+      "optional_event_mission": true,
+      "date_start": "2023-12-01T10:00:00Z",
+      "date_end": "2023-12-26T22:59:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -4383,8 +4603,9 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00"
+      "optional_event_mission": true,
+      "date_start": "2023-12-01T10:00:00Z",
+      "date_end": "2023-12-26T22:59:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 2 },
     "overlay_index": null,
@@ -4404,13 +4625,14 @@
       "/images/caraccident_gelb.png",
       "/images/caraccident_rot.png"
     ],
-    "requirements": { "firetrucks": 1, "heavy_rescue_vehicles": 1 },
+    "requirements": { "heavy_rescue_vehicles": 1, "firetrucks": 1 },
     "chances": { "patient_transport": 30, "patient_critical_care": 10 },
     "additional": {
       "possible_patient": 3,
       "filter_id": "firehouse_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00",
+      "optional_event_mission": true,
+      "date_start": "2023-12-01T10:00:00Z",
+      "date_end": "2023-12-26T22:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatológia"],
       "patient_specializations": "Traumatológia"
@@ -4439,8 +4661,9 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00",
+      "optional_event_mission": true,
+      "date_start": "2023-12-01T10:00:00Z",
+      "date_end": "2023-12-26T22:59:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -4467,7 +4690,8 @@
     "chances": {},
     "additional": {
       "max_possible_prisoners": 1,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -4493,6 +4717,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -4521,7 +4746,8 @@
       "duration_text": "30 minút",
       "duration": 1800,
       "guard_mission": true,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -4542,14 +4768,15 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
+      "battalion_chief_vehicles": 1,
       "water_needed": 7500,
-      "firetrucks": 3,
-      "battalion_chief_vehicles": 1
+      "firetrucks": 3
     },
     "chances": { "patient_transport": 30, "patient_critical_care": 5 },
     "additional": {
       "possible_patient": 12,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -4577,14 +4804,15 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "firetrucks": 4,
       "battalion_chief_vehicles": 1,
-      "heavy_rescue_vehicles": 2
+      "heavy_rescue_vehicles": 2,
+      "firetrucks": 4
     },
     "chances": { "patient_transport": 70, "patient_critical_care": 5 },
     "additional": {
       "possible_patient": 5,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatológia"],
       "patient_specializations": "Traumatológia"
@@ -4615,6 +4843,7 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
       "date_start": "2021-12-27T10:00:00Z",
       "date_end": "2022-01-01T23:00:00Z"
     },
@@ -4640,6 +4869,7 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
       "date_start": "2021-12-27T10:00:00Z",
       "date_end": "2022-01-01T23:00:00Z"
     },
@@ -4665,6 +4895,7 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
       "date_start": "2021-12-27T10:00:00Z",
       "date_end": "2022-01-01T23:00:00Z"
     },
@@ -4687,9 +4918,9 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
+      "battalion_chief_vehicles": 1,
       "water_needed": 7500,
-      "firetrucks": 3,
-      "battalion_chief_vehicles": 1
+      "firetrucks": 3
     },
     "chances": {
       "battalion_chief_vehicles": 90,
@@ -4699,6 +4930,7 @@
     "additional": {
       "possible_patient": 2,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
       "date_start": "2021-12-27T10:00:00Z",
       "date_end": "2022-01-01T23:00:00Z",
       "patient_specialization_ids": [0],
@@ -4727,6 +4959,7 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
       "date_start": "2021-12-27T10:00:00Z",
       "date_end": "2022-01-01T23:00:00Z"
     },
@@ -4748,10 +4981,11 @@
       "/images/fire_gelb.png",
       "/images/fire_rot.png"
     ],
-    "requirements": { "firetrucks": 2, "platform_trucks": 1 },
+    "requirements": { "platform_trucks": 1, "firetrucks": 2 },
     "chances": { "platform_trucks": 30 },
     "additional": {
       "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
       "date_start": "2021-12-27T10:00:00Z",
       "date_end": "2022-01-01T23:00:00Z"
     },
@@ -4777,6 +5011,7 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
       "date_start": "2021-12-27T10:00:00Z",
       "date_end": "2022-01-01T23:00:00Z"
     },
@@ -4802,6 +5037,7 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
       "date_start": "2021-12-27T10:00:00Z",
       "date_end": "2022-01-01T23:00:00Z"
     },
@@ -4827,6 +5063,7 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
+      "optional_event_mission": true,
       "date_start": "2021-12-27T10:00:00Z",
       "date_end": "2022-01-01T23:00:00Z"
     },
@@ -4849,11 +5086,11 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 1,
+      "mobile_air_vehicles": 1,
       "water_needed": 12500,
       "firetrucks": 5,
-      "battalion_chief_vehicles": 1,
-      "platform_trucks": 1,
-      "mobile_air_vehicles": 1,
       "police_cars": 2
     },
     "chances": {
@@ -4865,6 +5102,7 @@
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
       "date_start": "2021-12-27T10:00:00Z",
       "date_end": "2022-01-01T23:00:00Z",
       "patient_specialization_ids": [0],
@@ -4898,6 +5136,7 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
+      "optional_event_mission": true,
       "date_start": "2021-12-27T10:00:00Z",
       "date_end": "2022-01-01T23:00:00Z"
     },
@@ -4923,6 +5162,7 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
+      "optional_event_mission": true,
       "date_start": "2021-12-27T10:00:00Z",
       "date_end": "2022-01-01T23:00:00Z"
     },
@@ -4950,6 +5190,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": true,
       "date_start": "2021-12-27T10:00:00Z",
       "date_end": "2022-01-01T23:00:00Z",
       "patient_specialization_ids": [4],
@@ -4980,6 +5221,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": true,
       "date_start": "2021-12-27T10:00:00Z",
       "date_end": "2022-01-01T23:00:00Z",
       "patient_specialization_ids": [4],
@@ -5010,6 +5252,7 @@
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": true,
       "date_start": "2021-12-27T10:00:00Z",
       "date_end": "2022-01-01T23:00:00Z",
       "patient_specialization_ids": [4],
@@ -5040,6 +5283,7 @@
       "possible_patient": 3,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": true,
       "date_start": "2021-12-27T10:00:00Z",
       "date_end": "2022-01-01T23:00:00Z",
       "patient_specialization_ids": [4],
@@ -5070,6 +5314,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": true,
       "date_start": "2021-12-27T10:00:00Z",
       "date_end": "2022-01-01T23:00:00Z",
       "patient_specialization_ids": [4],
@@ -5100,6 +5345,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": true,
       "date_start": "2021-12-27T10:00:00Z",
       "date_end": "2022-01-01T23:00:00Z",
       "patient_specialization_ids": [4],
@@ -5131,6 +5377,7 @@
       "duration": 5400,
       "guard_mission": true,
       "filter_id": "police_station_missions",
+      "optional_event_mission": true,
       "date_start": "2021-12-27T10:00:00Z",
       "date_end": "2022-01-01T23:00:00Z"
     },
@@ -5162,6 +5409,7 @@
       "possible_patient": 1,
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
+      "optional_event_mission": true,
       "date_start": "2021-12-27T10:00:00Z",
       "date_end": "2022-01-01T23:00:00Z",
       "patient_specialization_ids": [4],
@@ -5196,6 +5444,7 @@
       "expansion_missions_ids": [169],
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
+      "optional_event_mission": true,
       "date_start": "2021-12-27T10:00:00Z",
       "date_end": "2022-01-01T23:00:00Z"
     },
@@ -5224,6 +5473,7 @@
       "possible_patient_min": 1,
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
+      "optional_event_mission": true,
       "date_start": "2021-12-27T10:00:00Z",
       "date_end": "2022-01-01T23:00:00Z",
       "patient_specialization_ids": [4],
@@ -5257,6 +5507,7 @@
     "additional": {
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
+      "optional_event_mission": true,
       "date_start": "2021-12-27T10:00:00Z",
       "date_end": "2022-01-01T23:00:00Z"
     },
@@ -5288,6 +5539,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Všeobecný chirurg"],
       "patient_specializations": "Všeobecný chirurg"
@@ -5316,7 +5568,8 @@
       "duration_text": "1 hodina",
       "duration": 3600,
       "guard_mission": true,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 5 },
     "overlay_index": null,
@@ -5337,16 +5590,17 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "water_needed": 25000,
-      "firetrucks": 10,
+      "platform_trucks": 1,
       "battalion_chief_vehicles": 4,
-      "platform_trucks": 1
+      "water_needed": 25000,
+      "firetrucks": 10
     },
     "chances": { "patient_transport": 20, "patient_critical_care": 5 },
     "additional": {
       "possible_patient": 20,
       "filter_id": "firehouse_missions",
       "fire_alarm_system_possible": true,
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -5374,15 +5628,16 @@
       "/images/medicalstore_rot.png"
     ],
     "requirements": {
-      "firetrucks": 1,
+      "platform_trucks": 1,
       "battalion_chief_vehicles": 1,
-      "platform_trucks": 1
+      "firetrucks": 1
     },
     "chances": { "patient_transport": 50, "patient_critical_care": 5 },
     "additional": {
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Všeobecný chirurg"],
       "patient_specializations": "Všeobecný chirurg"
@@ -5413,7 +5668,8 @@
     "chances": {},
     "additional": {
       "max_possible_prisoners": 1,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -5435,7 +5691,10 @@
     ],
     "requirements": { "firetrucks": 1 },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 176,
@@ -5460,6 +5719,7 @@
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": true,
       "date_start": "2021-02-05T10:00:00Z",
       "date_end": "2021-02-14T23:59:00+01:00",
       "patient_specialization_ids": [0],
@@ -5490,6 +5750,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": true,
       "date_start": "2021-02-05T10:00:00Z",
       "date_end": "2021-02-14T23:59:00+01:00",
       "patient_specialization_ids": [0],
@@ -5520,6 +5781,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": true,
       "date_start": "2021-02-05T10:00:00Z",
       "date_end": "2021-02-14T23:59:00+01:00",
       "patient_specialization_ids": [7],
@@ -5550,6 +5812,7 @@
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": true,
       "date_start": "2021-02-05T10:00:00Z",
       "date_end": "2021-02-14T23:59:00+01:00",
       "patient_specialization_ids": [7],
@@ -5575,15 +5838,16 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "water_needed": 12500,
-      "firetrucks": 5,
+      "platform_trucks": 1,
       "battalion_chief_vehicles": 1,
-      "platform_trucks": 1
+      "water_needed": 12500,
+      "firetrucks": 5
     },
     "chances": { "patient_transport": 20, "patient_critical_care": 5 },
     "additional": {
       "possible_patient": 8,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
       "date_start": "2021-02-05T10:00:00Z",
       "date_end": "2021-02-14T23:59:00+01:00",
       "patient_specialization_ids": [0],
@@ -5618,6 +5882,7 @@
       "possible_patient": 2,
       "possible_patient_min": 2,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
       "date_start": "2021-02-05T10:00:00Z",
       "date_end": "2021-02-14T23:59:00+01:00",
       "patient_specialization_ids": [0],
@@ -5650,6 +5915,7 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
+      "optional_event_mission": true,
       "date_start": "2021-02-05T10:00:00Z",
       "date_end": "2021-02-14T23:59:00+01:00"
     },
@@ -5675,6 +5941,7 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
+      "optional_event_mission": true,
       "date_start": "2021-02-05T10:00:00Z",
       "date_end": "2021-02-14T23:59:00+01:00"
     },
@@ -5700,6 +5967,7 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
+      "optional_event_mission": true,
       "date_start": "2021-02-05T10:00:00Z",
       "date_end": "2021-02-14T23:59:00+01:00"
     },
@@ -5723,7 +5991,10 @@
     ],
     "requirements": { "police_cars": 2 },
     "chances": {},
-    "additional": { "filter_id": "police_station_missions" },
+    "additional": {
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": { "main_building": 6, "police_stations": 2 },
     "overlay_index": null,
     "base_mission_id": 186,
@@ -5744,7 +6015,10 @@
     ],
     "requirements": { "police_cars": 2 },
     "chances": {},
-    "additional": { "filter_id": "police_station_missions" },
+    "additional": {
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": { "main_building": 6, "police_stations": 2 },
     "overlay_index": null,
     "base_mission_id": 187,
@@ -5763,12 +6037,13 @@
       "/images/medicalstore_gelb.png",
       "/images/medicalstore_rot.png"
     ],
-    "requirements": { "firetrucks": 1, "heavy_rescue_vehicles": 1 },
+    "requirements": { "heavy_rescue_vehicles": 1, "firetrucks": 1 },
     "chances": { "patient_transport": 70, "patient_critical_care": 5 },
     "additional": {
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Všeobecný chirurg"],
       "patient_specializations": "Všeobecný chirurg"
@@ -5801,6 +6076,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Všeobecný chirurg"],
       "patient_specializations": "Všeobecný chirurg"
@@ -5830,7 +6106,8 @@
       "duration": 3600,
       "max_possible_prisoners": 1,
       "guard_mission": true,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 2 },
     "overlay_index": null,
@@ -5851,14 +6128,17 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "water_needed": 10000,
-      "firetrucks": 4,
-      "battalion_chief_vehicles": 1,
       "platform_trucks": 1,
-      "heavy_rescue_vehicles": 1
+      "battalion_chief_vehicles": 1,
+      "heavy_rescue_vehicles": 1,
+      "water_needed": 10000,
+      "firetrucks": 4
     },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": { "main_building": 0, "fire_stations": 7 },
     "overlay_index": null,
     "base_mission_id": 191,
@@ -5883,6 +6163,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Všeobecný chirurg"],
       "patient_specializations": "Všeobecný chirurg"
@@ -5905,13 +6186,14 @@
       "/images/clock_gelb.png",
       "/images/clock_rot.png"
     ],
-    "requirements": { "firetrucks": 1, "ambulances": 1, "police_cars": 1 },
+    "requirements": { "ambulances": 1, "firetrucks": 1, "police_cars": 1 },
     "chances": {},
     "additional": {
       "duration_text": "30 minút",
       "duration": 1800,
       "guard_mission": true,
-      "filter_id": "firehouse_missions"
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
     },
     "prerequisites": {
       "main_building": 0,
@@ -5937,15 +6219,15 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "water_needed": 31000,
-      "firetrucks": 10,
+      "platform_trucks": 2,
       "battalion_chief_vehicles": 3,
       "mobile_command_vehicles": 1,
-      "platform_trucks": 2,
-      "heavy_rescue_vehicles": 3,
-      "water_tankers": 1,
       "mobile_air_vehicles": 1,
       "hazmat_vehicles": 1,
+      "water_tankers": 1,
+      "heavy_rescue_vehicles": 3,
+      "water_needed": 31000,
+      "firetrucks": 10,
       "police_cars": 8
     },
     "chances": {
@@ -5956,6 +6238,7 @@
     "additional": {
       "possible_patient": 15,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatológia"],
       "patient_specializations": "Traumatológia"
@@ -5984,19 +6267,19 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "foam_needed": 7000,
-      "water_needed": 31000,
-      "firetrucks": 10,
+      "platform_trucks": 2,
       "battalion_chief_vehicles": 3,
       "mobile_command_vehicles": 1,
-      "platform_trucks": 2,
-      "heavy_rescue_vehicles": 3,
-      "water_tankers": 1,
+      "foam": 1,
       "mobile_air_vehicles": 1,
       "hazmat_vehicles": 1,
-      "police_cars": 8,
+      "water_tankers": 1,
       "pump": 3,
-      "foam": 1
+      "heavy_rescue_vehicles": 3,
+      "water_needed": 31000,
+      "foam_needed": 7000,
+      "firetrucks": 10,
+      "police_cars": 8
     },
     "chances": {
       "water_tankers": 20,
@@ -6006,6 +6289,7 @@
     "additional": {
       "possible_patient": 15,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatológia"],
       "patient_specializations": "Traumatológia"
@@ -6035,15 +6319,16 @@
       "/images/caraccident_rot.png"
     ],
     "requirements": {
-      "firetrucks": 3,
       "battalion_chief_vehicles": 1,
-      "heavy_rescue_vehicles": 2
+      "heavy_rescue_vehicles": 2,
+      "firetrucks": 3
     },
     "chances": { "patient_transport": 70, "patient_critical_care": 10 },
     "additional": {
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatológia"],
       "patient_specializations": "Traumatológia"
@@ -6075,6 +6360,7 @@
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
+      "optional_event_mission": false,
       "date_start": "2021-03-26T10:00:00Z",
       "date_end": "2021-04-05T23:59:00+02:00"
     },
@@ -6101,6 +6387,7 @@
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
+      "optional_event_mission": false,
       "date_start": "2021-03-26T10:00:00Z",
       "date_end": "2021-04-05T23:59:00+02:00"
     },
@@ -6123,14 +6410,15 @@
       "/images/fallingrocks_rot.png"
     ],
     "requirements": {
-      "firetrucks": 4,
       "battalion_chief_vehicles": 2,
       "heavy_rescue_vehicles": 1,
+      "firetrucks": 4,
       "police_cars": 2
     },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "date_start": "2021-03-26T10:00:00Z",
       "date_end": "2021-04-05T23:59:00+02:00"
     },
@@ -6158,6 +6446,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "police_station_missions",
+      "optional_event_mission": false,
       "date_start": "2021-03-26T10:00:00Z",
       "date_end": "2021-04-05T23:59:00+02:00",
       "patient_specialization_ids": [4],
@@ -6190,6 +6479,7 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "date_start": "2021-03-26T10:00:00Z",
       "date_end": "2021-04-05T23:59:00+02:00"
     },
@@ -6212,16 +6502,17 @@
       "/images/oil_rot.png"
     ],
     "requirements": {
-      "firetrucks": 4,
       "battalion_chief_vehicles": 2,
-      "heavy_rescue_vehicles": 2,
       "hazmat_vehicles": 1,
+      "heavy_rescue_vehicles": 2,
+      "oneof_fire_engine_or_rescue": 4,
+      "firetrucks": 1,
       "police_cars": 3
     },
     "chances": {},
     "additional": {
-      "allow_rw_instead_of_lf": true,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "date_start": "2021-03-26T10:00:00Z",
       "date_end": "2021-04-05T23:59:00+02:00"
     },
@@ -6251,6 +6542,7 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "date_start": "2021-03-26T10:00:00Z",
       "date_end": "2021-04-05T23:59:00+02:00"
     },
@@ -6276,13 +6568,14 @@
       "/images/clock_gelb.png",
       "/images/clock_rot.png"
     ],
-    "requirements": { "firetrucks": 2, "ambulances": 4, "police_cars": 8 },
+    "requirements": { "ambulances": 4, "firetrucks": 2, "police_cars": 8 },
     "chances": {},
     "additional": {
       "duration_text": "2 hodiny",
       "duration": 7200,
       "guard_mission": true,
       "filter_id": "police_station_missions",
+      "optional_event_mission": false,
       "date_start": "2021-03-26T10:00:00Z",
       "date_end": "2021-04-05T23:59:00+02:00"
     },
@@ -6310,15 +6603,16 @@
       "/images/caraccident_rot.png"
     ],
     "requirements": {
-      "firetrucks": 2,
       "battalion_chief_vehicles": 1,
-      "heavy_rescue_vehicles": 1
+      "heavy_rescue_vehicles": 1,
+      "firetrucks": 2
     },
     "chances": { "patient_transport": 30, "patient_critical_care": 10 },
     "additional": {
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "date_start": "2021-03-26T10:00:00Z",
       "date_end": "2021-04-05T23:59:00+02:00",
       "patient_specialization_ids": [4],
@@ -6351,6 +6645,7 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
+      "optional_event_mission": false,
       "date_start": "2021-03-26T10:00:00Z",
       "date_end": "2021-04-05T23:59:00+02:00"
     },
@@ -6373,14 +6668,15 @@
       "/images/constructioncrane_rot.png"
     ],
     "requirements": {
-      "firetrucks": 1,
-      "battalion_chief_vehicles": 1,
       "platform_trucks": 1,
+      "battalion_chief_vehicles": 1,
+      "firetrucks": 1,
       "police_cars": 1
     },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "date_start": "2021-03-26T10:00:00Z",
       "date_end": "2021-04-05T23:59:00+02:00"
     },
@@ -6408,7 +6704,10 @@
     ],
     "requirements": { "firetrucks": 1 },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 207,
@@ -6431,7 +6730,8 @@
     "chances": {},
     "additional": {
       "max_possible_prisoners": 3,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 4 },
     "overlay_index": null,
@@ -6457,6 +6757,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -6485,6 +6786,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "patient_at_end_of_mission": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
@@ -6518,6 +6820,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Všeobecný chirurg"],
       "patient_specializations": "Všeobecný chirurg"
@@ -6541,10 +6844,10 @@
       "/images/paragliding_rot.png"
     ],
     "requirements": {
-      "firetrucks": 1,
-      "battalion_chief_vehicles": 1,
       "platform_trucks": 1,
-      "heavy_rescue_vehicles": 1
+      "battalion_chief_vehicles": 1,
+      "heavy_rescue_vehicles": 1,
+      "firetrucks": 1
     },
     "chances": {
       "platform_trucks": 10,
@@ -6556,6 +6859,7 @@
       "possible_patient_min": 1,
       "average_min_fire_personnel": 12,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatológia"],
       "patient_specializations": "Traumatológia"
@@ -6588,6 +6892,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [5],
       "patient_specialization_captions": ["Neurológia"],
       "patient_specializations": "Neurológia"
@@ -6616,6 +6921,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [2],
       "patient_specialization_captions": ["Gynekológia"],
       "patient_specializations": "Gynekológia"
@@ -6644,6 +6950,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatológia"],
       "patient_specializations": "Traumatológia"
@@ -6672,6 +6979,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -6700,6 +7008,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -6732,6 +7041,7 @@
       "possible_patient": 3,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Všeobecný chirurg"],
       "patient_specializations": "Všeobecný chirurg"
@@ -6754,16 +7064,17 @@
       "/images/fire_gelb.png",
       "/images/fire_rot.png"
     ],
-    "requirements": { "water_needed": 10000, "firetrucks": 4, "kdow_orgl": 1 },
+    "requirements": { "kdow_orgl": 1, "water_needed": 10000, "firetrucks": 4 },
     "chances": {
-      "patient_transport": 40,
       "kdow_orgl": 25,
+      "patient_transport": 40,
       "patient_critical_care": 50
     },
     "additional": {
       "possible_patient": 6,
       "expansion_missions_ids": [220],
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -6791,20 +7102,21 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "water_needed": 15000,
-      "firetrucks": 6,
-      "battalion_chief_vehicles": 1,
       "platform_trucks": 1,
-      "kdow_orgl": 1
+      "battalion_chief_vehicles": 1,
+      "kdow_orgl": 1,
+      "water_needed": 15000,
+      "firetrucks": 6
     },
     "chances": {
-      "patient_transport": 40,
       "kdow_orgl": 50,
+      "patient_transport": 40,
       "patient_critical_care": 50
     },
     "additional": {
       "possible_patient": 10,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -6832,15 +7144,16 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
+      "battalion_chief_vehicles": 2,
       "water_needed": 10000,
-      "firetrucks": 4,
-      "battalion_chief_vehicles": 2
+      "firetrucks": 4
     },
     "chances": { "patient_transport": 70, "patient_critical_care": 10 },
     "additional": {
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Všeobecný chirurg"],
       "patient_specializations": "Všeobecný chirurg"
@@ -6868,16 +7181,17 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "water_needed": 10000,
-      "firetrucks": 4,
       "battalion_chief_vehicles": 2,
-      "pump": 2
+      "pump": 2,
+      "water_needed": 10000,
+      "firetrucks": 4
     },
     "chances": { "patient_transport": 70, "patient_critical_care": 10 },
     "additional": {
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Všeobecný chirurg"],
       "patient_specializations": "Všeobecný chirurg"
@@ -6905,13 +7219,14 @@
       "/images/shooting_gelb.png",
       "/images/shooting_rot.png"
     ],
-    "requirements": { "police_cars": 8, "kdow_orgl": 1 },
+    "requirements": { "kdow_orgl": 1, "police_cars": 8 },
     "chances": { "patient_transport": 30, "patient_critical_care": 100 },
     "additional": {
       "possible_patient": 6,
       "possible_patient_min": 3,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatológia"],
       "patient_specializations": "Traumatológia"
@@ -6939,22 +7254,23 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "water_needed": 10000,
-      "firetrucks": 4,
-      "battalion_chief_vehicles": 1,
       "platform_trucks": 1,
-      "kdow_orgl": 1
+      "battalion_chief_vehicles": 1,
+      "kdow_orgl": 1,
+      "water_needed": 10000,
+      "firetrucks": 4
     },
     "chances": {
       "platform_trucks": 10,
-      "patient_transport": 60,
       "kdow_orgl": 50,
+      "patient_transport": 60,
       "patient_critical_care": 50
     },
     "additional": {
       "possible_patient": 4,
       "possible_patient_min": 1,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -6985,6 +7301,7 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "date_start": "2021-05-06T11:00:00+02:00",
       "date_end": "2021-05-09T23:59:00+02:00"
     },
@@ -7006,10 +7323,11 @@
       "/images/fire_gelb.png",
       "/images/fire_rot.png"
     ],
-    "requirements": { "firetrucks": 1, "platform_trucks": 1 },
+    "requirements": { "platform_trucks": 1, "firetrucks": 1 },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "date_start": "2021-05-06T11:00:00+02:00",
       "date_end": "2021-05-09T23:59:00+02:00"
     },
@@ -7035,6 +7353,7 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "date_start": "2021-05-06T11:00:00+02:00",
       "date_end": "2021-05-09T23:59:00+02:00"
     },
@@ -7057,13 +7376,14 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
+      "battalion_chief_vehicles": 1,
       "water_needed": 10000,
-      "firetrucks": 4,
-      "battalion_chief_vehicles": 1
+      "firetrucks": 4
     },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "date_start": "2021-05-06T11:00:00+02:00",
       "date_end": "2021-05-09T23:59:00+02:00"
     },
@@ -7089,6 +7409,7 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
+      "optional_event_mission": false,
       "date_start": "2021-05-06T11:00:00+02:00",
       "date_end": "2021-05-09T23:59:00+02:00"
     },
@@ -7114,6 +7435,7 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
+      "optional_event_mission": false,
       "date_start": "2021-05-06T11:00:00+02:00",
       "date_end": "2021-05-09T23:59:00+02:00"
     },
@@ -7140,6 +7462,7 @@
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
+      "optional_event_mission": false,
       "date_start": "2021-05-06T11:00:00+02:00",
       "date_end": "2021-05-09T23:59:00+02:00"
     },
@@ -7167,6 +7490,7 @@
       "min_possible_prisoners": 1,
       "max_possible_prisoners": 3,
       "filter_id": "police_station_missions",
+      "optional_event_mission": false,
       "date_start": "2021-05-06T11:00:00+02:00",
       "date_end": "2021-05-09T23:59:00+02:00"
     },
@@ -7194,6 +7518,7 @@
       "min_possible_prisoners": 2,
       "max_possible_prisoners": 4,
       "filter_id": "police_station_missions",
+      "optional_event_mission": false,
       "date_start": "2021-05-06T11:00:00+02:00",
       "date_end": "2021-05-09T23:59:00+02:00"
     },
@@ -7221,6 +7546,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "date_start": "2021-05-06T11:00:00+02:00",
       "date_end": "2021-05-09T23:59:00+02:00",
       "patient_specialization_ids": [0],
@@ -7251,6 +7577,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "date_start": "2021-05-06T11:00:00+02:00",
       "date_end": "2021-05-09T23:59:00+02:00",
       "patient_specialization_ids": [0],
@@ -7281,6 +7608,7 @@
       "possible_patient": 5,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "date_start": "2021-05-06T11:00:00+02:00",
       "date_end": "2021-05-09T23:59:00+02:00",
       "patient_specialization_ids": [4],
@@ -7311,6 +7639,7 @@
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "date_start": "2021-05-06T11:00:00+02:00",
       "date_end": "2021-05-09T23:59:00+02:00",
       "patient_specialization_ids": [4],
@@ -7341,6 +7670,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "date_start": "2021-05-06T11:00:00+02:00",
       "date_end": "2021-05-09T23:59:00+02:00",
       "patient_specialization_ids": [8],
@@ -7366,11 +7696,11 @@
       "/images/clock_rot.png"
     ],
     "requirements": {
-      "firetrucks": 1,
-      "ambulances": 1,
-      "battalion_chief_vehicles": 1,
       "platform_trucks": 1,
+      "battalion_chief_vehicles": 1,
+      "ambulances": 1,
       "heavy_rescue_vehicles": 1,
+      "firetrucks": 1,
       "police_cars": 1
     },
     "chances": {},
@@ -7379,6 +7709,7 @@
       "duration": 1200,
       "guard_mission": true,
       "filter_id": "police_station_missions",
+      "optional_event_mission": false,
       "date_start": "2021-05-06T11:00:00+02:00",
       "date_end": "2021-05-09T23:59:00+02:00"
     },
@@ -7406,10 +7737,10 @@
       "/images/clock_rot.png"
     ],
     "requirements": {
-      "firetrucks": 3,
-      "ambulances": 2,
       "platform_trucks": 2,
-      "heavy_rescue_vehicles": 2
+      "ambulances": 2,
+      "heavy_rescue_vehicles": 2,
+      "firetrucks": 3
     },
     "chances": {},
     "additional": {
@@ -7417,6 +7748,7 @@
       "duration": 600,
       "guard_mission": true,
       "filter_id": "police_station_missions",
+      "optional_event_mission": false,
       "date_start": "2021-05-06T11:00:00+02:00",
       "date_end": "2021-05-09T23:59:00+02:00"
     },
@@ -7449,6 +7781,7 @@
       "possible_patient": 18,
       "possible_patient_min": 2,
       "filter_id": "police_station_missions",
+      "optional_event_mission": false,
       "date_start": "2021-05-06T11:00:00+02:00",
       "date_end": "2021-05-09T23:59:00+02:00",
       "patient_specialization_ids": [1],
@@ -7479,21 +7812,22 @@
       "/images/radiation_rot.png"
     ],
     "requirements": {
-      "water_needed": 74500,
-      "firetrucks": 25,
+      "platform_trucks": 2,
       "battalion_chief_vehicles": 8,
       "mobile_command_vehicles": 1,
-      "platform_trucks": 2,
-      "heavy_rescue_vehicles": 4,
-      "water_tankers": 2,
       "mobile_air_vehicles": 2,
       "hazmat_vehicles": 4,
+      "water_tankers": 2,
+      "heavy_rescue_vehicles": 4,
+      "water_needed": 74500,
+      "firetrucks": 25,
       "police_cars": 8
     },
     "chances": { "patient_transport": 10, "patient_critical_care": 10 },
     "additional": {
       "possible_patient": 80,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -7526,10 +7860,10 @@
       "/images/tramway_rot.png"
     ],
     "requirements": {
-      "firetrucks": 11,
       "battalion_chief_vehicles": 3,
       "mobile_command_vehicles": 1,
       "heavy_rescue_vehicles": 4,
+      "firetrucks": 11,
       "police_cars": 3
     },
     "chances": { "patient_transport": 100, "patient_critical_care": 10 },
@@ -7537,6 +7871,7 @@
       "possible_patient": 25,
       "possible_patient_min": 10,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatológia"],
       "patient_specializations": "Traumatológia"
@@ -7568,9 +7903,9 @@
       "/images/tramway_rot.png"
     ],
     "requirements": {
-      "firetrucks": 4,
       "battalion_chief_vehicles": 4,
       "heavy_rescue_vehicles": 2,
+      "firetrucks": 4,
       "police_cars": 5
     },
     "chances": { "patient_transport": 100, "patient_critical_care": 100 },
@@ -7578,6 +7913,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_at_end_of_mission": true,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatológia"],
@@ -7607,10 +7943,10 @@
       "/images/radiation_rot.png"
     ],
     "requirements": {
-      "firetrucks": 4,
       "battalion_chief_vehicles": 6,
-      "heavy_rescue_vehicles": 1,
       "hazmat_vehicles": 2,
+      "heavy_rescue_vehicles": 1,
+      "firetrucks": 4,
       "police_cars": 10
     },
     "chances": {
@@ -7624,6 +7960,7 @@
       "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -7651,11 +7988,11 @@
       "/images/soccer_gelb.png",
       "/images/soccer_rot.png"
     ],
-    "requirements": { "firetrucks": 1 },
+    "requirements": { "oneof_fire_engine_or_rescue": 1, "firetrucks": 1 },
     "chances": {},
     "additional": {
-      "allow_rw_instead_of_lf": true,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "date_start": "2021-06-11T09:00:00Z",
       "date_end": "2021-07-11T22:00:00Z"
     },
@@ -7681,6 +8018,7 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
+      "optional_event_mission": false,
       "date_start": "2021-06-11T09:00:00Z",
       "date_end": "2021-07-11T22:00:00Z"
     },
@@ -7709,6 +8047,7 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "allow_ktw_instead_of_rtw": true,
+      "optional_event_mission": false,
       "date_start": "2021-06-11T09:00:00Z",
       "date_end": "2021-07-11T22:00:00Z",
       "patient_specialization_ids": [1],
@@ -7740,6 +8079,7 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "allow_ktw_instead_of_rtw": true,
+      "optional_event_mission": false,
       "date_start": "2021-06-11T09:00:00Z",
       "date_end": "2021-07-11T22:00:00Z",
       "patient_specialization_ids": [1],
@@ -7764,11 +8104,11 @@
       "/images/soccer_gelb.png",
       "/images/soccer_rot.png"
     ],
-    "requirements": { "firetrucks": 1 },
+    "requirements": { "oneof_fire_engine_or_rescue": 1, "firetrucks": 1 },
     "chances": {},
     "additional": {
-      "allow_rw_instead_of_lf": true,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "date_start": "2021-06-11T09:00:00Z",
       "date_end": "2021-07-11T22:00:00Z"
     },
@@ -7794,6 +8134,7 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
+      "optional_event_mission": false,
       "date_start": "2021-06-11T09:00:00Z",
       "date_end": "2021-07-11T22:00:00Z"
     },
@@ -7821,6 +8162,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "date_start": "2021-06-11T09:00:00Z",
       "date_end": "2021-07-11T22:00:00Z",
       "patient_specialization_ids": [0],
@@ -7851,6 +8193,7 @@
       "possible_patient": 3,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "date_start": "2021-06-11T09:00:00Z",
       "date_end": "2021-07-11T22:00:00Z",
       "patient_specialization_ids": [0],
@@ -7879,6 +8222,7 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
+      "optional_event_mission": false,
       "date_start": "2021-06-11T09:00:00Z",
       "date_end": "2021-07-11T22:00:00Z"
     },
@@ -7904,6 +8248,7 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "date_start": "2021-06-11T09:00:00Z",
       "date_end": "2021-07-11T22:00:00Z"
     },
@@ -7933,6 +8278,7 @@
       "guard_mission": true,
       "filter_id": "ambulance_station_missions",
       "allow_ktw_instead_of_rtw": true,
+      "optional_event_mission": false,
       "date_start": "2021-06-25T09:00:00Z",
       "date_end": "2021-08-27T23:59:00Z"
     },
@@ -7960,6 +8306,7 @@
       "possible_patient": 4,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "date_start": "2021-06-25T09:00:00Z",
       "date_end": "2021-08-27T23:59:00Z",
       "patient_specialization_ids": [0],
@@ -7993,6 +8340,7 @@
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "date_start": "2021-06-25T09:00:00Z",
       "date_end": "2021-08-27T23:59:00Z"
     },
@@ -8019,9 +8367,9 @@
       "/images/fallingrocks_rot.png"
     ],
     "requirements": {
-      "firetrucks": 9,
       "battalion_chief_vehicles": 2,
       "heavy_rescue_vehicles": 4,
+      "firetrucks": 9,
       "police_cars": 2
     },
     "chances": { "patient_transport": 75 },
@@ -8029,6 +8377,7 @@
       "possible_patient": 10,
       "possible_patient_min": 1,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -8062,6 +8411,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -8085,8 +8435,8 @@
       "/images/medicalstore_rot.png"
     ],
     "requirements": {
-      "firetrucks": 1,
       "heavy_rescue_vehicles": 2,
+      "firetrucks": 1,
       "police_cars": 4
     },
     "chances": { "patient_transport": 100, "patient_critical_care": 75 },
@@ -8095,6 +8445,7 @@
       "possible_patient_min": 1,
       "max_possible_prisoners": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatológia"],
       "patient_specializations": "Traumatológia"
@@ -8123,18 +8474,19 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "water_needed": 21000,
-      "firetrucks": 6,
+      "platform_trucks": 2,
       "battalion_chief_vehicles": 1,
       "mobile_command_vehicles": 1,
-      "platform_trucks": 2,
       "water_tankers": 1,
+      "water_needed": 21000,
+      "firetrucks": 6,
       "police_cars": 3
     },
     "chances": { "patient_transport": 25, "patient_critical_care": 10 },
     "additional": {
       "possible_patient": 15,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -8163,16 +8515,17 @@
       "/images/constructioncrane_rot.png"
     ],
     "requirements": {
-      "firetrucks": 2,
-      "battalion_chief_vehicles": 1,
       "platform_trucks": 1,
+      "battalion_chief_vehicles": 1,
       "heavy_rescue_vehicles": 1,
+      "firetrucks": 2,
       "police_cars": 2
     },
     "chances": { "patient_transport": 50, "patient_critical_care": 25 },
     "additional": {
       "possible_patient": 4,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_at_end_of_mission": true,
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Kardiológia"],
@@ -8202,16 +8555,17 @@
       "/images/constructioncrane_rot.png"
     ],
     "requirements": {
-      "firetrucks": 4,
-      "battalion_chief_vehicles": 1,
       "platform_trucks": 2,
+      "battalion_chief_vehicles": 1,
       "heavy_rescue_vehicles": 3,
+      "firetrucks": 4,
       "police_cars": 3
     },
     "chances": { "patient_transport": 50, "patient_critical_care": 20 },
     "additional": {
       "possible_patient": 10,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_at_end_of_mission": true,
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Kardiológia"],
@@ -8246,6 +8600,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Všeobecný chirurg"],
       "patient_specializations": "Všeobecný chirurg"
@@ -8272,11 +8627,12 @@
       "/images/fire_gelb.png",
       "/images/fire_rot.png"
     ],
-    "requirements": { "firetrucks": 1, "hazmat_vehicles": 1 },
+    "requirements": { "hazmat_vehicles": 1, "firetrucks": 1 },
     "chances": { "patient_transport": 50, "patient_critical_care": 25 },
     "additional": {
       "possible_patient": 1,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -8305,6 +8661,7 @@
       "possible_patient": 4,
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Kardiológia"],
       "patient_specializations": "Kardiológia"
@@ -8333,12 +8690,15 @@
       "/images/caraccident_rot.png"
     ],
     "requirements": {
-      "firetrucks": 1,
       "heavy_rescue_vehicles": 1,
+      "firetrucks": 1,
       "police_cars": 1
     },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": {
       "main_building": 0,
       "police_stations": 1,
@@ -8367,6 +8727,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_at_end_of_mission": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
@@ -8395,8 +8756,8 @@
       "/images/sawmill_rot.png"
     ],
     "requirements": {
-      "firetrucks": 1,
       "heavy_rescue_vehicles": 1,
+      "firetrucks": 1,
       "police_cars": 1
     },
     "chances": {
@@ -8408,6 +8769,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatológia"],
       "patient_specializations": "Traumatológia"
@@ -8436,10 +8798,10 @@
       "/images/planecrash_rot.png"
     ],
     "requirements": {
-      "firetrucks": 4,
       "battalion_chief_vehicles": 1,
-      "heavy_rescue_vehicles": 2,
       "hazmat_vehicles": 1,
+      "heavy_rescue_vehicles": 2,
+      "firetrucks": 4,
       "police_cars": 4
     },
     "chances": { "patient_transport": 40, "helicopter": 20 },
@@ -8447,6 +8809,7 @@
       "possible_patient": 6,
       "possible_patient_min": 1,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatológia"],
       "patient_specializations": "Traumatológia"
@@ -8479,6 +8842,7 @@
       "possible_patient": 30,
       "possible_patient_min": 10,
       "filter_id": "police_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -8510,16 +8874,19 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "water_needed": 16000,
-      "firetrucks": 4,
       "battalion_chief_vehicles": 3,
       "mobile_command_vehicles": 1,
-      "water_tankers": 1,
       "mobile_air_vehicles": 1,
-      "pump": 1
+      "water_tankers": 1,
+      "pump": 1,
+      "water_needed": 16000,
+      "firetrucks": 4
     },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": {
       "main_building": 0,
       "fire_support_count": 1,
@@ -8543,21 +8910,22 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "water_needed": 21000,
-      "firetrucks": 6,
       "battalion_chief_vehicles": 2,
       "mobile_command_vehicles": 1,
-      "heavy_rescue_vehicles": 3,
-      "water_tankers": 1,
       "mobile_air_vehicles": 1,
       "hazmat_vehicles": 1,
-      "police_cars": 3,
-      "pump": 2
+      "water_tankers": 1,
+      "pump": 2,
+      "heavy_rescue_vehicles": 3,
+      "water_needed": 21000,
+      "firetrucks": 6,
+      "police_cars": 3
     },
     "chances": { "patient_transport": 25 },
     "additional": {
       "possible_patient": 14,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -8587,19 +8955,20 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "foam_needed": 5000,
-      "water_needed": 12500,
-      "firetrucks": 5,
-      "battalion_chief_vehicles": 1,
       "platform_trucks": 1,
+      "battalion_chief_vehicles": 1,
+      "foam": 1,
       "mobile_air_vehicles": 1,
       "pump": 1,
-      "foam": 1
+      "water_needed": 12500,
+      "foam_needed": 5000,
+      "firetrucks": 5
     },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "fire_alarm_system_possible": true
+      "fire_alarm_system_possible": true,
+      "optional_event_mission": false
     },
     "prerequisites": {
       "main_building": 0,
@@ -8624,14 +8993,14 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "foam_needed": 4600,
-      "water_needed": 10000,
-      "firetrucks": 4,
-      "battalion_chief_vehicles": 1,
       "platform_trucks": 1,
+      "battalion_chief_vehicles": 1,
+      "foam": 1,
       "hazmat_vehicles": 1,
       "pump": 1,
-      "foam": 1
+      "water_needed": 10000,
+      "foam_needed": 4600,
+      "firetrucks": 4
     },
     "chances": { "patient_transport": 30 },
     "additional": {
@@ -8639,6 +9008,7 @@
       "expansion_missions_ids": [276],
       "filter_id": "firehouse_missions",
       "fire_alarm_system_possible": true,
+      "optional_event_mission": false,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Všeobecný chirurg"],
       "patient_specializations": "Všeobecný chirurg"
@@ -8667,15 +9037,15 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "foam_needed": 5000,
-      "water_needed": 12500,
-      "firetrucks": 5,
+      "platform_trucks": 2,
       "battalion_chief_vehicles": 2,
       "mobile_command_vehicles": 1,
-      "platform_trucks": 2,
+      "foam": 1,
       "hazmat_vehicles": 1,
       "pump": 2,
-      "foam": 1
+      "water_needed": 12500,
+      "foam_needed": 5000,
+      "firetrucks": 5
     },
     "chances": { "patient_transport": 30 },
     "additional": {
@@ -8683,6 +9053,7 @@
       "expansion_missions_ids": [277],
       "filter_id": "firehouse_missions",
       "fire_alarm_system_possible": true,
+      "optional_event_mission": false,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Všeobecný chirurg"],
       "patient_specializations": "Všeobecný chirurg"
@@ -8711,15 +9082,15 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "foam_needed": 9600,
-      "water_needed": 20000,
-      "firetrucks": 8,
+      "platform_trucks": 2,
       "battalion_chief_vehicles": 4,
       "mobile_command_vehicles": 1,
-      "platform_trucks": 2,
+      "foam": 2,
       "hazmat_vehicles": 1,
       "pump": 3,
-      "foam": 2
+      "water_needed": 20000,
+      "foam_needed": 9600,
+      "firetrucks": 8
     },
     "chances": { "patient_transport": 30 },
     "additional": {
@@ -8727,6 +9098,7 @@
       "possible_patient_min": 4,
       "filter_id": "firehouse_missions",
       "fire_alarm_system_possible": true,
+      "optional_event_mission": false,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Všeobecný chirurg"],
       "patient_specializations": "Všeobecný chirurg"
@@ -8755,14 +9127,15 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "firetrucks": 2,
       "battalion_chief_vehicles": 1,
-      "mobile_air_vehicles": 1
+      "mobile_air_vehicles": 1,
+      "firetrucks": 2
     },
     "chances": { "mobile_air_vehicles": 50, "patient_transport": 30 },
     "additional": {
       "possible_patient": 1,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [5],
       "patient_specialization_captions": ["Neurológia"],
       "patient_specializations": "Neurológia"
@@ -8790,16 +9163,19 @@
       "/images/oil_rot.png"
     ],
     "requirements": {
-      "foam_needed": 8400,
-      "water_needed": 15000,
-      "firetrucks": 6,
       "battalion_chief_vehicles": 2,
+      "foam": 2,
       "hazmat_vehicles": 2,
       "pump": 1,
-      "foam": 2
+      "water_needed": 15000,
+      "foam_needed": 8400,
+      "firetrucks": 6
     },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": {
       "main_building": 0,
       "fire_support_count": 2,
@@ -8828,6 +9204,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "date_start": "2021-09-24T09:00:00Z",
       "date_end": "2021-10-01T23:59:00Z",
       "patient_specialization_ids": [1],
@@ -8853,8 +9230,8 @@
       "/images/autumn_rot.png"
     ],
     "requirements": {
-      "firetrucks": 1,
       "heavy_rescue_vehicles": 1,
+      "firetrucks": 1,
       "police_cars": 2
     },
     "chances": { "patient_transport": 60, "patient_critical_care": 30 },
@@ -8862,6 +9239,7 @@
       "possible_patient": 3,
       "possible_patient_min": 1,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "date_start": "2021-09-24T09:00:00Z",
       "date_end": "2021-10-01T23:59:00Z",
       "patient_specialization_ids": [4],
@@ -8897,6 +9275,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "date_start": "2021-09-24T09:00:00Z",
       "date_end": "2021-10-01T23:59:00Z",
       "patient_specialization_ids": [4],
@@ -8927,6 +9306,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "police_station_missions",
+      "optional_event_mission": false,
       "date_start": "2021-09-24T09:00:00Z",
       "date_end": "2021-10-01T23:59:00Z",
       "patient_specialization_ids": [1],
@@ -8955,11 +9335,11 @@
       "/images/autumn_gelb.png",
       "/images/autumn_rot.png"
     ],
-    "requirements": { "firetrucks": 1 },
+    "requirements": { "oneof_fire_engine_or_rescue": 1, "firetrucks": 1 },
     "chances": {},
     "additional": {
-      "allow_rw_instead_of_lf": true,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "date_start": "2021-09-24T09:00:00Z",
       "date_end": "2021-10-01T23:59:00Z"
     },
@@ -8987,6 +9367,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "date_start": "2021-09-24T09:00:00Z",
       "date_end": "2021-10-01T23:59:00Z",
       "patient_specialization_ids": [0],
@@ -9011,11 +9392,12 @@
       "/images/autumn_gelb.png",
       "/images/autumn_rot.png"
     ],
-    "requirements": { "firetrucks": 2, "heavy_rescue_vehicles": 1 },
+    "requirements": { "heavy_rescue_vehicles": 1, "firetrucks": 2 },
     "chances": { "patient_transport": 50, "patient_critical_care": 20 },
     "additional": {
       "possible_patient": 2,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "date_start": "2021-09-24T09:00:00Z",
       "date_end": "2021-10-01T23:59:00Z",
       "patient_specialization_ids": [4],
@@ -9045,14 +9427,15 @@
       "/images/autumn_rot.png"
     ],
     "requirements": {
-      "firetrucks": 2,
       "heavy_rescue_vehicles": 1,
+      "firetrucks": 2,
       "police_cars": 1
     },
     "chances": { "patient_transport": 30, "patient_critical_care": 10 },
     "additional": {
       "possible_patient": 1,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "date_start": "2021-09-24T09:00:00Z",
       "date_end": "2021-10-01T23:59:00Z",
       "patient_specialization_ids": [4],
@@ -9086,6 +9469,7 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "date_start": "2021-09-24T09:00:00Z",
       "date_end": "2021-10-01T23:59:00Z"
     },
@@ -9113,6 +9497,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -9136,13 +9521,13 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "firetrucks": 8,
+      "platform_trucks": 2,
       "battalion_chief_vehicles": 2,
       "mobile_command_vehicles": 1,
-      "platform_trucks": 2,
-      "heavy_rescue_vehicles": 1,
-      "water_tankers": 2,
       "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "heavy_rescue_vehicles": 1,
+      "firetrucks": 8,
       "police_cars": 3
     },
     "chances": { "patient_transport": 50, "patient_critical_care": 10 },
@@ -9150,6 +9535,7 @@
       "possible_patient": 5,
       "filter_id": "firehouse_missions",
       "fire_alarm_system_possible": true,
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -9181,7 +9567,8 @@
     "chances": {},
     "additional": {
       "max_possible_prisoners": 1,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 2 },
     "overlay_index": null,
@@ -9205,7 +9592,8 @@
     "chances": {},
     "additional": {
       "max_possible_prisoners": 2,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 2 },
     "overlay_index": null,
@@ -9226,13 +9614,13 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "water_needed": 15000,
-      "firetrucks": 8,
+      "platform_trucks": 2,
       "battalion_chief_vehicles": 2,
       "mobile_command_vehicles": 1,
-      "platform_trucks": 2,
-      "water_tankers": 1,
       "mobile_air_vehicles": 1,
+      "water_tankers": 1,
+      "water_needed": 15000,
+      "firetrucks": 8,
       "police_cars": 3
     },
     "chances": { "patient_transport": 20 },
@@ -9240,6 +9628,7 @@
       "possible_patient": 20,
       "filter_id": "firehouse_missions",
       "fire_alarm_system_possible": true,
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -9271,7 +9660,8 @@
     "chances": {},
     "additional": {
       "max_possible_prisoners": 2,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 8 },
     "overlay_index": null,
@@ -9296,6 +9686,7 @@
     "additional": {
       "possible_patient": 10,
       "filter_id": "police_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -9323,15 +9714,16 @@
       "/images/caraccident_rot.png"
     ],
     "requirements": {
-      "firetrucks": 1,
       "battalion_chief_vehicles": 1,
       "heavy_rescue_vehicles": 1,
+      "firetrucks": 1,
       "police_cars": 2
     },
     "chances": { "patient_transport": 50 },
     "additional": {
       "possible_patient": 2,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Všeobecný chirurg"],
       "patient_specializations": "Všeobecný chirurg"
@@ -9365,6 +9757,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Všeobecný chirurg"],
       "patient_specializations": "Všeobecný chirurg"
@@ -9388,12 +9781,15 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "firetrucks": 2,
       "battalion_chief_vehicles": 1,
+      "firetrucks": 2,
       "police_cars": 1
     },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
     "prerequisites": {
       "main_building": 0,
       "police_stations": 1,
@@ -9421,6 +9817,7 @@
     "additional": {
       "possible_patient": 2,
       "filter_id": "police_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Všeobecný chirurg"],
       "patient_specializations": "Všeobecný chirurg"
@@ -9453,6 +9850,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [5],
       "patient_specialization_captions": ["Neurológia"],
       "patient_specializations": "Neurológia"
@@ -9476,9 +9874,9 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "firetrucks": 5,
       "battalion_chief_vehicles": 1,
       "water_tankers": 2,
+      "firetrucks": 5,
       "police_cars": 3
     },
     "chances": { "patient_transport": 10, "patient_critical_care": 10 },
@@ -9486,6 +9884,7 @@
       "possible_patient": 6,
       "expansion_missions_ids": [302],
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -9514,9 +9913,9 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "firetrucks": 8,
       "battalion_chief_vehicles": 2,
       "water_tankers": 3,
+      "firetrucks": 8,
       "police_cars": 3
     },
     "chances": { "patient_transport": 10, "patient_critical_care": 10 },
@@ -9524,6 +9923,7 @@
       "possible_patient": 10,
       "expansion_missions_ids": [303],
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -9556,6 +9956,7 @@
     "additional": {
       "possible_patient": 2,
       "filter_id": "police_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -9583,14 +9984,14 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "firetrucks": 10,
+      "platform_trucks": 2,
       "battalion_chief_vehicles": 3,
       "mobile_command_vehicles": 1,
-      "platform_trucks": 2,
-      "heavy_rescue_vehicles": 3,
-      "water_tankers": 3,
       "mobile_air_vehicles": 1,
       "hazmat_vehicles": 1,
+      "water_tankers": 3,
+      "heavy_rescue_vehicles": 3,
+      "firetrucks": 10,
       "police_cars": 5
     },
     "chances": { "patient_transport": 15, "patient_critical_care": 10 },
@@ -9598,6 +9999,7 @@
       "possible_patient": 25,
       "expansion_missions_ids": [305],
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -9626,22 +10028,23 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "firetrucks": 10,
+      "platform_trucks": 2,
       "battalion_chief_vehicles": 3,
       "mobile_command_vehicles": 1,
-      "platform_trucks": 2,
-      "heavy_rescue_vehicles": 3,
-      "water_tankers": 3,
+      "foam": 1,
       "mobile_air_vehicles": 1,
       "hazmat_vehicles": 1,
-      "police_cars": 5,
-      "foam": 1
+      "water_tankers": 3,
+      "heavy_rescue_vehicles": 3,
+      "firetrucks": 10,
+      "police_cars": 5
     },
     "chances": { "patient_transport": 15, "patient_critical_care": 10 },
     "additional": {
       "possible_patient": 25,
       "expansion_missions_ids": [305],
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -9671,20 +10074,21 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "firetrucks": 15,
+      "platform_trucks": 3,
       "battalion_chief_vehicles": 3,
       "mobile_command_vehicles": 1,
-      "platform_trucks": 3,
-      "heavy_rescue_vehicles": 4,
-      "water_tankers": 5,
       "mobile_air_vehicles": 1,
       "hazmat_vehicles": 3,
+      "water_tankers": 5,
+      "heavy_rescue_vehicles": 4,
+      "firetrucks": 15,
       "police_cars": 5
     },
     "chances": { "patient_transport": 20, "patient_critical_care": 10 },
     "additional": {
       "possible_patient": 50,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -9713,21 +10117,22 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "firetrucks": 15,
+      "platform_trucks": 3,
       "battalion_chief_vehicles": 3,
       "mobile_command_vehicles": 1,
-      "platform_trucks": 3,
-      "heavy_rescue_vehicles": 4,
-      "water_tankers": 5,
+      "foam": 1,
       "mobile_air_vehicles": 1,
       "hazmat_vehicles": 3,
-      "police_cars": 5,
-      "foam": 1
+      "water_tankers": 5,
+      "heavy_rescue_vehicles": 4,
+      "firetrucks": 15,
+      "police_cars": 5
     },
     "chances": { "patient_transport": 20, "patient_critical_care": 10 },
     "additional": {
       "possible_patient": 50,
       "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
@@ -9762,6 +10167,7 @@
       "possible_patient": 2,
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
+      "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Všeobecný internista"],
       "patient_specializations": "Všeobecný internista"
