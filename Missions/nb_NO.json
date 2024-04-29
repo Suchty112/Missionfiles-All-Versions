@@ -3138,8 +3138,8 @@
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -3165,8 +3165,8 @@
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -3196,8 +3196,8 @@
     "additional": {
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 0, "police_stations": 2 },
     "overlay_index": null,
@@ -3224,8 +3224,8 @@
       "possible_patient_min": 1,
       "filter_id": "police_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z",
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traume"],
       "patient_specializations": "Traume"
@@ -3257,8 +3257,8 @@
     "additional": {
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -3290,8 +3290,8 @@
       "allow_rw_instead_of_lf": true,
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -3320,8 +3320,8 @@
     "additional": {
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -3353,8 +3353,8 @@
       "guard_mission": true,
       "filter_id": "police_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 6,
@@ -3390,8 +3390,8 @@
       "possible_patient_min": 1,
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z",
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traume"],
       "patient_specializations": "Traume"
@@ -3423,8 +3423,8 @@
     "additional": {
       "filter_id": "police_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 6, "police_stations": 3 },
     "overlay_index": null,
@@ -3454,8 +3454,8 @@
     "additional": {
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -12691,7 +12691,7 @@
       "filter_id": "ambulance_station_missions",
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z",
+      "date_end": "2023-11-30T23:59:59+01:00",
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Generell kirurgi"],
       "patient_specializations": "Generell kirurgi"
@@ -12726,7 +12726,7 @@
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z",
+      "date_end": "2023-11-30T23:59:59+01:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traume"],
       "patient_specializations": "Traume"
@@ -12762,7 +12762,7 @@
       "filter_id": "ambulance_station_missions",
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z",
+      "date_end": "2023-11-30T23:59:59+01:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traume"],
       "patient_specializations": "Traume"
@@ -12793,7 +12793,7 @@
       "filter_id": "police_station_missions",
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z",
+      "date_end": "2023-11-30T23:59:59+01:00",
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Generell kirurgi"],
       "patient_specializations": "Generell kirurgi"
@@ -12827,7 +12827,7 @@
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z"
+      "date_end": "2023-11-30T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -12855,7 +12855,7 @@
       "filter_id": "ambulance_station_missions",
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z",
+      "date_end": "2023-11-30T23:59:59+01:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Generell medisin"],
       "patient_specializations": "Generell medisin"
@@ -12885,7 +12885,7 @@
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z",
+      "date_end": "2023-11-30T23:59:59+01:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traume"],
       "patient_specializations": "Traume"
@@ -12923,7 +12923,7 @@
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z",
+      "date_end": "2023-11-30T23:59:59+01:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traume"],
       "patient_specializations": "Traume"
@@ -12957,7 +12957,7 @@
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z"
+      "date_end": "2023-11-30T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
@@ -14525,8 +14525,8 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z",
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z",
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Kardiologi"],
       "patient_specializations": "Kardiologi"
@@ -14556,8 +14556,8 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z",
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z",
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Kardiologi"],
       "patient_specializations": "Kardiologi"
@@ -14587,8 +14587,8 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z",
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traume"],
       "patient_specializations": "Traume"
@@ -14618,8 +14618,8 @@
       "possible_patient_min": 1,
       "filter_id": "police_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z",
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traume"],
       "patient_specializations": "Traume"
@@ -14654,8 +14654,8 @@
       "filter_id": "ambulance_station_missions",
       "patient_allow_first_responder_chance": 50,
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z",
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z",
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Generell kirurgi"],
       "patient_specializations": "Generell kirurgi"
@@ -14683,8 +14683,8 @@
     "additional": {
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z"
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
@@ -14711,8 +14711,8 @@
       "filter_id": "police_station_missions",
       "subsequent_missions_ids": [402, 403],
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z"
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -14739,8 +14739,8 @@
       "filter_id": "police_station_missions",
       "subsequent_mission_only": true,
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z"
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z"
     },
     "prerequisites": {
       "main_building": 6,
@@ -14773,8 +14773,8 @@
       "patient_allow_first_responder_chance": 60,
       "subsequent_mission_only": true,
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z",
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Generell medisin"],
       "patient_specializations": "Generell medisin"
@@ -14942,8 +14942,8 @@
     "additional": {
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -14975,8 +14975,8 @@
       "possible_patient": 1,
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z",
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Generell medisin"],
       "patient_specializations": "Generell medisin"
@@ -15008,8 +15008,8 @@
     "additional": {
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -15038,8 +15038,8 @@
     "additional": {
       "filter_id": "water_watch_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": -1,
@@ -21212,7 +21212,7 @@
     "overlay_index": null,
     "base_mission_id": 571,
     "additive_overlays": "",
-    "mission_categories": ["fire"]
+    "mission_categories": ["airport"]
   },
   {
     "id": "572",
@@ -21710,6 +21710,483 @@
     },
     "overlay_index": null,
     "base_mission_id": 586,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "587",
+    "name": "Brann på et cruiseskip ved kaien",
+    "place": "Cruisehavn",
+    "place_array": ["Cruisehavn"],
+    "average_credits": 20500,
+    "generated_by": "",
+    "icons": [
+      "/images/cruiseship_gruen.png",
+      "/images/cruiseship_gelb.png",
+      "/images/cruiseship_rot.png"
+    ],
+    "requirements": {
+      "boats": 2,
+      "platform_trucks": 2,
+      "battalion_chief_vehicles": 5,
+      "mobile_command_vehicles": 1,
+      "mobile_air_vehicles": 2,
+      "hazmat_vehicles": 1,
+      "water_tankers": 3,
+      "hose": 2,
+      "kdow_orgl": 1,
+      "pump": 2,
+      "heavy_rescue_vehicles": 1,
+      "firetrucks": 8,
+      "police_cars": 6
+    },
+    "chances": {
+      "patient_transport": 50,
+      "helicopter": 15,
+      "patient_critical_care": 25
+    },
+    "additional": {
+      "possible_patient": 35,
+      "possible_patient_min": 10,
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
+      "patient_at_end_of_mission": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Generell medisin"],
+      "patient_specializations": "Generell medisin"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "wasserrettung": 2,
+      "rescue_stations": 15,
+      "police_stations": 10,
+      "fire_support_count": 2,
+      "fire_stations": 20
+    },
+    "overlay_index": null,
+    "base_mission_id": 587,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "588",
+    "name": "Sikring av en festival",
+    "place": "",
+    "place_array": [],
+    "average_credits": 17400,
+    "generated_by": "",
+    "icons": [
+      "/images/clock_gruen.png",
+      "/images/clock_gelb.png",
+      "/images/clock_rot.png"
+    ],
+    "requirements": {
+      "detention_unit": 1,
+      "battalion_chief_vehicles": 2,
+      "k9": 2,
+      "kdow_orgl": 1,
+      "riot_police": 6,
+      "riot_police_command": 1,
+      "ambulances": 8,
+      "firetrucks": 4,
+      "police_cars": 5
+    },
+    "chances": {},
+    "additional": {
+      "duration_text": "1 time 30 minutter",
+      "duration": 5400,
+      "guard_mission": true,
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "rescue_stations": 8,
+      "police_stations": 5,
+      "riot_police": 2,
+      "fire_stations": 6
+    },
+    "overlay_index": null,
+    "base_mission_id": 588,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "589",
+    "name": "Demonstrasjon av rappellering",
+    "place": "",
+    "place_array": [],
+    "average_credits": 3000,
+    "generated_by": "",
+    "icons": [
+      "/images/clock_gruen.png",
+      "/images/clock_gelb.png",
+      "/images/clock_rot.png"
+    ],
+    "requirements": { "heavy_rescue_vehicles": 1 },
+    "chances": {},
+    "additional": {
+      "duration_text": "30 minutter",
+      "duration": 1800,
+      "guard_mission": true,
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 6 },
+    "overlay_index": null,
+    "base_mission_id": 589,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "590",
+    "name": "Sikring av et idrettsarrangement",
+    "place": "",
+    "place_array": [],
+    "average_credits": 8500,
+    "generated_by": "",
+    "icons": [
+      "/images/clock_gruen.png",
+      "/images/clock_gelb.png",
+      "/images/clock_rot.png"
+    ],
+    "requirements": {
+      "detention_unit": 1,
+      "battalion_chief_vehicles": 1,
+      "riot_police": 5,
+      "riot_police_command": 1,
+      "ambulances": 2,
+      "firetrucks": 1,
+      "police_cars": 4
+    },
+    "chances": {},
+    "additional": {
+      "duration_text": "1 time",
+      "duration": 3600,
+      "guard_mission": true,
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "rescue_stations": 2,
+      "police_stations": 3,
+      "riot_police": 2,
+      "fire_stations": 6
+    },
+    "overlay_index": null,
+    "base_mission_id": 590,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "591",
+    "name": "Kontroll av brannhydrant",
+    "place": "",
+    "place_array": [],
+    "average_credits": 750,
+    "generated_by": "",
+    "icons": [
+      "/images/clock_gruen.png",
+      "/images/clock_gelb.png",
+      "/images/clock_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": {
+      "duration_text": "30 minutter",
+      "duration": 1800,
+      "guard_mission": true,
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 591,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "592",
+    "name": "Lekkasje av kjemikalier i et laboratorium (sykehus)",
+    "place": "Sykehus",
+    "place_array": ["Sykehus"],
+    "average_credits": 9000,
+    "generated_by": "",
+    "icons": [
+      "/images/radiation_gruen.png",
+      "/images/radiation_gelb.png",
+      "/images/radiation_rot.png"
+    ],
+    "requirements": {
+      "battalion_chief_vehicles": 3,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 2,
+      "kdow_orgl": 1,
+      "firetrucks": 5,
+      "police_cars": 5
+    },
+    "chances": {
+      "patient_transport": 50,
+      "helicopter": 10,
+      "patient_critical_care": 30
+    },
+    "additional": {
+      "possible_patient": 7,
+      "possible_patient_min": 1,
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
+      "patient_at_end_of_mission": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Generell medisin"],
+      "patient_specializations": "Generell medisin"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 6,
+      "police_stations": 6,
+      "fire_stations": 15
+    },
+    "overlay_index": null,
+    "base_mission_id": 592,
+    "additive_overlays": "",
+    "mission_categories": ["fire", "fire_support_specialization"]
+  },
+  {
+    "id": "592/a",
+    "name": "Lekkasje av kjemikalier i et laboratorium (sykehus)",
+    "place": "Sykehus",
+    "place_array": ["Sykehus"],
+    "average_credits": 9800,
+    "generated_by": "",
+    "icons": [
+      "/images/radiation_gruen.png",
+      "/images/radiation_gelb.png",
+      "/images/radiation_rot.png"
+    ],
+    "requirements": {
+      "battalion_chief_vehicles": 3,
+      "foam": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 2,
+      "kdow_orgl": 1,
+      "firetrucks": 5,
+      "police_cars": 5
+    },
+    "chances": {
+      "patient_transport": 50,
+      "helicopter": 10,
+      "patient_critical_care": 30
+    },
+    "additional": {
+      "possible_patient": 7,
+      "possible_patient_min": 1,
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
+      "patient_at_end_of_mission": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Generell medisin"],
+      "patient_specializations": "Generell medisin"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 6,
+      "police_stations": 6,
+      "fire_support_count": 1,
+      "fire_stations": 15
+    },
+    "overlay_index": null,
+    "base_mission_id": 592,
+    "additive_overlays": "a",
+    "mission_categories": ["fire", "fire_support_specialization"]
+  },
+  {
+    "id": "593",
+    "name": "Øvelse i skogbrann",
+    "place": "Skog",
+    "place_array": ["Skog"],
+    "average_credits": 24000,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "brush_truck": 10,
+      "battalion_chief_vehicles": 1,
+      "mobile_command_vehicles": 1,
+      "water_tankers": 5,
+      "water_needed": 100000,
+      "firetrucks": 1,
+      "police_cars": 2
+    },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 2,
+      "fire_stations": 15
+    },
+    "overlay_index": null,
+    "base_mission_id": 593,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "594",
+    "name": "Nødbrems på toget",
+    "place": "Togstasjon (regional)\nTogstasjon (regional og langdistanse)\nPlanovergang\nPlanovergang (Fotgjengere)",
+    "place_array": [
+      "Togstasjon (regional)",
+      "Togstasjon (regional og langdistanse)",
+      "Planovergang",
+      "Planovergang (Fotgjengere)"
+    ],
+    "average_credits": 7300,
+    "generated_by": "",
+    "icons": [
+      "/images/tramway_gruen.png",
+      "/images/tramway_gelb.png",
+      "/images/tramway_rot.png"
+    ],
+    "requirements": {
+      "battalion_chief_vehicles": 1,
+      "heavy_rescue_vehicles": 2,
+      "firetrucks": 4,
+      "police_cars": 3
+    },
+    "chances": { "patient_transport": 30 },
+    "additional": {
+      "possible_patient": 4,
+      "max_possible_prisoners": 1,
+      "filter_id": "firehouse_missions",
+      "patient_allow_first_responder_chance": 40,
+      "optional_event_mission": false,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Generell medisin"],
+      "patient_specializations": "Generell medisin"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 3,
+      "police_stations": 2,
+      "fire_stations": 9
+    },
+    "overlay_index": null,
+    "base_mission_id": 594,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "595",
+    "name": "Barn fanget i kloakk",
+    "place": "",
+    "place_array": [],
+    "average_credits": 2000,
+    "generated_by": "",
+    "icons": [
+      "/images/waterpark_gruen.png",
+      "/images/waterpark_gelb.png",
+      "/images/waterpark_rot.png"
+    ],
+    "requirements": {
+      "heavy_rescue_vehicles": 1,
+      "firetrucks": 1,
+      "police_cars": 1
+    },
+    "chances": { "patient_transport": 70 },
+    "additional": {
+      "possible_patient": 2,
+      "possible_patient_min": 1,
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
+      "patient_at_end_of_mission": true,
+      "patient_specialization_ids": [0, 4],
+      "patient_specialization_captions": ["Generell medisin", "Traume"],
+      "patient_specializations": "Generell medisin, Traume"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 3,
+      "police_stations": 1,
+      "fire_stations": 5
+    },
+    "overlay_index": null,
+    "base_mission_id": 595,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "596",
+    "name": "Kirsebærblomster i brann",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1000,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 1,
+      "firetrucks": 3
+    },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "date_start": "2024-04-22T10:00:00+02:00",
+      "date_end": "2024-06-20T22:00:00Z"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 3 },
+    "overlay_index": null,
+    "base_mission_id": 596,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "597",
+    "name": "Blomstermark i brann",
+    "place": "",
+    "place_array": [],
+    "average_credits": 2500,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "battalion_chief_vehicles": 1,
+      "water_tankers": 1,
+      "heavy_rescue_vehicles": 1,
+      "firetrucks": 7
+    },
+    "chances": { "patient_transport": 40 },
+    "additional": {
+      "possible_patient": 2,
+      "possible_patient_min": 1,
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "date_start": "2024-04-29T10:00:00+02:00",
+      "date_end": "2024-06-20T22:00:00Z",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Generell medisin"],
+      "patient_specializations": "Generell medisin"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 1,
+      "fire_stations": 5
+    },
+    "overlay_index": null,
+    "base_mission_id": 597,
     "additive_overlays": "",
     "mission_categories": ["fire"]
   }
