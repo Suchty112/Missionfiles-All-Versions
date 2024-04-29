@@ -2438,6 +2438,46 @@
     "mission_categories": ["fire"]
   },
   {
+    "id": "75/a",
+    "name": "Bygning delvist kollapset",
+    "place": "",
+    "place_array": [],
+    "average_credits": 7700,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 2,
+      "heavy_rescue_vehicles": 2,
+      "water_needed": 4000,
+      "disaster_response_equipment": 1,
+      "firetrucks": 2
+    },
+    "chances": { "patient_transport": 30 },
+    "additional": {
+      "possible_patient": 2,
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
+      "patient_specialization_ids": [1],
+      "patient_specialization_captions": ["Kirurg"],
+      "patient_specializations": "Kirurg"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 3,
+      "disaster_response_count": 1,
+      "fire_stations": 5
+    },
+    "overlay_index": null,
+    "base_mission_id": 75,
+    "additive_overlays": "a",
+    "mission_categories": ["fire"]
+  },
+  {
     "id": "76",
     "name": "Industribrand",
     "place": "",
@@ -2916,6 +2956,112 @@
     "mission_categories": ["fire", "fire_support_specialization"]
   },
   {
+    "id": "86/b",
+    "name": "Delvist bygningskollaps",
+    "place": "",
+    "place_array": [],
+    "average_credits": 7900,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 1,
+      "elw_police": 1,
+      "hose": 1,
+      "heavy_rescue_vehicles": 2,
+      "water_needed": 4000,
+      "disaster_response_equipment": 1,
+      "firetrucks": 2,
+      "police_cars": 2
+    },
+    "chances": {
+      "patient_transport": 40,
+      "helicopter": 10,
+      "patient_critical_care": 45
+    },
+    "additional": {
+      "possible_patient": 8,
+      "possible_patient_min": 2,
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [515],
+      "need_elw_police_only_if_present": true,
+      "optional_event_mission": false,
+      "patient_specialization_ids": [4],
+      "patient_specialization_captions": ["Traumatologi"],
+      "patient_specializations": "Traumatologi"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 2,
+      "police_stations": 1,
+      "disaster_response_count": 1,
+      "fire_stations": 5
+    },
+    "overlay_index": null,
+    "base_mission_id": 86,
+    "additive_overlays": "b",
+    "mission_categories": ["fire", "fire_support_specialization"]
+  },
+  {
+    "id": "86/ab",
+    "name": "Delvist bygningskollaps",
+    "place": "",
+    "place_array": [],
+    "average_credits": 7900,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 1,
+      "elw_police": 1,
+      "foam": 1,
+      "hose": 1,
+      "pump": 1,
+      "heavy_rescue_vehicles": 2,
+      "water_needed": 4000,
+      "foam_needed": 100,
+      "disaster_response_equipment": 1,
+      "firetrucks": 2,
+      "police_cars": 2
+    },
+    "chances": {
+      "patient_transport": 40,
+      "helicopter": 10,
+      "patient_critical_care": 45
+    },
+    "additional": {
+      "possible_patient": 8,
+      "possible_patient_min": 2,
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [515],
+      "need_elw_police_only_if_present": true,
+      "optional_event_mission": false,
+      "patient_specialization_ids": [4],
+      "patient_specialization_captions": ["Traumatologi"],
+      "patient_specializations": "Traumatologi"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 2,
+      "police_stations": 1,
+      "fire_support_count": 1,
+      "disaster_response_count": 1,
+      "fire_stations": 5
+    },
+    "overlay_index": null,
+    "base_mission_id": 86,
+    "additive_overlays": "ab",
+    "mission_categories": ["fire", "fire_support_specialization"]
+  },
+  {
     "id": "87",
     "name": "Bygningskollaps",
     "place": "",
@@ -3015,6 +3161,112 @@
     "overlay_index": null,
     "base_mission_id": 87,
     "additive_overlays": "a",
+    "mission_categories": ["fire", "fire_support_specialization"]
+  },
+  {
+    "id": "87/b",
+    "name": "Bygningskollaps",
+    "place": "",
+    "place_array": [],
+    "average_credits": 9400,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 2,
+      "battalion_chief_vehicles": 2,
+      "elw_police": 1,
+      "hose": 1,
+      "heavy_rescue_vehicles": 3,
+      "water_needed": 4000,
+      "disaster_response_equipment": 1,
+      "firetrucks": 4,
+      "police_cars": 1
+    },
+    "chances": {
+      "patient_transport": 50,
+      "helicopter": 20,
+      "patient_critical_care": 30
+    },
+    "additional": {
+      "possible_patient": 20,
+      "possible_patient_min": 8,
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [516],
+      "need_elw_police_only_if_present": true,
+      "optional_event_mission": false,
+      "patient_specialization_ids": [4],
+      "patient_specialization_captions": ["Traumatologi"],
+      "patient_specializations": "Traumatologi"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 4,
+      "police_stations": 1,
+      "disaster_response_count": 1,
+      "fire_stations": 7
+    },
+    "overlay_index": null,
+    "base_mission_id": 87,
+    "additive_overlays": "b",
+    "mission_categories": ["fire", "fire_support_specialization"]
+  },
+  {
+    "id": "87/ab",
+    "name": "Bygningskollaps",
+    "place": "",
+    "place_array": [],
+    "average_credits": 9400,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 2,
+      "battalion_chief_vehicles": 2,
+      "elw_police": 1,
+      "foam": 1,
+      "hose": 1,
+      "pump": 1,
+      "heavy_rescue_vehicles": 3,
+      "water_needed": 4000,
+      "foam_needed": 100,
+      "disaster_response_equipment": 1,
+      "firetrucks": 4,
+      "police_cars": 1
+    },
+    "chances": {
+      "patient_transport": 50,
+      "helicopter": 20,
+      "patient_critical_care": 30
+    },
+    "additional": {
+      "possible_patient": 20,
+      "possible_patient_min": 8,
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [516],
+      "need_elw_police_only_if_present": true,
+      "optional_event_mission": false,
+      "patient_specialization_ids": [4],
+      "patient_specialization_captions": ["Traumatologi"],
+      "patient_specializations": "Traumatologi"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 4,
+      "police_stations": 1,
+      "fire_support_count": 1,
+      "disaster_response_count": 1,
+      "fire_stations": 7
+    },
+    "overlay_index": null,
+    "base_mission_id": 87,
+    "additive_overlays": "ab",
     "mission_categories": ["fire", "fire_support_specialization"]
   },
   {
@@ -3520,8 +3772,8 @@
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -3547,8 +3799,8 @@
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -3580,8 +3832,8 @@
       "filter_id": "firehouse_missions",
       "need_elw_police_only_if_present": true,
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 0, "police_stations": 2 },
     "overlay_index": null,
@@ -3608,8 +3860,8 @@
       "possible_patient_min": 1,
       "filter_id": "police_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z",
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologi"],
       "patient_specializations": "Traumatologi"
@@ -3641,8 +3893,8 @@
     "additional": {
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -3676,8 +3928,8 @@
       "filter_id": "firehouse_missions",
       "need_elw_police_only_if_present": true,
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -3706,8 +3958,8 @@
     "additional": {
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -3739,8 +3991,8 @@
       "guard_mission": true,
       "filter_id": "police_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 6,
@@ -3776,8 +4028,8 @@
       "possible_patient_min": 1,
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z",
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologi"],
       "patient_specializations": "Traumatologi"
@@ -3809,8 +4061,8 @@
     "additional": {
       "filter_id": "police_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 6, "police_stations": 3 },
     "overlay_index": null,
@@ -3842,8 +4094,8 @@
       "filter_id": "firehouse_missions",
       "need_elw_police_only_if_present": true,
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -6555,6 +6807,108 @@
     "mission_categories": ["fire", "fire_support_specialization"]
   },
   {
+    "id": "176/b",
+    "name": "Brand på kraftværk",
+    "place": "Kraftværk",
+    "place_array": ["Kraftværk"],
+    "average_credits": 14900,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 3,
+      "battalion_chief_vehicles": 4,
+      "mobile_command_vehicles": 1,
+      "elw_police": 1,
+      "mobile_air_vehicles": 2,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "hose": 1,
+      "heavy_rescue_vehicles": 4,
+      "water_needed": 8000,
+      "energy_supply": 1,
+      "firetrucks": 8,
+      "police_cars": 4
+    },
+    "chances": { "patient_transport": 60, "patient_critical_care": 20 },
+    "additional": {
+      "possible_patient": 10,
+      "filter_id": "firehouse_missions",
+      "need_elw_police_only_if_present": true,
+      "fire_alarm_system_possible": true,
+      "optional_event_mission": false,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Specialister i intern medicin"],
+      "patient_specializations": "Specialister i intern medicin"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 8,
+      "police_stations": 2,
+      "energy_supply": 1,
+      "fire_stations": 15
+    },
+    "overlay_index": null,
+    "base_mission_id": 176,
+    "additive_overlays": "b",
+    "mission_categories": ["fire", "fire_support_specialization"]
+  },
+  {
+    "id": "176/ab",
+    "name": "Brand på kraftværk",
+    "place": "Kraftværk",
+    "place_array": ["Kraftværk"],
+    "average_credits": 14900,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 3,
+      "battalion_chief_vehicles": 4,
+      "mobile_command_vehicles": 1,
+      "elw_police": 1,
+      "mobile_air_vehicles": 2,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "hose": 1,
+      "pump": 1,
+      "heavy_rescue_vehicles": 4,
+      "water_needed": 8000,
+      "energy_supply": 1,
+      "firetrucks": 8,
+      "police_cars": 4
+    },
+    "chances": { "patient_transport": 60, "patient_critical_care": 20 },
+    "additional": {
+      "possible_patient": 10,
+      "filter_id": "firehouse_missions",
+      "need_elw_police_only_if_present": true,
+      "fire_alarm_system_possible": true,
+      "optional_event_mission": false,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Specialister i intern medicin"],
+      "patient_specializations": "Specialister i intern medicin"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 8,
+      "police_stations": 2,
+      "fire_support_count": 1,
+      "energy_supply": 1,
+      "fire_stations": 15
+    },
+    "overlay_index": null,
+    "base_mission_id": 176,
+    "additive_overlays": "ab",
+    "mission_categories": ["fire", "fire_support_specialization"]
+  },
+  {
     "id": "177",
     "name": "Massepanik på diskotek",
     "place": "Diskotek",
@@ -6892,6 +7246,116 @@
     "overlay_index": null,
     "base_mission_id": 182,
     "additive_overlays": "a",
+    "mission_categories": ["fire", "fire_support_specialization"]
+  },
+  {
+    "id": "182/b",
+    "name": "Mega Fabriks Brand",
+    "place": "Fabrik",
+    "place_array": ["Fabrik"],
+    "average_credits": 10200,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 2,
+      "battalion_chief_vehicles": 4,
+      "mobile_command_vehicles": 1,
+      "elw_police": 1,
+      "mobile_air_vehicles": 1,
+      "water_tankers": 1,
+      "hose": 1,
+      "heavy_rescue_vehicles": 2,
+      "water_needed": 6000,
+      "light_supply": 1,
+      "rescue_dog_units": 2,
+      "disaster_response_equipment": 1,
+      "firetrucks": 8,
+      "police_cars": 2
+    },
+    "chances": { "patient_transport": 30, "patient_critical_care": 30 },
+    "additional": {
+      "possible_patient": 7,
+      "filter_id": "firehouse_missions",
+      "need_elw_police_only_if_present": true,
+      "fire_alarm_system_possible": true,
+      "optional_event_mission": false,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Specialister i intern medicin"],
+      "patient_specializations": "Specialister i intern medicin"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 6,
+      "police_stations": 2,
+      "rescue_dog_units": 1,
+      "disaster_response_count": 1,
+      "energy_supply": 1,
+      "fire_stations": 15
+    },
+    "overlay_index": null,
+    "base_mission_id": 182,
+    "additive_overlays": "b",
+    "mission_categories": ["fire", "fire_support_specialization"]
+  },
+  {
+    "id": "182/ab",
+    "name": "Mega Fabriks Brand",
+    "place": "Fabrik",
+    "place_array": ["Fabrik"],
+    "average_credits": 10200,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 2,
+      "battalion_chief_vehicles": 4,
+      "mobile_command_vehicles": 1,
+      "elw_police": 1,
+      "foam": 1,
+      "mobile_air_vehicles": 1,
+      "water_tankers": 1,
+      "hose": 1,
+      "pump": 1,
+      "heavy_rescue_vehicles": 2,
+      "water_needed": 6000,
+      "foam_needed": 100,
+      "light_supply": 1,
+      "rescue_dog_units": 2,
+      "disaster_response_equipment": 1,
+      "firetrucks": 8,
+      "police_cars": 2
+    },
+    "chances": { "patient_transport": 30, "patient_critical_care": 30 },
+    "additional": {
+      "possible_patient": 7,
+      "filter_id": "firehouse_missions",
+      "need_elw_police_only_if_present": true,
+      "fire_alarm_system_possible": true,
+      "optional_event_mission": false,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Specialister i intern medicin"],
+      "patient_specializations": "Specialister i intern medicin"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 6,
+      "police_stations": 2,
+      "rescue_dog_units": 1,
+      "fire_support_count": 1,
+      "disaster_response_count": 1,
+      "energy_supply": 1,
+      "fire_stations": 15
+    },
+    "overlay_index": null,
+    "base_mission_id": 182,
+    "additive_overlays": "ab",
     "mission_categories": ["fire", "fire_support_specialization"]
   },
   {
@@ -11174,7 +11638,7 @@
       "filter_id": "ambulance_station_missions",
       "optional_event_mission": true,
       "date_start": "2023-05-12T09:00:00Z",
-      "date_end": "2023-05-14T23:59:59Z",
+      "date_end": "2023-05-14T23:59:59+02:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Specialister i intern medicin"],
       "patient_specializations": "Specialister i intern medicin"
@@ -11203,7 +11667,7 @@
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
       "date_start": "2023-05-12T09:00:00Z",
-      "date_end": "2023-05-14T23:59:59Z"
+      "date_end": "2023-05-14T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -11231,7 +11695,7 @@
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
       "date_start": "2023-05-12T09:00:00Z",
-      "date_end": "2023-05-14T23:59:59Z",
+      "date_end": "2023-05-14T23:59:59+02:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Specialister i intern medicin"],
       "patient_specializations": "Specialister i intern medicin"
@@ -11265,7 +11729,7 @@
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
       "date_start": "2023-05-12T09:00:00Z",
-      "date_end": "2023-05-14T23:59:59Z"
+      "date_end": "2023-05-14T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -11293,7 +11757,7 @@
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
       "date_start": "2023-05-12T09:00:00Z",
-      "date_end": "2023-05-14T23:59:59Z",
+      "date_end": "2023-05-14T23:59:59+02:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Specialister i intern medicin"],
       "patient_specializations": "Specialister i intern medicin"
@@ -11326,7 +11790,7 @@
       "filter_id": "police_station_missions",
       "optional_event_mission": true,
       "date_start": "2023-05-12T09:00:00Z",
-      "date_end": "2023-05-14T23:59:59Z"
+      "date_end": "2023-05-14T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 6, "police_stations": 2 },
     "overlay_index": null,
@@ -13049,7 +13513,7 @@
       "filter_id": "ambulance_station_missions",
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z",
+      "date_end": "2023-11-30T23:59:59+01:00",
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Kirurg"],
       "patient_specializations": "Kirurg"
@@ -13084,7 +13548,7 @@
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z",
+      "date_end": "2023-11-30T23:59:59+01:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologi"],
       "patient_specializations": "Traumatologi"
@@ -13120,7 +13584,7 @@
       "filter_id": "ambulance_station_missions",
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z",
+      "date_end": "2023-11-30T23:59:59+01:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologi"],
       "patient_specializations": "Traumatologi"
@@ -13151,7 +13615,7 @@
       "filter_id": "police_station_missions",
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z",
+      "date_end": "2023-11-30T23:59:59+01:00",
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Kirurg"],
       "patient_specializations": "Kirurg"
@@ -13184,7 +13648,7 @@
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z"
+      "date_end": "2023-11-30T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -13212,7 +13676,7 @@
       "filter_id": "ambulance_station_missions",
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z",
+      "date_end": "2023-11-30T23:59:59+01:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Specialister i intern medicin"],
       "patient_specializations": "Specialister i intern medicin"
@@ -13242,7 +13706,7 @@
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z",
+      "date_end": "2023-11-30T23:59:59+01:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologi"],
       "patient_specializations": "Traumatologi"
@@ -13280,7 +13744,7 @@
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z",
+      "date_end": "2023-11-30T23:59:59+01:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologi"],
       "patient_specializations": "Traumatologi"
@@ -13314,7 +13778,7 @@
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z"
+      "date_end": "2023-11-30T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
@@ -14709,8 +15173,8 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z",
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z",
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Kardiologi"],
       "patient_specializations": "Kardiologi"
@@ -14740,8 +15204,8 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z",
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z",
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Kardiologi"],
       "patient_specializations": "Kardiologi"
@@ -14771,8 +15235,8 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z",
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologi"],
       "patient_specializations": "Traumatologi"
@@ -14802,8 +15266,8 @@
       "possible_patient_min": 1,
       "filter_id": "police_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z",
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologi"],
       "patient_specializations": "Traumatologi"
@@ -14838,8 +15302,8 @@
       "filter_id": "ambulance_station_missions",
       "patient_allow_first_responder_chance": 50,
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z",
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z",
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Kirurg"],
       "patient_specializations": "Kirurg"
@@ -14867,8 +15331,8 @@
     "additional": {
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z"
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
@@ -14895,8 +15359,8 @@
       "filter_id": "police_station_missions",
       "subsequent_missions_ids": [420, 421],
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z"
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -14923,8 +15387,8 @@
       "filter_id": "police_station_missions",
       "subsequent_mission_only": true,
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z"
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z"
     },
     "prerequisites": {
       "main_building": 6,
@@ -14957,8 +15421,8 @@
       "patient_allow_first_responder_chance": 60,
       "subsequent_mission_only": true,
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z",
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Specialister i intern medicin"],
       "patient_specializations": "Specialister i intern medicin"
@@ -15133,8 +15597,8 @@
     "additional": {
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -15166,8 +15630,8 @@
       "possible_patient": 1,
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z",
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Specialister i intern medicin"],
       "patient_specializations": "Specialister i intern medicin"
@@ -15199,8 +15663,8 @@
     "additional": {
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -15229,8 +15693,8 @@
     "additional": {
       "filter_id": "water_watch_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 15,
@@ -15340,6 +15804,41 @@
     "mission_categories": ["fire"]
   },
   {
+    "id": "432/a",
+    "name": "Hændelse i mine",
+    "place": "",
+    "place_array": [],
+    "average_credits": 6000,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "battalion_chief_vehicles": 2,
+      "hazmat_vehicles": 1,
+      "disaster_response_equipment": 1,
+      "firetrucks": 8,
+      "police_cars": 2
+    },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 5,
+      "disaster_response_count": 1,
+      "fire_stations": 10
+    },
+    "overlay_index": null,
+    "base_mission_id": 432,
+    "additive_overlays": "a",
+    "mission_categories": ["fire"]
+  },
+  {
     "id": "433",
     "name": "Mine kollapset",
     "place": "",
@@ -15376,6 +15875,47 @@
     "overlay_index": null,
     "base_mission_id": 433,
     "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "433/a",
+    "name": "Mine kollapset",
+    "place": "",
+    "place_array": [],
+    "average_credits": 9000,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "battalion_chief_vehicles": 4,
+      "hazmat_vehicles": 2,
+      "heavy_rescue_vehicles": 4,
+      "disaster_response_equipment": 1,
+      "firetrucks": 10,
+      "police_cars": 3
+    },
+    "chances": { "patient_transport": 50, "patient_critical_care": 10 },
+    "additional": {
+      "possible_patient": 25,
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Specialister i intern medicin"],
+      "patient_specializations": "Specialister i intern medicin"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 7,
+      "police_stations": 5,
+      "disaster_response_count": 1,
+      "fire_stations": 10
+    },
+    "overlay_index": null,
+    "base_mission_id": 433,
+    "additive_overlays": "a",
     "mission_categories": ["fire"]
   },
   {
@@ -19554,7 +20094,7 @@
     "overlay_index": null,
     "base_mission_id": 547,
     "additive_overlays": "",
-    "mission_categories": ["fire"]
+    "mission_categories": ["airport"]
   },
   {
     "id": "548",
@@ -20448,5 +20988,752 @@
     "base_mission_id": 567,
     "additive_overlays": "",
     "mission_categories": ["fire"]
+  },
+  {
+    "id": "568",
+    "name": "Brand på et krydstogtskib ved kajen",
+    "place": "Krydstogthavn",
+    "place_array": ["Krydstogthavn"],
+    "average_credits": 20500,
+    "generated_by": "",
+    "icons": [
+      "/images/cruiseship_gruen.png",
+      "/images/cruiseship_gelb.png",
+      "/images/cruiseship_rot.png"
+    ],
+    "requirements": {
+      "coastal_boat": 2,
+      "platform_trucks": 2,
+      "battalion_chief_vehicles": 3,
+      "mobile_command_vehicles": 1,
+      "mobile_air_vehicles": 2,
+      "hazmat_vehicles": 1,
+      "water_tankers": 3,
+      "hose": 2,
+      "kdow_orgl": 1,
+      "pump": 2,
+      "heavy_rescue_vehicles": 1,
+      "firetrucks": 8,
+      "police_cars": 6
+    },
+    "chances": {
+      "patient_transport": 50,
+      "helicopter": 15,
+      "patient_critical_care": 25
+    },
+    "additional": {
+      "possible_patient": 35,
+      "possible_patient_min": 10,
+      "filter_id": "firehouse_missions",
+      "vehicle_groups": ["default", "ocean_missions"],
+      "optional_event_mission": false,
+      "patient_at_end_of_mission": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Specialister i intern medicin"],
+      "patient_specializations": "Specialister i intern medicin"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 15,
+      "police_stations": 10,
+      "fire_support_count": 2,
+      "coastal_rescue_count": 1,
+      "fire_stations": 20
+    },
+    "overlay_index": null,
+    "base_mission_id": 568,
+    "additive_overlays": "",
+    "mission_categories": ["fire_support_specialization"]
+  },
+  {
+    "id": "569",
+    "name": "Sikring af en festival",
+    "place": "",
+    "place_array": [],
+    "average_credits": 11000,
+    "generated_by": "",
+    "icons": [
+      "/images/clock_gruen.png",
+      "/images/clock_gelb.png",
+      "/images/clock_rot.png"
+    ],
+    "requirements": {
+      "battalion_chief_vehicles": 2,
+      "k9": 2,
+      "kdow_orgl": 1,
+      "ambulances": 8,
+      "riot_police": 6,
+      "detention_unit": 1,
+      "wasserwerfer": 1,
+      "riot_police_equipment": 1,
+      "firetrucks": 4,
+      "police_cars": 5
+    },
+    "chances": {},
+    "additional": {
+      "duration_text": "1 time 30 minutter",
+      "duration": 5400,
+      "guard_mission": true,
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "rescue_stations": 8,
+      "police_stations": 5,
+      "fire_stations": 6
+    },
+    "overlay_index": null,
+    "base_mission_id": 569,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "570",
+    "name": "Demonstration af rappelling",
+    "place": "",
+    "place_array": [],
+    "average_credits": 3000,
+    "generated_by": "",
+    "icons": [
+      "/images/clock_gruen.png",
+      "/images/clock_gelb.png",
+      "/images/clock_rot.png"
+    ],
+    "requirements": { "heavy_rescue_vehicles": 1 },
+    "chances": {},
+    "additional": {
+      "duration_text": "30 minutter",
+      "duration": 1800,
+      "guard_mission": true,
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 6 },
+    "overlay_index": null,
+    "base_mission_id": 570,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "571",
+    "name": "Sikring af en sportsbegivenhed",
+    "place": "",
+    "place_array": [],
+    "average_credits": 8500,
+    "generated_by": "",
+    "icons": [
+      "/images/clock_gruen.png",
+      "/images/clock_gelb.png",
+      "/images/clock_rot.png"
+    ],
+    "requirements": {
+      "battalion_chief_vehicles": 1,
+      "ambulances": 2,
+      "riot_police": 5,
+      "detention_unit": 1,
+      "wasserwerfer": 1,
+      "riot_police_equipment": 1,
+      "firetrucks": 1,
+      "police_cars": 4
+    },
+    "chances": {},
+    "additional": {
+      "duration_text": "1 time",
+      "duration": 3600,
+      "guard_mission": true,
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "rescue_stations": 2,
+      "police_stations": 3,
+      "fire_stations": 6
+    },
+    "overlay_index": null,
+    "base_mission_id": 571,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "572",
+    "name": "Kontrol af brandhane",
+    "place": "",
+    "place_array": [],
+    "average_credits": 750,
+    "generated_by": "",
+    "icons": [
+      "/images/clock_gruen.png",
+      "/images/clock_gelb.png",
+      "/images/clock_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": {
+      "duration_text": "30 minutter",
+      "duration": 1800,
+      "guard_mission": true,
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 572,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "573",
+    "name": "Lækage af kemikalier i et laboratorium (hospital)",
+    "place": "Hospital",
+    "place_array": ["Hospital"],
+    "average_credits": 9000,
+    "generated_by": "",
+    "icons": [
+      "/images/radiation_gruen.png",
+      "/images/radiation_gelb.png",
+      "/images/radiation_rot.png"
+    ],
+    "requirements": {
+      "battalion_chief_vehicles": 3,
+      "mobile_command_vehicles": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 2,
+      "water_tankers": 1,
+      "kdow_orgl": 1,
+      "firetrucks": 5,
+      "police_cars": 5
+    },
+    "chances": {
+      "patient_transport": 50,
+      "helicopter": 10,
+      "patient_critical_care": 30
+    },
+    "additional": {
+      "possible_patient": 7,
+      "possible_patient_min": 1,
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
+      "patient_at_end_of_mission": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Specialister i intern medicin"],
+      "patient_specializations": "Specialister i intern medicin"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 6,
+      "police_stations": 6,
+      "fire_stations": 15
+    },
+    "overlay_index": null,
+    "base_mission_id": 573,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "574",
+    "name": "Øvelse i skovbrand",
+    "place": "Skov",
+    "place_array": ["Skov"],
+    "average_credits": 24000,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "battalion_chief_vehicles": 1,
+      "mobile_command_vehicles": 1,
+      "water_tankers": 4,
+      "hose": 1,
+      "pump": 1,
+      "water_needed": 100000,
+      "firetrucks": 10,
+      "police_cars": 2
+    },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 2,
+      "fire_support_count": 3,
+      "fire_stations": 15
+    },
+    "overlay_index": null,
+    "base_mission_id": 574,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "575",
+    "name": "Nødbremse på toget",
+    "place": "Togstation (lokal trafik)\nTogstation (lokal og national /international trafik)\nJernbaneovergang\nSkinnekrydsning",
+    "place_array": [
+      "Togstation (lokal trafik)",
+      "Togstation (lokal og national /international trafik)",
+      "Jernbaneovergang",
+      "Skinnekrydsning"
+    ],
+    "average_credits": 7300,
+    "generated_by": "",
+    "icons": [
+      "/images/tramway_gruen.png",
+      "/images/tramway_gelb.png",
+      "/images/tramway_rot.png"
+    ],
+    "requirements": {
+      "battalion_chief_vehicles": 1,
+      "heavy_rescue_vehicles": 2,
+      "firetrucks": 4,
+      "police_cars": 3
+    },
+    "chances": { "patient_transport": 30 },
+    "additional": {
+      "possible_patient": 4,
+      "max_possible_prisoners": 1,
+      "filter_id": "firehouse_missions",
+      "patient_allow_first_responder_chance": 40,
+      "optional_event_mission": false,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Specialister i intern medicin"],
+      "patient_specializations": "Specialister i intern medicin"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 3,
+      "police_stations": 2,
+      "fire_stations": 9
+    },
+    "overlay_index": null,
+    "base_mission_id": 575,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "576",
+    "name": "Børn fanget i kloak",
+    "place": "",
+    "place_array": [],
+    "average_credits": 2000,
+    "generated_by": "",
+    "icons": [
+      "/images/waterpark_gruen.png",
+      "/images/waterpark_gelb.png",
+      "/images/waterpark_rot.png"
+    ],
+    "requirements": {
+      "elw_police": 1,
+      "heavy_rescue_vehicles": 1,
+      "firetrucks": 1,
+      "police_cars": 1
+    },
+    "chances": { "patient_transport": 70 },
+    "additional": {
+      "possible_patient": 2,
+      "possible_patient_min": 1,
+      "filter_id": "firehouse_missions",
+      "need_elw_police_only_if_present": true,
+      "optional_event_mission": false,
+      "patient_at_end_of_mission": true,
+      "patient_specialization_ids": [0, 4],
+      "patient_specialization_captions": [
+        "Specialister i intern medicin",
+        "Traumatologi"
+      ],
+      "patient_specializations": "Specialister i intern medicin, Traumatologi"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 3,
+      "police_stations": 1,
+      "fire_stations": 5
+    },
+    "overlay_index": null,
+    "base_mission_id": 576,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "577",
+    "name": "Kirsebærblomster i brand",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1000,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 1,
+      "firetrucks": 3
+    },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "date_start": "2024-04-22T10:00:00+02:00",
+      "date_end": "2024-06-20T22:00:00Z"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 3 },
+    "overlay_index": null,
+    "base_mission_id": 577,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "578",
+    "name": "Blomstermark i brand",
+    "place": "",
+    "place_array": [],
+    "average_credits": 2500,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "battalion_chief_vehicles": 1,
+      "water_tankers": 1,
+      "heavy_rescue_vehicles": 1,
+      "firetrucks": 7
+    },
+    "chances": { "patient_transport": 40 },
+    "additional": {
+      "possible_patient": 2,
+      "possible_patient_min": 1,
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "date_start": "2024-04-29T10:00:00+02:00",
+      "date_end": "2024-06-20T22:00:00Z",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Specialister i intern medicin"],
+      "patient_specializations": "Specialister i intern medicin"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 1,
+      "fire_stations": 5
+    },
+    "overlay_index": null,
+    "base_mission_id": 578,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "584",
+    "name": "Jordskælv",
+    "place": "",
+    "place_array": [],
+    "average_credits": 18500,
+    "generated_by": "",
+    "icons": [
+      "/images/medicalstore_gruen.png",
+      "/images/medicalstore_gelb.png",
+      "/images/medicalstore_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 2,
+      "battalion_chief_vehicles": 6,
+      "kdow_orgl": 1,
+      "heavy_rescue_vehicles": 10,
+      "rescue_dog_units": 4,
+      "disaster_response_equipment": 1,
+      "firetrucks": 16,
+      "police_cars": 8
+    },
+    "chances": {
+      "patient_transport": 50,
+      "helicopter": 10,
+      "patient_critical_care": 30
+    },
+    "additional": {
+      "possible_patient": 25,
+      "possible_patient_min": 5,
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
+      "patient_at_end_of_mission": true,
+      "patient_specialization_ids": [4],
+      "patient_specialization_captions": ["Traumatologi"],
+      "patient_specializations": "Traumatologi"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 13,
+      "police_stations": 11,
+      "rescue_dog_units": 2,
+      "disaster_response_count": 4,
+      "fire_stations": 25
+    },
+    "overlay_index": null,
+    "base_mission_id": 584,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "585",
+    "name": "Stormvejr",
+    "place": "",
+    "place_array": [],
+    "average_credits": 12700,
+    "generated_by": "",
+    "icons": [
+      "/images/tornado_gruen.png",
+      "/images/tornado_gelb.png",
+      "/images/tornado_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 6,
+      "battalion_chief_vehicles": 1,
+      "mobile_command_vehicles": 1,
+      "heavy_rescue_vehicles": 2,
+      "energy_supply": 1,
+      "disaster_response_equipment": 2,
+      "firetrucks": 6,
+      "police_cars": 8
+    },
+    "chances": { "patient_transport": 30 },
+    "additional": {
+      "possible_patient": 10,
+      "possible_patient_min": 2,
+      "average_min_fire_personnel": 80,
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Specialister i intern medicin"],
+      "patient_specializations": "Specialister i intern medicin"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 5,
+      "police_stations": 6,
+      "disaster_response_count": 2,
+      "energy_supply": 1,
+      "fire_stations": 20
+    },
+    "overlay_index": null,
+    "base_mission_id": 585,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "586",
+    "name": "Delvist strømsvigt i by",
+    "place": "",
+    "place_array": [],
+    "average_credits": 11500,
+    "generated_by": "",
+    "icons": [
+      "/images/elevator_gruen.png",
+      "/images/elevator_gelb.png",
+      "/images/elevator_rot.png"
+    ],
+    "requirements": {
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "mobile_air_vehicles": 1,
+      "heavy_rescue_vehicles": 4,
+      "energy_supply": 3,
+      "firetrucks": 6,
+      "police_cars": 10
+    },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 5,
+      "energy_supply": 3,
+      "fire_stations": 20
+    },
+    "overlay_index": null,
+    "base_mission_id": 586,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "587",
+    "name": "Flod / Å Oversvømelse mindre",
+    "place": "Flod",
+    "place_array": ["Flod"],
+    "average_credits": 4000,
+    "generated_by": "",
+    "icons": [
+      "/images/flood_gruen.png",
+      "/images/flood_gelb.png",
+      "/images/flood_rot.png"
+    ],
+    "requirements": {
+      "pump": 1,
+      "heavy_rescue_vehicles": 1,
+      "flood_equipment": 1,
+      "light_supply": 1,
+      "disaster_response_equipment": 1,
+      "firetrucks": 4,
+      "min_pump_speed": 2000
+    },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [588],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [515],
+      "pump_water_amount": 20000,
+      "optional_event_mission": false
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "water_damage_pump_count": 1,
+      "disaster_response_count": 1,
+      "flood_equipment": 1,
+      "energy_supply": 1,
+      "fire_stations": 4
+    },
+    "overlay_index": null,
+    "base_mission_id": 587,
+    "additive_overlays": "",
+    "mission_categories": ["water_damage_and_flood"]
+  },
+  {
+    "id": "588",
+    "name": "Flod / Å Oversvømelse mellem",
+    "place": "Flod",
+    "place_array": ["Flod"],
+    "average_credits": 5300,
+    "generated_by": "",
+    "icons": [
+      "/images/flood_gruen.png",
+      "/images/flood_gelb.png",
+      "/images/flood_rot.png"
+    ],
+    "requirements": {
+      "battalion_chief_vehicles": 1,
+      "pump": 1,
+      "heavy_rescue_vehicles": 1,
+      "flood_equipment": 1,
+      "light_supply": 1,
+      "disaster_response_equipment": 1,
+      "firetrucks": 4,
+      "min_pump_speed": 5000
+    },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [589],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [516],
+      "pump_water_amount": 50000,
+      "optional_event_mission": false
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "water_damage_pump_count": 1,
+      "disaster_response_count": 1,
+      "flood_equipment": 1,
+      "energy_supply": 1,
+      "fire_stations": 4
+    },
+    "overlay_index": null,
+    "base_mission_id": 588,
+    "additive_overlays": "",
+    "mission_categories": ["water_damage_and_flood"]
+  },
+  {
+    "id": "589",
+    "name": "Flod / Å Oversvømelse stor",
+    "place": "Flod",
+    "place_array": ["Flod"],
+    "average_credits": 8000,
+    "generated_by": "",
+    "icons": [
+      "/images/flood_gruen.png",
+      "/images/flood_gelb.png",
+      "/images/flood_rot.png"
+    ],
+    "requirements": {
+      "battalion_chief_vehicles": 1,
+      "pump": 1,
+      "heavy_rescue_vehicles": 2,
+      "flood_equipment": 2,
+      "light_supply": 2,
+      "disaster_response_equipment": 1,
+      "firetrucks": 6,
+      "police_cars": 2,
+      "min_pump_speed": 8000
+    },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [590],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [517],
+      "pump_water_amount": 100000,
+      "optional_event_mission": false
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "wasserrettung": 2,
+      "police_stations": 2,
+      "water_damage_pump_count": 2,
+      "disaster_response_count": 1,
+      "flood_equipment": 1,
+      "energy_supply": 2,
+      "fire_stations": 4
+    },
+    "overlay_index": null,
+    "base_mission_id": 589,
+    "additive_overlays": "",
+    "mission_categories": ["water_damage_and_flood"]
+  },
+  {
+    "id": "590",
+    "name": "Flod / Å Oversvømelse enorm",
+    "place": "Flod",
+    "place_array": ["Flod"],
+    "average_credits": 11200,
+    "generated_by": "",
+    "icons": [
+      "/images/flood_gruen.png",
+      "/images/flood_gelb.png",
+      "/images/flood_rot.png"
+    ],
+    "requirements": {
+      "battalion_chief_vehicles": 2,
+      "pump": 2,
+      "heavy_rescue_vehicles": 3,
+      "flood_equipment": 3,
+      "light_supply": 3,
+      "disaster_response_equipment": 2,
+      "firetrucks": 6,
+      "police_cars": 6,
+      "min_pump_speed": 10000
+    },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [517],
+      "pump_water_amount": 150000,
+      "optional_event_mission": false
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 3,
+      "water_damage_pump_count": 3,
+      "disaster_response_count": 2,
+      "flood_equipment": 3,
+      "energy_supply": 3,
+      "fire_stations": 4
+    },
+    "overlay_index": null,
+    "base_mission_id": 590,
+    "additive_overlays": "",
+    "mission_categories": ["water_damage_and_flood"]
   }
 ]
