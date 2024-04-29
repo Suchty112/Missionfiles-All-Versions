@@ -59,14 +59,22 @@
       "/images/fire_gelb.png",
       "/images/fire_rot.png"
     ],
-    "requirements": { "water_needed": 2500, "firetrucks": 1 },
+    "requirements": {
+      "water_needed": 2500,
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "firetrucks": 1
+    },
     "chances": {},
     "additional": {
       "expansion_missions_ids": [27, 16, 19],
       "filter_id": "firehouse_missions",
       "optional_event_mission": false
     },
-    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 1,
+      "fire_stations": 1
+    },
     "overlay_index": null,
     "base_mission_id": 2,
     "additive_overlays": "",
@@ -84,14 +92,22 @@
       "/images/fire_gelb.png",
       "/images/fire_rot.png"
     ],
-    "requirements": { "water_needed": 1800, "firetrucks": 1 },
+    "requirements": {
+      "water_needed": 1800,
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "firetrucks": 1
+    },
     "chances": {},
     "additional": {
       "expansion_missions_ids": [27],
       "filter_id": "firehouse_missions",
       "optional_event_mission": false
     },
-    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 1,
+      "fire_stations": 1
+    },
     "overlay_index": null,
     "base_mission_id": 3,
     "additive_overlays": "",
@@ -137,7 +153,8 @@
     "requirements": {
       "platform_trucks": 1,
       "heavy_rescue_vehicles": 1,
-      "water_needed": 4000,
+      "water_needed": 5000,
+      "oneof_police_patrol_or_municipal_police_crew": 1,
       "firetrucks": 2
     },
     "chances": { "platform_trucks": 30, "patient_transport": 50 },
@@ -157,7 +174,11 @@
       "patient_specialization_captions": ["Medicina interna generale"],
       "patient_specializations": "Medicina interna generale"
     },
-    "prerequisites": { "main_building": 0, "fire_stations": 2 },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 1,
+      "fire_stations": 2
+    },
     "overlay_index": null,
     "base_mission_id": 5,
     "additive_overlays": "",
@@ -322,13 +343,14 @@
       "/images/sawmill_gelb.png",
       "/images/sawmill_rot.png"
     ],
-    "requirements": { "firetrucks": 1 },
+    "requirements": {
+      "oneof_fire_engine_or_rescue_or_ladder": 1,
+      "firetrucks": 1
+    },
     "chances": {},
     "additional": {
       "expansion_missions_ids": [25],
-      "allow_rw_instead_of_lf": true,
       "filter_id": "firehouse_missions",
-      "allow_dlk_instead_of_lf": true,
       "optional_event_mission": false
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
@@ -350,8 +372,9 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "water_needed": 5000,
-      "foam_needed": 250,
+      "water_needed": 8000,
+      "foam_needed": 600,
+      "oneof_police_patrol_or_municipal_police_crew": 1,
       "firetrucks": 2
     },
     "chances": {},
@@ -359,7 +382,11 @@
       "filter_id": "firehouse_missions",
       "optional_event_mission": false
     },
-    "prerequisites": { "main_building": 0, "fire_stations": 2 },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 1,
+      "fire_stations": 2
+    },
     "overlay_index": null,
     "base_mission_id": 13,
     "additive_overlays": "",
@@ -401,13 +428,21 @@
       "/images/fire_gelb.png",
       "/images/fire_rot.png"
     ],
-    "requirements": { "water_needed": 2500, "firetrucks": 1 },
+    "requirements": {
+      "water_needed": 2500,
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "firetrucks": 1
+    },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
       "optional_event_mission": false
     },
-    "prerequisites": { "main_building": 0, "fire_stations": 2 },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 1,
+      "fire_stations": 2
+    },
     "overlay_index": null,
     "base_mission_id": 16,
     "additive_overlays": "",
@@ -439,7 +474,7 @@
   },
   {
     "id": "18",
-    "name": "Mucchio di arbusti",
+    "name": "Arbusti in Fiamme",
     "place": "",
     "place_array": [],
     "average_credits": 700,
@@ -473,13 +508,21 @@
       "/images/fire_gelb.png",
       "/images/fire_rot.png"
     ],
-    "requirements": { "water_needed": 2500, "firetrucks": 1 },
+    "requirements": {
+      "water_needed": 5000,
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "firetrucks": 2
+    },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
       "optional_event_mission": false
     },
-    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 1,
+      "fire_stations": 1
+    },
     "overlay_index": null,
     "base_mission_id": 19,
     "additive_overlays": "",
@@ -500,8 +543,10 @@
     "requirements": {
       "battalion_chief_vehicles": 1,
       "heavy_rescue_vehicles": 1,
-      "water_needed": 6000,
-      "firetrucks": 3
+      "water_needed": 7000,
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "firetrucks": 3,
+      "police_cars": 1
     },
     "chances": { "battalion_chief_vehicles": 20, "patient_transport": 30 },
     "additional": {
@@ -520,7 +565,11 @@
       "patient_specialization_captions": ["Medicina interna generale"],
       "patient_specializations": "Medicina interna generale"
     },
-    "prerequisites": { "main_building": 0, "fire_stations": 3 },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 2,
+      "fire_stations": 3
+    },
     "overlay_index": null,
     "base_mission_id": 20,
     "additive_overlays": "",
@@ -648,8 +697,8 @@
     "requirements": {
       "heavy_rescue_vehicles": 1,
       "water_needed": 800,
-      "firetrucks": 1,
-      "police_cars": 1
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "firetrucks": 1
     },
     "chances": { "patient_transport": 40 },
     "additional": {
@@ -665,7 +714,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
@@ -697,8 +745,8 @@
     "requirements": {
       "heavy_rescue_vehicles": 1,
       "water_needed": 6000,
-      "firetrucks": 3,
-      "police_cars": 1
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "firetrucks": 3
     },
     "chances": { "patient_transport": 35 },
     "additional": {
@@ -713,7 +761,6 @@
       ],
       "subsequent_missions_ids": [460],
       "fire_alarm_system_possible": true,
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Medicina interna generale"],
@@ -742,13 +789,21 @@
       "/images/fire_gelb.png",
       "/images/fire_rot.png"
     ],
-    "requirements": { "water_needed": 2500, "firetrucks": 1 },
+    "requirements": {
+      "water_needed": 6000,
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "firetrucks": 2
+    },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
       "optional_event_mission": false
     },
-    "prerequisites": { "main_building": 0, "fire_stations": 4 },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 1,
+      "fire_stations": 4
+    },
     "overlay_index": null,
     "base_mission_id": 27,
     "additive_overlays": "",
@@ -769,7 +824,8 @@
     "requirements": {
       "heavy_rescue_vehicles": 1,
       "water_needed": 4000,
-      "foam_needed": 100,
+      "foam_needed": 600,
+      "oneof_police_patrol_or_municipal_police_crew": 1,
       "firetrucks": 2
     },
     "chances": {},
@@ -778,7 +834,11 @@
       "fire_alarm_system_possible": true,
       "optional_event_mission": false
     },
-    "prerequisites": { "main_building": 0, "fire_stations": 5 },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 2,
+      "fire_stations": 4
+    },
     "overlay_index": null,
     "base_mission_id": 28,
     "additive_overlays": "",
@@ -797,15 +857,15 @@
       "/images/oil_rot.png"
     ],
     "requirements": {
+      "battalion_chief_vehicles": 1,
       "hazmat_vehicles": 1,
       "heavy_rescue_vehicles": 1,
-      "firetrucks": 2,
-      "police_cars": 2
+      "oneof_police_patrol_or_municipal_police_crew": 2,
+      "firetrucks": 2
     },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -831,17 +891,21 @@
       "/images/oil_rot.png"
     ],
     "requirements": {
-      "heavy_rescue_vehicles": 1,
       "water_needed": 2000,
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "oneof_fire_engine_or_rescue": 2,
       "firetrucks": 1
     },
     "chances": {},
     "additional": {
-      "allow_rw_instead_of_lf": true,
       "filter_id": "firehouse_missions",
       "optional_event_mission": false
     },
-    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 1,
+      "fire_stations": 1
+    },
     "overlay_index": null,
     "base_mission_id": 30,
     "additive_overlays": "",
@@ -920,8 +984,9 @@
       "water_tankers": 1,
       "heavy_rescue_vehicles": 3,
       "water_needed": 45000,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 8,
-      "police_cars": 4
+      "police_cars": 2
     },
     "chances": { "patient_transport": 40 },
     "additional": {
@@ -936,7 +1001,6 @@
       "allow_ktw_instead_of_rtw": true,
       "subsequent_missions_ids": [460],
       "fire_alarm_system_possible": true,
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Medicina interna generale"],
@@ -1189,8 +1253,8 @@
       "heavy_rescue_vehicles": 2,
       "water_needed": 25000,
       "foam_needed": 500,
-      "firetrucks": 4,
-      "police_cars": 2
+      "oneof_police_patrol_or_municipal_police_crew": 2,
+      "firetrucks": 4
     },
     "chances": {
       "platform_trucks": 40,
@@ -1211,7 +1275,6 @@
       "allow_ktw_instead_of_rtw": true,
       "subsequent_missions_ids": [460],
       "fire_alarm_system_possible": true,
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Medicina interna generale"],
@@ -1314,12 +1377,14 @@
       "/images/theft_gelb.png",
       "/images/theft_rot.png"
     ],
-    "requirements": { "police_cars": 1 },
+    "requirements": {
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "police_cars": 1
+    },
     "chances": {},
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
@@ -1340,12 +1405,14 @@
       "/images/theft_gelb.png",
       "/images/theft_rot.png"
     ],
-    "requirements": { "police_cars": 1 },
+    "requirements": {
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "police_cars": 1
+    },
     "chances": {},
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
@@ -1366,11 +1433,13 @@
       "/images/caraccident_gelb.png",
       "/images/caraccident_rot.png"
     ],
-    "requirements": { "police_cars": 1 },
+    "requirements": {
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "police_cars": 1
+    },
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
@@ -1391,11 +1460,13 @@
       "/images/caraccident_gelb.png",
       "/images/caraccident_rot.png"
     ],
-    "requirements": { "police_cars": 1 },
+    "requirements": {
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "police_cars": 1
+    },
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
@@ -1416,12 +1487,14 @@
       "/images/theft_gelb.png",
       "/images/theft_rot.png"
     ],
-    "requirements": { "police_cars": 1 },
+    "requirements": {
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "police_cars": 1
+    },
     "chances": {},
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
@@ -1442,12 +1515,14 @@
       "/images/theft_gelb.png",
       "/images/theft_rot.png"
     ],
-    "requirements": { "police_cars": 1 },
+    "requirements": {
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "police_cars": 1
+    },
     "chances": {},
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
@@ -1468,11 +1543,13 @@
       "/images/theft_gelb.png",
       "/images/theft_rot.png"
     ],
-    "requirements": { "police_cars": 1 },
+    "requirements": {
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "police_cars": 1
+    },
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
@@ -1493,11 +1570,13 @@
       "/images/theft_gelb.png",
       "/images/theft_rot.png"
     ],
-    "requirements": { "police_cars": 1 },
+    "requirements": {
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "police_cars": 1
+    },
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
@@ -1518,11 +1597,13 @@
       "/images/theft_gelb.png",
       "/images/theft_rot.png"
     ],
-    "requirements": { "police_cars": 1 },
+    "requirements": {
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "police_cars": 1
+    },
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
@@ -1545,11 +1626,13 @@
       "/images/theft_gelb.png",
       "/images/theft_rot.png"
     ],
-    "requirements": { "police_cars": 1 },
+    "requirements": {
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "police_cars": 1
+    },
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
@@ -1570,11 +1653,13 @@
       "/images/caraccident_gelb.png",
       "/images/caraccident_rot.png"
     ],
-    "requirements": { "police_cars": 1 },
+    "requirements": {
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "police_cars": 1
+    },
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
@@ -1595,7 +1680,10 @@
       "/images/baseball_gelb.png",
       "/images/baseball_rot.png"
     ],
-    "requirements": { "police_cars": 3 },
+    "requirements": {
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "police_cars": 2
+    },
     "chances": { "patient_transport": 50 },
     "additional": {
       "possible_patient": 3,
@@ -1612,7 +1700,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
@@ -1636,13 +1723,15 @@
       "/images/baseball_gelb.png",
       "/images/baseball_rot.png"
     ],
-    "requirements": { "police_cars": 2 },
+    "requirements": {
+      "oneof_police_patrol_or_municipal_police_crew": 2,
+      "police_cars": 1
+    },
     "chances": {},
     "additional": {
       "expansion_missions_ids": [55],
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 2 },
@@ -1676,30 +1765,6 @@
     "base_mission_id": 57,
     "additive_overlays": "",
     "mission_categories": ["police"]
-  },
-  {
-    "id": "58",
-    "name": "Cucina in fiamme",
-    "place": "",
-    "place_array": [],
-    "average_credits": 1000,
-    "generated_by": "",
-    "icons": [
-      "/images/fire_gruen.png",
-      "/images/fire_gelb.png",
-      "/images/fire_rot.png"
-    ],
-    "requirements": { "firetrucks": 1 },
-    "chances": {},
-    "additional": {
-      "filter_id": "firehouse_missions",
-      "optional_event_mission": false
-    },
-    "prerequisites": { "main_building": 0, "fire_stations": 2 },
-    "overlay_index": null,
-    "base_mission_id": 58,
-    "additive_overlays": "",
-    "mission_categories": ["fire"]
   },
   {
     "id": "59",
@@ -1742,7 +1807,9 @@
       "battalion_chief_vehicles": 1,
       "mobile_air_vehicles": 1,
       "water_needed": 12000,
-      "firetrucks": 4
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "firetrucks": 4,
+      "police_cars": 1
     },
     "chances": { "patient_transport": 50 },
     "additional": {
@@ -1764,7 +1831,8 @@
     },
     "prerequisites": {
       "main_building": 0,
-      "rescue_stations": 2,
+      "rescue_stations": 6,
+      "police_stations": 1,
       "fire_stations": 9
     },
     "overlay_index": null,
@@ -1784,11 +1852,13 @@
       "/images/dancinghall_gelb.png",
       "/images/dancinghall_rot.png"
     ],
-    "requirements": { "police_cars": 1 },
+    "requirements": {
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "police_cars": 1
+    },
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
@@ -1847,7 +1917,11 @@
       "/images/caraccident_gelb.png",
       "/images/caraccident_rot.png"
     ],
-    "requirements": { "heavy_rescue_vehicles": 1, "firetrucks": 2 },
+    "requirements": {
+      "heavy_rescue_vehicles": 1,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
+      "firetrucks": 2
+    },
     "chances": { "patient_transport": 40 },
     "additional": {
       "possible_patient": 12,
@@ -1870,7 +1944,8 @@
     "prerequisites": {
       "main_building": 0,
       "rescue_stations": 8,
-      "fire_stations": 3
+      "police_stations": 2,
+      "fire_stations": 4
     },
     "overlay_index": null,
     "base_mission_id": 64,
@@ -1898,44 +1973,6 @@
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
     "base_mission_id": 65,
-    "additive_overlays": "",
-    "mission_categories": ["fire"]
-  },
-  {
-    "id": "66",
-    "name": "Stanza in fiamme",
-    "place": "",
-    "place_array": [],
-    "average_credits": 700,
-    "generated_by": "",
-    "icons": [
-      "/images/fire_gruen.png",
-      "/images/fire_gelb.png",
-      "/images/fire_rot.png"
-    ],
-    "requirements": {
-      "platform_trucks": 1,
-      "water_needed": 6000,
-      "firetrucks": 2
-    },
-    "chances": { "platform_trucks": 30, "patient_transport": 50 },
-    "additional": {
-      "possible_patient": 1,
-      "patient_it_code_possible": ["KC03G", "KC03R"],
-      "filter_id": "firehouse_missions",
-      "possible_patient_specializations": [
-        "Medicina interna generale",
-        "Medicina interna generale"
-      ],
-      "subsequent_missions_ids": [460],
-      "optional_event_mission": false,
-      "patient_specialization_ids": [0],
-      "patient_specialization_captions": ["Medicina interna generale"],
-      "patient_specializations": "Medicina interna generale"
-    },
-    "prerequisites": { "main_building": 0, "fire_stations": 2 },
-    "overlay_index": null,
-    "base_mission_id": 66,
     "additive_overlays": "",
     "mission_categories": ["fire"]
   },
@@ -1998,12 +2035,18 @@
       "mobile_air_vehicles": 1,
       "heavy_rescue_vehicles": 2,
       "water_needed": 35000,
-      "firetrucks": 5,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
+      "firetrucks": 6,
       "police_cars": 2
     },
-    "chances": { "mobile_air_vehicles": 40, "patient_transport": 30 },
+    "chances": {
+      "mobile_command_vehicles": 10,
+      "mobile_air_vehicles": 40,
+      "patient_transport": 30
+    },
     "additional": {
-      "possible_patient": 6,
+      "possible_patient": 40,
+      "possible_patient_min": 10,
       "patient_it_code_possible": ["PC03G", "PC03R", "PC01G"],
       "filter_id": "firehouse_missions",
       "possible_patient_specializations": [
@@ -2022,8 +2065,8 @@
     },
     "prerequisites": {
       "main_building": 0,
-      "rescue_stations": 3,
-      "police_stations": 2,
+      "rescue_stations": 10,
+      "police_stations": 6,
       "fire_stations": 8
     },
     "overlay_index": null,
@@ -2047,13 +2090,12 @@
       "battalion_chief_vehicles": 1,
       "hazmat_vehicles": 1,
       "heavy_rescue_vehicles": 1,
-      "firetrucks": 2,
-      "police_cars": 2
+      "oneof_police_patrol_or_municipal_police_crew": 2,
+      "firetrucks": 2
     },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -2158,7 +2200,7 @@
   },
   {
     "id": "72",
-    "name": "Incidente aereo (LIEVE)",
+    "name": "Incidente Aereo (Ultraleggero)",
     "place": "",
     "place_array": [],
     "average_credits": 3200,
@@ -2172,11 +2214,15 @@
       "battalion_chief_vehicles": 1,
       "hazmat_vehicles": 1,
       "heavy_rescue_vehicles": 2,
-      "firetrucks": 3
+      "water_needed": 4000,
+      "foam_needed": 600,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
+      "firetrucks": 2,
+      "police_cars": 2
     },
-    "chances": { "hazmat_vehicles": 50, "patient_transport": 50 },
+    "chances": { "hazmat_vehicles": 20, "patient_transport": 50 },
     "additional": {
-      "possible_patient": 6,
+      "possible_patient": 4,
       "patient_it_code_possible": ["ZC01G", "ZC01R"],
       "filter_id": "firehouse_missions",
       "possible_patient_specializations": [
@@ -2192,8 +2238,9 @@
     },
     "prerequisites": {
       "main_building": 0,
-      "rescue_stations": 2,
-      "fire_stations": 20
+      "rescue_stations": 4,
+      "police_stations": 4,
+      "fire_stations": 14
     },
     "overlay_index": null,
     "base_mission_id": 72,
@@ -2214,12 +2261,16 @@
     ],
     "requirements": {
       "heavy_rescue_vehicles": 2,
-      "firetrucks": 3,
+      "water_needed": 4000,
+      "foam_needed": 600,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
+      "firetrucks": 4,
       "police_cars": 2
     },
-    "chances": { "patient_transport": 50 },
+    "chances": { "patient_transport": 40, "helicopter": 5 },
     "additional": {
-      "possible_patient": 15,
+      "possible_patient": 40,
+      "possible_patient_min": 10,
       "patient_it_code_possible": ["SC01G", "SC01R", "SC01V"],
       "filter_id": "firehouse_missions",
       "possible_patient_specializations": [
@@ -2231,7 +2282,6 @@
         "Traumatologia"
       ],
       "allow_ktw_instead_of_rtw": true,
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Chirurgia generale"],
@@ -2239,9 +2289,9 @@
     },
     "prerequisites": {
       "main_building": 0,
-      "rescue_stations": 8,
-      "police_stations": 2,
-      "fire_stations": 5
+      "rescue_stations": 10,
+      "police_stations": 4,
+      "fire_stations": 8
     },
     "overlay_index": null,
     "base_mission_id": 73,
@@ -2518,7 +2568,7 @@
       "/images/sawmill_gelb.png",
       "/images/sawmill_rot.png"
     ],
-    "requirements": { "heavy_rescue_vehicles": 1, "firetrucks": 2 },
+    "requirements": { "heavy_rescue_vehicles": 1, "firetrucks": 1 },
     "chances": { "patient_transport": 100 },
     "additional": {
       "possible_patient": 1,
@@ -2586,13 +2636,12 @@
     ],
     "requirements": {
       "heavy_rescue_vehicles": 1,
-      "firetrucks": 1,
-      "police_cars": 1
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "firetrucks": 1
     },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -2603,66 +2652,6 @@
     "overlay_index": null,
     "base_mission_id": 84,
     "additive_overlays": "",
-    "mission_categories": ["fire"]
-  },
-  {
-    "id": "85",
-    "name": "Tubo acquedotto rotto",
-    "place": "",
-    "place_array": [],
-    "average_credits": 1200,
-    "generated_by": "",
-    "icons": [
-      "/images/river_gruen.png",
-      "/images/river_gelb.png",
-      "/images/river_rot.png"
-    ],
-    "requirements": { "heavy_rescue_vehicles": 1, "firetrucks": 1 },
-    "chances": {},
-    "additional": {
-      "filter_id": "firehouse_missions",
-      "optional_event_mission": false
-    },
-    "prerequisites": { "main_building": 0, "fire_stations": 6 },
-    "overlay_index": null,
-    "base_mission_id": 85,
-    "additive_overlays": "",
-    "mission_categories": ["fire"]
-  },
-  {
-    "id": "85/a",
-    "name": "Tubo acquedotto rotto",
-    "place": "",
-    "place_array": [],
-    "average_credits": 1900,
-    "generated_by": "",
-    "icons": [
-      "/images/river_gruen.png",
-      "/images/river_gelb.png",
-      "/images/river_rot.png"
-    ],
-    "requirements": {
-      "heavy_rescue_vehicles": 1,
-      "pump": 1,
-      "firetrucks": 1,
-      "police_cars": 2,
-      "min_pump_speed": 2500
-    },
-    "chances": {},
-    "additional": {
-      "filter_id": "firehouse_missions",
-      "pump_water_amount": 10000,
-      "max_municipal_police_replacing_police_cars": 2,
-      "optional_event_mission": false
-    },
-    "prerequisites": {
-      "main_building": 0,
-      "water_damage_pump_count": 1,
-      "fire_stations": 6
-    },
-    "overlay_index": null,
-    "base_mission_id": 85,
-    "additive_overlays": "a",
     "mission_categories": ["fire"]
   },
   {
@@ -3061,14 +3050,14 @@
     ],
     "requirements": {
       "heavy_rescue_vehicles": 1,
-      "foam_needed": 500,
-      "firetrucks": 3,
-      "police_cars": 1
+      "water_needed": 8000,
+      "foam_needed": 600,
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "firetrucks": 2
     },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -3095,14 +3084,14 @@
     ],
     "requirements": {
       "heavy_rescue_vehicles": 1,
-      "foam_needed": 250,
-      "firetrucks": 2,
-      "police_cars": 1
+      "water_needed": 4600,
+      "foam_needed": 600,
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "firetrucks": 2
     },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -3127,7 +3116,11 @@
       "/images/caraccident_gelb.png",
       "/images/caraccident_rot.png"
     ],
-    "requirements": { "heavy_rescue_vehicles": 1, "firetrucks": 2 },
+    "requirements": {
+      "heavy_rescue_vehicles": 2,
+      "firetrucks": 1,
+      "police_cars": 1
+    },
     "chances": { "patient_transport": 80 },
     "additional": {
       "possible_patient": 1,
@@ -3146,8 +3139,9 @@
     },
     "prerequisites": {
       "main_building": 0,
-      "rescue_stations": 1,
-      "fire_stations": 3
+      "rescue_stations": 4,
+      "police_stations": 2,
+      "fire_stations": 4
     },
     "overlay_index": null,
     "base_mission_id": 101,
@@ -3289,7 +3283,7 @@
     "requirements": {
       "mobile_air_vehicles": 1,
       "heavy_rescue_vehicles": 1,
-      "firetrucks": 2,
+      "firetrucks": 1,
       "police_cars": 1
     },
     "chances": { "mobile_air_vehicles": 20, "patient_transport": 50 },
@@ -3333,8 +3327,8 @@
     ],
     "requirements": {
       "heavy_rescue_vehicles": 3,
-      "firetrucks": 3,
-      "police_cars": 3
+      "oneof_police_patrol_or_municipal_police_crew": 3,
+      "firetrucks": 3
     },
     "chances": { "patient_transport": 30 },
     "additional": {
@@ -3351,7 +3345,6 @@
         "Traumatologia"
       ],
       "allow_ktw_instead_of_rtw": true,
-      "max_municipal_police_replacing_police_cars": 3,
       "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
@@ -3383,8 +3376,8 @@
     "requirements": {
       "fwk": 1,
       "heavy_rescue_vehicles": 1,
-      "firetrucks": 1,
-      "police_cars": 1
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "firetrucks": 1
     },
     "chances": { "fwk": 50, "patient_transport": 80 },
     "additional": {
@@ -3398,7 +3391,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
@@ -3428,12 +3420,11 @@
       "/images/caraccident_rot.png"
     ],
     "requirements": {
-      "platform_trucks": 1,
       "battalion_chief_vehicles": 1,
       "fwk": 1,
       "heavy_rescue_vehicles": 2,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 2,
-      "police_cars": 2,
       "water_rescue": 1
     },
     "chances": { "battalion_chief_vehicles": 20, "patient_transport": 100 },
@@ -3448,7 +3439,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
@@ -3480,8 +3470,8 @@
     ],
     "requirements": {
       "heavy_rescue_vehicles": 2,
-      "firetrucks": 2,
-      "police_cars": 1
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "firetrucks": 2
     },
     "chances": { "patient_transport": 90, "helicopter": 10 },
     "additional": {
@@ -3495,7 +3485,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
@@ -3511,117 +3500,6 @@
     "base_mission_id": 109,
     "additive_overlays": "",
     "mission_categories": ["fire"]
-  },
-  {
-    "id": "110",
-    "name": "Crollo palazzina",
-    "place": "",
-    "place_array": [],
-    "average_credits": 10000,
-    "generated_by": "",
-    "icons": [
-      "/images/fire_gruen.png",
-      "/images/fire_gelb.png",
-      "/images/fire_rot.png"
-    ],
-    "requirements": {
-      "platform_trucks": 1,
-      "battalion_chief_vehicles": 2,
-      "mobile_command_vehicles": 1,
-      "fwk": 1,
-      "heavy_rescue_vehicles": 3,
-      "firetrucks": 4,
-      "police_cars": 1,
-      "water_rescue": 1
-    },
-    "chances": { "fwk": 80, "patient_transport": 40 },
-    "additional": {
-      "possible_patient": 20,
-      "possible_patient_min": 8,
-      "patient_it_code_possible": ["SC01R", "SC01G"],
-      "filter_id": "firehouse_missions",
-      "possible_patient_specializations": [
-        "Medicina interna generale",
-        "Traumatologia",
-        "Medicina interna generale",
-        "Traumatologia"
-      ],
-      "allow_ktw_instead_of_rtw": true,
-      "max_municipal_police_replacing_police_cars": 1,
-      "optional_event_mission": false,
-      "patient_specialization_ids": [4],
-      "patient_specialization_captions": ["Traumatologia"],
-      "patient_specializations": "Traumatologia"
-    },
-    "prerequisites": {
-      "main_building": 0,
-      "wasserrettung": 2,
-      "rescue_stations": 4,
-      "police_stations": 1,
-      "fire_stations": 6
-    },
-    "overlay_index": null,
-    "base_mission_id": 110,
-    "additive_overlays": "",
-    "mission_categories": ["water_rescue"]
-  },
-  {
-    "id": "110/a",
-    "name": "Crollo palazzina",
-    "place": "",
-    "place_array": [],
-    "average_credits": 10900,
-    "generated_by": "",
-    "icons": [
-      "/images/fire_gruen.png",
-      "/images/fire_gelb.png",
-      "/images/fire_rot.png"
-    ],
-    "requirements": {
-      "platform_trucks": 1,
-      "battalion_chief_vehicles": 2,
-      "mobile_command_vehicles": 1,
-      "fwk": 1,
-      "heavy_rescue_vehicles": 3,
-      "disaster_response": 1,
-      "disaster_response_clearing_large": 1,
-      "rescue_dog_units": 2,
-      "firetrucks": 4,
-      "police_cars": 1,
-      "water_rescue": 1
-    },
-    "chances": { "fwk": 80, "patient_transport": 40 },
-    "additional": {
-      "possible_patient": 20,
-      "possible_patient_min": 8,
-      "patient_it_code_possible": ["SC01R", "SC01G"],
-      "filter_id": "firehouse_missions",
-      "possible_patient_specializations": [
-        "Medicina interna generale",
-        "Traumatologia",
-        "Medicina interna generale",
-        "Traumatologia"
-      ],
-      "allow_ktw_instead_of_rtw": true,
-      "max_municipal_police_replacing_police_cars": 1,
-      "optional_event_mission": false,
-      "patient_specialization_ids": [4],
-      "patient_specialization_captions": ["Traumatologia"],
-      "patient_specializations": "Traumatologia"
-    },
-    "prerequisites": {
-      "main_building": 0,
-      "wasserrettung": 2,
-      "rescue_stations": 4,
-      "police_stations": 1,
-      "disaster_response_count": 2,
-      "search_and_rescue": 1,
-      "fire_stations": 6
-    },
-    "overlay_index": null,
-    "base_mission_id": 110,
-    "additive_overlays": "a",
-    "mission_categories": ["water_rescue"]
   },
   {
     "id": "111",
@@ -3640,8 +3518,8 @@
       "battalion_chief_vehicles": 1,
       "fwk": 1,
       "heavy_rescue_vehicles": 2,
-      "firetrucks": 2,
-      "police_cars": 2
+      "oneof_police_patrol_or_municipal_police_crew": 2,
+      "firetrucks": 2
     },
     "chances": { "fwk": 20, "patient_transport": 50 },
     "additional": {
@@ -3658,7 +3536,6 @@
         "Traumatologia"
       ],
       "allow_ktw_instead_of_rtw": true,
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
@@ -3694,8 +3571,8 @@
       "heavy_rescue_vehicles": 2,
       "disaster_response_clearing": 1,
       "rescue_dog_units": 1,
-      "firetrucks": 2,
-      "police_cars": 2
+      "oneof_police_patrol_or_municipal_police_crew": 2,
+      "firetrucks": 2
     },
     "chances": {
       "fwk": 20,
@@ -3716,7 +3593,6 @@
         "Traumatologia"
       ],
       "allow_ktw_instead_of_rtw": true,
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
@@ -3857,8 +3733,9 @@
       "fwk": 1,
       "hazmat_vehicles": 1,
       "heavy_rescue_vehicles": 4,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 5,
-      "police_cars": 4
+      "police_cars": 2
     },
     "chances": { "patient_transport": 35, "helicopter": 5 },
     "additional": {
@@ -3876,7 +3753,6 @@
         "Traumatologia"
       ],
       "allow_ktw_instead_of_rtw": true,
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
@@ -3914,8 +3790,9 @@
       "hazmat_vehicles": 1,
       "heavy_rescue_vehicles": 4,
       "rescue_dog_units": 1,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 5,
-      "police_cars": 4
+      "police_cars": 2
     },
     "chances": { "patient_transport": 35, "helicopter": 5 },
     "additional": {
@@ -3933,7 +3810,6 @@
         "Traumatologia"
       ],
       "allow_ktw_instead_of_rtw": true,
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
@@ -4021,8 +3897,9 @@
     "requirements": {
       "mobile_command_vehicles": 1,
       "heavy_rescue_vehicles": 3,
+      "oneof_police_patrol_or_municipal_police_crew": 1,
       "firetrucks": 1,
-      "police_cars": 3,
+      "police_cars": 2,
       "water_rescue": 1
     },
     "chances": { "patient_transport": 100, "helicopter": 20 },
@@ -4040,7 +3917,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false,
       "patient_at_end_of_mission": true,
       "patient_specialization_ids": [4],
@@ -4075,8 +3951,9 @@
       "mobile_command_vehicles": 1,
       "heavy_rescue_vehicles": 3,
       "rescue_dog_units": 2,
+      "oneof_police_patrol_or_municipal_police_crew": 1,
       "firetrucks": 1,
-      "police_cars": 3,
+      "police_cars": 2,
       "water_rescue": 1
     },
     "chances": { "patient_transport": 100, "helicopter": 20 },
@@ -4094,7 +3971,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false,
       "patient_at_end_of_mission": true,
       "patient_specialization_ids": [4],
@@ -4126,7 +4002,10 @@
       "/images/medicalstore_gelb.png",
       "/images/medicalstore_rot.png"
     ],
-    "requirements": { "police_cars": 1 },
+    "requirements": {
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "police_cars": 1
+    },
     "chances": { "patient_transport": 90, "helicopter": 10 },
     "additional": {
       "possible_patient": 1,
@@ -4141,7 +4020,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
@@ -4345,8 +4223,9 @@
       "mobile_air_vehicles": 1,
       "heavy_rescue_vehicles": 3,
       "water_needed": 25000,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 8,
-      "police_cars": 6
+      "police_cars": 4
     },
     "chances": { "patient_transport": 6, "helicopter": 1 },
     "additional": {
@@ -4363,7 +4242,6 @@
         "Traumatologia"
       ],
       "allow_ktw_instead_of_rtw": true,
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Chirurgia generale"],
@@ -4473,7 +4351,10 @@
       "/images/baseball_gelb.png",
       "/images/baseball_rot.png"
     ],
-    "requirements": { "police_cars": 2 },
+    "requirements": {
+      "oneof_police_patrol_or_municipal_police_crew": 2,
+      "police_cars": 1
+    },
     "chances": { "patient_transport": 40 },
     "additional": {
       "possible_patient": 2,
@@ -4488,7 +4369,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Medicina interna generale"],
@@ -4519,8 +4399,9 @@
     "requirements": {
       "hazmat_vehicles": 1,
       "heavy_rescue_vehicles": 1,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 1,
-      "police_cars": 4
+      "police_cars": 2
     },
     "chances": { "hazmat_vehicles": 20, "patient_transport": 35 },
     "additional": {
@@ -4537,7 +4418,6 @@
         "Traumatologia"
       ],
       "allow_ktw_instead_of_rtw": true,
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Medicina interna generale"],
@@ -4677,8 +4557,8 @@
     "requirements": {
       "fwk": 1,
       "heavy_rescue_vehicles": 2,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 1,
-      "police_cars": 2,
       "water_rescue": 1
     },
     "chances": { "fwk": 50, "patient_transport": 90 },
@@ -4695,7 +4575,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
@@ -4848,8 +4727,8 @@
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -4875,8 +4754,8 @@
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -4906,8 +4785,8 @@
     "additional": {
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 0, "police_stations": 2 },
     "overlay_index": null,
@@ -4983,8 +4862,8 @@
     "additional": {
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -5007,17 +4886,16 @@
     "requirements": {
       "battalion_chief_vehicles": 2,
       "hazmat_vehicles": 1,
-      "heavy_rescue_vehicles": 2,
-      "firetrucks": 4,
+      "oneof_fire_engine_or_rescue": 6,
+      "firetrucks": 1,
       "police_cars": 3
     },
     "chances": {},
     "additional": {
-      "allow_rw_instead_of_lf": true,
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -5046,8 +4924,8 @@
     "additional": {
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -5064,7 +4942,7 @@
     "name": "Incontro della lepre nella città delle uova di Pasqua",
     "place": "Stadio",
     "place_array": ["Stadio"],
-    "average_credits": 7000,
+    "average_credits": 7200,
     "generated_by": "",
     "icons": [
       "/images/clock_gruen.png",
@@ -5079,8 +4957,8 @@
       "guard_mission": true,
       "filter_id": "police_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 6,
@@ -5125,8 +5003,8 @@
         "Traumatologia"
       ],
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z",
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
       "patient_specializations": "Traumatologia"
@@ -5158,8 +5036,8 @@
     "additional": {
       "filter_id": "police_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 6, "police_stations": 3 },
     "overlay_index": null,
@@ -5189,8 +5067,8 @@
     "additional": {
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -5217,8 +5095,9 @@
     "requirements": {
       "battalion_chief_vehicles": 1,
       "heavy_rescue_vehicles": 2,
+      "oneof_police_patrol_or_municipal_police_crew": 1,
       "firetrucks": 2,
-      "police_cars": 2
+      "police_cars": 1
     },
     "chances": { "battalion_chief_vehicles": 10, "patient_transport": 100 },
     "additional": {
@@ -5234,7 +5113,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
@@ -5262,10 +5140,9 @@
       "/images/fire_gelb.png",
       "/images/fire_rot.png"
     ],
-    "requirements": { "heavy_rescue_vehicles": 1, "firetrucks": 1 },
+    "requirements": { "oneof_fire_engine_or_rescue": 1, "firetrucks": 1 },
     "chances": {},
     "additional": {
-      "allow_rw_instead_of_lf": true,
       "filter_id": "firehouse_missions",
       "optional_event_mission": false
     },
@@ -5294,8 +5171,9 @@
       "water_tankers": 1,
       "heavy_rescue_vehicles": 4,
       "water_needed": 38000,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 5,
-      "police_cars": 4
+      "police_cars": 2
     },
     "chances": { "patient_transport": 20, "helicopter": 5 },
     "additional": {
@@ -5313,7 +5191,6 @@
         "Traumatologia"
       ],
       "allow_ktw_instead_of_rtw": true,
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
@@ -5350,8 +5227,9 @@
       "heavy_rescue_vehicles": 4,
       "water_needed": 38000,
       "foam_needed": 5000,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 5,
-      "police_cars": 4
+      "police_cars": 2
     },
     "chances": { "patient_transport": 20, "helicopter": 5 },
     "additional": {
@@ -5369,7 +5247,6 @@
         "Traumatologia"
       ],
       "allow_ktw_instead_of_rtw": true,
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
@@ -5400,13 +5277,12 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "heavy_rescue_vehicles": 1,
       "water_needed": 100,
+      "oneof_fire_engine_or_rescue": 1,
       "firetrucks": 1
     },
     "chances": {},
     "additional": {
-      "allow_rw_instead_of_lf": true,
       "filter_id": "firehouse_missions",
       "optional_event_mission": false
     },
@@ -5553,11 +5429,14 @@
       "/images/zoom_gelb.png",
       "/images/zoom_rot.png"
     ],
-    "requirements": { "k9": 1, "police_cars": 2 },
+    "requirements": {
+      "k9": 1,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
+      "police_cars": 1
+    },
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 6 },
@@ -5667,12 +5546,15 @@
       "/images/bar_cocktail_gelb.png",
       "/images/bar_cocktail_rot.png"
     ],
-    "requirements": { "k9": 1, "police_cars": 3 },
+    "requirements": {
+      "k9": 1,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
+      "police_cars": 1
+    },
     "chances": {},
     "additional": {
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 6 },
@@ -6270,12 +6152,14 @@
       "/images/fire_gelb.png",
       "/images/fire_rot.png"
     ],
-    "requirements": { "police_cars": 1 },
+    "requirements": {
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "police_cars": 1
+    },
     "chances": {},
     "additional": {
       "expansion_missions_ids": [25, 64, 106],
       "filter_id": "police_station_missions",
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
@@ -6302,8 +6186,9 @@
       "mobile_air_vehicles": 1,
       "heavy_rescue_vehicles": 2,
       "water_needed": 10000,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 4,
-      "police_cars": 4
+      "police_cars": 2
     },
     "chances": { "patient_transport": 5, "helicopter": 1 },
     "additional": {
@@ -6320,7 +6205,6 @@
         "Traumatologia"
       ],
       "allow_ktw_instead_of_rtw": true,
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Chirurgia generale"],
@@ -6376,8 +6260,9 @@
     "requirements": {
       "battalion_chief_vehicles": 1,
       "heavy_rescue_vehicles": 4,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 3,
-      "police_cars": 4
+      "police_cars": 2
     },
     "chances": { "patient_transport": 20, "helicopter": 2 },
     "additional": {
@@ -6395,7 +6280,6 @@
         "Traumatologia"
       ],
       "allow_ktw_instead_of_rtw": true,
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
@@ -6426,8 +6310,8 @@
     ],
     "requirements": {
       "heavy_rescue_vehicles": 2,
+      "oneof_police_patrol_or_municipal_police_crew": 1,
       "firetrucks": 2,
-      "police_cars": 1,
       "water_rescue": 1
     },
     "chances": { "patient_transport": 20 },
@@ -6445,7 +6329,6 @@
         "Traumatologia"
       ],
       "allow_ktw_instead_of_rtw": true,
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
@@ -6478,8 +6361,9 @@
     "requirements": {
       "platform_trucks": 1,
       "heavy_rescue_vehicles": 4,
+      "oneof_police_patrol_or_municipal_police_crew": 1,
       "firetrucks": 3,
-      "police_cars": 2,
+      "police_cars": 1,
       "water_rescue": 1
     },
     "chances": { "patient_transport": 25 },
@@ -6497,7 +6381,6 @@
         "Traumatologia"
       ],
       "allow_ktw_instead_of_rtw": true,
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
@@ -6533,8 +6416,9 @@
       "disaster_response": 1,
       "disaster_response_clearing_large": 1,
       "rescue_dog_units": 2,
+      "oneof_police_patrol_or_municipal_police_crew": 1,
       "firetrucks": 3,
-      "police_cars": 2,
+      "police_cars": 1,
       "water_rescue": 1
     },
     "chances": {
@@ -6556,7 +6440,6 @@
         "Traumatologia"
       ],
       "allow_ktw_instead_of_rtw": true,
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
@@ -6592,8 +6475,9 @@
       "platform_trucks": 1,
       "mobile_command_vehicles": 1,
       "heavy_rescue_vehicles": 4,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 3,
-      "police_cars": 5,
+      "police_cars": 3,
       "water_rescue": 1
     },
     "chances": { "patient_transport": 25 },
@@ -6611,7 +6495,6 @@
         "Traumatologia"
       ],
       "allow_ktw_instead_of_rtw": true,
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
@@ -6648,8 +6531,9 @@
       "disaster_response": 1,
       "disaster_response_clearing_large": 1,
       "rescue_dog_units": 4,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 3,
-      "police_cars": 5,
+      "police_cars": 3,
       "water_rescue": 1
     },
     "chances": {
@@ -6671,7 +6555,6 @@
         "Traumatologia"
       ],
       "allow_ktw_instead_of_rtw": true,
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
@@ -6705,13 +6588,12 @@
     ],
     "requirements": {
       "heavy_rescue_vehicles": 1,
-      "firetrucks": 1,
-      "police_cars": 2
+      "oneof_police_patrol_or_municipal_police_crew": 2,
+      "firetrucks": 1
     },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -6981,14 +6863,14 @@
       "mobile_command_vehicles": 1,
       "mobile_air_vehicles": 1,
       "water_tankers": 1,
-      "irff": 1,
       "heavy_rescue_vehicles": 4,
       "water_needed": 35000,
       "foam_needed": 5000,
+      "oneof_airport_fire_engine_large_or_industrial_fire_engine": 1,
       "firetrucks": 6,
       "police_cars": 4
     },
-    "chances": { "irff": 10, "patient_transport": 25 },
+    "chances": { "patient_transport": 25 },
     "additional": {
       "possible_patient": 30,
       "possible_patient_min": 5,
@@ -7002,7 +6884,6 @@
       "allow_ktw_instead_of_rtw": true,
       "subsequent_missions_ids": [460],
       "optional_event_mission": false,
-      "max_arff_replacing_irff": 1,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
       "patient_specializations": "Traumatologia"
@@ -7232,11 +7113,14 @@
       "/images/fire_gelb.png",
       "/images/fire_rot.png"
     ],
-    "requirements": { "water_needed": 1000, "firetrucks": 1, "police_cars": 1 },
+    "requirements": {
+      "water_needed": 1000,
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "firetrucks": 1
+    },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -7378,8 +7262,9 @@
       "mobile_air_vehicles": 1,
       "heavy_rescue_vehicles": 3,
       "water_needed": 16000,
+      "oneof_police_patrol_or_municipal_police_crew": 1,
       "firetrucks": 5,
-      "police_cars": 3
+      "police_cars": 2
     },
     "chances": { "patient_transport": 20 },
     "additional": {
@@ -7393,7 +7278,6 @@
         "Medicina interna generale"
       ],
       "subsequent_missions_ids": [460],
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
@@ -7807,8 +7691,8 @@
     ],
     "requirements": {
       "heavy_rescue_vehicles": 1,
-      "firetrucks": 1,
-      "police_cars": 1
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "firetrucks": 1
     },
     "chances": { "patient_transport": 95 },
     "additional": {
@@ -7820,7 +7704,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Chirurgia generale"],
@@ -7849,11 +7732,13 @@
       "/images/blast_gelb.png",
       "/images/blast_rot.png"
     ],
-    "requirements": { "police_cars": 1 },
+    "requirements": {
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "police_cars": 1
+    },
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
@@ -7916,8 +7801,9 @@
       "water_tankers": 1,
       "heavy_rescue_vehicles": 3,
       "water_needed": 75000,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 5,
-      "police_cars": 4
+      "police_cars": 2
     },
     "chances": { "patient_transport": 20 },
     "additional": {
@@ -7934,7 +7820,6 @@
       ],
       "allow_ktw_instead_of_rtw": true,
       "subsequent_missions_ids": [460],
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Chirurgia generale"],
@@ -7963,7 +7848,7 @@
       "/images/caraccident_gelb.png",
       "/images/caraccident_rot.png"
     ],
-    "requirements": { "police_cars": 1 },
+    "requirements": { "oneof_police_patrol_or_municipal_police_crew": 1 },
     "chances": { "patient_transport": 100 },
     "additional": {
       "possible_patient": 2,
@@ -7978,7 +7863,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -8036,8 +7920,9 @@
       "fwk": 1,
       "police_helicopters": 1,
       "heavy_rescue_vehicles": 5,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 5,
-      "police_cars": 5,
+      "police_cars": 3,
       "water_rescue": 1
     },
     "chances": { "patient_transport": 25 },
@@ -8055,7 +7940,6 @@
         "Traumatologia"
       ],
       "allow_ktw_instead_of_rtw": true,
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
@@ -8095,8 +7979,9 @@
       "disaster_response": 1,
       "disaster_response_clearing_large": 1,
       "rescue_dog_units": 4,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 5,
-      "police_cars": 5,
+      "police_cars": 3,
       "water_rescue": 1
     },
     "chances": { "patient_transport": 25 },
@@ -8114,7 +7999,6 @@
         "Traumatologia"
       ],
       "allow_ktw_instead_of_rtw": true,
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
@@ -8381,14 +8265,13 @@
       "battalion_chief_vehicles": 1,
       "fwk": 1,
       "heavy_rescue_vehicles": 5,
-      "firetrucks": 3,
-      "police_cars": 2
+      "oneof_police_patrol_or_municipal_police_crew": 2,
+      "firetrucks": 3
     },
     "chances": { "battalion_chief_vehicles": 60, "fwk": 40 },
     "additional": {
       "expansion_missions_ids": [221],
       "filter_id": "firehouse_missions",
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -8421,8 +8304,8 @@
       "disaster_response": 1,
       "disaster_response_clearing_large": 1,
       "rescue_dog_units": 2,
-      "firetrucks": 3,
-      "police_cars": 2
+      "oneof_police_patrol_or_municipal_police_crew": 2,
+      "firetrucks": 3
     },
     "chances": {
       "battalion_chief_vehicles": 60,
@@ -8433,7 +8316,6 @@
     "additional": {
       "expansion_missions_ids": [221],
       "filter_id": "firehouse_missions",
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -8467,8 +8349,9 @@
       "fwk": 1,
       "police_helicopters": 1,
       "heavy_rescue_vehicles": 5,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 4,
-      "police_cars": 4
+      "police_cars": 2
     },
     "chances": { "patient_transport": 85, "helicopter": 10 },
     "additional": {
@@ -8484,7 +8367,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -8519,8 +8401,9 @@
       "heavy_rescue_vehicles": 5,
       "disaster_response_clearing": 1,
       "rescue_dog_units": 1,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 4,
-      "police_cars": 4
+      "police_cars": 2
     },
     "chances": { "patient_transport": 85, "helicopter": 10 },
     "additional": {
@@ -8536,7 +8419,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -8598,14 +8480,13 @@
     ],
     "requirements": {
       "heavy_rescue_vehicles": 1,
-      "firetrucks": 1,
-      "police_cars": 1
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "firetrucks": 1
     },
     "chances": {},
     "additional": {
       "expansion_missions_ids": [25, 118, 106],
       "filter_id": "firehouse_missions",
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -8660,14 +8541,13 @@
     ],
     "requirements": {
       "heavy_rescue_vehicles": 1,
-      "firetrucks": 1,
-      "police_cars": 1
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "firetrucks": 1
     },
     "chances": {},
     "additional": {
       "expansion_missions_ids": [193],
       "filter_id": "firehouse_missions",
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -9064,6 +8944,7 @@
       "water_tankers": 1,
       "heavy_rescue_vehicles": 4,
       "water_needed": 36000,
+      "oneof_airport_fire_engine_large_or_industrial_fire_engine": 1,
       "firetrucks": 8,
       "police_cars": 4
     },
@@ -9092,8 +8973,7 @@
         "Medicina interna generale"
       ],
       "subsequent_missions_ids": [460],
-      "optional_event_mission": false,
-      "max_arff_replacing_irff": 1
+      "optional_event_mission": false
     },
     "prerequisites": { "main_building": 0, "airport": 1, "fire_stations": 12 },
     "overlay_index": null,
@@ -9123,6 +9003,7 @@
       "heavy_rescue_vehicles": 4,
       "water_needed": 36000,
       "foam_needed": 3000,
+      "oneof_airport_fire_engine_large_or_industrial_fire_engine": 1,
       "firetrucks": 8,
       "police_cars": 4
     },
@@ -9151,8 +9032,7 @@
         "Medicina interna generale"
       ],
       "subsequent_missions_ids": [460],
-      "optional_event_mission": false,
-      "max_arff_replacing_irff": 1
+      "optional_event_mission": false
     },
     "prerequisites": {
       "main_building": 0,
@@ -9182,8 +9062,8 @@
       "mobile_air_vehicles": 1,
       "hazmat_vehicles": 1,
       "heavy_rescue_vehicles": 3,
-      "firetrucks": 2,
-      "police_cars": 2
+      "oneof_police_patrol_or_municipal_police_crew": 2,
+      "firetrucks": 2
     },
     "chances": {
       "battalion_chief_vehicles": 30,
@@ -9203,7 +9083,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": { "main_building": 0, "fire_stations": 11 },
@@ -9612,14 +9491,14 @@
       "fbi_bomb": 1,
       "ambulances": 1,
       "heavy_rescue_vehicles": 1,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 1,
-      "police_cars": 3
+      "police_cars": 1
     },
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
       "need_bomb_only_if_present": true,
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -9729,11 +9608,14 @@
       "/images/shooting_gelb.png",
       "/images/shooting_rot.png"
     ],
-    "requirements": { "commerce_police": 1, "police_cars": 3 },
+    "requirements": {
+      "commerce_police": 1,
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "police_cars": 2
+    },
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -9758,11 +9640,15 @@
       "/images/shooting_gelb.png",
       "/images/shooting_rot.png"
     ],
-    "requirements": { "commerce_police": 2, "k9": 1, "police_cars": 4 },
+    "requirements": {
+      "commerce_police": 2,
+      "k9": 1,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
+      "police_cars": 2
+    },
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -9793,13 +9679,13 @@
       "police_helicopters": 1,
       "ambulances": 2,
       "swat_armored_vehicle": 2,
-      "police_cars": 6
+      "oneof_police_patrol_or_municipal_police_crew": 2,
+      "police_cars": 4
     },
     "chances": {},
     "additional": {
       "max_possible_prisoners": 4,
       "filter_id": "police_station_missions",
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -10269,8 +10155,9 @@
       "mobile_air_vehicles": 1,
       "heavy_rescue_vehicles": 4,
       "water_needed": 20000,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 6,
-      "police_cars": 6
+      "police_cars": 4
     },
     "chances": {
       "platform_trucks": 40,
@@ -10302,7 +10189,6 @@
       ],
       "allow_ktw_instead_of_rtw": true,
       "subsequent_missions_ids": [460],
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -10328,14 +10214,16 @@
       "/images/clock_gelb.png",
       "/images/clock_rot.png"
     ],
-    "requirements": { "k9": 1, "police_cars": 1 },
+    "requirements": {
+      "k9": 1,
+      "oneof_police_patrol_or_municipal_police_crew": 1
+    },
     "chances": {},
     "additional": {
       "duration_text": "10 minuti",
       "duration": 600,
       "guard_mission": true,
       "filter_id": "police_station_missions",
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 6 },
@@ -10432,8 +10320,8 @@
     ],
     "requirements": {
       "heavy_rescue_vehicles": 2,
-      "firetrucks": 2,
-      "police_cars": 2
+      "oneof_police_patrol_or_municipal_police_crew": 2,
+      "firetrucks": 2
     },
     "chances": { "patient_transport": 40 },
     "additional": {
@@ -10449,7 +10337,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -10478,8 +10365,8 @@
     "requirements": {
       "boats": 1,
       "heavy_rescue_vehicles": 2,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 2,
-      "police_cars": 2,
       "water_rescue": 1
     },
     "chances": { "patient_transport": 40 },
@@ -10496,7 +10383,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -10526,8 +10412,8 @@
     "requirements": {
       "heavy_rescue_vehicles": 2,
       "pump": 1,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 2,
-      "police_cars": 2,
       "min_pump_speed": 2500
     },
     "chances": { "patient_transport": 40 },
@@ -10545,7 +10431,6 @@
         "Traumatologia"
       ],
       "pump_water_amount": 20000,
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -10576,8 +10461,8 @@
       "boats": 1,
       "heavy_rescue_vehicles": 2,
       "pump": 1,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 2,
-      "police_cars": 2,
       "water_rescue": 1,
       "min_pump_speed": 2500
     },
@@ -10596,7 +10481,6 @@
         "Traumatologia"
       ],
       "pump_water_amount": 20000,
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -10624,10 +10508,9 @@
       "/images/fire_gelb.png",
       "/images/fire_rot.png"
     ],
-    "requirements": { "firetrucks": 1 },
+    "requirements": { "oneof_fire_engine_or_rescue": 1, "firetrucks": 1 },
     "chances": {},
     "additional": {
-      "allow_rw_instead_of_lf": true,
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
       "date_start": "2023-11-23T10:00:00Z",
@@ -11152,8 +11035,9 @@
     "requirements": {
       "battalion_chief_vehicles": 1,
       "heavy_rescue_vehicles": 4,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 2,
-      "police_cars": 4
+      "police_cars": 2
     },
     "chances": { "patient_transport": 40 },
     "additional": {
@@ -11169,7 +11053,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -11199,8 +11082,9 @@
       "battalion_chief_vehicles": 1,
       "heavy_rescue_vehicles": 4,
       "amphibious_rescue": 1,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 2,
-      "police_cars": 4
+      "police_cars": 2
     },
     "chances": { "patient_transport": 40 },
     "additional": {
@@ -11216,7 +11100,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -11248,8 +11131,9 @@
       "battalion_chief_vehicles": 1,
       "diver_units": 1,
       "heavy_rescue_vehicles": 4,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 2,
-      "police_cars": 4,
+      "police_cars": 2,
       "water_rescue": 2
     },
     "chances": { "patient_transport": 40 },
@@ -11266,7 +11150,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -11297,8 +11180,9 @@
       "battalion_chief_vehicles": 1,
       "heavy_rescue_vehicles": 4,
       "pump": 2,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 2,
-      "police_cars": 4,
+      "police_cars": 2,
       "min_pump_speed": 5000
     },
     "chances": { "patient_transport": 40 },
@@ -11316,7 +11200,6 @@
         "Traumatologia"
       ],
       "pump_water_amount": 60000,
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -11349,8 +11232,9 @@
       "diver_units": 1,
       "heavy_rescue_vehicles": 4,
       "amphibious_rescue": 1,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 2,
-      "police_cars": 4,
+      "police_cars": 2,
       "water_rescue": 2
     },
     "chances": { "patient_transport": 40 },
@@ -11367,7 +11251,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -11400,8 +11283,9 @@
       "heavy_rescue_vehicles": 4,
       "pump": 2,
       "amphibious_rescue": 1,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 2,
-      "police_cars": 4,
+      "police_cars": 2,
       "min_pump_speed": 5000
     },
     "chances": { "patient_transport": 40 },
@@ -11419,7 +11303,6 @@
         "Traumatologia"
       ],
       "pump_water_amount": 60000,
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -11453,8 +11336,9 @@
       "diver_units": 1,
       "heavy_rescue_vehicles": 4,
       "pump": 2,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 2,
-      "police_cars": 4,
+      "police_cars": 2,
       "water_rescue": 2,
       "min_pump_speed": 5000
     },
@@ -11473,7 +11357,6 @@
         "Traumatologia"
       ],
       "pump_water_amount": 60000,
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -11508,8 +11391,9 @@
       "heavy_rescue_vehicles": 4,
       "pump": 2,
       "amphibious_rescue": 1,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 2,
-      "police_cars": 4,
+      "police_cars": 2,
       "water_rescue": 2,
       "min_pump_speed": 5000
     },
@@ -11528,7 +11412,6 @@
         "Traumatologia"
       ],
       "pump_water_amount": 60000,
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -11562,8 +11445,8 @@
       "fwk": 1,
       "ambulances": 4,
       "heavy_rescue_vehicles": 2,
-      "firetrucks": 2,
-      "police_cars": 4
+      "oneof_police_patrol_or_municipal_police_crew": 4,
+      "firetrucks": 2
     },
     "chances": {},
     "additional": {
@@ -11571,7 +11454,6 @@
       "duration": 2400,
       "guard_mission": true,
       "filter_id": "firehouse_missions",
-      "max_municipal_police_replacing_police_cars": 4,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -11735,8 +11617,9 @@
       "mobile_command_vehicles": 1,
       "police_helicopters": 1,
       "heavy_rescue_vehicles": 8,
+      "oneof_police_patrol_or_municipal_police_crew": 4,
       "firetrucks": 6,
-      "police_cars": 8
+      "police_cars": 4
     },
     "chances": { "patient_transport": 25 },
     "additional": {
@@ -11753,7 +11636,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 4,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -11785,8 +11667,9 @@
       "police_helicopters": 1,
       "heavy_rescue_vehicles": 8,
       "amphibious_rescue": 1,
+      "oneof_police_patrol_or_municipal_police_crew": 4,
       "firetrucks": 6,
-      "police_cars": 8
+      "police_cars": 4
     },
     "chances": { "patient_transport": 25 },
     "additional": {
@@ -11803,7 +11686,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 4,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -11837,8 +11719,9 @@
       "diver_units": 2,
       "police_helicopters": 1,
       "heavy_rescue_vehicles": 8,
+      "oneof_police_patrol_or_municipal_police_crew": 4,
       "firetrucks": 6,
-      "police_cars": 8,
+      "police_cars": 4,
       "water_rescue": 4
     },
     "chances": { "patient_transport": 25 },
@@ -11856,7 +11739,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 4,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -11889,8 +11771,9 @@
       "police_helicopters": 1,
       "heavy_rescue_vehicles": 8,
       "pump": 4,
+      "oneof_police_patrol_or_municipal_police_crew": 4,
       "firetrucks": 6,
-      "police_cars": 8,
+      "police_cars": 4,
       "min_pump_speed": 10000
     },
     "chances": { "patient_transport": 25 },
@@ -11909,7 +11792,6 @@
         "Traumatologia"
       ],
       "pump_water_amount": 200000,
-      "max_municipal_police_replacing_police_cars": 4,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -11944,8 +11826,9 @@
       "police_helicopters": 1,
       "heavy_rescue_vehicles": 8,
       "amphibious_rescue": 1,
+      "oneof_police_patrol_or_municipal_police_crew": 4,
       "firetrucks": 6,
-      "police_cars": 8,
+      "police_cars": 4,
       "water_rescue": 4
     },
     "chances": { "patient_transport": 25 },
@@ -11963,7 +11846,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 4,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -11998,8 +11880,9 @@
       "heavy_rescue_vehicles": 8,
       "pump": 4,
       "amphibious_rescue": 1,
+      "oneof_police_patrol_or_municipal_police_crew": 4,
       "firetrucks": 6,
-      "police_cars": 8,
+      "police_cars": 4,
       "min_pump_speed": 10000
     },
     "chances": { "patient_transport": 25 },
@@ -12018,7 +11901,6 @@
         "Traumatologia"
       ],
       "pump_water_amount": 200000,
-      "max_municipal_police_replacing_police_cars": 4,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -12054,8 +11936,9 @@
       "police_helicopters": 1,
       "heavy_rescue_vehicles": 8,
       "pump": 4,
+      "oneof_police_patrol_or_municipal_police_crew": 4,
       "firetrucks": 6,
-      "police_cars": 8,
+      "police_cars": 4,
       "water_rescue": 4,
       "min_pump_speed": 10000
     },
@@ -12075,7 +11958,6 @@
         "Traumatologia"
       ],
       "pump_water_amount": 200000,
-      "max_municipal_police_replacing_police_cars": 4,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -12112,8 +11994,9 @@
       "heavy_rescue_vehicles": 8,
       "pump": 4,
       "amphibious_rescue": 1,
+      "oneof_police_patrol_or_municipal_police_crew": 4,
       "firetrucks": 6,
-      "police_cars": 8,
+      "police_cars": 4,
       "water_rescue": 4,
       "min_pump_speed": 10000
     },
@@ -12133,7 +12016,6 @@
         "Traumatologia"
       ],
       "pump_water_amount": 200000,
-      "max_municipal_police_replacing_police_cars": 4,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -12166,8 +12048,9 @@
     "requirements": {
       "platform_trucks": 1,
       "heavy_rescue_vehicles": 2,
+      "oneof_police_patrol_or_municipal_police_crew": 1,
       "firetrucks": 3,
-      "police_cars": 2
+      "police_cars": 1
     },
     "chances": { "patient_transport": 25 },
     "additional": {
@@ -12184,7 +12067,6 @@
         "Traumatologia"
       ],
       "allow_ktw_instead_of_rtw": true,
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -12215,8 +12097,9 @@
       "heavy_rescue_vehicles": 2,
       "disaster_response_clearing": 1,
       "rescue_dog_units": 1,
+      "oneof_police_patrol_or_municipal_police_crew": 1,
       "firetrucks": 3,
-      "police_cars": 2
+      "police_cars": 1
     },
     "chances": { "patient_transport": 25 },
     "additional": {
@@ -12233,7 +12116,6 @@
         "Traumatologia"
       ],
       "allow_ktw_instead_of_rtw": true,
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -12265,8 +12147,9 @@
       "platform_trucks": 1,
       "heavy_rescue_vehicles": 1,
       "water_needed": 5000,
+      "oneof_police_patrol_or_municipal_police_crew": 1,
       "firetrucks": 2,
-      "police_cars": 2
+      "police_cars": 1
     },
     "chances": { "patient_transport": 30 },
     "additional": {
@@ -12292,7 +12175,6 @@
         "Medicina interna generale",
         "Medicina interna generale"
       ],
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -12709,8 +12591,8 @@
     ],
     "requirements": {
       "heavy_rescue_vehicles": 1,
-      "firetrucks": 2,
-      "police_cars": 2
+      "oneof_police_patrol_or_municipal_police_crew": 2,
+      "firetrucks": 2
     },
     "chances": { "patient_transport": 70 },
     "additional": {
@@ -12726,7 +12608,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -12827,8 +12708,8 @@
       "fwk": 1,
       "mobile_air_vehicles": 1,
       "heavy_rescue_vehicles": 2,
-      "firetrucks": 3,
-      "police_cars": 2
+      "oneof_police_patrol_or_municipal_police_crew": 2,
+      "firetrucks": 3
     },
     "chances": { "patient_transport": 50 },
     "additional": {
@@ -12844,7 +12725,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false,
       "patient_at_end_of_mission": true
     },
@@ -12878,8 +12758,8 @@
       "heavy_rescue_vehicles": 2,
       "disaster_response_clearing": 1,
       "rescue_dog_units": 2,
-      "firetrucks": 3,
-      "police_cars": 2
+      "oneof_police_patrol_or_municipal_police_crew": 2,
+      "firetrucks": 3
     },
     "chances": { "patient_transport": 50 },
     "additional": {
@@ -12895,7 +12775,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false,
       "patient_at_end_of_mission": true
     },
@@ -12927,8 +12806,8 @@
     "requirements": {
       "fwk": 1,
       "heavy_rescue_vehicles": 1,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 1,
-      "police_cars": 2,
       "water_rescue": 1
     },
     "chances": { "fwk": 25, "patient_transport": 85 },
@@ -12943,7 +12822,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false,
       "patient_at_end_of_mission": true
     },
@@ -12974,8 +12852,8 @@
     "requirements": {
       "fwk": 1,
       "heavy_rescue_vehicles": 2,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 2,
-      "police_cars": 2,
       "water_rescue": 1
     },
     "chances": { "patient_transport": 85 },
@@ -12990,7 +12868,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false,
       "patient_at_end_of_mission": true
     },
@@ -13023,8 +12900,9 @@
       "fwk": 1,
       "diver_units": 1,
       "heavy_rescue_vehicles": 2,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 2,
-      "police_cars": 3,
+      "police_cars": 1,
       "water_rescue": 2
     },
     "chances": { "patient_transport": 65 },
@@ -13040,7 +12918,6 @@
         "Traumatologia"
       ],
       "allow_ktw_instead_of_rtw": true,
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false,
       "patient_at_end_of_mission": true
     },
@@ -13194,8 +13071,9 @@
       "boats": 2,
       "diver_units": 1,
       "heavy_rescue_vehicles": 1,
+      "oneof_police_patrol_or_municipal_police_crew": 1,
       "firetrucks": 1,
-      "police_cars": 2,
+      "police_cars": 1,
       "water_rescue": 1
     },
     "chances": { "patient_transport": 95 },
@@ -13210,7 +13088,6 @@
         "Traumatologia",
         "Medicina interna generale"
       ],
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false,
       "patient_at_end_of_mission": true
     },
@@ -13263,13 +13140,12 @@
     ],
     "requirements": {
       "heavy_rescue_vehicles": 2,
-      "firetrucks": 1,
-      "police_cars": 2
+      "oneof_police_patrol_or_municipal_police_crew": 2,
+      "firetrucks": 1
     },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -13297,15 +13173,14 @@
     "requirements": {
       "heavy_rescue_vehicles": 2,
       "pump": 2,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 1,
-      "police_cars": 2,
       "min_pump_speed": 10000
     },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
       "pump_water_amount": 100000,
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -13357,8 +13232,9 @@
     ],
     "requirements": {
       "heavy_rescue_vehicles": 1,
+      "oneof_police_patrol_or_municipal_police_crew": 1,
       "firetrucks": 1,
-      "police_cars": 2
+      "police_cars": 1
     },
     "chances": { "patient_transport": 60 },
     "additional": {
@@ -13374,7 +13250,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -13404,8 +13279,9 @@
       "battalion_chief_vehicles": 1,
       "ambulances": 8,
       "heavy_rescue_vehicles": 1,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 3,
-      "police_cars": 4
+      "police_cars": 2
     },
     "chances": {},
     "additional": {
@@ -13413,7 +13289,6 @@
       "duration": 4800,
       "guard_mission": true,
       "filter_id": "firehouse_missions",
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -13892,12 +13767,14 @@
       "/images/theft_gelb.png",
       "/images/theft_rot.png"
     ],
-    "requirements": { "police_cars": 2 },
+    "requirements": {
+      "oneof_police_patrol_or_municipal_police_crew": 2,
+      "police_cars": 1
+    },
     "chances": {},
     "additional": {
       "expansion_missions_ids": [343],
       "filter_id": "police_station_missions",
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
@@ -13918,11 +13795,14 @@
       "/images/theft_gelb.png",
       "/images/theft_rot.png"
     ],
-    "requirements": { "k9": 1, "police_cars": 3 },
+    "requirements": {
+      "k9": 1,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
+      "police_cars": 1
+    },
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 6 },
@@ -13943,11 +13823,13 @@
       "/images/fire_gelb.png",
       "/images/fire_rot.png"
     ],
-    "requirements": { "firetrucks": 1, "police_cars": 2 },
+    "requirements": {
+      "oneof_police_patrol_or_municipal_police_crew": 2,
+      "firetrucks": 1
+    },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -14111,8 +13993,8 @@
         "Traumatologia"
       ],
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z",
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
       "patient_specializations": "Traumatologia"
@@ -14148,13 +14030,13 @@
       "water_tankers": 1,
       "heavy_rescue_vehicles": 4,
       "water_needed": 45000,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 6,
-      "police_cars": 4
+      "police_cars": 2
     },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -14269,14 +14151,14 @@
     "requirements": {
       "fwk": 1,
       "heavy_rescue_vehicles": 2,
+      "oneof_police_patrol_or_municipal_police_crew": 1,
       "firetrucks": 2,
-      "police_cars": 2
+      "police_cars": 1
     },
     "chances": {},
     "additional": {
       "expansion_missions_ids": [110, 111],
       "filter_id": "firehouse_missions",
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -14394,8 +14276,9 @@
       "mobile_air_vehicles": 1,
       "heavy_rescue_vehicles": 2,
       "water_needed": 22000,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 6,
-      "police_cars": 4
+      "police_cars": 2
     },
     "chances": { "patient_transport": 40 },
     "additional": {
@@ -14410,7 +14293,6 @@
       ],
       "allow_ktw_instead_of_rtw": true,
       "subsequent_missions_ids": [460],
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -14439,13 +14321,12 @@
     "requirements": {
       "heavy_rescue_vehicles": 1,
       "water_needed": 1500,
-      "firetrucks": 2,
-      "police_cars": 1
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "firetrucks": 2
     },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -14621,8 +14502,9 @@
       "mobile_air_vehicles": 1,
       "hazmat_vehicles": 2,
       "heavy_rescue_vehicles": 2,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 3,
-      "police_cars": 4
+      "police_cars": 2
     },
     "chances": { "patient_transport": 90, "helicopter": 10 },
     "additional": {
@@ -14634,7 +14516,6 @@
         "Medicina interna generale",
         "Medicina interna generale"
       ],
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -14677,7 +14558,7 @@
       ],
       "optional_event_mission": true,
       "date_start": "2023-05-12T09:00:00Z",
-      "date_end": "2023-05-14T23:59:59Z",
+      "date_end": "2023-05-14T23:59:59+02:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Medicina interna generale"],
       "patient_specializations": "Medicina interna generale"
@@ -14706,7 +14587,7 @@
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
       "date_start": "2023-05-12T09:00:00Z",
-      "date_end": "2023-05-14T23:59:59Z"
+      "date_end": "2023-05-14T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -14740,7 +14621,7 @@
       ],
       "optional_event_mission": true,
       "date_start": "2023-05-12T09:00:00Z",
-      "date_end": "2023-05-14T23:59:59Z",
+      "date_end": "2023-05-14T23:59:59+02:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Medicina interna generale"],
       "patient_specializations": "Medicina interna generale"
@@ -14774,7 +14655,7 @@
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
       "date_start": "2023-05-12T09:00:00Z",
-      "date_end": "2023-05-14T23:59:59Z"
+      "date_end": "2023-05-14T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -14808,7 +14689,7 @@
       ],
       "optional_event_mission": true,
       "date_start": "2023-05-12T09:00:00Z",
-      "date_end": "2023-05-14T23:59:59Z",
+      "date_end": "2023-05-14T23:59:59+02:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Medicina interna generale"],
       "patient_specializations": "Medicina interna generale"
@@ -14841,7 +14722,7 @@
       "filter_id": "police_station_missions",
       "optional_event_mission": true,
       "date_start": "2023-05-12T09:00:00Z",
-      "date_end": "2023-05-14T23:59:59Z"
+      "date_end": "2023-05-14T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 6, "police_stations": 2 },
     "overlay_index": null,
@@ -15093,8 +14974,8 @@
       "platform_trucks": 1,
       "fwk": 1,
       "heavy_rescue_vehicles": 2,
-      "firetrucks": 3,
-      "police_cars": 2
+      "oneof_police_patrol_or_municipal_police_crew": 2,
+      "firetrucks": 3
     },
     "chances": { "fwk": 30, "patient_transport": 65 },
     "additional": {
@@ -15110,7 +14991,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -15142,8 +15022,8 @@
       "heavy_rescue_vehicles": 2,
       "disaster_response_clearing": 1,
       "rescue_dog_units": 2,
-      "firetrucks": 3,
-      "police_cars": 2
+      "oneof_police_patrol_or_municipal_police_crew": 2,
+      "firetrucks": 3
     },
     "chances": { "fwk": 30, "patient_transport": 65 },
     "additional": {
@@ -15159,7 +15039,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -15193,8 +15072,8 @@
       "mobile_command_vehicles": 1,
       "fwk": 1,
       "heavy_rescue_vehicles": 3,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 4,
-      "police_cars": 2,
       "water_rescue": 1
     },
     "chances": { "patient_transport": 65, "helicopter": 2 },
@@ -15211,7 +15090,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -15247,8 +15125,8 @@
       "disaster_response": 1,
       "disaster_response_clearing_large": 1,
       "rescue_dog_units": 4,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 4,
-      "police_cars": 2,
       "water_rescue": 1
     },
     "chances": {
@@ -15270,7 +15148,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -15299,14 +15176,13 @@
       "/images/clock_gelb.png",
       "/images/clock_rot.png"
     ],
-    "requirements": { "police_cars": 2 },
+    "requirements": { "oneof_police_patrol_or_municipal_police_crew": 2 },
     "chances": {},
     "additional": {
       "duration_text": "30 minuti",
       "duration": 1800,
       "guard_mission": true,
       "filter_id": "police_station_missions",
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 6 },
@@ -15362,10 +15238,9 @@
       "/images/soccer_gelb.png",
       "/images/soccer_rot.png"
     ],
-    "requirements": { "firetrucks": 1 },
+    "requirements": { "oneof_fire_engine_or_rescue": 1, "firetrucks": 1 },
     "chances": {},
     "additional": {
-      "allow_rw_instead_of_lf": true,
       "filter_id": "firehouse_missions",
       "optional_event_mission": false,
       "date_start": "2023-07-20T09:00:00Z",
@@ -15490,10 +15365,9 @@
       "/images/soccer_gelb.png",
       "/images/soccer_rot.png"
     ],
-    "requirements": { "firetrucks": 1 },
+    "requirements": { "oneof_fire_engine_or_rescue": 1, "firetrucks": 1 },
     "chances": {},
     "additional": {
-      "allow_rw_instead_of_lf": true,
       "filter_id": "firehouse_missions",
       "optional_event_mission": false,
       "date_start": "2023-07-20T09:00:00Z",
@@ -16249,7 +16123,7 @@
       "/images/ambulance_gelb.png",
       "/images/ambulance_rot.png"
     ],
-    "requirements": { "police_cars": 1 },
+    "requirements": { "oneof_police_patrol_or_municipal_police_crew": 1 },
     "chances": { "patient_transport": 60 },
     "additional": {
       "possible_patient": 1,
@@ -16264,7 +16138,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -16455,8 +16328,9 @@
     ],
     "requirements": {
       "heavy_rescue_vehicles": 2,
+      "oneof_police_patrol_or_municipal_police_crew": 1,
       "firetrucks": 2,
-      "police_cars": 2
+      "police_cars": 1
     },
     "chances": { "patient_transport": 40, "helicopter": 10 },
     "additional": {
@@ -16473,7 +16347,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -16501,8 +16374,9 @@
     ],
     "requirements": {
       "heavy_rescue_vehicles": 2,
+      "oneof_police_patrol_or_municipal_police_crew": 1,
       "firetrucks": 2,
-      "police_cars": 2,
+      "police_cars": 1,
       "water_rescue": 1
     },
     "chances": { "patient_transport": 40, "helicopter": 10 },
@@ -16517,7 +16391,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -16553,8 +16426,9 @@
       "water_tankers": 1,
       "heavy_rescue_vehicles": 4,
       "water_needed": 40000,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 6,
-      "police_cars": 4
+      "police_cars": 2
     },
     "chances": { "patient_transport": 25, "helicopter": 5 },
     "additional": {
@@ -16572,7 +16446,6 @@
       ],
       "subsequent_missions_ids": [460],
       "fire_alarm_system_possible": true,
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -16600,8 +16473,9 @@
     ],
     "requirements": {
       "heavy_rescue_vehicles": 1,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 1,
-      "police_cars": 2
+      "police_cars": 1
     },
     "chances": { "patient_transport": 80, "helicopter": 10 },
     "additional": {
@@ -16618,7 +16492,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -16647,8 +16520,8 @@
     "requirements": {
       "fwk": 1,
       "heavy_rescue_vehicles": 2,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 2,
-      "police_cars": 2,
       "water_rescue": 1
     },
     "chances": { "patient_transport": 40, "helicopter": 10 },
@@ -16663,7 +16536,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -16715,13 +16587,15 @@
       "/images/shooting_gelb.png",
       "/images/shooting_rot.png"
     ],
-    "requirements": { "police_cars": 1 },
+    "requirements": {
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "police_cars": 1
+    },
     "chances": {},
     "additional": {
       "expansion_missions_ids": [155],
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
@@ -16838,14 +16712,13 @@
       "/images/clock_gelb.png",
       "/images/clock_rot.png"
     ],
-    "requirements": { "police_cars": 4 },
+    "requirements": { "oneof_police_patrol_or_municipal_police_crew": 4 },
     "chances": {},
     "additional": {
       "duration_text": "2 ore",
       "duration": 7200,
       "guard_mission": true,
       "filter_id": "police_station_missions",
-      "max_municipal_police_replacing_police_cars": 4,
       "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 6 },
@@ -16899,12 +16772,14 @@
       "/images/theft_gelb.png",
       "/images/theft_rot.png"
     ],
-    "requirements": { "police_cars": 1 },
+    "requirements": {
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "police_cars": 1
+    },
     "chances": {},
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
@@ -17003,8 +16878,9 @@
       "hazmat_vehicles": 1,
       "heavy_rescue_vehicles": 2,
       "water_needed": 10000,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 4,
-      "police_cars": 4
+      "police_cars": 2
     },
     "chances": { "patient_transport": 40, "helicopter": 20 },
     "additional": {
@@ -17018,7 +16894,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -17043,7 +16918,7 @@
       "/images/ambulance_gelb.png",
       "/images/ambulance_rot.png"
     ],
-    "requirements": { "police_cars": 1 },
+    "requirements": { "oneof_police_patrol_or_municipal_police_crew": 1 },
     "chances": { "patient_transport": 100 },
     "additional": {
       "possible_patient": 1,
@@ -17051,7 +16926,6 @@
       "patient_it_code_possible": ["KC05R", "KC05G"],
       "filter_id": "ambulance_station_missions",
       "possible_patient_specializations": ["Psichiatria", "Psichiatria"],
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -17076,12 +16950,14 @@
       "/images/theft_gelb.png",
       "/images/theft_rot.png"
     ],
-    "requirements": { "police_cars": 1 },
+    "requirements": {
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "police_cars": 1
+    },
     "chances": {},
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
@@ -17106,8 +16982,9 @@
       "battalion_chief_vehicles": 1,
       "hazmat_vehicles": 1,
       "k9": 1,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 2,
-      "police_cars": 6
+      "police_cars": 4
     },
     "chances": { "patient_transport": 40, "helicopter": 5 },
     "additional": {
@@ -17120,7 +16997,6 @@
         "Medicina interna generale",
         "Medicina interna generale"
       ],
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -17153,8 +17029,9 @@
       "fwk": 1,
       "hazmat_vehicles": 1,
       "heavy_rescue_vehicles": 8,
+      "oneof_police_patrol_or_municipal_police_crew": 4,
       "firetrucks": 10,
-      "police_cars": 8,
+      "police_cars": 4,
       "water_rescue": 2
     },
     "chances": { "patient_transport": 10, "helicopter": 10 },
@@ -17171,7 +17048,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 4,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -17203,7 +17079,8 @@
       "police_helicopters": 1,
       "swat_armored_vehicle": 2,
       "swat_suv": 2,
-      "police_cars": 12
+      "oneof_police_patrol_or_municipal_police_crew": 4,
+      "police_cars": 8
     },
     "chances": { "patient_transport": 40, "helicopter": 10 },
     "additional": {
@@ -17219,7 +17096,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 4,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -17250,8 +17126,9 @@
       "battalion_chief_vehicles": 1,
       "hazmat_vehicles": 2,
       "heavy_rescue_vehicles": 4,
+      "oneof_police_patrol_or_municipal_police_crew": 4,
       "firetrucks": 6,
-      "police_cars": 6
+      "police_cars": 2
     },
     "chances": { "patient_transport": 40, "helicopter": 10 },
     "additional": {
@@ -17267,7 +17144,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 4,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -17300,8 +17176,9 @@
       "heavy_rescue_vehicles": 4,
       "disaster_response_clearing": 1,
       "rescue_dog_units": 1,
+      "oneof_police_patrol_or_municipal_police_crew": 4,
       "firetrucks": 6,
-      "police_cars": 6
+      "police_cars": 2
     },
     "chances": {
       "disaster_response_clearing": 40,
@@ -17321,7 +17198,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 4,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -17361,8 +17237,9 @@
       "fwk": 1,
       "hazmat_vehicles": 2,
       "heavy_rescue_vehicles": 8,
+      "oneof_police_patrol_or_municipal_police_crew": 4,
       "firetrucks": 12,
-      "police_cars": 10
+      "police_cars": 6
     },
     "chances": { "patient_transport": 10, "helicopter": 10 },
     "additional": {
@@ -17377,7 +17254,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 4,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -17416,8 +17292,9 @@
       "hazmat_vehicles": 2,
       "heavy_rescue_vehicles": 8,
       "rescue_dog_units": 2,
+      "oneof_police_patrol_or_municipal_police_crew": 4,
       "firetrucks": 12,
-      "police_cars": 10
+      "police_cars": 6
     },
     "chances": { "patient_transport": 10, "helicopter": 10 },
     "additional": {
@@ -17432,7 +17309,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 4,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -17501,13 +17377,15 @@
       "/images/bar_cocktail_gelb.png",
       "/images/bar_cocktail_rot.png"
     ],
-    "requirements": { "police_cars": 1 },
+    "requirements": {
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "police_cars": 1
+    },
     "chances": {},
     "additional": {
       "min_possible_prisoners": 0,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
@@ -17557,8 +17435,9 @@
       "hazmat_vehicles": 2,
       "heavy_rescue_vehicles": 2,
       "water_needed": 10000,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 4,
-      "police_cars": 4
+      "police_cars": 2
     },
     "chances": { "patient_transport": 40, "helicopter": 20 },
     "additional": {
@@ -17572,7 +17451,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -17613,7 +17491,7 @@
       ],
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z",
+      "date_end": "2023-11-30T23:59:59+01:00",
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Chirurgia generale"],
       "patient_specializations": "Chirurgia generale"
@@ -17657,7 +17535,7 @@
       ],
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z",
+      "date_end": "2023-11-30T23:59:59+01:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
       "patient_specializations": "Traumatologia"
@@ -17698,7 +17576,7 @@
       ],
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z",
+      "date_end": "2023-11-30T23:59:59+01:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
       "patient_specializations": "Traumatologia"
@@ -17736,7 +17614,7 @@
       ],
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z",
+      "date_end": "2023-11-30T23:59:59+01:00",
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Chirurgia generale"],
       "patient_specializations": "Chirurgia generale"
@@ -17763,14 +17641,13 @@
       "/images/autumn_gelb.png",
       "/images/autumn_rot.png"
     ],
-    "requirements": { "firetrucks": 1 },
+    "requirements": { "oneof_fire_engine_or_rescue": 1, "firetrucks": 1 },
     "chances": {},
     "additional": {
-      "allow_rw_instead_of_lf": true,
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z"
+      "date_end": "2023-11-30T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -17807,7 +17684,7 @@
       ],
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z",
+      "date_end": "2023-11-30T23:59:59+01:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Medicina interna generale"],
       "patient_specializations": "Medicina interna generale"
@@ -17846,7 +17723,7 @@
       ],
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z",
+      "date_end": "2023-11-30T23:59:59+01:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
       "patient_specializations": "Traumatologia"
@@ -17893,7 +17770,7 @@
       ],
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z",
+      "date_end": "2023-11-30T23:59:59+01:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
       "patient_specializations": "Traumatologia"
@@ -17927,7 +17804,7 @@
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z"
+      "date_end": "2023-11-30T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
@@ -18000,8 +17877,9 @@
     "requirements": {
       "heavy_rescue_vehicles": 1,
       "water_needed": 10000,
+      "oneof_police_patrol_or_municipal_police_crew": 1,
       "firetrucks": 2,
-      "police_cars": 2
+      "police_cars": 1
     },
     "chances": { "patient_transport": 60 },
     "additional": {
@@ -18017,7 +17895,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Medicina interna generale"],
@@ -18049,13 +17926,12 @@
     "requirements": {
       "fwk": 1,
       "heavy_rescue_vehicles": 1,
-      "firetrucks": 1,
-      "police_cars": 2
+      "oneof_police_patrol_or_municipal_police_crew": 2,
+      "firetrucks": 1
     },
     "chances": { "fwk": 40, "patient_transport": 60 },
     "additional": {
       "filter_id": "firehouse_missions",
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -18113,13 +17989,12 @@
     "requirements": {
       "fwk": 1,
       "heavy_rescue_vehicles": 1,
-      "firetrucks": 1,
-      "police_cars": 2
+      "oneof_police_patrol_or_municipal_police_crew": 2,
+      "firetrucks": 1
     },
     "chances": { "fwk": 40, "patient_transport": 60 },
     "additional": {
       "filter_id": "firehouse_missions",
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -18144,12 +18019,14 @@
       "/images/theft_gelb.png",
       "/images/theft_rot.png"
     ],
-    "requirements": { "police_cars": 1 },
+    "requirements": {
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "police_cars": 1
+    },
     "chances": {},
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
@@ -18285,10 +18162,9 @@
       "/images/fire_gelb.png",
       "/images/fire_rot.png"
     ],
-    "requirements": { "firetrucks": 1 },
+    "requirements": { "oneof_fire_engine_or_rescue": 1, "firetrucks": 1 },
     "chances": {},
     "additional": {
-      "allow_rw_instead_of_lf": true,
       "filter_id": "firehouse_missions",
       "optional_event_mission": false
     },
@@ -18409,11 +18285,13 @@
       "/images/caraccident_gelb.png",
       "/images/caraccident_rot.png"
     ],
-    "requirements": { "police_cars": 1 },
+    "requirements": {
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "police_cars": 1
+    },
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
@@ -18482,12 +18360,14 @@
       "/images/fire_gelb.png",
       "/images/fire_rot.png"
     ],
-    "requirements": { "firetrucks": 1, "police_cars": 1 },
+    "requirements": {
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "firetrucks": 1
+    },
     "chances": {},
     "additional": {
       "expansion_missions_ids": [467],
       "filter_id": "firehouse_missions",
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -18516,8 +18396,8 @@
       "heavy_rescue_vehicles": 1,
       "water_needed": 100,
       "foam_needed": 100,
-      "firetrucks": 2,
-      "police_cars": 1
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "firetrucks": 2
     },
     "chances": { "patient_transport": 25 },
     "additional": {
@@ -18530,7 +18410,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Medicina interna generale"],
@@ -19162,8 +19041,8 @@
     ],
     "requirements": {
       "heavy_rescue_vehicles": 1,
-      "firetrucks": 2,
-      "police_cars": 1
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "firetrucks": 2
     },
     "chances": { "patient_transport": 30 },
     "additional": {
@@ -19179,7 +19058,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
@@ -19210,8 +19088,8 @@
     ],
     "requirements": {
       "heavy_rescue_vehicles": 1,
-      "firetrucks": 1,
-      "police_cars": 1
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "firetrucks": 1
     },
     "chances": { "patient_transport": 60 },
     "additional": {
@@ -19224,7 +19102,6 @@
         "Medicina interna generale",
         "Medicina interna generale"
       ],
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Medicina interna generale"],
@@ -19265,8 +19142,8 @@
         "Medicina interna generale"
       ],
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z",
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z",
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Cardiologia"],
       "patient_specializations": "Cardiologia"
@@ -19298,8 +19175,8 @@
       "filter_id": "ambulance_station_missions",
       "possible_patient_specializations": ["Medicina interna generale"],
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z",
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z",
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Cardiologia"],
       "patient_specializations": "Cardiologia"
@@ -19336,8 +19213,8 @@
         "Traumatologia"
       ],
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z",
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
       "patient_specializations": "Traumatologia"
@@ -19374,8 +19251,8 @@
         "Traumatologia"
       ],
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z",
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
       "patient_specializations": "Traumatologia"
@@ -19415,8 +19292,8 @@
       ],
       "patient_allow_first_responder_chance": 50,
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z",
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z",
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Chirurgia generale"],
       "patient_specializations": "Chirurgia generale"
@@ -19444,8 +19321,8 @@
     "additional": {
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z"
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
@@ -19472,8 +19349,8 @@
       "filter_id": "police_station_missions",
       "subsequent_missions_ids": [494, 495],
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z"
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -19500,8 +19377,8 @@
       "filter_id": "police_station_missions",
       "subsequent_mission_only": true,
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z"
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z"
     },
     "prerequisites": {
       "main_building": 6,
@@ -19541,8 +19418,8 @@
       "patient_allow_first_responder_chance": 60,
       "subsequent_mission_only": true,
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z",
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Medicina interna generale"],
       "patient_specializations": "Medicina interna generale"
@@ -19567,8 +19444,8 @@
     ],
     "requirements": {
       "heavy_rescue_vehicles": 1,
-      "firetrucks": 2,
-      "police_cars": 2
+      "oneof_police_patrol_or_municipal_police_crew": 2,
+      "firetrucks": 2
     },
     "chances": { "patient_transport": 30 },
     "additional": {
@@ -19584,7 +19461,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
@@ -19771,8 +19647,8 @@
     "additional": {
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -19811,8 +19687,8 @@
         "Traumatologia"
       ],
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z",
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Medicina interna generale"],
       "patient_specializations": "Medicina interna generale"
@@ -19844,8 +19720,8 @@
     "additional": {
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -19874,8 +19750,8 @@
     "additional": {
       "filter_id": "water_watch_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 15,
@@ -19929,11 +19805,13 @@
       "/images/zoom_gelb.png",
       "/images/zoom_rot.png"
     ],
-    "requirements": { "police_cars": 1 },
+    "requirements": {
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "police_cars": 1
+    },
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
@@ -19956,8 +19834,8 @@
     ],
     "requirements": {
       "heavy_rescue_vehicles": 1,
-      "firetrucks": 1,
-      "police_cars": 1
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "firetrucks": 1
     },
     "chances": { "patient_transport": 60 },
     "additional": {
@@ -19969,7 +19847,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Medicina interna generale"],
@@ -20646,10 +20523,13 @@
       "/images/cat_gelb.png",
       "/images/cat_rot.png"
     ],
-    "requirements": { "firetrucks": 1, "water_rescue": 1 },
+    "requirements": {
+      "oneof_fire_engine_or_rescue": 1,
+      "firetrucks": 1,
+      "water_rescue": 1
+    },
     "chances": {},
     "additional": {
-      "allow_rw_instead_of_lf": true,
       "filter_id": "firehouse_missions",
       "optional_event_mission": false
     },
@@ -20675,10 +20555,13 @@
       "/images/cat_gelb.png",
       "/images/cat_rot.png"
     ],
-    "requirements": { "firetrucks": 1, "water_rescue": 1 },
+    "requirements": {
+      "oneof_fire_engine_or_rescue": 1,
+      "firetrucks": 1,
+      "water_rescue": 1
+    },
     "chances": {},
     "additional": {
-      "allow_rw_instead_of_lf": true,
       "filter_id": "firehouse_missions",
       "optional_event_mission": false
     },
@@ -20780,13 +20663,13 @@
       "battalion_chief_vehicles": 1,
       "heavy_rescue_vehicles": 2,
       "traffic_car": 1,
+      "oneof_police_patrol_or_municipal_police_crew": 1,
       "firetrucks": 1,
-      "police_cars": 2
+      "police_cars": 1
     },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -20817,13 +20700,13 @@
       "heavy_rescue_vehicles": 2,
       "traffic_car": 1,
       "disaster_response_clearing": 1,
+      "oneof_police_patrol_or_municipal_police_crew": 1,
       "firetrucks": 1,
-      "police_cars": 2
+      "police_cars": 1
     },
     "chances": { "disaster_response_clearing": 30 },
     "additional": {
       "filter_id": "firehouse_missions",
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -20884,8 +20767,9 @@
       "mobile_air_vehicles": 1,
       "heavy_rescue_vehicles": 4,
       "water_needed": 40000,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 6,
-      "police_cars": 6
+      "police_cars": 4
     },
     "chances": { "patient_transport": 20 },
     "additional": {
@@ -20900,7 +20784,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Medicina interna generale"],
@@ -21206,8 +21089,8 @@
     ],
     "requirements": {
       "heavy_rescue_vehicles": 2,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 1,
-      "police_cars": 2,
       "water_rescue": 1
     },
     "chances": { "patient_transport": 60 },
@@ -21221,7 +21104,6 @@
         "Medicina interna generale",
         "Medicina interna generale"
       ],
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Medicina interna generale"],
@@ -21867,11 +21749,13 @@
       "/images/cruiseship_gelb.png",
       "/images/cruiseship_rot.png"
     ],
-    "requirements": { "coastal_command": 2, "police_cars": 2 },
+    "requirements": {
+      "coastal_command": 2,
+      "oneof_police_patrol_or_municipal_police_crew": 2
+    },
     "chances": {},
     "additional": {
       "filter_id": "coastal_rescue_missions",
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -21921,13 +21805,12 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "heavy_rescue_vehicles": 1,
+      "oneof_fire_engine_or_rescue": 2,
       "firetrucks": 1,
       "police_cars": 1
     },
     "chances": {},
     "additional": {
-      "allow_rw_instead_of_lf": true,
       "filter_id": "firehouse_missions",
       "optional_event_mission": false
     },
@@ -22636,8 +22519,9 @@
       "battalion_chief_vehicles": 1,
       "fwk": 1,
       "heavy_rescue_vehicles": 2,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 2,
-      "police_cars": 4,
+      "police_cars": 2,
       "water_rescue": 1
     },
     "chances": { "patient_transport": 60, "helicopter": 10 },
@@ -22652,7 +22536,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Chirurgia generale"],
@@ -22684,13 +22567,12 @@
     ],
     "requirements": {
       "heavy_rescue_vehicles": 1,
-      "firetrucks": 1,
-      "police_cars": 1
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "firetrucks": 1
     },
     "chances": { "platform_trucks": 10 },
     "additional": {
       "filter_id": "firehouse_missions",
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -22722,14 +22604,14 @@
       "k9": 1,
       "heavy_rescue_vehicles": 2,
       "swat_suv": 2,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 2,
-      "police_cars": 6
+      "police_cars": 4
     },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
       "need_bomb_only_if_present": true,
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -22834,9 +22716,9 @@
       "police_helicopters": 1,
       "heavy_rescue_vehicles": 2,
       "swat_suv": 4,
-      "arff": 2,
       "rettungstreppe": 1,
-      "firetrucks": 2,
+      "oneof_airport_fire_engine_large_or_industrial_fire_engine": 2,
+      "oneof_fire_engine_or_airport_fire_engine_large": 2,
       "police_cars": 12
     },
     "chances": { "patient_transport": 40, "helicopter": 10 },
@@ -22850,9 +22732,7 @@
         "Medicina interna generale",
         "Medicina interna generale"
       ],
-      "allow_arff_instead_of_lf": true,
       "optional_event_mission": false,
-      "max_irff_replacing_arff": 2,
       "patient_at_end_of_mission": true,
       "patient_specialization_ids": [0, 1],
       "patient_specialization_captions": [
@@ -22889,18 +22769,17 @@
     "requirements": {
       "elw_airport": 1,
       "heavy_rescue_vehicles": 1,
-      "arff": 1,
       "water_needed": 12000,
       "foam_needed": 500,
+      "oneof_airport_fire_engine_large_or_industrial_fire_engine": 1,
+      "oneof_fire_engine_or_airport_fire_engine_large": 1,
       "firetrucks": 1,
       "police_cars": 2
     },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "allow_arff_instead_of_lf": true,
-      "optional_event_mission": false,
-      "max_irff_replacing_arff": 1
+      "optional_event_mission": false
     },
     "prerequisites": {
       "main_building": 0,
@@ -22928,8 +22807,9 @@
     "requirements": {
       "elw_airport": 1,
       "heavy_rescue_vehicles": 2,
-      "arff": 1,
-      "firetrucks": 2,
+      "oneof_airport_fire_engine_large_or_industrial_fire_engine": 1,
+      "oneof_fire_engine_or_airport_fire_engine_large": 2,
+      "firetrucks": 1,
       "police_cars": 4
     },
     "chances": { "patient_transport": 80, "helicopter": 10 },
@@ -22942,9 +22822,7 @@
         "Medicina interna generale",
         "Medicina interna generale"
       ],
-      "allow_arff_instead_of_lf": true,
       "optional_event_mission": false,
-      "max_irff_replacing_arff": 1,
       "patient_specialization_ids": [0, 1],
       "patient_specialization_captions": [
         "Medicina interna generale",
@@ -22979,10 +22857,11 @@
     "requirements": {
       "elw_airport": 1,
       "heavy_rescue_vehicles": 2,
-      "arff": 4,
       "rettungstreppe": 1,
       "riv": 1,
-      "firetrucks": 4,
+      "oneof_airport_fire_engine_large_or_industrial_fire_engine": 2,
+      "oneof_fire_engine_or_airport_fire_engine_large": 6,
+      "firetrucks": 1,
       "police_cars": 8
     },
     "chances": { "patient_transport": 40, "helicopter": 20 },
@@ -22996,9 +22875,7 @@
         "Medicina interna generale",
         "Medicina interna generale"
       ],
-      "allow_arff_instead_of_lf": true,
       "optional_event_mission": false,
-      "max_irff_replacing_arff": 2,
       "patient_specialization_ids": [0, 1],
       "patient_specialization_captions": [
         "Medicina interna generale",
@@ -23033,16 +22910,15 @@
     "requirements": {
       "elw_airport": 1,
       "heavy_rescue_vehicles": 1,
-      "arff": 2,
       "water_needed": 4000,
+      "oneof_airport_fire_engine_large_or_industrial_fire_engine": 1,
+      "oneof_fire_engine_or_airport_fire_engine_large": 3,
       "firetrucks": 1
     },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "allow_arff_instead_of_lf": true,
-      "optional_event_mission": false,
-      "max_irff_replacing_arff": 1
+      "optional_event_mission": false
     },
     "prerequisites": { "main_building": 0, "airport": 1, "fire_stations": 6 },
     "overlay_index": null,
@@ -23065,17 +22941,16 @@
     "requirements": {
       "elw_airport": 1,
       "heavy_rescue_vehicles": 1,
-      "arff": 1,
       "water_needed": 4000,
       "foam_needed": 600,
+      "oneof_airport_fire_engine_large_or_industrial_fire_engine": 1,
+      "oneof_fire_engine_or_airport_fire_engine_large": 1,
       "firetrucks": 1
     },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "allow_arff_instead_of_lf": true,
-      "optional_event_mission": false,
-      "max_irff_replacing_arff": 1
+      "optional_event_mission": false
     },
     "prerequisites": { "main_building": 0, "airport": 1, "fire_stations": 6 },
     "overlay_index": null,
@@ -23098,14 +22973,13 @@
     "requirements": {
       "elw_airport": 1,
       "heavy_rescue_vehicles": 1,
-      "arff": 1,
       "foam_needed": 400,
+      "oneof_fire_engine_or_airport_fire_engine_large": 2,
       "firetrucks": 1
     },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "allow_arff_instead_of_lf": true,
       "optional_event_mission": false
     },
     "prerequisites": { "main_building": 0, "airport": 1, "fire_stations": 6 },
@@ -23129,18 +23003,17 @@
     "requirements": {
       "elw_airport": 1,
       "heavy_rescue_vehicles": 2,
-      "arff": 2,
       "water_needed": 16000,
       "foam_needed": 2000,
-      "firetrucks": 2,
+      "oneof_airport_fire_engine_large_or_industrial_fire_engine": 2,
+      "oneof_fire_engine_or_airport_fire_engine_large": 2,
+      "firetrucks": 1,
       "police_cars": 2
     },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "allow_arff_instead_of_lf": true,
-      "optional_event_mission": false,
-      "max_irff_replacing_arff": 2
+      "optional_event_mission": false
     },
     "prerequisites": {
       "main_building": 0,
@@ -23171,20 +23044,19 @@
       "hazmat_vehicles": 1,
       "water_tankers": 1,
       "heavy_rescue_vehicles": 2,
-      "arff": 4,
       "rettungstreppe": 1,
       "riv": 1,
       "water_needed": 50000,
       "foam_needed": 4000,
-      "firetrucks": 4,
+      "oneof_airport_fire_engine_large_or_industrial_fire_engine": 2,
+      "oneof_fire_engine_or_airport_fire_engine_large": 6,
+      "firetrucks": 1,
       "police_cars": 4
     },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "allow_arff_instead_of_lf": true,
-      "optional_event_mission": false,
-      "max_irff_replacing_arff": 2
+      "optional_event_mission": false
     },
     "prerequisites": {
       "main_building": 0,
@@ -23211,18 +23083,17 @@
     ],
     "requirements": {
       "elw_airport": 1,
-      "arff": 2,
       "water_needed": 20000,
       "foam_needed": 2000,
-      "firetrucks": 2,
+      "oneof_airport_fire_engine_large_or_industrial_fire_engine": 2,
+      "oneof_fire_engine_or_airport_fire_engine_large": 2,
+      "firetrucks": 1,
       "police_cars": 2
     },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "allow_arff_instead_of_lf": true,
-      "optional_event_mission": false,
-      "max_irff_replacing_arff": 2
+      "optional_event_mission": false
     },
     "prerequisites": {
       "main_building": 0,
@@ -23249,16 +23120,15 @@
     ],
     "requirements": {
       "elw_airport": 1,
-      "arff": 1,
       "water_needed": 8000,
+      "oneof_airport_fire_engine_large_or_industrial_fire_engine": 1,
+      "oneof_fire_engine_or_airport_fire_engine_large": 1,
       "firetrucks": 1
     },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "allow_arff_instead_of_lf": true,
-      "optional_event_mission": false,
-      "max_irff_replacing_arff": 1
+      "optional_event_mission": false
     },
     "prerequisites": { "main_building": 0, "airport": 1, "fire_stations": 6 },
     "overlay_index": null,
@@ -23287,17 +23157,16 @@
       "ambulances": 2,
       "heavy_rescue_vehicles": 2,
       "swat_suv": 2,
-      "arff": 2,
-      "firetrucks": 2,
+      "oneof_airport_fire_engine_large_or_industrial_fire_engine": 2,
+      "oneof_fire_engine_or_airport_fire_engine_large": 2,
+      "firetrucks": 1,
       "police_cars": 4
     },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "allow_arff_instead_of_lf": true,
       "need_bomb_only_if_present": true,
-      "optional_event_mission": false,
-      "max_irff_replacing_arff": 2
+      "optional_event_mission": false
     },
     "prerequisites": {
       "main_building": 0,
@@ -23331,12 +23200,13 @@
       "mobile_air_vehicles": 1,
       "hazmat_vehicles": 2,
       "water_tankers": 2,
-      "irff": 2,
       "heavy_rescue_vehicles": 4,
       "water_needed": 60000,
       "foam_needed": 4000,
+      "oneof_airport_fire_engine_large_or_industrial_fire_engine": 2,
+      "oneof_police_patrol_or_municipal_police_crew": 6,
       "firetrucks": 10,
-      "police_cars": 10
+      "police_cars": 4
     },
     "chances": { "patient_transport": 20, "helicopter": 5 },
     "additional": {
@@ -23349,9 +23219,7 @@
         "Medicina interna generale",
         "Medicina interna generale"
       ],
-      "max_municipal_police_replacing_police_cars": 6,
       "optional_event_mission": false,
-      "max_arff_replacing_irff": 2,
       "patient_specialization_ids": [0, 1],
       "patient_specialization_captions": [
         "Medicina interna generale",
@@ -23390,12 +23258,13 @@
       "mobile_air_vehicles": 1,
       "hazmat_vehicles": 2,
       "water_tankers": 1,
-      "irff": 1,
       "heavy_rescue_vehicles": 2,
       "water_needed": 40000,
       "foam_needed": 2000,
+      "oneof_airport_fire_engine_large_or_industrial_fire_engine": 1,
+      "oneof_police_patrol_or_municipal_police_crew": 4,
       "firetrucks": 6,
-      "police_cars": 6
+      "police_cars": 2
     },
     "chances": { "patient_transport": 20, "helicopter": 5 },
     "additional": {
@@ -23408,9 +23277,7 @@
         "Medicina interna generale",
         "Medicina interna generale"
       ],
-      "max_municipal_police_replacing_police_cars": 4,
       "optional_event_mission": false,
-      "max_arff_replacing_irff": 1,
       "patient_specialization_ids": [0, 1],
       "patient_specialization_captions": [
         "Medicina interna generale",
@@ -23448,8 +23315,9 @@
       "mobile_air_vehicles": 1,
       "hazmat_vehicles": 2,
       "heavy_rescue_vehicles": 2,
+      "oneof_police_patrol_or_municipal_police_crew": 4,
       "firetrucks": 4,
-      "police_cars": 6
+      "police_cars": 2
     },
     "chances": { "patient_transport": 80, "helicopter": 10 },
     "additional": {
@@ -23462,7 +23330,6 @@
         "Medicina interna generale",
         "Medicina interna generale"
       ],
-      "max_municipal_police_replacing_police_cars": 4,
       "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Medicina interna generale"],
@@ -23497,19 +23364,18 @@
       "hazmat_vehicles": 1,
       "water_tankers": 1,
       "heavy_rescue_vehicles": 2,
-      "arff": 2,
       "riv": 1,
       "water_needed": 40000,
       "foam_needed": 4000,
-      "firetrucks": 6,
+      "oneof_airport_fire_engine_large_or_industrial_fire_engine": 2,
+      "oneof_fire_engine_or_airport_fire_engine_large": 6,
+      "firetrucks": 1,
       "police_cars": 4
     },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "allow_arff_instead_of_lf": true,
-      "optional_event_mission": false,
-      "max_irff_replacing_arff": 2
+      "optional_event_mission": false
     },
     "prerequisites": {
       "main_building": 0,
@@ -23754,13 +23620,12 @@
     "requirements": {
       "platform_trucks": 1,
       "heavy_rescue_vehicles": 1,
-      "firetrucks": 1,
-      "police_cars": 2
+      "oneof_police_patrol_or_municipal_police_crew": 2,
+      "firetrucks": 1
     },
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -23795,8 +23660,9 @@
       "heavy_rescue_vehicles": 2,
       "water_needed": 40000,
       "foam_needed": 4000,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 6,
-      "police_cars": 4
+      "police_cars": 2
     },
     "chances": { "platform_trucks": 20, "nef": 30, "patient_transport": 50 },
     "additional": {
@@ -23809,7 +23675,6 @@
         "Medicina interna generale",
         "Medicina interna generale"
       ],
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false,
       "patient_at_end_of_mission": true,
       "patient_specialization_ids": [0],
@@ -23840,11 +23705,13 @@
       "/images/baseball_gelb.png",
       "/images/baseball_rot.png"
     ],
-    "requirements": { "police_cars": 1 },
+    "requirements": {
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "police_cars": 1
+    },
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
@@ -23872,8 +23739,9 @@
       "fwk": 1,
       "hazmat_vehicles": 1,
       "heavy_rescue_vehicles": 2,
+      "oneof_police_patrol_or_municipal_police_crew": 2,
       "firetrucks": 4,
-      "police_cars": 4
+      "police_cars": 2
     },
     "chances": {
       "mobile_command_vehicles": 20,
@@ -23892,7 +23760,6 @@
         "Medicina interna generale",
         "Medicina interna generale"
       ],
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false,
       "patient_at_end_of_mission": true,
       "patient_specialization_ids": [0],
@@ -24106,8 +23973,8 @@
     ],
     "requirements": {
       "heavy_rescue_vehicles": 1,
-      "firetrucks": 1,
-      "police_cars": 2
+      "oneof_police_patrol_or_municipal_police_crew": 2,
+      "firetrucks": 1
     },
     "chances": { "patient_transport": 60, "helicopter": 10 },
     "additional": {
@@ -24121,7 +23988,6 @@
         "Medicina interna generale",
         "Traumatologia"
       ],
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Chirurgia generale"],
@@ -24777,8 +24643,8 @@
     ],
     "requirements": {
       "heavy_rescue_vehicles": 1,
-      "firetrucks": 1,
-      "police_cars": 1
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "firetrucks": 1
     },
     "chances": { "patient_transport": 40 },
     "additional": {
@@ -24791,7 +24657,6 @@
         "Medicina interna generale",
         "Medicina interna generale"
       ],
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false,
       "patient_at_end_of_mission": true,
       "patient_specialization_ids": [0],
@@ -24821,10 +24686,9 @@
       "/images/fire_gelb.png",
       "/images/fire_rot.png"
     ],
-    "requirements": { "firetrucks": 1 },
+    "requirements": { "oneof_fire_engine_or_rescue": 1, "firetrucks": 1 },
     "chances": {},
     "additional": {
-      "allow_rw_instead_of_lf": true,
       "filter_id": "firehouse_missions",
       "optional_event_mission": false
     },
@@ -24870,11 +24734,14 @@
       "/images/sawmill_gelb.png",
       "/images/sawmill_rot.png"
     ],
-    "requirements": { "platform_trucks": 1, "firetrucks": 1 },
+    "requirements": {
+      "platform_trucks": 1,
+      "oneof_fire_engine_or_rescue": 1,
+      "firetrucks": 1
+    },
     "chances": { "platform_trucks": 80, "patient_transport": 30 },
     "additional": {
       "possible_patient": 1,
-      "allow_rw_instead_of_lf": true,
       "patient_it_code_possible": ["SC19R", "SC19G", "SC19V"],
       "filter_id": "firehouse_missions",
       "possible_patient_specializations": [
@@ -24996,14 +24863,14 @@
     "requirements": {
       "fbi_bomb": 1,
       "battalion_chief_vehicles": 1,
+      "oneof_police_patrol_or_municipal_police_crew": 4,
       "firetrucks": 1,
-      "police_cars": 8
+      "police_cars": 4
     },
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
       "need_bomb_only_if_present": true,
-      "max_municipal_police_replacing_police_cars": 4,
       "optional_event_mission": false
     },
     "prerequisites": {
@@ -25031,7 +24898,7 @@
     ],
     "requirements": {
       "battalion_chief_vehicles": 1,
-      "heavy_rescue_vehicles": 2,
+      "oneof_fire_engine_or_rescue": 3,
       "firetrucks": 1,
       "police_cars": 2
     },
@@ -25039,7 +24906,6 @@
     "additional": {
       "possible_patient": 2,
       "possible_patient_min": 1,
-      "allow_rw_instead_of_lf": true,
       "patient_it_code_possible": ["SC19R", "SC19G", "SC19V"],
       "filter_id": "firehouse_missions",
       "possible_patient_specializations": [
@@ -25169,11 +25035,13 @@
       "/images/cat_gelb.png",
       "/images/cat_rot.png"
     ],
-    "requirements": { "police_cars": 1 },
+    "requirements": {
+      "oneof_police_patrol_or_municipal_police_crew": 1,
+      "police_cars": 1
+    },
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "max_municipal_police_replacing_police_cars": 1,
       "optional_event_mission": false
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
@@ -25516,8 +25384,8 @@
     "requirements": {
       "water_needed": 5000,
       "foam_needed": 600,
-      "firetrucks": 2,
-      "police_cars": 2
+      "oneof_police_patrol_or_municipal_police_crew": 2,
+      "firetrucks": 2
     },
     "chances": { "patient_transport": 30 },
     "additional": {
@@ -25530,7 +25398,6 @@
         "Medicina interna generale",
         "Medicina interna generale"
       ],
-      "max_municipal_police_replacing_police_cars": 2,
       "optional_event_mission": false,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Medicina interna generale"],
@@ -25625,7 +25492,7 @@
     "name": "Incendio in un municipio",
     "place": "",
     "place_array": [],
-    "average_credits": 8850,
+    "average_credits": 8250,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -25637,9 +25504,7 @@
       "battalion_chief_vehicles": 2,
       "mobile_command_vehicles": 1,
       "mobile_air_vehicles": 1,
-      "water_tankers": 1,
       "heavy_rescue_vehicles": 1,
-      "pump": 1,
       "firetrucks": 4,
       "police_cars": 4
     },
@@ -25664,12 +25529,587 @@
       "main_building": 0,
       "rescue_stations": 5,
       "police_stations": 5,
-      "fire_support_count": 1,
       "fire_stations": 15
     },
     "overlay_index": null,
     "base_mission_id": 660,
     "additive_overlays": "",
     "mission_categories": ["fire"]
+  },
+  {
+    "id": "661",
+    "name": "Gamba rotta nel gioco di sopravvivenza",
+    "place": "",
+    "place_array": [],
+    "average_credits": 580,
+    "generated_by": "",
+    "icons": [
+      "/images/ambulance_gruen.png",
+      "/images/ambulance_gelb.png",
+      "/images/ambulance_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": { "patient_transport": 85 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "patient_it_code_possible": ["SC19R", "SC19G", "SC19V"],
+      "filter_id": "firehouse_missions",
+      "possible_patient_specializations": [
+        "Medicina interna generale",
+        "Medicina interna generale",
+        "Medicina interna generale"
+      ],
+      "optional_event_mission": false,
+      "patient_specialization_ids": [1],
+      "patient_specialization_captions": ["Chirurgia generale"],
+      "patient_specializations": "Chirurgia generale"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 1,
+      "fire_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 661,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "663",
+    "name": "Dimostrazione di arrampicata",
+    "place": "",
+    "place_array": [],
+    "average_credits": 3000,
+    "generated_by": "",
+    "icons": [
+      "/images/clock_gruen.png",
+      "/images/clock_gelb.png",
+      "/images/clock_rot.png"
+    ],
+    "requirements": { "heavy_rescue_vehicles": 1 },
+    "chances": {},
+    "additional": {
+      "duration_text": "30 minuti",
+      "duration": 1800,
+      "guard_mission": true,
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 6 },
+    "overlay_index": null,
+    "base_mission_id": 663,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "664",
+    "name": "Messa in sicurezza di un evento sportivo",
+    "place": "",
+    "place_array": [],
+    "average_credits": 8500,
+    "generated_by": "",
+    "icons": [
+      "/images/clock_gruen.png",
+      "/images/clock_gelb.png",
+      "/images/clock_rot.png"
+    ],
+    "requirements": {
+      "battalion_chief_vehicles": 1,
+      "k9": 1,
+      "ambulances": 2,
+      "swat_armored_vehicle": 1,
+      "swat_suv": 2,
+      "firetrucks": 1,
+      "police_cars": 4
+    },
+    "chances": {},
+    "additional": {
+      "duration_text": "1 ora",
+      "duration": 3600,
+      "guard_mission": true,
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "rescue_stations": 2,
+      "police_stations": 5,
+      "fire_stations": 6
+    },
+    "overlay_index": null,
+    "base_mission_id": 664,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "665",
+    "name": "Controllo degli idranti",
+    "place": "",
+    "place_array": [],
+    "average_credits": 750,
+    "generated_by": "",
+    "icons": [
+      "/images/clock_gruen.png",
+      "/images/clock_gelb.png",
+      "/images/clock_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": {
+      "duration_text": "30 minuti",
+      "duration": 1800,
+      "guard_mission": true,
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 665,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "666",
+    "name": "Incendio su una nave da crociera al molo",
+    "place": "Molo navi da crociera",
+    "place_array": ["Molo navi da crociera"],
+    "average_credits": 17500,
+    "generated_by": "",
+    "icons": [
+      "/images/cruiseship_gruen.png",
+      "/images/cruiseship_gelb.png",
+      "/images/cruiseship_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 2,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "heavy_rescue_vehicles": 2,
+      "coastal_boat": 1,
+      "large_coastal_boat": 2,
+      "pump": 2,
+      "firetrucks": 8,
+      "police_cars": 6
+    },
+    "chances": { "nef": 25, "patient_transport": 50, "helicopter": 15 },
+    "additional": {
+      "possible_patient": 35,
+      "possible_patient_min": 10,
+      "patient_it_code_possible": ["SC19R", "SC19G", "SC19V"],
+      "filter_id": "firehouse_missions",
+      "possible_patient_specializations": [
+        "Medicina interna generale",
+        "Medicina interna generale",
+        "Medicina interna generale"
+      ],
+      "vehicle_groups": ["default", "ocean_missions"],
+      "optional_event_mission": false,
+      "patient_at_end_of_mission": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Medicina interna generale"],
+      "patient_specializations": "Medicina interna generale"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 15,
+      "police_stations": 10,
+      "fire_support_count": 2,
+      "coastal_rescue_count": 1,
+      "fire_stations": 20
+    },
+    "overlay_index": null,
+    "base_mission_id": 666,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "667",
+    "name": "Fuoriuscita di sostanze chimiche in un laboratorio (ospedale)",
+    "place": "Ospedale",
+    "place_array": ["Ospedale"],
+    "average_credits": 7700,
+    "generated_by": "",
+    "icons": [
+      "/images/radiation_gruen.png",
+      "/images/radiation_gelb.png",
+      "/images/radiation_rot.png"
+    ],
+    "requirements": {
+      "battalion_chief_vehicles": 2,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 2,
+      "firetrucks": 2,
+      "police_cars": 5
+    },
+    "chances": { "nef": 30, "patient_transport": 50, "helicopter": 10 },
+    "additional": {
+      "possible_patient": 7,
+      "possible_patient_min": 1,
+      "patient_it_code_possible": ["SC19R", "SC19G", "SC19V"],
+      "filter_id": "firehouse_missions",
+      "possible_patient_specializations": [
+        "Medicina interna generale",
+        "Medicina interna generale",
+        "Medicina interna generale"
+      ],
+      "optional_event_mission": false,
+      "patient_at_end_of_mission": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Medicina interna generale"],
+      "patient_specializations": "Medicina interna generale"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 6,
+      "police_stations": 6,
+      "fire_stations": 15
+    },
+    "overlay_index": null,
+    "base_mission_id": 667,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "668",
+    "name": "Esercitazione sugli incendi boschivi",
+    "place": "Bosco",
+    "place_array": ["Bosco"],
+    "average_credits": 14000,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "brush_truck": 10,
+      "mobile_command_vehicles": 1,
+      "water_needed": 40000,
+      "firetrucks": 4,
+      "police_cars": 2
+    },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 2,
+      "brush_extension": 2,
+      "fire_stations": 10
+    },
+    "overlay_index": null,
+    "base_mission_id": 668,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "669",
+    "name": "Furto del carico di un TIR",
+    "place": "Stazione di servizio",
+    "place_array": ["Stazione di servizio"],
+    "average_credits": 500,
+    "generated_by": "",
+    "icons": [
+      "/images/theft_gruen.png",
+      "/images/theft_gelb.png",
+      "/images/theft_rot.png"
+    ],
+    "requirements": { "traffic_car": 2, "police_cars": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "police_stations": 2,
+      "traffic_police": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 669,
+    "additive_overlays": "",
+    "mission_categories": ["police", "traffic_police_specialization"]
+  },
+  {
+    "id": "670",
+    "name": "Furto di un TIR",
+    "place": "Stazione di servizio",
+    "place_array": ["Stazione di servizio"],
+    "average_credits": 500,
+    "generated_by": "",
+    "icons": [
+      "/images/theft_gruen.png",
+      "/images/theft_gelb.png",
+      "/images/theft_rot.png"
+    ],
+    "requirements": { "traffic_car": 3, "police_cars": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "police_stations": 3,
+      "traffic_police": 2
+    },
+    "overlay_index": null,
+    "base_mission_id": 670,
+    "additive_overlays": "",
+    "mission_categories": ["police", "traffic_police_specialization"]
+  },
+  {
+    "id": "671",
+    "name": "Fiori di ciliegio in fiamme",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1000,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 1,
+      "firetrucks": 3
+    },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "date_start": "2024-04-22T10:00:00+02:00",
+      "date_end": "2024-06-20T22:00:00Z"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 3 },
+    "overlay_index": null,
+    "base_mission_id": 671,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "672",
+    "name": "Campo di fiori in fiamme",
+    "place": "",
+    "place_array": [],
+    "average_credits": 2500,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "battalion_chief_vehicles": 1,
+      "water_tankers": 1,
+      "heavy_rescue_vehicles": 1,
+      "firetrucks": 7
+    },
+    "chances": { "patient_transport": 40 },
+    "additional": {
+      "possible_patient": 2,
+      "possible_patient_min": 1,
+      "patient_it_code_possible": ["ZC20R", "ZC20G"],
+      "filter_id": "firehouse_missions",
+      "possible_patient_specializations": [
+        "Medicina interna generale",
+        "Medicina interna generale"
+      ],
+      "optional_event_mission": true,
+      "date_start": "2024-04-29T10:00:00+02:00",
+      "date_end": "2024-06-20T22:00:00Z",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Medicina interna generale"],
+      "patient_specializations": "Medicina interna generale"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 1,
+      "fire_stations": 5
+    },
+    "overlay_index": null,
+    "base_mission_id": 672,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "680",
+    "name": "Operazione di Soccorso dopo Terremoto",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1800,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "water_needed": 5000,
+      "disaster_response_equipment": 1,
+      "mobile_shelter": 1
+    },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "disaster_response_count": 1,
+      "technical_aid": 2
+    },
+    "overlay_index": null,
+    "base_mission_id": 680,
+    "additive_overlays": "",
+    "mission_categories": ["fire", "technical_aid"]
+  },
+  {
+    "id": "680/a",
+    "name": "Operazione di Soccorso dopo Terremoto",
+    "place": "",
+    "place_array": [],
+    "average_credits": 3000,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "water_needed": 5000,
+      "rescue_dog_units": 4,
+      "disaster_response_equipment": 1,
+      "mobile_shelter": 1,
+      "bracing": 2
+    },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "disaster_response_count": 1,
+      "search_and_rescue": 1,
+      "technical_aid": 2,
+      "fire_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 680,
+    "additive_overlays": "a",
+    "mission_categories": ["fire", "technical_aid"]
+  },
+  {
+    "id": "682",
+    "name": "Compito di Contenimento degli Incendi Boschivi",
+    "place": "",
+    "place_array": [],
+    "average_credits": 2360,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "brush_truck": 3, "elw3": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "brush_extension": 1,
+      "technical_aid": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 682,
+    "additive_overlays": "",
+    "mission_categories": ["technical_aid"]
+  },
+  {
+    "id": "683",
+    "name": "Pulizia di Sversamento Chimico",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1080,
+    "generated_by": "",
+    "icons": [
+      "/images/radiation_gruen.png",
+      "/images/radiation_gelb.png",
+      "/images/radiation_rot.png"
+    ],
+    "requirements": { "hazmat_vehicles": 1, "firetrucks": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "technical_aid": 1,
+      "fire_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 683,
+    "additive_overlays": "",
+    "mission_categories": ["fire", "technical_aid"]
+  },
+  {
+    "id": "687",
+    "name": "Tempesta di vento nel villaggio",
+    "place": "",
+    "place_array": [],
+    "average_credits": 7100,
+    "generated_by": "",
+    "icons": [
+      "/images/tornado_gruen.png",
+      "/images/tornado_gelb.png",
+      "/images/tornado_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 2,
+      "battalion_chief_vehicles": 1,
+      "mobile_command_vehicles": 1,
+      "fwk": 1,
+      "heavy_rescue_vehicles": 2,
+      "bracing": 1,
+      "firetrucks": 6,
+      "police_cars": 2
+    },
+    "chances": { "mobile_command_vehicles": 40, "patient_transport": 30 },
+    "additional": {
+      "possible_patient": 10,
+      "possible_patient_min": 2,
+      "patient_it_code_possible": ["ZC20R", "ZC20G", "ZC20V"],
+      "filter_id": "firehouse_missions",
+      "possible_patient_specializations": [
+        "Medicina interna generale",
+        "Medicina interna generale",
+        "Medicina interna generale"
+      ],
+      "optional_event_mission": false,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Medicina interna generale"],
+      "patient_specializations": "Medicina interna generale"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 10,
+      "police_stations": 6,
+      "disaster_response_count": 2,
+      "fire_stations": 14
+    },
+    "overlay_index": null,
+    "base_mission_id": 687,
+    "additive_overlays": "",
+    "mission_categories": ["fire", "technical_aid"]
   }
 ]
