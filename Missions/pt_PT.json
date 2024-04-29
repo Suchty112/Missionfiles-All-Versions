@@ -2205,8 +2205,8 @@
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -2232,8 +2232,8 @@
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -2263,8 +2263,8 @@
     "additional": {
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 0, "police_stations": 2 },
     "overlay_index": null,
@@ -2291,8 +2291,8 @@
       "possible_patient_min": 1,
       "filter_id": "police_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z",
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+01:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
       "patient_specializations": "Traumatologia"
@@ -2324,8 +2324,8 @@
     "additional": {
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -2357,8 +2357,8 @@
       "allow_rw_instead_of_lf": true,
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+01:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -2387,8 +2387,8 @@
     "additional": {
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+01:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -2420,8 +2420,8 @@
       "guard_mission": true,
       "filter_id": "police_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+01:00"
     },
     "prerequisites": {
       "main_building": 6,
@@ -2457,8 +2457,8 @@
       "possible_patient_min": 1,
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z",
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+01:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
       "patient_specializations": "Traumatologia"
@@ -2490,8 +2490,8 @@
     "additional": {
       "filter_id": "police_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 6, "police_stations": 3 },
     "overlay_index": null,
@@ -2521,8 +2521,8 @@
     "additional": {
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+01:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -10593,7 +10593,7 @@
       "filter_id": "ambulance_station_missions",
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z",
+      "date_end": "2023-11-30T23:59:59+00:00",
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Cirurgia Geral"],
       "patient_specializations": "Cirurgia Geral"
@@ -10628,7 +10628,7 @@
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z",
+      "date_end": "2023-11-30T23:59:59+00:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
       "patient_specializations": "Traumatologia"
@@ -10664,7 +10664,7 @@
       "filter_id": "ambulance_station_missions",
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z",
+      "date_end": "2023-11-30T23:59:59+00:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
       "patient_specializations": "Traumatologia"
@@ -10695,7 +10695,7 @@
       "filter_id": "police_station_missions",
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z",
+      "date_end": "2023-11-30T23:59:59+00:00",
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Cirurgia Geral"],
       "patient_specializations": "Cirurgia Geral"
@@ -10729,7 +10729,7 @@
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z"
+      "date_end": "2023-11-30T23:59:59+00:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -10757,7 +10757,7 @@
       "filter_id": "ambulance_station_missions",
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z",
+      "date_end": "2023-11-30T23:59:59+00:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Clinica Geral"],
       "patient_specializations": "Clinica Geral"
@@ -10787,7 +10787,7 @@
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z",
+      "date_end": "2023-11-30T23:59:59+00:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
       "patient_specializations": "Traumatologia"
@@ -10825,7 +10825,7 @@
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z",
+      "date_end": "2023-11-30T23:59:59+00:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
       "patient_specializations": "Traumatologia"
@@ -10859,7 +10859,7 @@
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z"
+      "date_end": "2023-11-30T23:59:59+00:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
@@ -12432,8 +12432,8 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z",
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z",
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Cardiologia"],
       "patient_specializations": "Cardiologia"
@@ -12463,8 +12463,8 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z",
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z",
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Cardiologia"],
       "patient_specializations": "Cardiologia"
@@ -12494,8 +12494,8 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z",
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
       "patient_specializations": "Traumatologia"
@@ -12525,8 +12525,8 @@
       "possible_patient_min": 1,
       "filter_id": "police_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z",
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologia"],
       "patient_specializations": "Traumatologia"
@@ -12561,8 +12561,8 @@
       "filter_id": "ambulance_station_missions",
       "patient_allow_first_responder_chance": 50,
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z",
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z",
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Cirurgia Geral"],
       "patient_specializations": "Cirurgia Geral"
@@ -12590,8 +12590,8 @@
     "additional": {
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z"
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
@@ -12618,8 +12618,8 @@
       "filter_id": "police_station_missions",
       "subsequent_missions_ids": [387, 388],
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z"
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -12646,8 +12646,8 @@
       "filter_id": "police_station_missions",
       "subsequent_mission_only": true,
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z"
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z"
     },
     "prerequisites": { "main_building": 6, "police_stations": 10 },
     "overlay_index": null,
@@ -12676,8 +12676,8 @@
       "patient_allow_first_responder_chance": 60,
       "subsequent_mission_only": true,
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z",
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Clinica Geral"],
       "patient_specializations": "Clinica Geral"
@@ -12858,8 +12858,8 @@
     "additional": {
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -12891,8 +12891,8 @@
       "possible_patient": 1,
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z",
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+01:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Clinica Geral"],
       "patient_specializations": "Clinica Geral"
@@ -12924,8 +12924,8 @@
     "additional": {
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+01:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -12954,8 +12954,8 @@
     "additional": {
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+01:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -18894,6 +18894,429 @@
     },
     "overlay_index": null,
     "base_mission_id": 557,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "558",
+    "name": "Incêndio num navio de cruzeiro no cais",
+    "place": "Porto de Cruzeiros",
+    "place_array": ["Porto de Cruzeiros"],
+    "average_credits": 20500,
+    "generated_by": "",
+    "icons": [
+      "/images/cruiseship_gruen.png",
+      "/images/cruiseship_gelb.png",
+      "/images/cruiseship_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 2,
+      "battalion_chief_vehicles": 5,
+      "mobile_command_vehicles": 1,
+      "mobile_air_vehicles": 2,
+      "hazmat_vehicles": 1,
+      "water_tankers": 3,
+      "pump": 2,
+      "heavy_rescue_vehicles": 1,
+      "boats": 2,
+      "firetrucks": 8,
+      "police_cars": 6
+    },
+    "chances": {
+      "patient_transport": 50,
+      "helicopter": 15,
+      "patient_critical_care": 25
+    },
+    "additional": {
+      "possible_patient": 35,
+      "possible_patient_min": 10,
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
+      "patient_at_end_of_mission": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Clinica Geral"],
+      "patient_specializations": "Clinica Geral"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "wasserrettung": 2,
+      "rescue_stations": 15,
+      "police_stations": 10,
+      "fire_support_count": 2,
+      "fire_stations": 20
+    },
+    "overlay_index": null,
+    "base_mission_id": 558,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "559",
+    "name": "Proteção de um festival",
+    "place": "",
+    "place_array": [],
+    "average_credits": 19500,
+    "generated_by": "",
+    "icons": [
+      "/images/clock_gruen.png",
+      "/images/clock_gelb.png",
+      "/images/clock_rot.png"
+    ],
+    "requirements": {
+      "battalion_chief_vehicles": 2,
+      "ambulances": 8,
+      "k9": 2,
+      "riot_police": 6,
+      "riot_police_command": 1,
+      "firetrucks": 4,
+      "police_cars": 5
+    },
+    "chances": {},
+    "additional": {
+      "duration_text": "1 hora 30 minutos",
+      "duration": 5400,
+      "guard_mission": true,
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "rescue_stations": 8,
+      "police_stations": 5,
+      "riot_police": 2,
+      "fire_stations": 6
+    },
+    "overlay_index": null,
+    "base_mission_id": 559,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "560",
+    "name": "Demonstração de rapel",
+    "place": "",
+    "place_array": [],
+    "average_credits": 3000,
+    "generated_by": "",
+    "icons": [
+      "/images/clock_gruen.png",
+      "/images/clock_gelb.png",
+      "/images/clock_rot.png"
+    ],
+    "requirements": { "heavy_rescue_vehicles": 1 },
+    "chances": {},
+    "additional": {
+      "duration_text": "30 minutos",
+      "duration": 1800,
+      "guard_mission": true,
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 6 },
+    "overlay_index": null,
+    "base_mission_id": 560,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "561",
+    "name": "Segurança de um evento desportivo",
+    "place": "",
+    "place_array": [],
+    "average_credits": 8500,
+    "generated_by": "",
+    "icons": [
+      "/images/clock_gruen.png",
+      "/images/clock_gelb.png",
+      "/images/clock_rot.png"
+    ],
+    "requirements": {
+      "battalion_chief_vehicles": 1,
+      "ambulances": 2,
+      "riot_police": 5,
+      "riot_police_command": 1,
+      "firetrucks": 1,
+      "police_cars": 4
+    },
+    "chances": {},
+    "additional": {
+      "duration_text": "1 hora",
+      "duration": 3600,
+      "guard_mission": true,
+      "filter_id": "police_station_missions",
+      "optional_event_mission": false
+    },
+    "prerequisites": {
+      "main_building": 6,
+      "rescue_stations": 2,
+      "police_stations": 3,
+      "riot_police": 2,
+      "fire_stations": 6
+    },
+    "overlay_index": null,
+    "base_mission_id": 561,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "562",
+    "name": "Controlo de bocas de incêndio",
+    "place": "",
+    "place_array": [],
+    "average_credits": 750,
+    "generated_by": "",
+    "icons": [
+      "/images/clock_gruen.png",
+      "/images/clock_gelb.png",
+      "/images/clock_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": {
+      "duration_text": "30 minutos",
+      "duration": 1800,
+      "guard_mission": true,
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 562,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "563",
+    "name": "Fuga de produtos químicos num laboratório (hospital)",
+    "place": "Hospital",
+    "place_array": ["Hospital"],
+    "average_credits": 9000,
+    "generated_by": "",
+    "icons": [
+      "/images/radiation_gruen.png",
+      "/images/radiation_gelb.png",
+      "/images/radiation_rot.png"
+    ],
+    "requirements": {
+      "battalion_chief_vehicles": 3,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 2,
+      "firetrucks": 5,
+      "police_cars": 5
+    },
+    "chances": {
+      "patient_transport": 50,
+      "helicopter": 10,
+      "patient_critical_care": 30
+    },
+    "additional": {
+      "possible_patient": 7,
+      "possible_patient_min": 1,
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
+      "patient_at_end_of_mission": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Clinica Geral"],
+      "patient_specializations": "Clinica Geral"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 6,
+      "police_stations": 6,
+      "fire_stations": 15
+    },
+    "overlay_index": null,
+    "base_mission_id": 563,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "564",
+    "name": "Exercício de incêndio florestal",
+    "place": "Floresta",
+    "place_array": ["Floresta"],
+    "average_credits": 24000,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "brush_truck": 10,
+      "battalion_chief_vehicles": 1,
+      "mobile_command_vehicles": 1,
+      "water_tankers": 5,
+      "water_needed": 100000,
+      "police_cars": 2
+    },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 2,
+      "brush_extension": 2,
+      "fire_stations": 10
+    },
+    "overlay_index": null,
+    "base_mission_id": 564,
+    "additive_overlays": "",
+    "mission_categories": ["fire", "forestry"]
+  },
+  {
+    "id": "565",
+    "name": "Travão de emergência no comboio",
+    "place": "Estação de Comboios (tráfego regional)\nEstação de Comboios (tráfego regional e viagem de longa distância)\nPassagem de Nível\nCruzamento Ferroviário",
+    "place_array": [
+      "Estação de Comboios (tráfego regional)",
+      "Estação de Comboios (tráfego regional e viagem de longa distância)",
+      "Passagem de Nível",
+      "Cruzamento Ferroviário"
+    ],
+    "average_credits": 7300,
+    "generated_by": "",
+    "icons": [
+      "/images/tramway_gruen.png",
+      "/images/tramway_gelb.png",
+      "/images/tramway_rot.png"
+    ],
+    "requirements": {
+      "battalion_chief_vehicles": 1,
+      "heavy_rescue_vehicles": 2,
+      "firetrucks": 4,
+      "police_cars": 3
+    },
+    "chances": { "patient_transport": 30 },
+    "additional": {
+      "possible_patient": 4,
+      "max_possible_prisoners": 1,
+      "filter_id": "firehouse_missions",
+      "patient_allow_first_responder_chance": 40,
+      "optional_event_mission": false,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Clinica Geral"],
+      "patient_specializations": "Clinica Geral"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 3,
+      "police_stations": 2,
+      "fire_stations": 9
+    },
+    "overlay_index": null,
+    "base_mission_id": 565,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "566",
+    "name": "Crianças presas no esgoto",
+    "place": "",
+    "place_array": [],
+    "average_credits": 2000,
+    "generated_by": "",
+    "icons": [
+      "/images/waterpark_gruen.png",
+      "/images/waterpark_gelb.png",
+      "/images/waterpark_rot.png"
+    ],
+    "requirements": {
+      "heavy_rescue_vehicles": 1,
+      "firetrucks": 1,
+      "police_cars": 1
+    },
+    "chances": { "patient_transport": 70 },
+    "additional": {
+      "possible_patient": 2,
+      "possible_patient_min": 1,
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false,
+      "patient_at_end_of_mission": true,
+      "patient_specialization_ids": [0, 4],
+      "patient_specialization_captions": ["Clinica Geral", "Traumatologia"],
+      "patient_specializations": "Clinica Geral, Traumatologia"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 3,
+      "police_stations": 1,
+      "fire_stations": 5
+    },
+    "overlay_index": null,
+    "base_mission_id": 566,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "567",
+    "name": "Flores de cerejeira em chamas",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1000,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 1,
+      "firetrucks": 3
+    },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "date_start": "2024-04-22T10:00:00+01:00",
+      "date_end": "2024-06-20T22:00:00Z"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 3 },
+    "overlay_index": null,
+    "base_mission_id": 567,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "568",
+    "name": "Campo de flores a arder",
+    "place": "",
+    "place_array": [],
+    "average_credits": 2500,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "battalion_chief_vehicles": 1,
+      "water_tankers": 1,
+      "heavy_rescue_vehicles": 1,
+      "firetrucks": 7
+    },
+    "chances": { "patient_transport": 40 },
+    "additional": {
+      "possible_patient": 2,
+      "possible_patient_min": 1,
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "date_start": "2024-04-29T10:00:00+01:00",
+      "date_end": "2024-06-20T22:00:00Z",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Clinica Geral"],
+      "patient_specializations": "Clinica Geral"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 1,
+      "fire_stations": 5
+    },
+    "overlay_index": null,
+    "base_mission_id": 568,
     "additive_overlays": "",
     "mission_categories": ["fire"]
   }
