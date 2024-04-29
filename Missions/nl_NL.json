@@ -5086,7 +5086,7 @@
     "name": "Brand in ziekenhuis",
     "place": "Ziekenhuis",
     "place_array": ["Ziekenhuis"],
-    "average_credits": 19730,
+    "average_credits": 21230,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -5105,6 +5105,8 @@
       "ovdp": 1,
       "heavy_rescue_vehicles": 2,
       "spokesman": 1,
+      "mass_casualty": 1,
+      "mass_casualty_advanced": 1,
       "firetrucks": 15,
       "police_cars": 10
     },
@@ -5128,6 +5130,7 @@
       "rescue_stations": 32,
       "police_stations": 10,
       "bereitschaftspolizei": 1,
+      "mass_casualty_count": 1,
       "fire_stations": 43
     },
     "overlay_index": 1,
@@ -7090,7 +7093,7 @@
     "name": "Plofkraak",
     "place": "Winkelcentrum",
     "place_array": ["Winkelcentrum"],
-    "average_credits": 620,
+    "average_credits": 1980,
     "generated_by": "",
     "icons": [
       "/images/theft_gruen.png",
@@ -7100,10 +7103,15 @@
     "requirements": { "ovdp": 1, "police_cars": 5 },
     "chances": {},
     "additional": {
+      "expansion_missions_ids": [218],
       "filter_id": "police_station_missions",
       "optional_event_mission": false
     },
-    "prerequisites": { "main_building": 5, "police_stations": 5 },
+    "prerequisites": {
+      "main_building": 5,
+      "police_stations": 6,
+      "bereitschaftspolizei": 1
+    },
     "overlay_index": null,
     "base_mission_id": 217,
     "additive_overlays": "",
@@ -7114,7 +7122,7 @@
     "name": "Plofkraak",
     "place": "Winkelcentrum",
     "place_array": ["Winkelcentrum"],
-    "average_credits": 1100,
+    "average_credits": 3490,
     "generated_by": "",
     "icons": [
       "/images/theft_gruen.png",
@@ -7130,15 +7138,17 @@
     },
     "chances": {},
     "additional": {
+      "followup_missions_ids": [851],
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
       "optional_event_mission": false
     },
     "prerequisites": {
       "main_building": 5,
-      "police_stations": 5,
+      "police_stations": 6,
       "police_helicopter_stations": 1,
-      "fire_stations": 4
+      "bereitschaftspolizei": 1,
+      "fire_stations": 6
     },
     "overlay_index": null,
     "base_mission_id": 218,
@@ -7694,7 +7704,7 @@
     "name": "Vliegtuig neergestort",
     "place": "",
     "place_array": [],
-    "average_credits": 13620,
+    "average_credits": 15120,
     "generated_by": "",
     "icons": [
       "/images/blast_gruen.png",
@@ -7709,6 +7719,8 @@
       "hazmat_vehicles": 1,
       "water_tankers": 1,
       "heavy_rescue_vehicles": 4,
+      "mass_casualty": 1,
+      "mass_casualty_advanced": 1,
       "firetrucks": 12,
       "police_cars": 12
     },
@@ -10525,7 +10537,7 @@
     "name": "Verkeersongeval met touringcar",
     "place": "",
     "place_array": [],
-    "average_credits": 11970,
+    "average_credits": 13470,
     "generated_by": "",
     "icons": [
       "/images/caraccident_gruen.png",
@@ -10540,6 +10552,8 @@
       "ovdp": 1,
       "heavy_rescue_vehicles": 3,
       "traffic_unit": 2,
+      "mass_casualty": 1,
+      "mass_casualty_advanced": 1,
       "firetrucks": 6,
       "police_cars": 10
     },
@@ -10561,6 +10575,7 @@
       "rescue_stations": 33,
       "police_stations": 10,
       "bereitschaftspolizei": 1,
+      "mass_casualty_count": 1,
       "technical_aid": 3,
       "fire_stations": 17
     },
@@ -10578,7 +10593,7 @@
     "name": "Verkeersongeval met touringcar",
     "place": "",
     "place_array": [],
-    "average_credits": 12770,
+    "average_credits": 14270,
     "generated_by": "",
     "icons": [
       "/images/caraccident_gruen.png",
@@ -10594,6 +10609,8 @@
       "heavy_rescue_vehicles": 3,
       "traffic_unit": 2,
       "traffic_inspector": 1,
+      "mass_casualty": 1,
+      "mass_casualty_advanced": 1,
       "firetrucks": 6,
       "police_cars": 10
     },
@@ -10615,6 +10632,7 @@
       "rescue_stations": 33,
       "police_stations": 11,
       "bereitschaftspolizei": 1,
+      "mass_casualty_count": 1,
       "traffic_police": 1,
       "technical_aid": 3,
       "fire_stations": 17
@@ -15019,7 +15037,7 @@
     "name": "Brand in transformatorhuisje",
     "place": "Transformatorhuisje",
     "place_array": ["Transformatorhuisje"],
-    "average_credits": 3000,
+    "average_credits": 3980,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -15030,7 +15048,7 @@
       "battalion_chief_vehicles": 1,
       "mobile_command_vehicles": 1,
       "elw3": 1,
-      "heavy_rescue_vehicles": 1,
+      "heavy_rescue_vehicles": 2,
       "firetrucks": 2,
       "police_cars": 2
     },
@@ -15045,6 +15063,43 @@
       "fire_stations": 14
     },
     "overlay_index": null,
+    "base_mission_id": 416,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "416-0",
+    "name": "Brand in transformatorhuisje",
+    "place": "Transformatorhuisje",
+    "place_array": ["Transformatorhuisje"],
+    "average_credits": 5230,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "battalion_chief_vehicles": 1,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "heavy_rescue_vehicles": 2,
+      "foam_needed": 2000,
+      "firetrucks": 3,
+      "police_cars": 2
+    },
+    "chances": { "heavy_rescue_vehicles": 100 },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": false
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 2,
+      "fire_support_count": 2,
+      "fire_stations": 16
+    },
+    "overlay_index": 0,
     "base_mission_id": 416,
     "additive_overlays": "",
     "mission_categories": ["fire"]
@@ -15670,7 +15725,7 @@
     "name": "Persoon bekneld tussen containers",
     "place": "Haventerrein",
     "place_array": ["Haventerrein"],
-    "average_credits": 950,
+    "average_credits": 1920,
     "generated_by": "",
     "icons": [
       "/images/constructioncrane_gruen.png",
@@ -15683,19 +15738,24 @@
       "firetrucks": 1,
       "police_cars": 1
     },
-    "chances": { "heavy_rescue_vehicles": 60, "patient_transport": 100 },
+    "chances": {
+      "heavy_rescue_vehicles": 60,
+      "nef": 50,
+      "patient_transport": 100
+    },
     "additional": {
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "firehouse_missions",
       "optional_event_mission": false,
+      "patient_at_end_of_mission": true,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
       "patient_specializations": "Traumatologie"
     },
     "prerequisites": {
       "main_building": 0,
-      "rescue_stations": 1,
+      "rescue_stations": 10,
       "police_stations": 1,
       "fire_stations": 6
     },
@@ -16192,7 +16252,7 @@
     "name": "Brand in gevangenis",
     "place": "Gevangenis",
     "place_array": ["Gevangenis"],
-    "average_credits": 2300,
+    "average_credits": 8040,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -16204,13 +16264,18 @@
       "battalion_chief_vehicles": 1,
       "mobile_command_vehicles": 1,
       "elw3": 1,
+      "gefkw": 2,
+      "hondengeleider": 2,
       "ovdp": 1,
+      "police_helicopters": 1,
       "firetrucks": 2,
       "police_cars": 4
     },
     "chances": { "platform_trucks": 60, "patient_transport": 50 },
     "additional": {
       "possible_patient": 2,
+      "min_possible_prisoners": 10,
+      "max_possible_prisoners": 30,
       "filter_id": "firehouse_missions",
       "fire_alarm_system_possible": true,
       "optional_event_mission": false,
@@ -16221,9 +16286,12 @@
     "prerequisites": {
       "main_building": 0,
       "rescue_stations": 2,
-      "police_stations": 4,
-      "bereitschaftspolizei": 1,
-      "fire_stations": 16
+      "police_stations": 5,
+      "police_helicopter_stations": 1,
+      "bereitschaftspolizei": 4,
+      "prisoner_transport_count": 1,
+      "hondengeleider": 1,
+      "fire_stations": 14
     },
     "overlay_index": null,
     "base_mission_id": 442,
@@ -17357,7 +17425,7 @@
     "name": "Brand in kantoorgebouw",
     "place": "Kantoorgebouw",
     "place_array": ["Kantoorgebouw"],
-    "average_credits": 5240,
+    "average_credits": 6740,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -17370,6 +17438,8 @@
       "mobile_command_vehicles": 1,
       "mobile_air_vehicles": 1,
       "water_tankers": 1,
+      "mass_casualty": 1,
+      "mass_casualty_advanced": 1,
       "firetrucks": 4
     },
     "chances": {
@@ -17395,6 +17465,7 @@
     "prerequisites": {
       "main_building": 0,
       "rescue_stations": 21,
+      "mass_casualty_count": 1,
       "fire_stations": 13
     },
     "overlay_index": null,
@@ -17407,7 +17478,7 @@
     "name": "Brand in kantoorgebouw",
     "place": "Kantoorgebouw",
     "place_array": ["Kantoorgebouw"],
-    "average_credits": 6980,
+    "average_credits": 8480,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -17422,6 +17493,8 @@
       "mobile_air_vehicles": 1,
       "water_tankers": 1,
       "ovdp": 1,
+      "mass_casualty": 1,
+      "mass_casualty_advanced": 1,
       "firetrucks": 4
     },
     "chances": { "nef": 1, "patient_transport": 30 },
@@ -17443,6 +17516,7 @@
       "rescue_stations": 33,
       "police_stations": 5,
       "bereitschaftspolizei": 1,
+      "mass_casualty_count": 1,
       "fire_stations": 14
     },
     "overlay_index": null,
@@ -21634,8 +21708,8 @@
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 5, "police_stations": 1 },
     "overlay_index": null,
@@ -21661,8 +21735,8 @@
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 5, "police_stations": 1 },
     "overlay_index": null,
@@ -21692,8 +21766,8 @@
     "additional": {
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 0, "police_stations": 2 },
     "overlay_index": null,
@@ -21720,8 +21794,8 @@
       "possible_patient_min": 1,
       "filter_id": "police_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z",
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
       "patient_specializations": "Traumatologie"
@@ -21753,8 +21827,8 @@
     "additional": {
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -21785,8 +21859,8 @@
     "additional": {
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -21815,8 +21889,8 @@
     "additional": {
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -21848,8 +21922,8 @@
       "guard_mission": true,
       "filter_id": "police_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 5,
@@ -21885,8 +21959,8 @@
       "possible_patient_min": 1,
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z",
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
       "patient_specializations": "Traumatologie"
@@ -21918,8 +21992,8 @@
     "additional": {
       "filter_id": "police_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 5, "police_stations": 5 },
     "overlay_index": null,
@@ -21949,8 +22023,8 @@
     "additional": {
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -29694,7 +29768,7 @@
       "filter_id": "ambulance_station_missions",
       "optional_event_mission": true,
       "date_start": "2023-05-12T09:00:00Z",
-      "date_end": "2023-05-14T23:59:59Z",
+      "date_end": "2023-05-14T23:59:59+02:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
@@ -29723,7 +29797,7 @@
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
       "date_start": "2023-05-12T09:00:00Z",
-      "date_end": "2023-05-14T23:59:59Z"
+      "date_end": "2023-05-14T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -29751,7 +29825,7 @@
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
       "date_start": "2023-05-12T09:00:00Z",
-      "date_end": "2023-05-14T23:59:59Z",
+      "date_end": "2023-05-14T23:59:59+02:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
@@ -29785,7 +29859,7 @@
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
       "date_start": "2023-05-12T09:00:00Z",
-      "date_end": "2023-05-14T23:59:59Z"
+      "date_end": "2023-05-14T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -29813,7 +29887,7 @@
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
       "date_start": "2023-05-12T09:00:00Z",
-      "date_end": "2023-05-14T23:59:59Z",
+      "date_end": "2023-05-14T23:59:59+02:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
@@ -29846,7 +29920,7 @@
       "filter_id": "police_station_missions",
       "optional_event_mission": true,
       "date_start": "2023-05-12T09:00:00Z",
-      "date_end": "2023-05-14T23:59:59Z"
+      "date_end": "2023-05-14T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 5, "police_stations": 2 },
     "overlay_index": null,
@@ -32427,7 +32501,7 @@
       "Vliegveld (klein): Start-/Landingsbaan",
       "Vliegveld (groot): Start-/Landingsbaan"
     ],
-    "average_credits": 18170,
+    "average_credits": 21820,
     "generated_by": "",
     "icons": [
       "/images/planecrash_gruen.png",
@@ -32445,6 +32519,8 @@
       "ovdp": 2,
       "heavy_rescue_vehicles": 4,
       "spokesman": 1,
+      "mass_casualty": 2,
+      "mass_casualty_advanced": 2,
       "firetrucks": 10,
       "police_cars": 15
     },
@@ -32468,8 +32544,9 @@
       "rescue_stations": 63,
       "police_stations": 16,
       "bereitschaftspolizei": 1,
+      "mass_casualty_count": 2,
       "airport": 1,
-      "fire_stations": 31
+      "fire_stations": 32
     },
     "overlay_index": 0,
     "base_mission_id": 853,
@@ -32488,7 +32565,7 @@
       "Vliegveld (klein): Start-/Landingsbaan",
       "Vliegveld (groot): Start-/Landingsbaan"
     ],
-    "average_credits": 20660,
+    "average_credits": 23660,
     "generated_by": "",
     "icons": [
       "/images/planecrash_gruen.png",
@@ -32507,6 +32584,8 @@
       "police_helicopters": 1,
       "heavy_rescue_vehicles": 3,
       "spokesman": 1,
+      "mass_casualty": 2,
+      "mass_casualty_advanced": 2,
       "firetrucks": 10,
       "police_cars": 20
     },
@@ -32532,6 +32611,7 @@
       "police_helicopter_stations": 1,
       "bereitschaftspolizei": 2,
       "riot_unit_count": 2,
+      "mass_casualty_count": 2,
       "fire_stations": 26
     },
     "overlay_index": 1,
@@ -32623,7 +32703,7 @@
       "filter_id": "ambulance_station_missions",
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z",
+      "date_end": "2023-11-30T23:59:59+01:00",
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Algemene Heelkunde"],
       "patient_specializations": "Algemene Heelkunde"
@@ -32658,7 +32738,7 @@
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z",
+      "date_end": "2023-11-30T23:59:59+01:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
       "patient_specializations": "Traumatologie"
@@ -32694,7 +32774,7 @@
       "filter_id": "ambulance_station_missions",
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z",
+      "date_end": "2023-11-30T23:59:59+01:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
       "patient_specializations": "Traumatologie"
@@ -32725,7 +32805,7 @@
       "filter_id": "police_station_missions",
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z",
+      "date_end": "2023-11-30T23:59:59+01:00",
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Algemene Heelkunde"],
       "patient_specializations": "Algemene Heelkunde"
@@ -32758,7 +32838,7 @@
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z"
+      "date_end": "2023-11-30T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -32786,7 +32866,7 @@
       "filter_id": "ambulance_station_missions",
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z",
+      "date_end": "2023-11-30T23:59:59+01:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
@@ -32816,7 +32896,7 @@
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z",
+      "date_end": "2023-11-30T23:59:59+01:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
       "patient_specializations": "Traumatologie"
@@ -32854,7 +32934,7 @@
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z",
+      "date_end": "2023-11-30T23:59:59+01:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
       "patient_specializations": "Traumatologie"
@@ -32888,7 +32968,7 @@
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z"
+      "date_end": "2023-11-30T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
@@ -32914,7 +32994,7 @@
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
       "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59Z"
+      "date_end": "2023-11-30T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 4 },
     "overlay_index": null,
@@ -34201,7 +34281,7 @@
     "name": "Massa-beroerte tijdens het eten van fondue (groot)",
     "place": "",
     "place_array": [],
-    "average_credits": 4980,
+    "average_credits": 6480,
     "generated_by": "",
     "icons": [
       "/images/dancinghall_gruen.png",
@@ -34213,6 +34293,8 @@
       "mobile_air_vehicles": 1,
       "gwmess": 1,
       "heavy_rescue_vehicles": 1,
+      "mass_casualty": 1,
+      "mass_casualty_advanced": 1,
       "firetrucks": 3,
       "police_cars": 6
     },
@@ -34237,6 +34319,7 @@
       "main_building": 3,
       "rescue_stations": 24,
       "police_stations": 5,
+      "mass_casualty_count": 1,
       "fire_stations": 10
     },
     "overlay_index": 0,
@@ -34249,7 +34332,7 @@
     "name": "Massa-beroerte tijdens het eten van fondue (enorm)",
     "place": "",
     "place_array": [],
-    "average_credits": 14070,
+    "average_credits": 16050,
     "generated_by": "",
     "icons": [
       "/images/dancinghall_gruen.png",
@@ -34265,6 +34348,8 @@
       "hazmat_vehicles": 1,
       "gwmess": 1,
       "heavy_rescue_vehicles": 1,
+      "mass_casualty": 2,
+      "mass_casualty_advanced": 2,
       "firetrucks": 20,
       "police_cars": 14
     },
@@ -34290,6 +34375,7 @@
       "main_building": 3,
       "rescue_stations": 78,
       "police_stations": 16,
+      "mass_casualty_count": 2,
       "fire_stations": 28
     },
     "overlay_index": 1,
@@ -36144,8 +36230,8 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z",
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z",
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Cardiologie"],
       "patient_specializations": "Cardiologie"
@@ -36175,8 +36261,8 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z",
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z",
       "patient_specialization_ids": [7],
       "patient_specialization_captions": ["Cardiologie"],
       "patient_specializations": "Cardiologie"
@@ -36206,8 +36292,8 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z",
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
       "patient_specializations": "Traumatologie"
@@ -36241,8 +36327,8 @@
       "possible_patient_min": 1,
       "filter_id": "police_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z",
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
       "patient_specializations": "Traumatologie"
@@ -36276,8 +36362,8 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z",
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z",
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Algemene Heelkunde"],
       "patient_specializations": "Algemene Heelkunde"
@@ -36305,8 +36391,8 @@
     "additional": {
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z"
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
@@ -36333,8 +36419,8 @@
       "filter_id": "police_station_missions",
       "subsequent_missions_ids": [927, 928],
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z"
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z"
     },
     "prerequisites": { "main_building": 5, "police_stations": 2 },
     "overlay_index": null,
@@ -36361,8 +36447,8 @@
       "filter_id": "police_station_missions",
       "subsequent_mission_only": true,
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z"
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z"
     },
     "prerequisites": {
       "main_building": 5,
@@ -36394,8 +36480,8 @@
       "filter_id": "ambulance_station_missions",
       "subsequent_mission_only": true,
       "optional_event_mission": true,
-      "date_start": "2023-03-17T10:00:00Z",
-      "date_end": "2023-06-21T10:00:00Z",
+      "date_start": "2024-04-05T09:00:00Z",
+      "date_end": "2024-06-20T22:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
@@ -36938,8 +37024,8 @@
     "additional": {
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -36971,8 +37057,8 @@
       "possible_patient": 1,
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z",
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
@@ -37005,8 +37091,8 @@
     "additional": {
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -37035,8 +37121,8 @@
     "additional": {
       "filter_id": "water_watch_missions",
       "optional_event_mission": true,
-      "date_start": "2023-03-31T09:00:00Z",
-      "date_end": "2023-04-10T23:59:59Z"
+      "date_start": "2024-03-22T10:00:00Z",
+      "date_end": "2024-04-02T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": -1,
@@ -37987,7 +38073,7 @@
     "name": "Brand in stadion",
     "place": "Stadion",
     "place_array": ["Stadion"],
-    "average_credits": 26690,
+    "average_credits": 37440,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -38013,6 +38099,8 @@
       "heavy_rescue_vehicles": 1,
       "spokesman": 1,
       "water_needed": 78000,
+      "mass_casualty": 2,
+      "mass_casualty_advanced": 1,
       "firetrucks": 1,
       "police_cars": 15
     },
@@ -38041,8 +38129,9 @@
       "riot_unit_count": 2,
       "detention_unit_count": 1,
       "prisoner_transport_count": 1,
+      "mass_casualty_count": 2,
       "hondengeleider": 1,
-      "fire_stations": 34
+      "fire_stations": 45
     },
     "overlay_index": 2,
     "base_mission_id": 952,
@@ -38054,7 +38143,7 @@
     "name": "Brand in stadion",
     "place": "Stadion",
     "place_array": ["Stadion"],
-    "average_credits": 28900,
+    "average_credits": 43140,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -38080,6 +38169,8 @@
       "heavy_rescue_vehicles": 1,
       "spokesman": 1,
       "water_needed": 110000,
+      "mass_casualty": 2,
+      "mass_casualty_advanced": 2,
       "firetrucks": 1,
       "police_cars": 15
     },
@@ -38108,8 +38199,9 @@
       "riot_unit_count": 2,
       "detention_unit_count": 1,
       "prisoner_transport_count": 1,
+      "mass_casualty_count": 2,
       "hondengeleider": 1,
-      "fire_stations": 41
+      "fire_stations": 55
     },
     "overlay_index": 3,
     "base_mission_id": 952,
@@ -38326,7 +38418,7 @@
     "name": "Brand in station",
     "place": "Centraal Station\nStation",
     "place_array": ["Centraal Station", "Station"],
-    "average_credits": 31970,
+    "average_credits": 51550,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -38352,6 +38444,8 @@
       "heavy_rescue_vehicles": 3,
       "spokesman": 1,
       "water_needed": 150000,
+      "mass_casualty": 1,
+      "mass_casualty_advanced": 1,
       "firetrucks": 1,
       "police_cars": 20
     },
@@ -38383,8 +38477,9 @@
       "riot_unit_count": 2,
       "detention_unit_count": 1,
       "prisoner_transport_count": 1,
+      "mass_casualty_count": 1,
       "hondengeleider": 1,
-      "fire_stations": 46
+      "fire_stations": 71
     },
     "overlay_index": 2,
     "base_mission_id": 956,
@@ -40878,7 +40973,7 @@
     "name": "Aanvaring veerpont",
     "place": "Pontsteiger",
     "place_array": ["Pontsteiger"],
-    "average_credits": 12630,
+    "average_credits": 14730,
     "generated_by": "",
     "icons": [
       "/images/cruiseship_gruen.png",
@@ -40890,6 +40985,8 @@
       "coastal_boat": 5,
       "coastal_guard_boat": 3,
       "coastal_helicopter": 1,
+      "mass_casualty": 2,
+      "mass_casualty_advanced": 1,
       "water_rescue": 5
     },
     "chances": { "patient_transport": 5 },
@@ -40911,6 +41008,7 @@
       "main_building": 19,
       "water_rescue_2": 7,
       "rescue_stations": 35,
+      "mass_casualty_count": 2,
       "coastal_rescue_count": 3,
       "coastal_rescue_small_count": 4,
       "coastal_helicopter_count": 1
@@ -41400,7 +41498,7 @@
     "name": "Brand in bioscoop",
     "place": "",
     "place_array": [],
-    "average_credits": 14770,
+    "average_credits": 24370,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -41420,6 +41518,8 @@
       "ovdp": 2,
       "spokesman": 1,
       "water_needed": 54000,
+      "mass_casualty": 1,
+      "mass_casualty_advanced": 1,
       "firetrucks": 6,
       "police_cars": 10
     },
@@ -41442,7 +41542,8 @@
       "rescue_stations": 27,
       "police_stations": 15,
       "bereitschaftspolizei": 1,
-      "fire_stations": 22
+      "mass_casualty_count": 1,
+      "fire_stations": 38
     },
     "overlay_index": 1,
     "base_mission_id": 1026,
@@ -41497,7 +41598,7 @@
       "Vliegveld (groot): Terminal",
       "Winkelcentrum"
     ],
-    "average_credits": 27460,
+    "average_credits": 28860,
     "generated_by": "",
     "icons": [
       "/images/blast_gruen.png",
@@ -41518,6 +41619,8 @@
       "police_helicopters": 2,
       "heavy_rescue_vehicles": 5,
       "spokesman": 2,
+      "mass_casualty": 1,
+      "mass_casualty_advanced": 1,
       "firetrucks": 15,
       "police_cars": 25
     },
@@ -41540,6 +41643,7 @@
       "police_stations": 24,
       "police_helicopter_stations": 2,
       "bereitschaftspolizei": 4,
+      "mass_casualty_count": 1,
       "at": 1,
       "hondengeleider": 1,
       "fire_stations": 39
@@ -41742,7 +41846,7 @@
     "name": "Brand in nucleaire installatie",
     "place": "Nucleaire installatie",
     "place_array": ["Nucleaire installatie"],
-    "average_credits": 56370,
+    "average_credits": 60000,
     "generated_by": "",
     "icons": [
       "/images/blast_gruen.png",
@@ -41765,6 +41869,8 @@
       "spokesman": 3,
       "water_needed": 385000,
       "foam_needed": 6500,
+      "mass_casualty": 1,
+      "mass_casualty_advanced": 1,
       "firetrucks": 40,
       "police_cars": 25
     },
@@ -41786,6 +41892,7 @@
       "police_helicopter_stations": 1,
       "bereitschaftspolizei": 1,
       "fire_support_count": 4,
+      "mass_casualty_count": 1,
       "airport": 2,
       "fire_stations": 120
     },
@@ -41886,7 +41993,7 @@
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
       "date_start": "2023-06-16T09:00:00Z",
-      "date_end": "2023-06-18T23:59:59Z"
+      "date_end": "2023-06-18T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -41914,7 +42021,7 @@
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
       "date_start": "2023-06-16T09:00:00Z",
-      "date_end": "2023-06-18T23:59:59Z",
+      "date_end": "2023-06-18T23:59:59+02:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
@@ -41947,7 +42054,7 @@
       "filter_id": "police_station_missions",
       "optional_event_mission": true,
       "date_start": "2023-06-16T09:00:00Z",
-      "date_end": "2023-06-18T23:59:59Z"
+      "date_end": "2023-06-18T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 5, "police_stations": 3 },
     "overlay_index": null,
@@ -41978,7 +42085,7 @@
       "filter_id": "police_station_missions",
       "optional_event_mission": true,
       "date_start": "2023-06-16T09:00:00Z",
-      "date_end": "2023-06-18T23:59:59Z"
+      "date_end": "2023-06-18T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 5,
@@ -42012,7 +42119,7 @@
       "filter_id": "ambulance_station_missions",
       "optional_event_mission": true,
       "date_start": "2023-06-16T09:00:00Z",
-      "date_end": "2023-06-18T23:59:59Z",
+      "date_end": "2023-06-18T23:59:59+02:00",
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Algemene Heelkunde"],
       "patient_specializations": "Algemene Heelkunde"
@@ -42043,7 +42150,7 @@
       "filter_id": "ambulance_station_missions",
       "optional_event_mission": true,
       "date_start": "2023-06-16T09:00:00Z",
-      "date_end": "2023-06-18T23:59:59Z",
+      "date_end": "2023-06-18T23:59:59+02:00",
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Algemene Heelkunde"],
       "patient_specializations": "Algemene Heelkunde"
@@ -42579,7 +42686,7 @@
     "name": "Brand overheidsgebouw",
     "place": "",
     "place_array": [],
-    "average_credits": 25040,
+    "average_credits": 26540,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -42603,6 +42710,8 @@
       "heavy_rescue_vehicles": 2,
       "spokesman": 1,
       "foam_needed": 500,
+      "mass_casualty": 1,
+      "mass_casualty_advanced": 1,
       "firetrucks": 10,
       "police_cars": 15
     },
@@ -42630,6 +42739,7 @@
       "police_helicopter_stations": 1,
       "bereitschaftspolizei": 2,
       "fire_support_count": 1,
+      "mass_casualty_count": 1,
       "hondengeleider": 1,
       "fire_stations": 40
     },
@@ -42643,7 +42753,7 @@
     "name": "Brand overheidsgebouw",
     "place": "",
     "place_array": [],
-    "average_credits": 33110,
+    "average_credits": 36110,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -42668,6 +42778,8 @@
       "heavy_rescue_vehicles": 2,
       "spokesman": 1,
       "foam_needed": 1000,
+      "mass_casualty": 2,
+      "mass_casualty_advanced": 2,
       "firetrucks": 20,
       "police_cars": 25
     },
@@ -42703,6 +42815,7 @@
       "bereitschaftspolizei": 5,
       "prisoner_transport_count": 1,
       "fire_support_count": 2,
+      "mass_casualty_count": 2,
       "hondengeleider": 1,
       "fire_stations": 52
     },
@@ -42844,7 +42957,7 @@
     "name": "Explosief gevonden in winkelcentrum",
     "place": "Winkelcentrum",
     "place_array": ["Winkelcentrum"],
-    "average_credits": 18780,
+    "average_credits": 20280,
     "generated_by": "",
     "icons": [
       "/images/blast_gruen.png",
@@ -42870,6 +42983,8 @@
       "police_helicopters": 1,
       "heavy_rescue_vehicles": 1,
       "spokesman": 1,
+      "mass_casualty": 1,
+      "mass_casualty_advanced": 1,
       "firetrucks": 3,
       "police_cars": 20
     },
@@ -42898,6 +43013,7 @@
       "police_helicopter_stations": 1,
       "bereitschaftspolizei": 4,
       "prisoner_transport_count": 1,
+      "mass_casualty_count": 1,
       "at": 1,
       "hondengeleider": 1,
       "fire_stations": 16
@@ -42978,7 +43094,7 @@
     "name": "Autobrand op snelweg",
     "place": "Snelweg oprit / afrit\nTunnel",
     "place_array": ["Snelweg oprit / afrit", "Tunnel"],
-    "average_credits": 1930,
+    "average_credits": 2520,
     "generated_by": "",
     "icons": [
       "/images/caraccident_gruen.png",
@@ -42987,11 +43103,12 @@
     ],
     "requirements": {
       "battalion_chief_vehicles": 1,
+      "water_tankers": 1,
       "traffic_unit": 1,
       "firetrucks": 1,
       "police_cars": 2
     },
-    "chances": {},
+    "chances": { "water_tankers": 60 },
     "additional": {
       "filter_id": "firehouse_missions",
       "optional_event_mission": false
@@ -43000,7 +43117,7 @@
       "main_building": 0,
       "police_stations": 2,
       "technical_aid": 2,
-      "fire_stations": 6
+      "fire_stations": 7
     },
     "overlay_index": null,
     "base_mission_id": 1057,
@@ -43718,6 +43835,104 @@
     },
     "overlay_index": null,
     "base_mission_id": 1079,
+    "additive_overlays": "",
+    "mission_categories": ["police"]
+  },
+  {
+    "id": "1080",
+    "name": "Kersenbloesems in brand",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1000,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 1,
+      "firetrucks": 3
+    },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "date_start": "2024-04-22T10:00:00+02:00",
+      "date_end": "2024-06-20T22:00:00Z"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 3 },
+    "overlay_index": null,
+    "base_mission_id": 1080,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1081",
+    "name": "Bloemenveld in brand",
+    "place": "",
+    "place_array": [],
+    "average_credits": 2500,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "battalion_chief_vehicles": 1,
+      "water_tankers": 1,
+      "heavy_rescue_vehicles": 1,
+      "firetrucks": 7
+    },
+    "chances": { "patient_transport": 40 },
+    "additional": {
+      "possible_patient": 2,
+      "possible_patient_min": 1,
+      "filter_id": "firehouse_missions",
+      "optional_event_mission": true,
+      "date_start": "2024-04-22T10:00:00+02:00",
+      "date_end": "2024-06-20T22:00:00Z",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 1,
+      "fire_stations": 5
+    },
+    "overlay_index": null,
+    "base_mission_id": 1081,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1082",
+    "name": "Bloemen gestolen",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1200,
+    "generated_by": "",
+    "icons": [
+      "/images/theft_gruen.png",
+      "/images/theft_gelb.png",
+      "/images/theft_rot.png"
+    ],
+    "requirements": { "police_cars": 5 },
+    "chances": {},
+    "additional": {
+      "min_possible_prisoners": 1,
+      "max_possible_prisoners": 1,
+      "filter_id": "police_station_missions",
+      "optional_event_mission": true,
+      "date_start": "2024-04-29T10:00:00+02:00",
+      "date_end": "2024-06-20T22:00:00Z"
+    },
+    "prerequisites": { "main_building": 5, "police_stations": 4 },
+    "overlay_index": null,
+    "base_mission_id": 1082,
     "additive_overlays": "",
     "mission_categories": ["police"]
   }
