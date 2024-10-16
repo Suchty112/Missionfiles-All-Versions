@@ -18,7 +18,7 @@
   },
   {
     "caption": "Missions de maintien de l'ordre",
-    "mission_type_ids": [427, 428, 429, 430],
+    "mission_type_ids": [427, 424, 421, 718, 535, 553],
     "id": 3
   },
   {
@@ -89,5 +89,27 @@
     "caption": "Météo hivernale",
     "mission_type_ids": [78, 516, 517, 518, 519, 692, 695, 696, 699, 702],
     "id": 17
+  },
+  {
+    "caption": "Météo printanière",
+    "mission_type_ids": [
+      431, 432, 433, 434, 435, 436, 437, 728, 729, 730, 731, 732
+    ],
+    "id": 18
+  },
+  {
+    "caption": "Météo estivale",
+    "mission_type_ids": [
+      169, 170, 171, 172, 173, 350, 351, 761, 762, 763, 764, 765
+    ],
+    "id": 19
+  },
+  {
+    "caption": "Événement sportif",
+    "mission_type_ids": [
+      777, 778, 779, 781, 782, 783, 784, 785, 786, 787, 335, 336, 337, 338, 339,
+      340, 341, 342, 343, 344, 753, 754, 755, 756
+    ],
+    "id": 20
   }
 ]
