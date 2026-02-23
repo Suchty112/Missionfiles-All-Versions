@@ -45213,5 +45213,48 @@
     "base_mission_id": 903,
     "additive_overlays": "",
     "mission_categories": ["police"]
+  },
+  {
+    "id": "904",
+    "name": "Fuite sur un camion-citerne transportant du propane",
+    "place": "",
+    "place_array": [],
+    "average_credits": 12500,
+    "generated_by": "",
+    "icons": [
+      "/images/gas_gruen.png",
+      "/images/gas_gelb.png",
+      "/images/gas_rot.png"
+    ],
+    "requirements": {
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "foam": 1,
+      "hazmat_vehicles": 1,
+      "hose": 1,
+      "pump": 1,
+      "ambulances": 1,
+      "heavy_rescue_vehicles": 1,
+      "thw_gkw": 1,
+      "firetrucks": 6,
+      "police_cars": 4
+    },
+    "chances": {},
+    "additional": {
+      "average_min_fire_personnel": 22,
+      "average_min_police_personnel": 8,
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 1,
+      "police_stations": 2,
+      "fire_support_count": 1,
+      "fire_stations": 15
+    },
+    "overlay_index": null,
+    "base_mission_id": 904,
+    "additive_overlays": "",
+    "mission_categories": ["fire", "urban", "rural"]
   }
 ]
