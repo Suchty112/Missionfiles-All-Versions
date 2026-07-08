@@ -26241,18 +26241,14 @@
     "name": "Assistenza/soccorso imbarcazione",
     "place": "",
     "place_array": [],
-    "average_credits": 8750,
+    "average_credits": 4750,
     "generated_by": "",
     "icons": [
       "/images/waterpark_gruen.png",
       "/images/waterpark_gelb.png",
       "/images/waterpark_rot.png"
     ],
-    "requirements": {
-      "coastal_boat": 2,
-      "large_coastal_boat": 2,
-      "coastal_helicopter": 1
-    },
+    "requirements": { "coastal_boat": 2, "large_coastal_boat": 2 },
     "chances": { "patient_transport": 50 },
     "additional": {
       "possible_patient": 5,
@@ -26270,11 +26266,7 @@
       "patient_specialization_captions": ["Medicina interna generale"],
       "patient_specializations": "Medicina interna generale"
     },
-    "prerequisites": {
-      "main_building": 26,
-      "coastal_rescue_count": 3,
-      "coastal_helicopter_count": 1
-    },
+    "prerequisites": { "main_building": 26, "coastal_rescue_count": 3 },
     "overlay_index": null,
     "base_mission_id": 676,
     "additive_overlays": "",
